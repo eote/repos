@@ -555,7 +555,7 @@ g:mirrors = {
 }
 
 [drawings]
-name = eotect/drawings
+name = eot/drawings
 localname = drawings
 g:local = g:local/
 g:source = g:gh/
@@ -565,7 +565,7 @@ g:mirrors = {
 }
 
 [ebooks]
-name = eotect/ebooks
+name = eot/ebooks
 localname = ebooks
 g:local = g:local/
 g:source = g:gh/
@@ -582,7 +582,7 @@ s:mirrors = {
 }
 
 [repos]
-name = eotect/repos
+name = eot/repos
 g:local = git/repos.git
 g:source = g:gh/
 g:mirrors = {
