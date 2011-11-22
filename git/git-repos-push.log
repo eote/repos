@@ -1,0 +1,1166 @@
+========================================================
+[2011-03-27 01:10:38] Started:
+reading ".PROJECTS"... 52 projects.
+%repos = (
+           'shortname' => 'repos',
+           'localname' => 'eotect/repos',
+           'name' => 'eotect/repos',
+           'author' => 'Eotect Nahn <eotect@gmail.com>',
+           'username' => 'Eotect Nahn',
+           'git' => [
+                      {
+                        'push' => '/myplace/repos.git',
+                        'pull' => '/myplace/repos.git',
+                        'user' => 'eotect',
+                        'type' => 'git'
+                      },
+                      {
+                        'push' => 'git@github.com:eotect/repos.git',
+                        'pull' => 'http://github.com/eotect/repos.git',
+                        'user' => 'eotect',
+                        'type' => 'git'
+                      },
+                      {
+                        'push' => 'git@gitorious.org:eotect/repos.git',
+                        'pull' => 'http://gitorious.org/eotect/repos.git',
+                        'user' => 'eotect',
+                        'type' => 'git'
+                      },
+                      {
+                        'push' => 'ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/repos.git',
+                        'pull' => 'http://zrepos.git.sourceforge.net:8000/gitroot/zrepos/repos.git',
+                        'user' => 'eotect',
+                        'type' => 'git'
+                      }
+                    ],
+           'checkout' => './',
+           'email' => 'eotect@gmail.com',
+           'target' => './repos',
+           'user' => 'eotect',
+           'type' => 'git'
+         );
+[2011-03-27 01:10:39] Finished.
+========================================================
+[2011-03-27 01:10:51] Started:
+reading ".PROJECTS"... 52 projects.
+to Push 1 project ...
+[1/1] Push project [repos]
+Source: /myplace/repos.git
+  Dest: git@github.com:eotect/repos.git (push) 
+To git@github.com:eotect/repos.git
+   f009861..f9a907a  master -> master
+  Dest: git@gitorious.org:eotect/repos.git (push) 
+=> Syncing Gitorious... [OK]
+To git@gitorious.org:eotect/repos.git
+   f009861..f9a907a  master -> master
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/repos.git (push) 
+No refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
+fatal: The remote end hung up unexpectedly
+error: failed to push some refs to 'ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/repos.git'
+
+[2011-03-27 01:11:33] Finished.
+========================================================
+[2011-03-27 01:18:19] Started:
+reading ".PROJECTS"... 52 projects.
+to Push 1 project ...
+[1/1] Push project [repos]
+Source: /myplace/repos.git
+  Dest: git@github.com:eotect/repos.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:eotect/repos.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/repos.git (push) 
+Everything up-to-date
+
+[2011-03-27 01:18:46] Finished.
+========================================================
+[2011-03-27 01:28:12] Started:
+reading ".PROJECTS"... 52 projects.
+to Push 52 projects ...
+[1/52] Push project [loseplace/mini]
+Source: /myplace/repos/loseplace/mini.git
+	 Error directory not exists.
+
+[2/52] Push project [usys]
+Source: /myplace/repos/usys/usys.git
+  Dest: git@github.com:usys/usys.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:usys/usys.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/usys/usys (push) 
+Everything up-to-date
+
+[3/52] Push project [reposman]
+Source: /myplace/repos/vcsplace/reposman.git
+  Dest: git@github.com:vcsplace/reposman.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:vcsplace/reposman.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/vcsplace/reposman (push) 
+Everything up-to-date
+
+[4/52] Push project [loseplace]
+Source: /myplace/repos/loseplace/loseplace.git
+  Dest: git@github.com:loseplace/loseplace.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:loseplace/loseplace.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/loseplace/loseplace (push) 
+Everything up-to-date
+
+[5/52] Push project [github-sync]
+Source: /myplace/repos/vcsplace/github-sync.git
+  Dest: git@github.com:vcsplace/github-sync.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:vcsplace/github-sync.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/vcsplace/github-sync (push) 
+Everything up-to-date
+
+[6/52] Push project [thinapp]
+Source: /myplace/repos/loseplace/thinapp.git
+  Dest: git@github.com:loseplace/thinapp.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:loseplace/thinapp.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/loseplace/thinapp (push) 
+Everything up-to-date
+
+[7/52] Push project [htmlscripts]
+Source: /myplace/repos/webdev/htmlscripts.git
+  Dest: git@github.com:zwebdev/htmlscripts.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zwebdev/htmlscripts.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/webdev/htmlscripts (push) 
+Everything up-to-date
+
+[8/52] Push project [freebasic]
+Source: /myplace/repos/codebase/freebasic.git
+  Dest: git@github.com:zcodebase/freebasic.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/freebasic.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/freebasic (push) 
+Everything up-to-date
+
+[9/52] Push project [nightgun]
+Source: /myplace/repos/nightgun/nightgun.git
+  Dest: git@github.com:nightgun/nightgun.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:nightgun/nightgun.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/nightgun/nightgun (push) 
+Everything up-to-date
+
+[10/52] Push project [wscript]
+Source: /myplace/repos/scripts/wscript.git
+  Dest: git@github.com:zscripts/wscript.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zscripts/wscript.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scripts/wscript (push) 
+Everything up-to-date
+
+[11/52] Push project [loseplace/core]
+Source: /myplace/repos/loseplace/core.git
+	 Error directory not exists.
+
+[12/52] Push project [badluck]
+Source: /myplace/repos/badluck/badluck.git
+  Dest: git@github.com:badluck/badluck.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:badluck/badluck.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/badluck/badluck (push) 
+Everything up-to-date
+
+[13/52] Push project [vc6]
+Source: /myplace/repos/codebase/vc6.git
+  Dest: git@github.com:zcodebase/vc6.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/vc6.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/vc6 (push) 
+Everything up-to-date
+
+[14/52] Push project [shellscript]
+Source: /myplace/repos/scripts/sh.git
+  Dest: git@github.com:zscripts/sh.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zscripts/sh.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scripts/sh (push) 
+Everything up-to-date
+
+[15/52] Push project [private]
+Source: /myplace/repos/profiles/private.git
+  Dest: git@git.assembla.com:profiles-private.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/private (push) 
+Everything up-to-date
+  Dest: git@eotect.unfuddle.com:eotect/private.git (push) 
+Everything up-to-date
+
+[16/52] Push project [vb6]
+Source: /myplace/repos/codebase/vb6.git
+  Dest: git@github.com:zcodebase/vb6.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/vb6.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/vb6 (push) 
+Everything up-to-date
+
+[17/52] Push project [devcpp]
+Source: /myplace/repos/codebase/devcpp.git
+  Dest: git@github.com:zcodebase/devcpp.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/devcpp.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/devcpp (push) 
+Everything up-to-date
+
+[18/52] Push project [c]
+Source: /myplace/repos/codebase/c.git
+  Dest: git@github.com:zcodebase/c.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/c.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/c (push) 
+Everything up-to-date
+
+[19/52] Push project [repos]
+Source: /myplace/repos.git
+  Dest: git@github.com:eotect/repos.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:eotect/repos.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/repos.git (push) 
+Everything up-to-date
+
+[20/52] Push project [losebox]
+Source: /myplace/repos/loseplace/losebox.git
+  Dest: git@github.com:loseplace/losebox.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:loseplace/losebox.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/loseplace/losebox (push) 
+Everything up-to-date
+
+[21/52] Push project [templates]
+Source: /myplace/repos/webdev/templates.git
+  Dest: git@github.com:zwebdev/templates.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zwebdev/templates.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/webdev/templates (push) 
+Everything up-to-date
+
+[22/52] Push project [css]
+Source: /myplace/repos/webdev/css.git
+  Dest: git@github.com:zwebdev/css.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zwebdev/css.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/webdev/css (push) 
+Everything up-to-date
+
+[23/52] Push project [gsbridge]
+Source: /myplace/repos/vcsplace/gsbridge.git
+  Dest: git@git.assembla.com:gsbridge.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/vcsplace/gsbridge (push) 
+Everything up-to-date
+  Dest: git@eotect.unfuddle.com:eotect/gsbridge.git (push) 
+Everything up-to-date
+
+[24/52] Push project [www]
+Source: /myplace/repos/texts/www.git
+  Dest: git@github.com:ztexts/www.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:ztexts/www.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/texts/www (push) 
+Everything up-to-date
+
+[25/52] Push project [drawings]
+Source: /myplace/repos/drawings.git
+  Dest: git@github.com:eotect/drawings.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:eotect/drawings.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/drawings (push) 
+Everything up-to-date
+
+[26/52] Push project [ws]
+Source: /myplace/repos/vcsplace/ws.git
+  Dest: git@github.com:vcsplace/ws.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:vcsplace/ws.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/vcsplace/ws (push) 
+Everything up-to-date
+
+[27/52] Push project [toolbox]
+Source: /myplace/repos/usys/toolbox.git
+  Dest: git@github.com:usys/toolbox.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:usys/toolbox.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/usys/toolbox (push) 
+Everything up-to-date
+
+[28/52] Push project [babebase]
+Source: /myplace/repos/profiles/babebase.git
+  Dest: git@git.assembla.com:babebase.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/babebase (push) 
+Everything up-to-date
+  Dest: git@eotect.unfuddle.com:eotect/babebase.git (push) 
+Everything up-to-date
+
+[29/52] Push project [zrepos]
+
+[30/52] Push project [avatars]
+Source: /myplace/repos/profiles/avatars.git
+  Dest: git@github.com:zprofiles/avatars.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zprofiles/avatars.git (push) 
+No refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
+fatal: The remote end hung up unexpectedly
+error: failed to push some refs to 'git@gitorious.org:zprofiles/avatars.git'
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/avatars (push) 
+Everything up-to-date
+
+[31/52] Push project [libmyplace-perl]
+Source: /myplace/repos/scripts/libmyplace-perl.git
+  Dest: git@github.com:zscripts/libmyplace-perl.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zscripts/libmyplace-perl.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scripts/libmyplace-perl (push) 
+Everything up-to-date
+
+[32/52] Push project [xrdos]
+Source: /myplace/repos/usys/xrdos.git
+  Dest: git@github.com:usys/xrdos.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:usys/xrdos.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/usys/xrdos (push) 
+Everything up-to-date
+
+[33/52] Push project [texts]
+Source: /myplace/repos/texts/texts.git
+  Dest: git@github.com:ztexts/texts.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:ztexts/texts.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/texts/texts (push) 
+Everything up-to-date
+
+[34/52] Push project [gsvn-bundle]
+Source: /myplace/repos/vcsplace/gsvn-bundle.git
+	 Error directory not exists.
+
+[35/52] Push project [gm-scripts]
+Source: /myplace/repos/profiles/gm-scripts.git
+  Dest: git@git.assembla.com:gm-scripts.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/gm-scripts (push) 
+Everything up-to-date
+  Dest: git@eotect.unfuddle.com:eotect/gm-scripts.git (push) 
+Everything up-to-date
+
+[36/52] Push project [utils]
+Source: /myplace/repos/utils.git
+	 Error directory not exists.
+
+[37/52] Push project [vsnet]
+Source: /myplace/repos/codebase/vsnet.git
+  Dest: git@github.com:zcodebase/vsnet.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/vsnet.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/vsnet (push) 
+Everything up-to-date
+
+[38/52] Push project [eclipse]
+Source: /myplace/repos/codebase/eclipse.git
+  Dest: git@github.com:zcodebase/eclipse.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/eclipse.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/eclipse (push) 
+Everything up-to-date
+
+[39/52] Push project [homebase]
+Source: /myplace/repos/profiles/homebase.git
+  Dest: git@github.com:zprofiles/homebase.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zprofiles/homebase.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/homebase (push) 
+Everything up-to-date
+
+[40/52] Push project [logo]
+Source: /myplace/repos/scripts/logo.git
+  Dest: git@github.com:zscripts/logo.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zscripts/logo.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scripts/logo (push) 
+Everything up-to-date
+
+[41/52] Push project [perl]
+Source: /myplace/repos/scripts/perl.git
+  Dest: git@github.com:zscripts/perl.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zscripts/perl.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scripts/perl (push) 
+Everything up-to-date
+
+[42/52] Push project [websaver2]
+Source: /myplace/repos/websaver/websaver2.git
+  Dest: git@github.com:websaver/websaver2.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:websaver/websaver2.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/websaver/websaver2 (push) 
+Everything up-to-date
+
+[43/52] Push project [sysbuilder]
+Source: /myplace/repos/usys/sysbuilder.git
+  Dest: git@github.com:usys/sysbuilder.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:usys/sysbuilder.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/usys/sysbuilder (push) 
+Everything up-to-date
+
+[44/52] Push project [batch]
+Source: /myplace/repos/scripts/batch.git
+  Dest: git@github.com:zscripts/batch.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zscripts/batch.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scripts/batch (push) 
+Everything up-to-date
+
+[45/52] Push project [notes]
+Source: /myplace/repos/texts/notes.git
+  Dest: git@github.com:ztexts/notes.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:ztexts/notes.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/texts/notes (push) 
+Everything up-to-date
+
+[46/52] Push project [firefox]
+Source: /myplace/repos/profiles/firefox.git
+  Dest: git@github.com:zprofiles/firefox.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zprofiles/firefox.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/firefox (push) 
+Everything up-to-date
+
+[47/52] Push project [cpp]
+Source: /myplace/repos/codebase/cpp.git
+  Dest: git@github.com:zcodebase/cpp.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/cpp.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/cpp (push) 
+Everything up-to-date
+
+[48/52] Push project [makefiles]
+Source: /myplace/repos/codebase/makefiles.git
+  Dest: git@github.com:zcodebase/makefiles.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/makefiles.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/makefiles (push) 
+Everything up-to-date
+
+[49/52] Push project [foxwps]
+Source: /myplace/repos/profiles/foxwps.git
+  Dest: git@git.assembla.com:foxwps.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/foxwps (push) 
+Everything up-to-date
+  Dest: git@eotect.unfuddle.com:eotect/foxwps.git (push) 
+Everything up-to-date
+
+[50/52] Push project [webpages]
+Source: /myplace/repos/texts/webpages.git
+  Dest: git@github.com:ztexts/webpages.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:ztexts/webpages.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/texts/webpages (push) 
+Everything up-to-date
+
+[51/52] Push project [ebooks]
+Source: /myplace/repos/ebooks.git
+  Dest: git@github.com:eotect/ebooks.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:eotect/ebooks.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/ebooks (push) 
+Everything up-to-date
+
+[52/52] Push project [lua]
+Source: /myplace/repos/scripts/lua.git
+  Dest: git@github.com:zscripts/lua.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zscripts/lua.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scripts/lua (push) 
+Everything up-to-date
+
+[2011-03-27 01:48:23] Finished.
+========================================================
+[2011-05-03 12:15:31] Started:
+reading ".PROJECTS"... 54 projects.
+to Push 54 projects ...
+[1/54] Push project [loseplace/mini]
+Source: /myplace/repos/loseplace/mini.git
+	 Error directory not exists.
+
+[2/54] Push project [vcsplace/reposman]
+Source: /myplace/repos/vcsplace/reposman.git
+  Dest: git@github.com:vcsplace/reposman.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:vcsplace/reposman.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/vcsplace/reposman (push) 
+Everything up-to-date
+
+[3/54] Push project [usys/usys]
+Source: /myplace/repos/usys/usys.git
+  Dest: git@github.com:usys/usys.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:usys/usys.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/usys/usys (push) 
+Everything up-to-date
+
+[4/54] Push project [loseplace/loseplace]
+Source: /myplace/repos/loseplace/loseplace.git
+  Dest: git@github.com:loseplace/loseplace.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:loseplace/loseplace.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/loseplace/loseplace (push) 
+fatal: Not a git repository: '/gitroot/zrepos/loseplace'
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/loseplace/loseplace
+   4c74ad2..a3643a1  master -> master
+
+[5/54] Push project [vcsplace/github-sync]
+Source: /myplace/repos/vcsplace/github-sync.git
+  Dest: git@github.com:vcsplace/github-sync.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:vcsplace/github-sync.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/vcsplace/github-sync (push) 
+Everything up-to-date
+
+[6/54] Push project [loseplace/thinapp]
+Source: /myplace/repos/loseplace/thinapp.git
+  Dest: git@github.com:loseplace/thinapp.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:loseplace/thinapp.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/loseplace/thinapp (push) 
+Everything up-to-date
+
+[7/54] Push project [zwebdev/htmlscripts]
+Source: /myplace/repos/webdev/htmlscripts.git
+  Dest: git@github.com:zwebdev/htmlscripts.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zwebdev/htmlscripts.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/webdev/htmlscripts (push) 
+Everything up-to-date
+
+[8/54] Push project [websaver/tombloo]
+Source: /myplace/repos/websaver/tombloo.git
+  Dest: git@github.com:websaver/tombloo.git (push) 
+Everything up-to-date
+  Dest: git@github.com:to/tombloo.git (push) 
+ERROR: Permission to to/tombloo.git denied to eotect.
+fatal: The remote end hung up unexpectedly
+  Dest: git@gitorious.org:websaver/tombloo.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/websaver/tombloo (push) 
+Everything up-to-date
+
+[9/54] Push project [zcodebase/freebasic]
+Source: /myplace/repos/codebase/freebasic.git
+  Dest: git@github.com:zcodebase/freebasic.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/freebasic.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/freebasic (push) 
+Everything up-to-date
+
+[10/54] Push project [nightgun/nightgun]
+Source: /myplace/repos/nightgun/nightgun.git
+  Dest: git@github.com:nightgun/nightgun.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:nightgun/nightgun.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/nightgun/nightgun (push) 
+Everything up-to-date
+
+[11/54] Push project [zscripts/wscript]
+Source: /myplace/repos/scripts/wscript.git
+  Dest: git@github.com:zscripts/wscript.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zscripts/wscript.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scripts/wscript (push) 
+Everything up-to-date
+
+[12/54] Push project [loseplace/core]
+Source: /myplace/repos/loseplace/core.git
+	 Error directory not exists.
+
+[13/54] Push project [badluck/badluck]
+Source: /myplace/repos/badluck/badluck.git
+  Dest: git@github.com:badluck/badluck.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:badluck/badluck.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/badluck/badluck (push) 
+Everything up-to-date
+
+[14/54] Push project [zcodebase/vc6]
+Source: /myplace/repos/codebase/vc6.git
+  Dest: git@github.com:zcodebase/vc6.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/vc6.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/vc6 (push) 
+Everything up-to-date
+
+[15/54] Push project [zprofiles/private]
+Source: /myplace/repos/profiles/private.git
+  Dest: git@git.assembla.com:profiles-private.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/private (push) 
+Everything up-to-date
+  Dest: git@eotect.unfuddle.com:eotect/private.git (push) 
+Everything up-to-date
+
+[16/54] Push project [zscripts/sh]
+Source: /myplace/repos/scripts/sh.git
+  Dest: git@github.com:zscripts/sh.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zscripts/sh.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scripts/sh (push) 
+Everything up-to-date
+
+[17/54] Push project [zcodebase/vb6]
+Source: /myplace/repos/codebase/vb6.git
+  Dest: git@github.com:zcodebase/vb6.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/vb6.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/vb6 (push) 
+Everything up-to-date
+
+[18/54] Push project [zcodebase/c]
+Source: /myplace/repos/codebase/c.git
+  Dest: git@github.com:zcodebase/c.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/c.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/c (push) 
+Everything up-to-date
+
+[19/54] Push project [zcodebase/devcpp]
+Source: /myplace/repos/codebase/devcpp.git
+  Dest: git@github.com:zcodebase/devcpp.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/devcpp.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/devcpp (push) 
+Everything up-to-date
+
+[20/54] Push project [eotect/repos]
+Source: /myplace/repos.git
+  Dest: git@github.com:eotect/repos.git (push) 
+To git@github.com:eotect/repos.git
+   a229237..89c13c5  master -> master
+  Dest: git@gitorious.org:eotect/repos.git (push) 
+=> Syncing Gitorious... [OK]
+To git@gitorious.org:eotect/repos.git
+   a229237..89c13c5  master -> master
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/repos.git (push) 
+error: refusing to update checked out branch: refs/heads/master
+error: By default, updating the current branch in a non-bare repository
+error: is denied, because it will make the index and work tree inconsistent
+error: with what you pushed, and will require 'git reset --hard' to match
+error: the work tree to HEAD.
+error: 
+error: You can set 'receive.denyCurrentBranch' configuration variable to
+error: 'ignore' or 'warn' in the remote repository to allow pushing into
+error: its current branch; however, this is not recommended unless you
+error: arranged to update its work tree to match what you pushed in some
+error: other way.
+error: 
+error: To squelch this message and still keep the default behaviour, set
+error: 'receive.denyCurrentBranch' configuration variable to 'refuse'.
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/repos.git
+ ! [remote rejected] master -> master (branch is currently checked out)
+error: failed to push some refs to 'ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/repos.git'
+
+[21/54] Push project [loseplace/losebox]
+Source: /myplace/repos/loseplace/losebox.git
+  Dest: git@github.com:loseplace/losebox.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:loseplace/losebox.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/loseplace/losebox (push) 
+Everything up-to-date
+
+[22/54] Push project [zwebdev/templates]
+Source: /myplace/repos/webdev/templates.git
+  Dest: git@github.com:zwebdev/templates.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zwebdev/templates.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/webdev/templates (push) 
+Everything up-to-date
+
+[23/54] Push project [zwebdev/css]
+Source: /myplace/repos/webdev/css.git
+  Dest: git@github.com:zwebdev/css.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zwebdev/css.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/webdev/css (push) 
+Everything up-to-date
+
+[24/54] Push project [vcsplace/gsbridge]
+Source: /myplace/repos/vcsplace/gsbridge.git
+  Dest: git@git.assembla.com:gsbridge.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/vcsplace/gsbridge (push) 
+Everything up-to-date
+  Dest: git@eotect.unfuddle.com:eotect/gsbridge.git (push) 
+Everything up-to-date
+
+[25/54] Push project [ztexts/www]
+Source: /myplace/repos/texts/www.git
+  Dest: git@github.com:ztexts/www.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:ztexts/www.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/texts/www (push) 
+Everything up-to-date
+
+[26/54] Push project [eotect/drawings]
+Source: /myplace/repos/drawings.git
+  Dest: git@github.com:eotect/drawings.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:eotect/drawings.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/drawings (push) 
+Everything up-to-date
+
+[27/54] Push project [websaver/tombloo-data]
+Source: /myplace/repos/websaver/tombloo-data.git
+  Dest: git@github.com:websaver/tombloo-data.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:websaver/tombloo-data.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/websaver/tombloo-data (push) 
+Everything up-to-date
+
+[28/54] Push project [vcsplace/ws]
+Source: /myplace/repos/vcsplace/ws.git
+  Dest: git@github.com:vcsplace/ws.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:vcsplace/ws.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/vcsplace/ws (push) 
+Everything up-to-date
+
+[29/54] Push project [usys/toolbox]
+Source: /myplace/repos/usys/toolbox.git
+  Dest: git@github.com:usys/toolbox.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:usys/toolbox.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/usys/toolbox (push) 
+Everything up-to-date
+
+[30/54] Push project [zprofiles/babebase]
+Source: /myplace/repos/profiles/babebase.git
+  Dest: git@git.assembla.com:babebase.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/babebase (push) 
+Everything up-to-date
+  Dest: git@eotect.unfuddle.com:eotect/babebase.git (push) 
+Everything up-to-date
+
+[31/54] Push project [zrepos]
+
+[32/54] Push project [zprofiles/avatars]
+Source: /myplace/repos/profiles/avatars.git
+  Dest: git@github.com:zprofiles/avatars.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zprofiles/avatars.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/avatars (push) 
+Everything up-to-date
+
+[33/54] Push project [zscripts/libmyplace-perl]
+Source: /myplace/repos/scripts/libmyplace-perl.git
+  Dest: git@github.com:zscripts/libmyplace-perl.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zscripts/libmyplace-perl.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scripts/libmyplace-perl (push) 
+Everything up-to-date
+
+[34/54] Push project [usys/xrdos]
+Source: /myplace/repos/usys/xrdos.git
+  Dest: git@github.com:usys/xrdos.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:usys/xrdos.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/usys/xrdos (push) 
+Everything up-to-date
+
+[35/54] Push project [vcsplace/gsvn-bundle]
+Source: /myplace/repos/vcsplace/gsvn-bundle.git
+	 Error directory not exists.
+
+[36/54] Push project [ztexts/texts]
+Source: /myplace/repos/texts/texts.git
+  Dest: git@github.com:ztexts/texts.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:ztexts/texts.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/texts/texts (push) 
+Everything up-to-date
+
+[37/54] Push project [zprofiles/gm-scripts]
+Source: /myplace/repos/profiles/gm-scripts.git
+  Dest: git@git.assembla.com:gm-scripts.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/gm-scripts (push) 
+fatal: Not a git repository: '/gitroot/zrepos/profiles'
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/gm-scripts
+   6e034f8..6088910  master -> master
+  Dest: git@eotect.unfuddle.com:eotect/gm-scripts.git (push) 
+Everything up-to-date
+
+[38/54] Push project [zutils/utils]
+Source: /myplace/repos/utils/utils.git
+  Dest: git@github.com:zutils/utils.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zutils/utils.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/utils/utils (push) 
+Everything up-to-date
+
+[39/54] Push project [zcodebase/vsnet]
+Source: /myplace/repos/codebase/vsnet.git
+  Dest: git@github.com:zcodebase/vsnet.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/vsnet.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/vsnet (push) 
+Everything up-to-date
+
+[40/54] Push project [zcodebase/eclipse]
+Source: /myplace/repos/codebase/eclipse.git
+  Dest: git@github.com:zcodebase/eclipse.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/eclipse.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/eclipse (push) 
+Everything up-to-date
+
+[41/54] Push project [zscripts/perl]
+Source: /myplace/repos/scripts/perl.git
+  Dest: git@github.com:zscripts/perl.git (push) 
+To git@github.com:zscripts/perl.git
+   221a7cc..9bfdcf9  master -> master
+  Dest: git@gitorious.org:zscripts/perl.git (push) 
+=> Syncing Gitorious... [OK]
+To git@gitorious.org:zscripts/perl.git
+   221a7cc..9bfdcf9  master -> master
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scripts/perl (push) 
+fatal: Not a git repository: '/gitroot/zrepos/scripts'
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scripts/perl
+   221a7cc..9bfdcf9  master -> master
+
+[42/54] Push project [zscripts/logo]
+Source: /myplace/repos/scripts/logo.git
+  Dest: git@github.com:zscripts/logo.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zscripts/logo.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scripts/logo (push) 
+Everything up-to-date
+
+[43/54] Push project [zprofiles/homebase]
+Source: /myplace/repos/profiles/homebase.git
+  Dest: git@github.com:zprofiles/homebase.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zprofiles/homebase.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/homebase (push) 
+Everything up-to-date
+
+[44/54] Push project [usys/sysbuilder]
+Source: /myplace/repos/usys/sysbuilder.git
+  Dest: git@github.com:usys/sysbuilder.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:usys/sysbuilder.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/usys/sysbuilder (push) 
+Everything up-to-date
+
+[45/54] Push project [websaver/websaver2]
+Source: /myplace/repos/websaver/websaver2.git
+  Dest: git@github.com:websaver/websaver2.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:websaver/websaver2.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/websaver/websaver2 (push) 
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/websaver/websaver2
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/websaver/websaver2'
+To prevent you from losing history, non-fast-forward updates were rejected
+Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+'Note about fast-forwards' section of 'git push --help' for details.
+
+[46/54] Push project [zscripts/batch]
+Source: /myplace/repos/scripts/batch.git
+  Dest: git@github.com:zscripts/batch.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zscripts/batch.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scripts/batch (push) 
+Everything up-to-date
+
+[47/54] Push project [zcodebase/makefiles]
+Source: /myplace/repos/codebase/makefiles.git
+  Dest: git@github.com:zcodebase/makefiles.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/makefiles.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/makefiles (push) 
+Everything up-to-date
+
+[48/54] Push project [zcodebase/cpp]
+Source: /myplace/repos/codebase/cpp.git
+  Dest: git@github.com:zcodebase/cpp.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zcodebase/cpp.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/codebase/cpp (push) 
+Everything up-to-date
+
+[49/54] Push project [zprofiles/firefox]
+Source: /myplace/repos/profiles/firefox.git
+  Dest: git@github.com:zprofiles/firefox.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zprofiles/firefox.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/firefox (push) 
+fatal: Not a git repository: '/gitroot/zrepos/profiles'
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/firefox
+   0db4a35..3f3593e  master -> master
+
+[50/54] Push project [ztexts/notes]
+Source: /myplace/repos/texts/notes.git
+  Dest: git@github.com:ztexts/notes.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:ztexts/notes.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/texts/notes (push) 
+Everything up-to-date
+
+[51/54] Push project [zprofiles/foxwps]
+Source: /myplace/repos/profiles/foxwps.git
+  Dest: git@git.assembla.com:foxwps.git (push) 
+To git@git.assembla.com:foxwps.git
+   ebbd844..ad7db5e  master -> master
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/foxwps (push) 
+fatal: Not a git repository: '/gitroot/zrepos/profiles'
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profiles/foxwps
+   ebbd844..ad7db5e  master -> master
+  Dest: git@eotect.unfuddle.com:eotect/foxwps.git (push) 
+To git@eotect.unfuddle.com:eotect/foxwps.git
+   ebbd844..ad7db5e  master -> master
+
+[52/54] Push project [ztexts/webpages]
+Source: /myplace/repos/texts/webpages.git
+  Dest: git@github.com:ztexts/webpages.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:ztexts/webpages.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/texts/webpages (push) 
+Everything up-to-date
+
+[53/54] Push project [zscripts/lua]
+Source: /myplace/repos/scripts/lua.git
+  Dest: git@github.com:zscripts/lua.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:zscripts/lua.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scripts/lua (push) 
+Everything up-to-date
+
+[54/54] Push project [eotect/ebooks]
+Source: /myplace/repos/ebooks.git
+  Dest: git@github.com:eotect/ebooks.git (push) 
+Everything up-to-date
+  Dest: git@gitorious.org:eotect/ebooks.git (push) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/ebooks (push) 
+Everything up-to-date
+
+[2011-05-03 12:51:05] Finished.
+========================================================
+[2011-05-03 12:52:25] Started:
+reading ".PROJECTS"... 54 projects.
+to Push 1 project ...
+[1/1] Push project [websaver/websaver2]
+Source: /myplace/repos/websaver/websaver2.git
+  Dest: git@github.com:websaver/websaver2.git (push) 
+[2011-05-03 12:52:27] Finished.
+========================================================
+[2011-05-03 12:52:30] Started:
+reading ".PROJECTS"... 54 projects.
+to Push 1 project ...
+[1/1] Push project [websaver/websaver2]
+Source: /myplace/repos/websaver/websaver2.git
+  Dest: git@github.com:websaver/websaver2.git (push --mirror) 
+Everything up-to-date
+  Dest: git@gitorious.org:websaver/websaver2.git (push --mirror) 
+Everything up-to-date
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/websaver/websaver2 (push --mirror) 
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/websaver/websaver2
+ + e870d3a...628971d master -> master (forced update)
+
+[2011-05-03 12:53:16] Finished.
+========================================================
+[2011-05-03 12:56:09] Started:
+reading ".PROJECTS"... 54 projects.
+to Push 1 project ...
+[1/1] Push project [websaver/tombloo]
+Source: /myplace/repos/websaver/tombloo.git
+  Dest: git@github.com:websaver/tombloo.git (push --mirror) 
+To git@github.com:websaver/tombloo.git
+ * [new tag]         REL_0.3.10 -> REL_0.3.10
+ * [new tag]         REL_0.3.11 -> REL_0.3.11
+ * [new tag]         REL_0.3.20 -> REL_0.3.20
+ * [new tag]         REL_0.3.21 -> REL_0.3.21
+ * [new tag]         REL_0.3.9.2 -> REL_0.3.9.2
+ * [new tag]         REL_0.4 -> REL_0.4
+ * [new tag]         REL_0.4.10 -> REL_0.4.10
+ * [new tag]         REL_0.4.11 -> REL_0.4.11
+ * [new tag]         REL_0.4.12 -> REL_0.4.12
+ * [new tag]         REL_0.4.13 -> REL_0.4.13
+ * [new tag]         REL_0.4.14 -> REL_0.4.14
+ * [new tag]         REL_0.4.15 -> REL_0.4.15
+ * [new tag]         REL_0.4.17 -> REL_0.4.17
+ * [new tag]         REL_0.4.2 -> REL_0.4.2
+ * [new tag]         REL_0.4.22 -> REL_0.4.22
+ * [new tag]         REL_0.4.3 -> REL_0.4.3
+ * [new tag]         REL_0.4.4 -> REL_0.4.4
+ * [new tag]         REL_0.4.5 -> REL_0.4.5
+ * [new tag]         REL_0.4.6 -> REL_0.4.6
+ * [new tag]         REL_0.4.7 -> REL_0.4.7
+ * [new tag]         REL_0.4.8 -> REL_0.4.8
+ * [new tag]         REL_0.4.9 -> REL_0.4.9
+  Dest: git@github.com:to/tombloo.git (push --mirror) 
+ERROR: Permission to to/tombloo.git denied to eotect.
+fatal: The remote end hung up unexpectedly
+  Dest: git@gitorious.org:websaver/tombloo.git (push --mirror) 
+=> Syncing Gitorious... [OK]
+To git@gitorious.org:websaver/tombloo.git
+ * [new tag]         REL_0.3.10 -> REL_0.3.10
+ * [new tag]         REL_0.3.11 -> REL_0.3.11
+ * [new tag]         REL_0.3.20 -> REL_0.3.20
+ * [new tag]         REL_0.3.21 -> REL_0.3.21
+ * [new tag]         REL_0.3.9.2 -> REL_0.3.9.2
+ * [new tag]         REL_0.4 -> REL_0.4
+ * [new tag]         REL_0.4.10 -> REL_0.4.10
+ * [new tag]         REL_0.4.11 -> REL_0.4.11
+ * [new tag]         REL_0.4.12 -> REL_0.4.12
+ * [new tag]         REL_0.4.13 -> REL_0.4.13
+ * [new tag]         REL_0.4.14 -> REL_0.4.14
+ * [new tag]         REL_0.4.15 -> REL_0.4.15
+ * [new tag]         REL_0.4.17 -> REL_0.4.17
+ * [new tag]         REL_0.4.2 -> REL_0.4.2
+ * [new tag]         REL_0.4.22 -> REL_0.4.22
+ * [new tag]         REL_0.4.3 -> REL_0.4.3
+ * [new tag]         REL_0.4.4 -> REL_0.4.4
+ * [new tag]         REL_0.4.5 -> REL_0.4.5
+ * [new tag]         REL_0.4.6 -> REL_0.4.6
+ * [new tag]         REL_0.4.7 -> REL_0.4.7
+ * [new tag]         REL_0.4.8 -> REL_0.4.8
+ * [new tag]         REL_0.4.9 -> REL_0.4.9
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/websaver/tombloo (push --mirror) 
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+fatal: Not a git repository: '/gitroot/zrepos/websaver'
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/websaver/tombloo
+ * [new tag]         REL_0.3.10 -> REL_0.3.10
+ * [new tag]         REL_0.3.11 -> REL_0.3.11
+ * [new tag]         REL_0.3.20 -> REL_0.3.20
+ * [new tag]         REL_0.3.21 -> REL_0.3.21
+ * [new tag]         REL_0.3.9.2 -> REL_0.3.9.2
+ * [new tag]         REL_0.4 -> REL_0.4
+ * [new tag]         REL_0.4.10 -> REL_0.4.10
+ * [new tag]         REL_0.4.11 -> REL_0.4.11
+ * [new tag]         REL_0.4.12 -> REL_0.4.12
+ * [new tag]         REL_0.4.13 -> REL_0.4.13
+ * [new tag]         REL_0.4.14 -> REL_0.4.14
+ * [new tag]         REL_0.4.15 -> REL_0.4.15
+ * [new tag]         REL_0.4.17 -> REL_0.4.17
+ * [new tag]         REL_0.4.2 -> REL_0.4.2
+ * [new tag]         REL_0.4.22 -> REL_0.4.22
+ * [new tag]         REL_0.4.3 -> REL_0.4.3
+ * [new tag]         REL_0.4.4 -> REL_0.4.4
+ * [new tag]         REL_0.4.5 -> REL_0.4.5
+ * [new tag]         REL_0.4.6 -> REL_0.4.6
+ * [new tag]         REL_0.4.7 -> REL_0.4.7
+ * [new tag]         REL_0.4.8 -> REL_0.4.8
+ * [new tag]         REL_0.4.9 -> REL_0.4.9
+
+[2011-05-03 12:56:45] Finished.

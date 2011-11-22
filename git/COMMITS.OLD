@@ -1,0 +1,2562 @@
+commit dda80d09eaa1175ac8127544bd7fd9132741b36d
+Author: Eotect Nahn <eotect@gmail.com>
+Date:   Sat Feb 26 20:13:23 2011 +0800
+
+    Update gokuai.txt and foxwps.
+
+ README                                             |    1 +
+ .../08/f9605350c11babb21eb285b1f2d785a0b6b497      |  Bin 0 -> 2291 bytes
+ .../09/9f127322bfd56e77122bd98c205a3b0c97a863      |  Bin 0 -> 112 bytes
+ .../14/85aa6aaecbbf422f373c1d836673d43df08443      |  Bin 0 -> 82 bytes
+ .../3d/e954ec10d1f5914d89a62ba6b2548ecc438f41      |  Bin 0 -> 177 bytes
+ .../4b/f58262be958178caf1d5660b7ba14da53720e4      |  Bin 0 -> 224081 bytes
+ .../4e/14737e63b65ae56874d080ee675ee2ec97608f      |  Bin 0 -> 57 bytes
+ .../6e/99187902eb8fe5ac0c6fa3f5c7ed5293c1c320      |  Bin 0 -> 170 bytes
+ .../9a/a24efe2adac4723b821126bb3be266656f2bb5      |  Bin 0 -> 49 bytes
+ .../cc/ec7103414659e9c6d30db89d11c4f560e7b7ce      |  Bin 0 -> 2268 bytes
+ .../da/8eb6275fbcdb297438ddfb05fe22dcd4db66a6      |  Bin 0 -> 151 bytes
+ .../e1/a6a627e9b9fa8eb78ecfa1f96560ec59d5b296      |  Bin 0 -> 2694 bytes
+ .../f9/d7246d78b06ac57ac5255382e8fa0d09c79201      |  Bin 0 -> 109 bytes
+ profiles/foxwps.git/refs/heads/master              |    2 +-
+ supports/gokuai.txt                                |   13 +++++++------
+ 15 files changed, 9 insertions(+), 7 deletions(-)
+
+commit 2a2713b798fefc73b550ebd224246cab50437ffb
+Author: Eotect Nahn <eotect@gmail.com>
+Date:   Sat Feb 26 15:25:41 2011 +0800
+
+    Update supports.
+
+ supports/1Users.txt  |   17 -----------------
+ supports/2Users.txt  |    8 --------
+ supports/Users.txt   |   25 ++++++++++++++++++++-----
+ supports/gokuai.txt  |   46 ++++++++++++++++++++++++++++++++++++++++++++++
+ supports/kuaipan.txt |   42 ++++++++++++++++++++++++++++++++++++++++++
+ 5 files changed, 108 insertions(+), 30 deletions(-)
+
+commit 8a0760694ab0c0a515f1ca5a5bd4b38d92d23b0a
+Author: Eotect Nahn <eotect@gmail.com>
+Date:   Sat Feb 26 15:03:16 2011 +0800
+
+    Update loseplace/core.
+
+ README                                             |    4 ++--
+ .../08/d18430a11366202d3ace65cb424a88c47a6546      |    2 ++
+ loseplace/core.git/refs/heads/master               |    2 +-
+ 3 files changed, 5 insertions(+), 3 deletions(-)
+
+commit f39c99dd6c0f82777840c5a4a88244f28ad4dab8
+Author: Eotect Nahn <eotect@gmail.com>
+Date:   Sat Feb 26 14:57:06 2011 +0800
+
+    Update loseplace/core profiles/firefox and profiles/mail.
+
+ README                                             |    8 +++++---
+ .../08/99ae781703c1684c7f7fc28cd74076b3354726      |  Bin 0 -> 204 bytes
+ .../42/63ee62eb64d12af92d6d35c051f89a36711276      |  Bin 0 -> 105 bytes
+ .../46/089b22dc7aca5af1452cd101e2e6873c105b4e      |    1 +
+ .../70/bfda405ff8566d9b066586049cc59284ee3092      |    1 +
+ .../a9/ddfb4b5d33db917dced3718080e646a2323bd6      |  Bin 0 -> 204 bytes
+ .../de/e19581675637559faab28667028e0da7c70b89      |  Bin 0 -> 103 bytes
+ .../e2/b2efbe6bfe0e80ccc2998b32912c28e9732e3f      |  Bin 0 -> 105 bytes
+ .../fb/7eeb61eeb4f6412ae64e5df25befc97793cbeb      |  Bin 0 -> 208 bytes
+ loseplace/core.git/refs/heads/master               |    2 +-
+ .../01/f05aa32ef4b928f88202c2abe3e9bedea9260a      |  Bin 0 -> 57 bytes
+ .../1c/11ac6dd28573c11fa3eccf0d300f5746946ec3      |  Bin 0 -> 16261 bytes
+ .../b1/61e1e124928edb964024e79be9b8f959ec5315      |  Bin 0 -> 130867 bytes
+ .../d8/db52e88c024396a1fae091b16b2be37a94f9a3      |    1 +
+ .../e6/cc239fc72e5dde2cd7ef1c54a7c1fdcfa32733      |  Bin 0 -> 689 bytes
+ profiles/firefox.git/refs/heads/master             |    2 +-
+ ...ck-03a34007dfe731201bb18f9f1237f08ff00034c6.idx |  Bin 0 -> 4656 bytes
+ ...k-03a34007dfe731201bb18f9f1237f08ff00034c6.pack |  Bin 0 -> 697570 bytes
+ profiles/mails.git/refs/heads/master               |    2 +-
+ 19 files changed, 11 insertions(+), 6 deletions(-)
+
+commit 1390d90d3f4c503449a1e4750b3259c30205e5e7
+Author: Eotect Nahn <eotect@gmail.com>
+Date:   Sat Feb 26 14:32:48 2011 +0800
+
+    Update foxwps, utils, sysbuilder.
+
+ README                                             |    1 +
+ .../03/d358046d38d7565d5f86b4418633d6162b7ff3      |  Bin 204 -> 204 bytes
+ .../12/b25a71a7f7757f948f44b110f27d72a4449295      |  Bin 105 -> 105 bytes
+ .../20/8c6917d94451ea5c7bafe6ad366449b014973d      |  Bin 204 -> 204 bytes
+ .../62/7d2189acf76a5fcac231fba0793c8d6bdae516      |  Bin 105 -> 105 bytes
+ .../95/fc860231a1daa797f462daa335e6099c6519d3      |  Bin 70 -> 70 bytes
+ .../cc/0f45bf226f4502cb480b317e070b0c0a9cdf96      |  Bin 121 -> 121 bytes
+ .../ed/99c8eb689f707ba507b83ba77102c86aedbbfb      |  Bin 70 -> 70 bytes
+ .../01/b90d9d71b931b2c23136f66f34768d77c254f1      |  Bin 50 -> 50 bytes
+ .../1f/55babf49b55943b2c8d8879fa119f8c90b1a6a      |  Bin 53 -> 53 bytes
+ .../4a/30e11e7bc74d110b4d3a7b049219187fa0a0c2      |  Bin 155 -> 155 bytes
+ .../88/c22a6c41a0c4494df1be278e3c1a7c89f51292      |  Bin 162 -> 162 bytes
+ .../da/f6b6b3bc9d1316fe841924650a26bf5290dbd3      |  Bin 49 -> 49 bytes
+ .../29/bb3a4dbf34b7a6bdb7a7251a301ff1220c23d4      |  Bin 16019 -> 16019 bytes
+ .../3c/5aa8d40d655a501a073db501caa4db5bc26f55      |  Bin 2016 -> 2016 bytes
+ .../90/596ef6a4342643367a3c8b065b1ae6b20067b4      |  Bin 919 -> 919 bytes
+ .../a0/5436fa6b7f5571aee0315500f4aabbb0368ce7      |  Bin 689 -> 689 bytes
+ .../a9/0e53a26f167d4685ac31f2c210bb8fff3887e3      |  Bin 130638 -> 130638 bytes
+ .../c9/09be0542b3dfeebb650159bd85afcb1e46c448      |  Bin 57 -> 57 bytes
+ profiles/foxwps.git/HEAD                           |    1 +
+ profiles/foxwps.git/hooks/pre-applypatch.sample    |   14 ++
+ profiles/foxwps.git/hooks/pre-commit.sample        |   46 ++++++
+ profiles/foxwps.git/hooks/pre-rebase.sample        |  169 ++++++++++++++++++++
+ .../foxwps.git/hooks/prepare-commit-msg.sample     |   36 ++++
+ profiles/foxwps.git/hooks/update.sample            |  128 +++++++++++++++
+ profiles/foxwps.git/info/exclude                   |    6 +
+ .../03/bc44b7ce5614059a5312f77b873826664b82ed      |    3 +
+ .../10/06e0eda880cf658a5a91f826ee23207d1051af      |  Bin 0 -> 84 bytes
+ .../16/d8cd74a781cd48a6955cf473046c2e9f02d8e5      |  Bin 0 -> 82 bytes
+ .../19/78ec0e333f9f4bc76876bf9d7dac63f9e98d8a      |  Bin 0 -> 65926 bytes
+ .../1e/9539803818ec5d155a21d700a5298851322dd7      |  Bin 0 -> 43 bytes
+ .../26/106f921eb036a4b7fd764fda1d2ad56146e5bf      |  Bin 0 -> 65928 bytes
+ .../28/379cf467231b878c43f0d228f889de91f34ee6      |  Bin 0 -> 108 bytes
+ .../2b/bcc6cc2cb6608a3dcfeadbf67c939a52ffe075      |  Bin 0 -> 1795 bytes
+ .../45/a427fd7949a2785210c9615fe8bff791aa2566      |  Bin 0 -> 152 bytes
+ .../60/9c901f883d374e03c07ddd977de09bc5feb6f8      |  Bin 0 -> 63 bytes
+ .../6b/37518d5b04911c4c3fc0c7f658cfff7a04e6a9      |  Bin 0 -> 78 bytes
+ .../cd/f2cccf9d53c967d21492650f3e5b372d976184      |  Bin 0 -> 1743 bytes
+ .../ce/b4c1b2f22aee0656f431eade7aca1ee7e0061e      |  Bin 0 -> 1743 bytes
+ .../e0/05af3b2fd4f06e37dac2658bc7637f5e1ae612      |  Bin 0 -> 4462 bytes
+ .../e5/14fd862fa9e6aa404e8f7eba5f6d6a835c30f9      |  Bin 0 -> 112 bytes
+ .../f3/34592b57a0be0a445d2777abe35a6ef63a78cc      |  Bin 0 -> 131 bytes
+ .../fc/b34e4be3e9a850e6af8e45f9b31cd3eb21c234      |  Bin 0 -> 49 bytes
+ profiles/foxwps.git/refs/heads/master              |    1 +
+ .../0e/6fd1d72793fb8f4ec1677f9878652ecb027bc7      |  Bin 589 -> 589 bytes
+ .../63/d12547c0a9cd5a037851393caf3c3a753ea13a      |  Bin 164 -> 164 bytes
+ .../77/2b7d74b8b9df1a80ba9771de077f93443ef2fd      |  Bin 1325 -> 1325 bytes
+ .../04/481a834e386bb0fc658e86922b0d99d95a525f      |  Bin 583 -> 583 bytes
+ .../09/9f248651a0495426e450f2f775b1c493c2f8f1      |  Bin 2075 -> 2075 bytes
+ .../0f/9b30f3b0bf8175e2f3bde8acbbaa72245c2077      |  Bin 251 -> 251 bytes
+ .../10/1231f20711eaf8bd3ecf6a8385dbef43f105cb      |  Bin 25328 -> 25328 bytes
+ .../10/dc9a465311d9736d725b164576577cc2ef1e32      |  Bin 1986 -> 1986 bytes
+ .../12/8e4f7909fa0286012a8fdad5f573add245b8db      |  Bin 525 -> 525 bytes
+ .../1a/eaf74f984f58710455c6eeb57bcd4f47c26e47      |  Bin 78925 -> 78925 bytes
+ .../1f/d82f7e8d6cea5d92e0482ca375f582116d23cd      |  Bin 40 -> 40 bytes
+ .../21/fa64d9b74c5fd17d21160e2dbf48e47a4dc0c7      |  Bin 41700 -> 41700 bytes
+ .../22/9c8a4e2df97a62fac50e2e624b47735dee3fd5      |  Bin 540 -> 540 bytes
+ .../27/7e908452f423de3e6638c944565b40328fe822      |  Bin 40 -> 40 bytes
+ .../29/c3cec0c61d2fe9b7504be096a494ac68e083e4      |  Bin 8136 -> 8136 bytes
+ .../2b/749484e4e7a07f37825657ee44b94f87f42914      |  Bin 12107 -> 12107 bytes
+ .../2d/9a44f7b844518754f587d928e269203cc8d9a1      |  Bin 635 -> 635 bytes
+ .../30/e742a3fec763dc24d1f6f1644a5731a903cafd      |  Bin 5785 -> 5785 bytes
+ .../35/66d84094cff25be77e466bfb79ea6873467364      |  Bin 2899 -> 2899 bytes
+ .../37/591281ccec14cd0ae3e89eca189458a995e07a      |  Bin 676 -> 676 bytes
+ .../39/3f9f4387270ce206ab04916ece26112b65813b      |  Bin 1906 -> 1906 bytes
+ .../3a/428a6641605eba3ba7b99d4269d2b22410237a      |  Bin 2005 -> 2005 bytes
+ .../3c/336f21ba4b92b49fe3321513424dd62fd9bfa1      |  Bin 40 -> 40 bytes
+ .../41/e840f4104e3adcedd808eed3e1ec581c3a95f4      |  Bin 40 -> 40 bytes
+ .../45/6efbc2da5b8b630454a6ea97faf5e2b720770b      |  Bin 1481 -> 1481 bytes
+ .../46/1b5d601ba8f385dfcfe92fe44152cdb1fdda85      |  Bin 1172 -> 1172 bytes
+ .../48/314eb1a4bff1a51b7d06c4b624554eb34e8061      |  Bin 1370 -> 1370 bytes
+ .../4a/69dfb9c23cddc24ee8eb8edd6c6611f021a022      |  Bin 142519 -> 142519 bytes
+ .../53/14008565051c90aa0eee5f524c723454c56fd6      |  Bin 614 -> 614 bytes
+ .../57/8ce77bf9a18431fd1fd85f57deea7dc7837bc7      |  Bin 1360 -> 1360 bytes
+ .../59/11d2196797f6f06a21ca882d725a04a92468f1      |  Bin 2597 -> 2597 bytes
+ .../59/27e77917ec981679402a490d54d49d07c6389f      |  Bin 22196 -> 22196 bytes
+ .../5b/78f975bedf74f8c4ea9cb6dcaa46c6a86a6623      |  Bin 13608 -> 13608 bytes
+ .../5e/8c4deea5bd98d64edab4ecc7e2294bb2fc9c6e      |  Bin 40 -> 40 bytes
+ .../68/cd30fbd8b32ff63b99b0186c187096c64c4421      |  Bin 40 -> 40 bytes
+ .../68/f9d2e4a2d4c45d9faf299ff444fa0f2953221a      |  Bin 3300 -> 3300 bytes
+ .../6d/b2b44420863a2f1dfa3880b8c559640e1e8b3e      |  Bin 13617 -> 13617 bytes
+ .../6f/d418779ff5042e09dec85aa62a75eccd21b80c      |  Bin 15455 -> 15455 bytes
+ .../6f/f90b7d734d2d7d63f22b629b3df6ea047f71bd      |  Bin 40 -> 40 bytes
+ .../71/aa284585a3f8e661090dfbc651645caea652a3      |  Bin 1956 -> 1956 bytes
+ .../74/5904d6522d904e25352383bf1c71998cc9b0e8      |  Bin 139 -> 139 bytes
+ .../75/b84c5f88ad763af0b4f03c2c6102d0c509abe9      |  Bin 1505 -> 1505 bytes
+ .../7a/32daa37798b7ae7edc02bad9d7ae924848c750      |  Bin 40 -> 40 bytes
+ .../7b/7558b7bf42d2e0b657f67c2c3fa4376bbfef06      |  Bin 40 -> 40 bytes
+ .../81/3a594314030d570f3a923e08d96f45d212c401      |  Bin 40 -> 40 bytes
+ .../8d/def7cba19e3bc839befb93a4dbe56896423edd      |  Bin 1132 -> 1132 bytes
+ .../91/116b0c03daf812279cec9e99f223ad708ca35a      |  Bin 35371 -> 35371 bytes
+ .../91/f7b032da43d1da875a67122a5cb3f624b998de      |  Bin 11503 -> 11503 bytes
+ .../94/023fef5b6fb0ce0a2e05015bc10afc5325f4b0      |  Bin 38280 -> 38280 bytes
+ .../9c/8c1368c8d298df4831870626b32ff552877de8      |  Bin 535 -> 535 bytes
+ .../9e/691802f00205206c8f712e312a2a200894f9d9      |  Bin 9431 -> 9431 bytes
+ .../9f/01f2ce91f4733f824d9b29304deb17ba9c7242      |  Bin 276 -> 276 bytes
+ .../9f/07bf2b8ae365be95b9ecd68f2cfd6d40939f35      |  Bin 40 -> 40 bytes
+ .../a0/fc609cfec807b23cbbbc493c92e1bbcbb3cc9c      |  Bin 706 -> 706 bytes
+ .../a2/1c935120b76639ba61199f27c158c387c97779      |  Bin 621 -> 621 bytes
+ .../a2/2987450c142fcc7a412a02b19debd76960ff70      |  Bin 82280 -> 82280 bytes
+ .../a2/6bd78c62902087cc047734a69e28b6145a0e45      |  Bin 40 -> 40 bytes
+ .../af/98b02ca8e7b3f4eff837fd87bfe0e843197398      |  Bin 40 -> 40 bytes
+ .../b0/86c2663e1bd1e2ab578df316e819968b7889d6      |  Bin 1360 -> 1360 bytes
+ .../b4/e0311a188c55e7e504a418e1a64bf2cda3f03f      |  Bin 40 -> 40 bytes
+ .../b5/c443ac8e61a0b3a3ea7a128ed300bd18f6b340      |  Bin 13919 -> 13919 bytes
+ .../b5/f4c732ca5d1a48c58e5828fffa47ed9c375872      |  Bin 2541 -> 2541 bytes
+ .../b6/b2f3c9a829d5f97cb6bd8e5b64489e673e32ca      |  Bin 40 -> 40 bytes
+ .../b8/19f65c64ebd30d61903ce46f3e6c9e9da6ae75      |  Bin 40 -> 40 bytes
+ .../be/c59c31e01db8996af783a38ca1fd30bcb1d8d9      |  Bin 139023 -> 139023 bytes
+ .../c2/85f6e8589df92cd00efc36be1f81cce51be392      |  Bin 40 -> 40 bytes
+ .../c4/29d61721b72487a7963e4a4967e9b69c097572      |  Bin 118982 -> 118982 bytes
+ .../c5/85a724db6d14858b69208c4199910b22a726e1      |  Bin 188 -> 188 bytes
+ .../c5/d0ae62ea898865a3ba0887e62d004880a4babc      |  Bin 373 -> 373 bytes
+ .../c7/11c39ea5bb81263a17651e37de3b5001db0733      |  Bin 8004 -> 8004 bytes
+ .../c8/cf403aca94514a937fd6954221134a9c965ebe      |  Bin 150 -> 150 bytes
+ .../dc/3810aa4b57b608d3d8d7b4adb1c0ca8e51cf09      |  Bin 1521 -> 1521 bytes
+ .../e3/51a1a8dacba993ce06a25cf52b1d83e7925976      |  Bin 40 -> 40 bytes
+ .../ed/c016b6d433e2ad2e92d22dc3f27e3dcb572c1c      |  Bin 4329 -> 4329 bytes
+ .../ef/c5f0947b9925f08a0ed231f0d4a65626c1d69c      |  Bin 40 -> 40 bytes
+ .../f1/8e699776d0b9733e42bbeb9fec8dd89bcc52dd      |  Bin 625 -> 625 bytes
+ .../f2/6d8f7d58cb6cc293c6b11fc9c4513ea608ec53      |  Bin 6196 -> 6196 bytes
+ .../f2/aee208c8febae5ad6eee0e8feb95ed1d424680      |  Bin 39 -> 39 bytes
+ .../f7/b9e5d92764f2517e69023af57170f565e509ed      |  Bin 14168 -> 14168 bytes
+ .../fa/e714c41dd75b2d6d254603f83cfc2f96f7a109      |  Bin 1171 -> 1171 bytes
+ ...ck-1a33f5078d905c2e5088a655a359991ccadd77d7.idx |  Bin 4432 -> 4432 bytes
+ ...k-1a33f5078d905c2e5088a655a359991ccadd77d7.pack |  Bin 677430 -> 677430 bytes
+ .../33/47f1f8642392ef5d0b35b7478e98df1692f015      |  Bin 79 -> 79 bytes
+ .../3e/ff640e0a80c5f7c27a58d78c5b9d6f36ff9f2c      |  Bin 121 -> 121 bytes
+ .../dd/25418a65739ca4639a2888f3fca4766fed5a57      |  Bin 1301 -> 1301 bytes
+ .../ff/cb0a04a4ec81d713ce1355cba52b625a9d8068      |  Bin 353 -> 353 bytes
+ supports/VdiskforPC.rar                            |  Bin 1437094 -> 1437094 bytes
+ .../02/8505f5fbe3389ce7af5610f99d4aef75beffb0      |  Bin 26406 -> 26406 bytes
+ .../06/551980b01e5b76328ad3341b1f2f57a5a9cf36      |  Bin 45 -> 45 bytes
+ .../0c/de05c3b06e84c116c42a023f423b1388218d99      |  Bin 711 -> 711 bytes
+ .../19/fe59d79c02c2205e4a1ec8b601ab6c03ac7410      |  Bin 21199 -> 21199 bytes
+ .../1b/c1fc1757f2216ae476433b59691d725765a528      |  Bin 1533 -> 1533 bytes
+ .../24/24686c900e1091aa980949d7a0ec8ab7791f62      |  Bin 234 -> 234 bytes
+ .../2f/9e75eedfe622f1edf29b931e8588f5ce0196a9      |  Bin 74 -> 74 bytes
+ .../31/7ac665079416b357f4197de4f6b544e5a55f2b      |  Bin 37 -> 37 bytes
+ .../33/029172581d4a32630eff8d95b11152dcbd6238      |  Bin 23342 -> 23342 bytes
+ .../37/f1d817d738545f8dea4ed2f5305466821d6486      |  Bin 1005 -> 1005 bytes
+ .../39/8a2b532e92da7eabcc35e79d8ba896466486a5      |  Bin 827030 -> 827030 bytes
+ .../3c/f1e6cd4a3a135a1f5765274824323708566c3c      |  Bin 21554 -> 21554 bytes
+ .../44/b2431776b701b5c8e22af538c5b1a3a9971227      |  Bin 56 -> 56 bytes
+ .../5b/519d330fa2fbb57a6d0f0b2c856592c8e6d29b      |  Bin 66 -> 66 bytes
+ .../69/a9bdaebc957bbe8a380576ec73b5a6a26eac89      |  Bin 6461 -> 6461 bytes
+ .../7d/53648012bbfa59903f4c07d7073cab6b19819f      |  Bin 23454 -> 23454 bytes
+ .../8a/1b107a1dcc9b1d8ec9436e4d7732c01080ca38      |  Bin 4241 -> 4241 bytes
+ .../8c/7f6586f3ec95afaf7c14d0c2e0d38a47ce4614      |  Bin 214691 -> 214691 bytes
+ .../97/7786c95afbc319aa3c269c27eade6b581f8cef      |  Bin 637 -> 637 bytes
+ .../98/3c6b4f987608763e0dd3e71046861f1bb0212d      |  Bin 498 -> 498 bytes
+ .../a1/5ba84653bf9404aef1ee25c03984dc0306c0e0      |  Bin 23799 -> 23799 bytes
+ .../a6/d4d90ef0d8db459c1cabe5561ee9b9f4246dfb      |  Bin 563 -> 563 bytes
+ .../ab/ad2841268aefc36f2275e92035a476b84f2924      |  Bin 1171435 -> 1171435 bytes
+ .../ac/d6a78b029afbca82aa3c1724fb9aa42da837fc      |  Bin 1760 -> 1760 bytes
+ .../ad/f6aab7214938541b578afd957f9493c29857a3      |  Bin 302 -> 302 bytes
+ .../c6/d540378f3df45cc1ba2f9ff794dca956b351d9      |  Bin 25897 -> 25897 bytes
+ .../c9/3962c11b836098840141cbf53c01d817b1cfb2      |  Bin 46 -> 46 bytes
+ .../cd/0655cf8c59133a9d2daa0e09187d631615ed2a      |  Bin 228 -> 228 bytes
+ .../cd/34e291324ab1ace552d27bda128fbe28ba559d      |  Bin 173 -> 173 bytes
+ .../ce/9b365b61c5312d50b8ae66ead994498f2f9bfb      |  Bin 2879 -> 2879 bytes
+ .../d6/8f478b1ea27858655e6e477551b10c04aa03eb      |  Bin 428 -> 428 bytes
+ .../d7/4322d735ea50a358e667093ca7de13e5a9eb45      |  Bin 408046 -> 408046 bytes
+ .../e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391      |  Bin 15 -> 15 bytes
+ .../e6/f86f3b7f544caba423b095559beeaadb6f9072      |  Bin 73 -> 73 bytes
+ .../ea/2192bea10b8b89306e9dbdeea341a2ebda1c54      |  Bin 639 -> 639 bytes
+ .../f7/e031b035cc2bbb9367860653eef4af9476d324      |  Bin 45 -> 45 bytes
+ .../fb/2cfa2fe17cecbccf346ed45497c5e252d61a8a      |  Bin 493117 -> 493117 bytes
+ .../02/d4c47264d136f0abe9fbdc85ecf7970a6975e2      |  Bin 6900586 -> 6900586 bytes
+ .../16/37759a30ab0fb4d1af819cc0acebd995d44e9c      |  Bin 47 -> 47 bytes
+ .../49/9a017e8a0742a1a9e15f97cee52fc32e828974      |  Bin 326 -> 326 bytes
+ .../5e/b09c183aef53e9223600fb0aa8c850e0260d6d      |  Bin 47 -> 47 bytes
+ .../66/59b07abe64da17f58d82325516d3faea2c91ec      |  Bin 182 -> 182 bytes
+ .../8b/198efa79c170d5c9a746104e9180584399c076      |  Bin 448 -> 448 bytes
+ .../94/2bcca2980f7de518cb98c50ac9798d96d656e7      |  Bin 178 -> 178 bytes
+ .../b5/d2b17c07952403cc1199abc485a9ab76d00274      |  Bin 201 -> 201 bytes
+ .../dc/7b70382880b599aa935acf8817a9b1a835a040      |  Bin 289 -> 289 bytes
+ .../12/e398c8ad58ec6ff00fa1e632036be1d5937c9e      |  Bin 840475 -> 840475 bytes
+ .../1e/424dc039d12fc4f07c1767b537e8bd2112cdd0      |  Bin 2562625 -> 2562625 bytes
+ .../1f/2043db62b668551c11bc6d61e99ca46d95308b      |  Bin 242185 -> 242185 bytes
+ .../22/30c47a553c3d8c70b61b812452f03c95045b7c      |  Bin 6633178 -> 6633178 bytes
+ .../39/7c8139e23e0464f5f60b10b950a5588a30a454      |  Bin 2357109 -> 2357109 bytes
+ .../3d/bcdde2d24093cd6559f4a837849bb70f6d3d2e      |  Bin 9988279 -> 9988279 bytes
+ .../40/c7a02ddc156bcbaab846e319e33336ed1d5738      |  Bin 7849902 -> 7849902 bytes
+ .../48/e5644f3eebee95ed02c171364b079ebdca3dc1      |  Bin 6595978 -> 6595978 bytes
+ .../49/71087bf34f3a9585fc8792b5ee7e35d64fa9d1      |  Bin 400123 -> 400123 bytes
+ .../4b/6a45921b49ea79b96a8d86e51c6f8f4c768f3b      |  Bin 679885 -> 679885 bytes
+ .../50/027e537696ce74c679d08fa592f85c4fb42316      |  Bin 934565 -> 934565 bytes
+ .../52/7a5ca10789a3fe93f225518c3b37c1929dd96a      |  Bin 135785 -> 135785 bytes
+ .../61/727c530d9b95b209c3bf2b93354de11d68f2b7      |  Bin 36 -> 36 bytes
+ .../63/4906a66ef49b5e167b1d3c7eb0662299f84afa      |  Bin 144 -> 144 bytes
+ .../66/e175878bd7995b5894cdcb7f46ed432e98e98c      |  Bin 1949971 -> 1949971 bytes
+ .../81/599afa211efdb0ffe66a80dc3c78ddb1be1dca      |  Bin 974 -> 974 bytes
+ .../88/e4f0730ddf620d5cdf5e303fb321eca598c49f      |  Bin 1041602 -> 1041602 bytes
+ .../8e/d1b10f2e448f0bd2f7113a3464ddd2cdfa2d58      |  Bin 152422 -> 152422 bytes
+ .../93/754e46a99bb89258e964674fb675d11a29387e      |  Bin 32520 -> 32520 bytes
+ .../9b/6c026f2cb6a3048576f2a101be7cc30d50af75      |  Bin 6234540 -> 6234540 bytes
+ .../9c/36d68179202111d8476dbb99570843c393ab2b      |  Bin 95596 -> 95596 bytes
+ .../b5/0571bac2d2a75277df7e84ca12ad3df0dce91e      |  Bin 158 -> 158 bytes
+ .../b6/c0df85e0bc0bae032e878a7712af909bfa932d      |  Bin 2053392 -> 2053392 bytes
+ .../bf/065f1f6a6cfe48c20ce9eed5bd6ba94a3df80f      |  Bin 869340 -> 869340 bytes
+ .../d7/ace47fe01faa316a184fa53ad8f9a2c666c8aa      |  Bin 68991 -> 68991 bytes
+ .../da/442f296adf42c7988841eb76982e0a1ce0f72d      |  Bin 84 -> 84 bytes
+ .../e1/adc64737b0fccb3af0e648e5566736f37ee76e      |  Bin 10347899 -> 10347899 bytes
+ .../f3/c674ab6e05d26852a6cee85e323abb9f7fbf1c      |  Bin 768 -> 768 bytes
+ .../f5/dfe53b7cf292d7c8bbb676e859ee2e2263f1af      |  Bin 34142 -> 34142 bytes
+ .../f9/6f43837629980cf7ac64f2ea523ac1620acaf4      |  Bin 608955 -> 608955 bytes
+ 207 files changed, 405 insertions(+), 0 deletions(-)
+
+commit 91d2fe91f8454e43116f5e364d37f7ea83c33bf6
+Author: Eotect Nahn <eotect@gmail.com>
+Date:   Sat Feb 26 02:15:07 2011 +0800
+
+    profiles: foxwps.git added, mails updated. ...
+    
+    profiles for foxwps added, for mails updated.
+    supports program added and updated.
+    utils of usys updated.
+
+ .gitignore                                         |    2 +
+ README                                             |    2 +
+ profiles/foxwps.git/config                         |    5 ++++
+ profiles/foxwps.git/description                    |    1 +
+ profiles/foxwps.git/hooks/applypatch-msg.sample    |   15 ++++++++++++
+ profiles/foxwps.git/hooks/commit-msg.sample        |   24 ++++++++++++++++++++
+ profiles/foxwps.git/hooks/post-commit.sample       |    8 ++++++
+ profiles/foxwps.git/hooks/post-receive.sample      |   15 ++++++++++++
+ profiles/foxwps.git/hooks/post-update.sample       |    8 ++++++
+ .../09/9f248651a0495426e450f2f775b1c493c2f8f1      |  Bin 0 -> 2075 bytes
+ .../0f/9b30f3b0bf8175e2f3bde8acbbaa72245c2077      |  Bin 0 -> 251 bytes
+ .../10/1231f20711eaf8bd3ecf6a8385dbef43f105cb      |  Bin 0 -> 25328 bytes
+ .../10/dc9a465311d9736d725b164576577cc2ef1e32      |  Bin 0 -> 1986 bytes
+ .../12/8e4f7909fa0286012a8fdad5f573add245b8db      |  Bin 0 -> 525 bytes
+ .../1a/eaf74f984f58710455c6eeb57bcd4f47c26e47      |  Bin 0 -> 78925 bytes
+ .../1f/d82f7e8d6cea5d92e0482ca375f582116d23cd      |  Bin 0 -> 40 bytes
+ .../21/fa64d9b74c5fd17d21160e2dbf48e47a4dc0c7      |  Bin 0 -> 41700 bytes
+ .../22/9c8a4e2df97a62fac50e2e624b47735dee3fd5      |  Bin 0 -> 540 bytes
+ .../27/7e908452f423de3e6638c944565b40328fe822      |  Bin 0 -> 40 bytes
+ .../29/c3cec0c61d2fe9b7504be096a494ac68e083e4      |  Bin 0 -> 8136 bytes
+ .../2b/749484e4e7a07f37825657ee44b94f87f42914      |  Bin 0 -> 12107 bytes
+ .../2d/9a44f7b844518754f587d928e269203cc8d9a1      |  Bin 0 -> 635 bytes
+ .../30/e742a3fec763dc24d1f6f1644a5731a903cafd      |  Bin 0 -> 5785 bytes
+ .../35/66d84094cff25be77e466bfb79ea6873467364      |  Bin 0 -> 2899 bytes
+ .../37/591281ccec14cd0ae3e89eca189458a995e07a      |  Bin 0 -> 676 bytes
+ .../39/3f9f4387270ce206ab04916ece26112b65813b      |  Bin 0 -> 1906 bytes
+ .../3a/428a6641605eba3ba7b99d4269d2b22410237a      |  Bin 0 -> 2005 bytes
+ .../3c/336f21ba4b92b49fe3321513424dd62fd9bfa1      |  Bin 0 -> 40 bytes
+ .../41/e840f4104e3adcedd808eed3e1ec581c3a95f4      |  Bin 0 -> 40 bytes
+ .../45/6efbc2da5b8b630454a6ea97faf5e2b720770b      |  Bin 0 -> 1481 bytes
+ .../46/1b5d601ba8f385dfcfe92fe44152cdb1fdda85      |  Bin 0 -> 1172 bytes
+ .../48/314eb1a4bff1a51b7d06c4b624554eb34e8061      |  Bin 0 -> 1370 bytes
+ .../4a/69dfb9c23cddc24ee8eb8edd6c6611f021a022      |  Bin 0 -> 142519 bytes
+ .../53/14008565051c90aa0eee5f524c723454c56fd6      |  Bin 0 -> 614 bytes
+ .../57/8ce77bf9a18431fd1fd85f57deea7dc7837bc7      |  Bin 0 -> 1360 bytes
+ .../59/11d2196797f6f06a21ca882d725a04a92468f1      |  Bin 0 -> 2597 bytes
+ .../59/27e77917ec981679402a490d54d49d07c6389f      |  Bin 0 -> 22196 bytes
+ .../5b/78f975bedf74f8c4ea9cb6dcaa46c6a86a6623      |  Bin 0 -> 13608 bytes
+ .../5e/8c4deea5bd98d64edab4ecc7e2294bb2fc9c6e      |  Bin 0 -> 40 bytes
+ .../68/cd30fbd8b32ff63b99b0186c187096c64c4421      |  Bin 0 -> 40 bytes
+ .../68/f9d2e4a2d4c45d9faf299ff444fa0f2953221a      |  Bin 0 -> 3300 bytes
+ .../6d/b2b44420863a2f1dfa3880b8c559640e1e8b3e      |  Bin 0 -> 13617 bytes
+ .../6f/d418779ff5042e09dec85aa62a75eccd21b80c      |  Bin 0 -> 15455 bytes
+ .../6f/f90b7d734d2d7d63f22b629b3df6ea047f71bd      |  Bin 0 -> 40 bytes
+ .../71/a50c0682d05b3d7c9bf7df4679c92abeeb9d48      |    2 +
+ .../71/aa284585a3f8e661090dfbc651645caea652a3      |  Bin 0 -> 1956 bytes
+ .../74/5904d6522d904e25352383bf1c71998cc9b0e8      |  Bin 0 -> 139 bytes
+ .../75/b84c5f88ad763af0b4f03c2c6102d0c509abe9      |  Bin 0 -> 1505 bytes
+ .../7a/32daa37798b7ae7edc02bad9d7ae924848c750      |  Bin 0 -> 40 bytes
+ .../7b/7558b7bf42d2e0b657f67c2c3fa4376bbfef06      |  Bin 0 -> 40 bytes
+ .../81/3a594314030d570f3a923e08d96f45d212c401      |  Bin 0 -> 40 bytes
+ .../8d/def7cba19e3bc839befb93a4dbe56896423edd      |  Bin 0 -> 1132 bytes
+ .../91/116b0c03daf812279cec9e99f223ad708ca35a      |  Bin 0 -> 35371 bytes
+ .../91/f7b032da43d1da875a67122a5cb3f624b998de      |  Bin 0 -> 11503 bytes
+ .../94/023fef5b6fb0ce0a2e05015bc10afc5325f4b0      |  Bin 0 -> 38280 bytes
+ .../9c/8c1368c8d298df4831870626b32ff552877de8      |  Bin 0 -> 535 bytes
+ .../9e/691802f00205206c8f712e312a2a200894f9d9      |  Bin 0 -> 9431 bytes
+ .../9f/01f2ce91f4733f824d9b29304deb17ba9c7242      |  Bin 0 -> 276 bytes
+ .../9f/07bf2b8ae365be95b9ecd68f2cfd6d40939f35      |  Bin 0 -> 40 bytes
+ .../a0/fc609cfec807b23cbbbc493c92e1bbcbb3cc9c      |  Bin 0 -> 706 bytes
+ .../a2/1c935120b76639ba61199f27c158c387c97779      |  Bin 0 -> 621 bytes
+ .../a2/2987450c142fcc7a412a02b19debd76960ff70      |  Bin 0 -> 82280 bytes
+ .../a2/6bd78c62902087cc047734a69e28b6145a0e45      |  Bin 0 -> 40 bytes
+ .../af/98b02ca8e7b3f4eff837fd87bfe0e843197398      |  Bin 0 -> 40 bytes
+ .../b0/86c2663e1bd1e2ab578df316e819968b7889d6      |  Bin 0 -> 1360 bytes
+ .../b4/e0311a188c55e7e504a418e1a64bf2cda3f03f      |  Bin 0 -> 40 bytes
+ .../b5/c443ac8e61a0b3a3ea7a128ed300bd18f6b340      |  Bin 0 -> 13919 bytes
+ .../b5/f4c732ca5d1a48c58e5828fffa47ed9c375872      |  Bin 0 -> 2541 bytes
+ .../b6/b2f3c9a829d5f97cb6bd8e5b64489e673e32ca      |  Bin 0 -> 40 bytes
+ .../b8/19f65c64ebd30d61903ce46f3e6c9e9da6ae75      |  Bin 0 -> 40 bytes
+ .../be/c59c31e01db8996af783a38ca1fd30bcb1d8d9      |  Bin 0 -> 139023 bytes
+ .../c2/85f6e8589df92cd00efc36be1f81cce51be392      |  Bin 0 -> 40 bytes
+ .../c4/29d61721b72487a7963e4a4967e9b69c097572      |  Bin 0 -> 118982 bytes
+ .../c5/85a724db6d14858b69208c4199910b22a726e1      |  Bin 0 -> 188 bytes
+ .../c5/d0ae62ea898865a3ba0887e62d004880a4babc      |  Bin 0 -> 373 bytes
+ .../c7/11c39ea5bb81263a17651e37de3b5001db0733      |  Bin 0 -> 8004 bytes
+ .../c8/cf403aca94514a937fd6954221134a9c965ebe      |  Bin 0 -> 150 bytes
+ .../dc/3810aa4b57b608d3d8d7b4adb1c0ca8e51cf09      |  Bin 0 -> 1521 bytes
+ .../e3/51a1a8dacba993ce06a25cf52b1d83e7925976      |  Bin 0 -> 40 bytes
+ .../ed/c016b6d433e2ad2e92d22dc3f27e3dcb572c1c      |  Bin 0 -> 4329 bytes
+ .../ef/c5f0947b9925f08a0ed231f0d4a65626c1d69c      |  Bin 0 -> 40 bytes
+ .../f1/8e699776d0b9733e42bbeb9fec8dd89bcc52dd      |  Bin 0 -> 625 bytes
+ .../f2/6d8f7d58cb6cc293c6b11fc9c4513ea608ec53      |  Bin 0 -> 6196 bytes
+ .../f2/aee208c8febae5ad6eee0e8feb95ed1d424680      |  Bin 0 -> 39 bytes
+ .../f7/b9e5d92764f2517e69023af57170f565e509ed      |  Bin 0 -> 14168 bytes
+ .../fa/e714c41dd75b2d6d254603f83cfc2f96f7a109      |  Bin 0 -> 1171 bytes
+ supports/DBankSetup1.0.9.2.exe                     |  Bin 0 -> 5259352 bytes
+ supports/Dropbox 1.0.20.exe                        |  Bin 0 -> 14755424 bytes
+ supports/GokuaiSetup_beta1.exe                     |  Bin 0 -> 3243311 bytes
+ supports/Kanbox_1.0.1.107.exe                      |  Bin 0 -> 2871816 bytes
+ supports/TPanSetup10.101.exe                       |  Bin 0 -> 3368808 bytes
+ supports/UDown_2.0.11.116.exe                      |  Bin 0 -> 1740240 bytes
+ supports/VdiskforPC.rar                            |  Bin 0 -> 1437094 bytes
+ supports/heyibao-windows32.msi                     |  Bin 0 -> 10574336 bytes
+ .../22/30c47a553c3d8c70b61b812452f03c95045b7c      |  Bin 0 -> 6633178 bytes
+ .../39/7c8139e23e0464f5f60b10b950a5588a30a454      |  Bin 0 -> 2357109 bytes
+ .../3d/bcdde2d24093cd6559f4a837849bb70f6d3d2e      |  Bin 0 -> 9988279 bytes
+ .../40/c7a02ddc156bcbaab846e319e33336ed1d5738      |  Bin 0 -> 7849902 bytes
+ .../48/e5644f3eebee95ed02c171364b079ebdca3dc1      |  Bin 0 -> 6595978 bytes
+ .../81/599afa211efdb0ffe66a80dc3c78ddb1be1dca      |  Bin 0 -> 974 bytes
+ .../b5/0571bac2d2a75277df7e84ca12ad3df0dce91e      |  Bin 0 -> 158 bytes
+ .../e1/adc64737b0fccb3af0e648e5566736f37ee76e      |  Bin 0 -> 10347899 bytes
+ 102 files changed, 82 insertions(+), 0 deletions(-)
+
+commit 8337fa2f403957f4fa978ccab995ed18e7a54f12
+Author: Eotect Nahn <eotect@gmail.com>
+Date:   Fri Feb 25 21:54:37 2011 +0800
+
+    Update some repositories
+    
+    Update Loseplace/core, loseplace/mini, profiles/avatars,
+    profiles/firefox, profiles/gm-scripts, profiles/mails,
+    profiles/private, usys/sysbuilder, usys/usys, usys/utils.
+
+ README                                             |   17 ++-
+ id_rsa                                             |   27 +++
+ id_rsa.pub                                         |    1 +
+ .../03/d358046d38d7565d5f86b4418633d6162b7ff3      |  Bin 204 -> 204 bytes
+ .../06/18356c97f7ad4ecaf5fccffbc21c55cd9f20e5      |  Bin 0 -> 204 bytes
+ .../0d/b010b3cd172b048867618de1df4559b6bcca7f      |  Bin 0 -> 36 bytes
+ .../12/b25a71a7f7757f948f44b110f27d72a4449295      |  Bin 105 -> 105 bytes
+ .../1d/0a7de9c9caeb37e1b2b6ff1c457cecda6bc658      |  Bin 0 -> 21 bytes
+ .../20/8c6917d94451ea5c7bafe6ad366449b014973d      |  Bin 204 -> 204 bytes
+ .../25/49015cda9296ee531110045c875dd4e68ec338      |  Bin 0 -> 1056 bytes
+ .../4a/3203c02b61158a178596113460e9fad9b5a3b0      |    1 +
+ .../4b/3089aaff2b0fbc647b7e7e7e07d9cb60dbef6d      |  Bin 0 -> 5828 bytes
+ .../5b/4f8bb605c219f50e8e0dfef598a602c1c310df      |  Bin 0 -> 21 bytes
+ .../62/7d2189acf76a5fcac231fba0793c8d6bdae516      |  Bin 105 -> 105 bytes
+ .../67/51ce999dccf4ce9e194bd1abddf80c53708562      |  Bin 0 -> 60 bytes
+ .../6b/1888bbc89a24aa03af2e37d45cef50d2179ea7      |  Bin 0 -> 692 bytes
+ .../8f/2f7002c278c390a5d7448a1617faf3d136a53c      |  Bin 0 -> 212 bytes
+ .../95/fc860231a1daa797f462daa335e6099c6519d3      |  Bin 70 -> 70 bytes
+ .../96/7351d6daea8541a1463e002b3ae64160cf1292      |  Bin 0 -> 287 bytes
+ .../ae/0b4ba6b72c0e20573debc789c7ac909a11baf2      |  Bin 0 -> 58 bytes
+ .../cc/0f45bf226f4502cb480b317e070b0c0a9cdf96      |  Bin 121 -> 121 bytes
+ .../e0/a2758e58f6e681d2a0e56c11a4d6d8b6e64da1      |  Bin 0 -> 38 bytes
+ .../e9/302b5de82e72cfe2df539fe9375ef9cbde0bb7      |  Bin 0 -> 149 bytes
+ .../e9/bcc128ed49ba1e76d03551ea01872ca888e5d1      |  Bin 0 -> 106 bytes
+ .../ed/99c8eb689f707ba507b83ba77102c86aedbbfb      |  Bin 70 -> 70 bytes
+ .../fd/fdf64468b37c0010b3301cc59732419365e756      |  Bin 0 -> 1186 bytes
+ loseplace/core.git/refs/heads/master               |    2 +-
+ loseplace/losebox.git/config                       |    3 -
+ loseplace/loseplace.git/config                     |    6 +-
+ .../01/b90d9d71b931b2c23136f66f34768d77c254f1      |  Bin 50 -> 50 bytes
+ .../1f/55babf49b55943b2c8d8879fa119f8c90b1a6a      |  Bin 53 -> 53 bytes
+ .../4a/30e11e7bc74d110b4d3a7b049219187fa0a0c2      |  Bin 155 -> 155 bytes
+ .../88/c22a6c41a0c4494df1be278e3c1a7c89f51292      |  Bin 162 -> 162 bytes
+ .../da/f6b6b3bc9d1316fe841924650a26bf5290dbd3      |  Bin 49 -> 49 bytes
+ profiles/avatars.git/config                        |    2 +-
+ profiles/avatars.git/logs/HEAD                     |    2 +
+ profiles/avatars.git/logs/refs/heads/master        |    2 +
+ .../avatars.git/logs/refs/remotes/origin/master    |    1 +
+ .../0d/bffd615832a089782927506457c003b3aaeb8b      |    1 +
+ .../20/2446c39519f1112412427da255fb7e215c6ee7      |    2 +
+ .../48/f555c8aaca28dea8cc2d036b03f6d32ea9a497      |  Bin 0 -> 11125 bytes
+ .../5c/8c8e2f2583be039e506e37e9a49e7062a186b8      |  Bin 0 -> 85410 bytes
+ .../81/e474fa9c750e87b85b98b82433aabbea1261f1      |  Bin 0 -> 22884 bytes
+ .../9d/afa78a78e351a5ed24fea7bca8e6d490f40cf2      |  Bin 0 -> 182355 bytes
+ .../ab/1f18ace02b1d2664eda398aab986aef2ce8e1b      |  Bin 0 -> 2296728 bytes
+ .../d0/b55ba210a481747ca0de42ca6267b1a49b9cd4      |  Bin 0 -> 309591 bytes
+ .../f1/52ee9dbd48b399da359c9b7c53c2e38cdc223e      |    3 +
+ .../fd/4278fc741ccba4b0a2401d3aed6cc5a49db228      |  Bin 0 -> 296 bytes
+ profiles/avatars.git/refs/heads/master             |    2 +-
+ profiles/avatars.git/refs/remotes/origin/master    |    1 +
+ .../29/bb3a4dbf34b7a6bdb7a7251a301ff1220c23d4      |  Bin 16019 -> 16019 bytes
+ .../3c/5aa8d40d655a501a073db501caa4db5bc26f55      |  Bin 2016 -> 2016 bytes
+ .../90/596ef6a4342643367a3c8b065b1ae6b20067b4      |  Bin 919 -> 919 bytes
+ .../a0/5436fa6b7f5571aee0315500f4aabbb0368ce7      |  Bin 689 -> 689 bytes
+ .../a9/0e53a26f167d4685ac31f2c210bb8fff3887e3      |  Bin 130638 -> 130638 bytes
+ .../c9/09be0542b3dfeebb650159bd85afcb1e46c448      |  Bin 57 -> 57 bytes
+ .../firefox.git/refs/heads/master (myplace-win7)   |    1 +
+ .../0e/6fd1d72793fb8f4ec1677f9878652ecb027bc7      |  Bin 589 -> 589 bytes
+ .../63/d12547c0a9cd5a037851393caf3c3a753ea13a      |  Bin 164 -> 164 bytes
+ .../77/2b7d74b8b9df1a80ba9771de077f93443ef2fd      |  Bin 1325 -> 1325 bytes
+ profiles/mails.git/HEAD                            |    1 +
+ profiles/mails.git/config                          |    5 +
+ profiles/mails.git/description                     |    1 +
+ profiles/mails.git/hooks/applypatch-msg.sample     |   15 ++
+ profiles/mails.git/hooks/commit-msg.sample         |   24 +++
+ profiles/mails.git/hooks/post-commit.sample        |    8 +
+ profiles/mails.git/hooks/post-receive.sample       |   15 ++
+ profiles/mails.git/hooks/post-update.sample        |    8 +
+ profiles/mails.git/hooks/pre-applypatch.sample     |   14 ++
+ profiles/mails.git/hooks/pre-commit.sample         |   46 ++++++
+ profiles/mails.git/hooks/pre-rebase.sample         |  169 ++++++++++++++++++++
+ profiles/mails.git/hooks/prepare-commit-msg.sample |   36 ++++
+ profiles/mails.git/hooks/update.sample             |  128 +++++++++++++++
+ profiles/mails.git/info/exclude                    |    6 +
+ .../04/481a834e386bb0fc658e86922b0d99d95a525f      |  Bin 0 -> 583 bytes
+ ...ck-1a33f5078d905c2e5088a655a359991ccadd77d7.idx |  Bin 0 -> 4432 bytes
+ ...k-1a33f5078d905c2e5088a655a359991ccadd77d7.pack |  Bin 0 -> 677430 bytes
+ profiles/mails.git/refs/heads/master               |    1 +
+ .../33/47f1f8642392ef5d0b35b7478e98df1692f015      |  Bin 0 -> 79 bytes
+ .../3e/ff640e0a80c5f7c27a58d78c5b9d6f36ff9f2c      |  Bin 0 -> 121 bytes
+ .../78/b1a586fd3092332d7840c00e2a82a7f9ef08cf      |    3 +
+ .../dd/25418a65739ca4639a2888f3fca4766fed5a57      |  Bin 0 -> 1301 bytes
+ .../ff/cb0a04a4ec81d713ce1355cba52b625a9d8068      |  Bin 0 -> 353 bytes
+ profiles/private.git/refs/heads/master             |    2 +-
+ supports/1Users.txt                                |   17 ++
+ supports/2Users.txt                                |    8 +
+ supports/DBankSetup1.0.8.5.exe                     |  Bin 0 -> 5186408 bytes
+ supports/EverBox-0.6.0.310-Setup.exe               |  Bin 0 -> 2850016 bytes
+ supports/GoKuaiSetup.exe                           |  Bin 0 -> 582184 bytes
+ supports/Users.txt                                 |    5 +-
+ supports/kuaipan_1.20.0.738.exe                    |  Bin 2871872 -> 2871872 bytes
+ .../02/8505f5fbe3389ce7af5610f99d4aef75beffb0      |  Bin 0 -> 26406 bytes
+ .../06/551980b01e5b76328ad3341b1f2f57a5a9cf36      |  Bin 0 -> 45 bytes
+ .../0c/de05c3b06e84c116c42a023f423b1388218d99      |  Bin 0 -> 711 bytes
+ .../19/fe59d79c02c2205e4a1ec8b601ab6c03ac7410      |  Bin 0 -> 21199 bytes
+ .../1b/c1fc1757f2216ae476433b59691d725765a528      |  Bin 0 -> 1533 bytes
+ .../24/24686c900e1091aa980949d7a0ec8ab7791f62      |  Bin 0 -> 234 bytes
+ .../2f/9e75eedfe622f1edf29b931e8588f5ce0196a9      |  Bin 0 -> 74 bytes
+ .../31/7ac665079416b357f4197de4f6b544e5a55f2b      |  Bin 0 -> 37 bytes
+ .../33/029172581d4a32630eff8d95b11152dcbd6238      |  Bin 0 -> 23342 bytes
+ .../37/f1d817d738545f8dea4ed2f5305466821d6486      |  Bin 0 -> 1005 bytes
+ .../39/8a2b532e92da7eabcc35e79d8ba896466486a5      |  Bin 0 -> 827030 bytes
+ .../3c/f1e6cd4a3a135a1f5765274824323708566c3c      |  Bin 0 -> 21554 bytes
+ .../44/b2431776b701b5c8e22af538c5b1a3a9971227      |  Bin 0 -> 56 bytes
+ .../5b/519d330fa2fbb57a6d0f0b2c856592c8e6d29b      |  Bin 0 -> 66 bytes
+ .../69/a9bdaebc957bbe8a380576ec73b5a6a26eac89      |  Bin 0 -> 6461 bytes
+ .../7d/53648012bbfa59903f4c07d7073cab6b19819f      |  Bin 0 -> 23454 bytes
+ .../8a/1b107a1dcc9b1d8ec9436e4d7732c01080ca38      |  Bin 0 -> 4241 bytes
+ .../8c/7f6586f3ec95afaf7c14d0c2e0d38a47ce4614      |  Bin 0 -> 214691 bytes
+ .../97/7786c95afbc319aa3c269c27eade6b581f8cef      |  Bin 0 -> 637 bytes
+ .../98/3c6b4f987608763e0dd3e71046861f1bb0212d      |  Bin 0 -> 498 bytes
+ .../a1/5ba84653bf9404aef1ee25c03984dc0306c0e0      |  Bin 0 -> 23799 bytes
+ .../a6/d4d90ef0d8db459c1cabe5561ee9b9f4246dfb      |  Bin 0 -> 563 bytes
+ .../ab/ad2841268aefc36f2275e92035a476b84f2924      |  Bin 0 -> 1171435 bytes
+ .../ac/d6a78b029afbca82aa3c1724fb9aa42da837fc      |  Bin 0 -> 1760 bytes
+ .../ad/f6aab7214938541b578afd957f9493c29857a3      |  Bin 0 -> 302 bytes
+ .../c6/d540378f3df45cc1ba2f9ff794dca956b351d9      |  Bin 0 -> 25897 bytes
+ .../c9/3962c11b836098840141cbf53c01d817b1cfb2      |  Bin 0 -> 46 bytes
+ .../cd/0655cf8c59133a9d2daa0e09187d631615ed2a      |  Bin 0 -> 228 bytes
+ .../cd/34e291324ab1ace552d27bda128fbe28ba559d      |  Bin 0 -> 173 bytes
+ .../ce/9b365b61c5312d50b8ae66ead994498f2f9bfb      |  Bin 0 -> 2879 bytes
+ .../d6/8f478b1ea27858655e6e477551b10c04aa03eb      |  Bin 0 -> 428 bytes
+ .../d7/4322d735ea50a358e667093ca7de13e5a9eb45      |  Bin 0 -> 408046 bytes
+ .../e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391      |  Bin 0 -> 15 bytes
+ .../e6/f86f3b7f544caba423b095559beeaadb6f9072      |  Bin 0 -> 73 bytes
+ .../ea/2192bea10b8b89306e9dbdeea341a2ebda1c54      |  Bin 0 -> 639 bytes
+ .../f7/e031b035cc2bbb9367860653eef4af9476d324      |  Bin 0 -> 45 bytes
+ .../fb/2cfa2fe17cecbccf346ed45497c5e252d61a8a      |  Bin 0 -> 493117 bytes
+ usys/sysbuilder.git/refs/heads/master              |    2 +-
+ .../02/d4c47264d136f0abe9fbdc85ecf7970a6975e2      |  Bin 0 -> 6900586 bytes
+ .../16/37759a30ab0fb4d1af819cc0acebd995d44e9c      |  Bin 0 -> 47 bytes
+ .../49/9a017e8a0742a1a9e15f97cee52fc32e828974      |  Bin 0 -> 326 bytes
+ .../5e/b09c183aef53e9223600fb0aa8c850e0260d6d      |  Bin 0 -> 47 bytes
+ .../66/59b07abe64da17f58d82325516d3faea2c91ec      |  Bin 0 -> 182 bytes
+ .../8b/198efa79c170d5c9a746104e9180584399c076      |  Bin 0 -> 448 bytes
+ .../94/2bcca2980f7de518cb98c50ac9798d96d656e7      |  Bin 0 -> 178 bytes
+ .../b5/d2b17c07952403cc1199abc485a9ab76d00274      |  Bin 0 -> 201 bytes
+ .../dc/7b70382880b599aa935acf8817a9b1a835a040      |  Bin 0 -> 289 bytes
+ usys/usys.git/refs/heads/master                    |    2 +-
+ usys/utils.git/HEAD                                |    1 +
+ usys/utils.git/config                              |    5 +
+ usys/utils.git/description                         |    1 +
+ usys/utils.git/hooks/applypatch-msg.sample         |   15 ++
+ usys/utils.git/hooks/commit-msg.sample             |   24 +++
+ usys/utils.git/hooks/post-commit.sample            |    8 +
+ usys/utils.git/hooks/post-receive.sample           |   15 ++
+ usys/utils.git/hooks/post-update.sample            |    8 +
+ usys/utils.git/hooks/pre-applypatch.sample         |   14 ++
+ usys/utils.git/hooks/pre-commit.sample             |   46 ++++++
+ usys/utils.git/hooks/pre-rebase.sample             |  169 ++++++++++++++++++++
+ usys/utils.git/hooks/prepare-commit-msg.sample     |   36 ++++
+ usys/utils.git/hooks/update.sample                 |  128 +++++++++++++++
+ usys/utils.git/info/exclude                        |    6 +
+ .../0b/79bcdc41878ccbe427e7208e6d2ffc32677cee      |    2 +
+ .../12/e398c8ad58ec6ff00fa1e632036be1d5937c9e      |  Bin 0 -> 840475 bytes
+ .../1e/424dc039d12fc4f07c1767b537e8bd2112cdd0      |  Bin 0 -> 2562625 bytes
+ .../1f/2043db62b668551c11bc6d61e99ca46d95308b      |  Bin 0 -> 242185 bytes
+ .../49/71087bf34f3a9585fc8792b5ee7e35d64fa9d1      |  Bin 0 -> 400123 bytes
+ .../4b/6a45921b49ea79b96a8d86e51c6f8f4c768f3b      |  Bin 0 -> 679885 bytes
+ .../50/027e537696ce74c679d08fa592f85c4fb42316      |  Bin 0 -> 934565 bytes
+ .../52/7a5ca10789a3fe93f225518c3b37c1929dd96a      |  Bin 0 -> 135785 bytes
+ .../61/727c530d9b95b209c3bf2b93354de11d68f2b7      |  Bin 0 -> 36 bytes
+ .../63/4906a66ef49b5e167b1d3c7eb0662299f84afa      |  Bin 0 -> 144 bytes
+ .../66/e175878bd7995b5894cdcb7f46ed432e98e98c      |  Bin 0 -> 1949971 bytes
+ .../88/e4f0730ddf620d5cdf5e303fb321eca598c49f      |  Bin 0 -> 1041602 bytes
+ .../8e/d1b10f2e448f0bd2f7113a3464ddd2cdfa2d58      |  Bin 0 -> 152422 bytes
+ .../93/754e46a99bb89258e964674fb675d11a29387e      |  Bin 0 -> 32520 bytes
+ .../9b/6c026f2cb6a3048576f2a101be7cc30d50af75      |  Bin 0 -> 6234540 bytes
+ .../9c/36d68179202111d8476dbb99570843c393ab2b      |  Bin 0 -> 95596 bytes
+ .../b6/c0df85e0bc0bae032e878a7712af909bfa932d      |  Bin 0 -> 2053392 bytes
+ .../bf/065f1f6a6cfe48c20ce9eed5bd6ba94a3df80f      |  Bin 0 -> 869340 bytes
+ .../d7/ace47fe01faa316a184fa53ad8f9a2c666c8aa      |  Bin 0 -> 68991 bytes
+ .../da/442f296adf42c7988841eb76982e0a1ce0f72d      |  Bin 0 -> 84 bytes
+ .../f3/c674ab6e05d26852a6cee85e323abb9f7fbf1c      |  Bin 0 -> 768 bytes
+ .../f5/dfe53b7cf292d7c8bbb676e859ee2e2263f1af      |  Bin 0 -> 34142 bytes
+ .../f9/6f43837629980cf7ac64f2ea523ac1620acaf4      |  Bin 0 -> 608955 bytes
+ usys/utils.git/refs/heads/master                   |    1 +
+ 177 files changed, 1049 insertions(+), 20 deletions(-)
+
+commit d045f9f76db0a4a651902cef6e7d4827d2ee4e4f
+Author: Eotect Nahn <eotect@gmail.com>
+Date:   Sun Feb 20 17:40:35 2011 +0800
+
+    Update loseplace/mini, loseplace/core, firefox and gm-scripts.
+
+ README                                             |    7 +++++--
+ .../03/d358046d38d7565d5f86b4418633d6162b7ff3      |  Bin 0 -> 204 bytes
+ .../12/b25a71a7f7757f948f44b110f27d72a4449295      |  Bin 0 -> 105 bytes
+ .../20/8c6917d94451ea5c7bafe6ad366449b014973d      |  Bin 0 -> 204 bytes
+ .../62/7d2189acf76a5fcac231fba0793c8d6bdae516      |  Bin 0 -> 105 bytes
+ .../8b/c912f2c108f80642cc1840e0fd895517c9cb7c      |    3 +++
+ .../95/fc860231a1daa797f462daa335e6099c6519d3      |  Bin 0 -> 70 bytes
+ .../c2/e1fcdc577183e7d6dbf992775474692df9a963      |    1 +
+ .../cc/0f45bf226f4502cb480b317e070b0c0a9cdf96      |  Bin 0 -> 121 bytes
+ .../d2/99c6feb379a0f98305d2b7d735eae1c91e6d41      |    2 ++
+ .../ed/99c8eb689f707ba507b83ba77102c86aedbbfb      |  Bin 0 -> 70 bytes
+ loseplace/core.git/refs/heads/master               |    2 +-
+ .../01/b90d9d71b931b2c23136f66f34768d77c254f1      |  Bin 0 -> 50 bytes
+ .../1f/55babf49b55943b2c8d8879fa119f8c90b1a6a      |  Bin 0 -> 53 bytes
+ .../4a/30e11e7bc74d110b4d3a7b049219187fa0a0c2      |  Bin 0 -> 155 bytes
+ .../88/c22a6c41a0c4494df1be278e3c1a7c89f51292      |  Bin 0 -> 162 bytes
+ .../da/f6b6b3bc9d1316fe841924650a26bf5290dbd3      |  Bin 0 -> 49 bytes
+ loseplace/mini.git/refs/heads/master               |    2 +-
+ .../29/bb3a4dbf34b7a6bdb7a7251a301ff1220c23d4      |  Bin 0 -> 16019 bytes
+ .../3c/5aa8d40d655a501a073db501caa4db5bc26f55      |  Bin 0 -> 2016 bytes
+ .../5e/a4102491adecd494820e5b6f70842707276fcc      |    3 +++
+ .../90/596ef6a4342643367a3c8b065b1ae6b20067b4      |  Bin 0 -> 919 bytes
+ .../a0/5436fa6b7f5571aee0315500f4aabbb0368ce7      |  Bin 0 -> 689 bytes
+ .../a9/0e53a26f167d4685ac31f2c210bb8fff3887e3      |  Bin 0 -> 130638 bytes
+ .../c9/09be0542b3dfeebb650159bd85afcb1e46c448      |  Bin 0 -> 57 bytes
+ profiles/firefox.git/refs/heads/master             |    2 +-
+ .../firefox.git/refs/heads/master (myplace-win7)   |    1 -
+ .../0e/6fd1d72793fb8f4ec1677f9878652ecb027bc7      |  Bin 0 -> 589 bytes
+ .../63/d12547c0a9cd5a037851393caf3c3a753ea13a      |  Bin 0 -> 164 bytes
+ .../77/2b7d74b8b9df1a80ba9771de077f93443ef2fd      |  Bin 0 -> 1325 bytes
+ profiles/gm-scripts.git/refs/heads/master          |    1 +
+ .../reposman.git/refs/heads/master (myplace-win7)  |    1 -
+ 32 files changed, 18 insertions(+), 7 deletions(-)
+
+commit b744d5dc8384d820c88870c34617b236fcfaf2f4
+Author: Eotect Nahn <eotect@gmail.com>
+Date:   Sat Feb 19 13:44:31 2011 +0800
+
+    Add supports/Users.txt.
+
+ supports/Users.txt                                 |   22 ++++++++++++++++++++
+ ...50\345\206\214\345\267\245\345\205\267 3.0.exe" |  Bin 0 -> 326144 bytes
+ 2 files changed, 22 insertions(+), 0 deletions(-)
+
+commit 7c505c55ee67d13862c6cd55cb1f0eac981b2f1f
+Author: Eotect Nahn <eotect@gmail.com>
+Date:   Sat Feb 19 13:13:41 2011 +0800
+
+    Update vcsplace/ws.git.
+
+ README                                             |    2 +-
+ .../3a/988b64e436af8dd6fd6d2fd0fd2ef6fe438881      |  Bin 0 -> 216 bytes
+ .../3e/a0ed3ca7ff40092a5374fa59cd862608285d57      |    2 ++
+ .../ae/fd6ec8ae20be9cfbdb8f1a07b1138ae6304523      |  Bin 0 -> 337 bytes
+ vcsplace/ws.git/refs/heads/master                  |    2 +-
+ 5 files changed, 4 insertions(+), 2 deletions(-)
+
+commit eb71892495efd04c2a77fbaeabd7c1a02b840ac3
+Author: Eotect Nahn <eotect@gmail.com>
+Date:   Sat Feb 19 03:07:38 2011 +0800
+
+    Update "git-repos-commit".
+
+ git-repos-commit |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+commit 5a47c941f405e5424e21616cbb599e6570709ee9
+Author: Eotect Nahn <eotect@gmail.com>
+Date:   Sat Feb 19 03:02:00 2011 +0800
+
+    Update scripts. Fix missing "refs" directories.
+
+ README                                             |  230 ++++++++++++++++++++
+ git-repos-commit                                   |    4 +-
+ git-repos-log                                      |    4 +-
+ loseplace/losebox.git/refs/heads/master            |    1 +
+ loseplace/losebox.git/refs/remotes/origin/master   |    1 +
+ vcsplace/gsvn-bundle.git/HEAD                      |    1 -
+ vcsplace/gsvn-bundle.git/config                    |   11 -
+ vcsplace/gsvn-bundle.git/description               |    1 -
+ .../gsvn-bundle.git/hooks/applypatch-msg.sample    |   15 --
+ vcsplace/gsvn-bundle.git/hooks/commit-msg.sample   |   24 --
+ vcsplace/gsvn-bundle.git/hooks/post-commit.sample  |    8 -
+ vcsplace/gsvn-bundle.git/hooks/post-receive.sample |   15 --
+ vcsplace/gsvn-bundle.git/hooks/post-update.sample  |    8 -
+ .../gsvn-bundle.git/hooks/pre-applypatch.sample    |   14 --
+ vcsplace/gsvn-bundle.git/hooks/pre-commit.sample   |   46 ----
+ vcsplace/gsvn-bundle.git/hooks/pre-rebase.sample   |  169 --------------
+ .../hooks/prepare-commit-msg.sample                |   36 ---
+ vcsplace/gsvn-bundle.git/hooks/update.sample       |  128 -----------
+ vcsplace/gsvn-bundle.git/info/exclude              |    6 -
+ 19 files changed, 236 insertions(+), 486 deletions(-)
+
+commit ba912154a3e04e4a9e6a5fc0ea1ffb7948215bf4
+Author: Eotect Nahn <eotect@gmail.com>
+Date:   Fri Feb 18 23:56:51 2011 +0800
+
+    Add repos related git scripts.
+    
+    REPOS STATUS: (2011/2/18)
+    
+    badluck/badluck.git:
+    da4e10151f7bcda733c89d84bffad9797af2d0e7 update README
+    d9f1b02493daa03125aa8a2496f329d8746152d0 initial import
+    
+    codebase/c.git:
+    06342a0d8f70bfc9d67f6aeedff26739ba1a0734 [c] initial commit
+    
+    codebase/cpp.git:
+    b91bc39c541d05c36bfb6210f9908a24867d5ca5 [cpp] initial commit
+    
+    codebase/devcpp.git:
+    602e0c1e211c58a87fc00835cf4ceec24232ce9b Initial commit.
+    
+    codebase/eclipse.git:
+    0a5c272541b6a6b080d3cd17109c990186a153ec Initial commit.
+    
+    codebase/freebasic.git:
+    8548f1e72ad0eac797f6d57f207f8676e46da47d update git config files, add README
+    bf33816478dab95967aaf37d69309165ccf6db54 update gitconfig, README
+    
+    codebase/makefiles.git:
+    d07f2a92fe9ea3c02f942549b4661eb0211d4513 Initial commit
+    
+    codebase/vb6.git:
+    001a04065c2a2ff24bc611fcc47c3d53c61665bf Fix files mode.
+    8343d022b083a32c1e8474475ad7b5465cb511d2 cleanup, update sslibExplorer, add Fac
+    
+    codebase/vc6.git:
+    c5d3da68f6be92d093668c84473aa22b94e6bddc Initial commit.
+    
+    codebase/vsnet.git:
+    9ca551b6428cd76feaec7bf5c04fb27080551e53 Initial commit.
+    
+    drawings.git:
+    63ff6562d6256c12c16865357f2dbfc1962d1820 initial commit
+    
+    ebooks.git:
+    a8c3d039b97c964ee519867a7f16eb64ea87d562 added .repos, config file for gsvn-init-repo
+    9b3565870bc175252db9b29c9aa8110a55c298e1 update README
+    
+    loseplace/core.git:
+    fa69db976e8ebada5799cae59affb1fab0d785b2 Add .gitignore.
+    42508e643dd46b9581972568bc400c9d9345df45 Update shell.bat and other paths.
+    
+    loseplace/losebox.git:
+    
+    loseplace/loseplace.git:
+    8285af61cdef86f319c784044bc2ea30fd3df6dd Update .gitignore, Add appdata/putty.
+    074c0a2c782597773f1d04f7582b8f98df481bc9 Update cmd/firefox.bat
+    
+    loseplace/mini.git:
+    71014e9d5d2009e4b00e9342b252546edc7db27d Initial commit.
+    
+    loseplace/thinapp.git:
+    e61ea1b39752be46c18e474e75185f470dce1836 Initial commit.
+    
+    nightgun/nightgun.git:
+    7e10000b376b17e70d598fa84c8630e08f5c0350 added .repos, config file for gsvn-init-repo
+    7361bff89b5cbab2e22d4be3de096b1b50e7934c update README
+    
+    profiles/avatars.git:
+    c1405c8ac631728b93b881452119c63e265463fb Update README again.
+    033a0b58e8241d1e31a05f1e9ebb1ae96ffeb458 Update README.
+    
+    profiles/babebase.git:
+    2b51f8e6a159a4b8640866ab37f93152d28fa2b8 Reformat database BABES.
+    1adcd8ac456a64989d8b93559b25e100c409db2e Add .gitignore
+    
+    profiles/firefox.git:
+    eb841a4cee080b8869947be3ebc327816d28eb9a xiaoranzzz: Add and remove extensions.
+    c84585280607a3c4c236e4bbdf67cca7de9acf5e Update extensions.* files.
+    
+    profiles/gm-scripts.git:
+    b51a4ffbe10d601bc4ca8a007c126071825de147 updated "searchdirectly.user.js"
+    e8492490276fbdf07d893376a1933bcd8b22d577 merged old archive from workspace reversion r137
+    
+    profiles/homebase.git:
+    c7173085e840535e228718fbcd7fd66fbeaee9f6 bashrc: Add PERL and SHELLSCRIPT to $PATH.
+    e18b229baa1a9631739e61d60b737ad895a8a30f Update bashrc.
+    
+    profiles/private.git:
+    cc7b3068e7d612d7497a0e17245297cb9631894d Add ssh id.
+    
+    scripts/batch.git:
+    cb455189784f20cbd7a35ee819036aed024ce293 initial commit
+    3de553c29652604f3e4fa12e36f4852d2d8d5c42 initial directory layout
+    
+    scripts/libmyplace-perl.git:
+    53728ba33a0d130ab7734dcbde909c47a58afeb1 Add IniExt.
+    b850b340944f68cb31665be85ed4c5c785072de4 added Daum::Search
+    
+    scripts/logo.git:
+    cf35ee3142a44b5079c105ac58d048d5f535bfd3 Initial commit
+    
+    scripts/lua.git:
+    889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
+    
+    scripts/perl.git:
+    23cb5c5a5bf5d0af256e1a3cf3463e4a09787176 Update git-push-remote, no fatal while pusing failed
+    3bd26400af8dbf51569283cfac68c35b3c871f6b Fix "editpipe".
+    
+    scripts/sh.git:
+    d5929dc50724361ee1d15b2fe41c052cd5899aa4 Add script chmod_reset.
+    dab8b4b5396eb0048dd3f03211c76beaa915f50c updated script "myphone"
+    
+    scripts/wscript.git:
+    6602d3253fc27420cad404af63c673bdc0ed232e Initial commit.
+    
+    texts/notes.git:
+    1a2b3fa9bad83e3c984864e9a1e528e88c780577 Initial commit.
+    
+    texts/texts.git:
+    3079105c63ac41eede85985ad1ac67970fe8fcbb added .repos, config file for gsvn-init-repo
+    4d5dc4c97e52f025c81765d0c7791ed8f1ddb57a update README
+    
+    texts/webpages.git:
+    06c27bb1c793a2fe4420c61913062a6f6ac631f6 created index page
+    fc88a9eff41b51606dc026f0ee35455888968ee3 initial directory structure
+    
+    texts/www.git:
+    ed747f127f3a3846da268ce87967dee494c6f422 initial commit
+    
+    usys/sysbuilder.git:
+    bfa3c2b56dbbaede3b0030599d3b20560f400e56 Initial commit.
+    
+    usys/toolbox.git:
+    6afcdd7cb50d664be031f7555463d2decec9a9f3 Add mbr tools.
+    5d61b650dcc0db9308930b27f3dbece45d49c07a Initial commit.
+    
+    usys/usys.git:
+    e80887d2670b2bc26516daf9938e7d4b830c0a5d Compress bootdisk images, update menus.
+    ba75ebeccede896b584df34bd9fda3b5ae6dc6df Update grub4dos, menus. Add hiren's bootcd v13.1.
+    
+    usys/xrdos.git:
+    80069ca1ea2f44758b913443251e3a1ba716cdbc Initial commit.
+    
+    utils.git:
+    60264daa78d4b84b626a4e92602f5f41563ead94 [marksix] added script for downloading data pages
+    27eefd8892e387bba32c7b07a5f52a4c958416c5 added .repos, config file for gsvn-init-repo
+    
+    vcsplace/github-sync.git:
+    49001f10f3c909e93282a464685b51038cc04704 [update_repolist.pl] added "vcsplace" as default project
+    45ed4d61ba1b5b4a8e65ec39292b94624e55f7ee github-sync initial commit
+    
+    vcsplace/gsbridge.git:
+    b097d64eb74d7e95ec695764f2a48f40b5c8bf24 added project entries for vcsplace and github-sync
+    0fbe857b5875e64c28e4d1b0294b717e776d6a70 gsbridge: fixed pulling new projects
+    
+    vcsplace/gsvn-bundle.git:
+    
+    vcsplace/reposman.git:
+    b7b142c65ba56a90467d3133e8fb4fb6417753cb Add missing "lib/MyPlace/IniExt.pm".
+    4c31b34e4f35025ab3d703192550ec117c8cd6e6 projects.workspace: Add loseplace/mini and loseplace/core.
+    
+    vcsplace/ws.git:
+    3268ae6e9f69be618b9efa45469986493891a3e7 Update checkout scripts.
+    7c121497e795485df4f3b6c0aa0d1adba11e66de Add script "checkout.win".
+    
+    webdev/css.git:
+    bbda354bc2bcf1407f5c547915c6f3a9786388b1 Initial commit
+    
+    webdev/htmlscripts.git:
+    0c9778ad58a99bd2725e81dcd539e485d5d69987 Initial commit.
+    
+    webdev/templates.git:
+    d66e448f79afd9bfa28bf46ec9e2305cd296845c Initial commit.
+    
+    websaver/websaver2.git:
+    e870d3a167bfc959c9cc336ef2d5727cd679923a Update extension informations.
+    6591ab88f6ae6b96164d4af800cfe18c4ad52e65 fixed bug found from cataedit3.js,function addCatalog(), which open an old catalog editor instead of the new
+
+ git-repos-commit |    4 ++
+ git-repos-log    |   92 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 96 insertions(+), 0 deletions(-)
+
+commit 3a8d34ea08643ed4f2d4b4127cfc7ecbe5bed678
+Author: Eotect Nahn <eotect@gmail.com>
+Date:   Fri Feb 18 23:18:38 2011 +0800
+
+    REPOS Initial import.
+
+ .PROJECTS                                          |    1 +
+ .gitignore                                         |    4 +
+ badluck/badluck.git/HEAD                           |    1 +
+ badluck/badluck.git/config                         |   11 ++
+ badluck/badluck.git/description                    |    1 +
+ badluck/badluck.git/hooks/applypatch-msg.sample    |   15 ++
+ badluck/badluck.git/hooks/commit-msg.sample        |   24 +++
+ badluck/badluck.git/hooks/post-commit.sample       |    8 +
+ badluck/badluck.git/hooks/post-receive.sample      |   15 ++
+ badluck/badluck.git/hooks/post-update.sample       |    8 +
+ badluck/badluck.git/hooks/pre-applypatch.sample    |   14 ++
+ badluck/badluck.git/hooks/pre-commit.sample        |   46 ++++++
+ badluck/badluck.git/hooks/pre-rebase.sample        |  169 ++++++++++++++++++++
+ .../badluck.git/hooks/prepare-commit-msg.sample    |   36 ++++
+ badluck/badluck.git/hooks/update.sample            |  128 +++++++++++++++
+ badluck/badluck.git/info/exclude                   |    6 +
+ ...ck-ca79557ab3f6443ea240137fb8834ba51cb095ae.idx |  Bin 0 -> 8380 bytes
+ ...k-ca79557ab3f6443ea240137fb8834ba51cb095ae.pack |  Bin 0 -> 1443672 bytes
+ badluck/badluck.git/packed-refs                    |    2 +
+ codebase/c.git/HEAD                                |    1 +
+ codebase/c.git/config                              |   11 ++
+ codebase/c.git/description                         |    1 +
+ codebase/c.git/hooks/applypatch-msg.sample         |   15 ++
+ codebase/c.git/hooks/commit-msg.sample             |   24 +++
+ codebase/c.git/hooks/post-commit.sample            |    8 +
+ codebase/c.git/hooks/post-receive.sample           |   15 ++
+ codebase/c.git/hooks/post-update.sample            |    8 +
+ codebase/c.git/hooks/pre-applypatch.sample         |   14 ++
+ codebase/c.git/hooks/pre-commit.sample             |   46 ++++++
+ codebase/c.git/hooks/pre-rebase.sample             |  169 ++++++++++++++++++++
+ codebase/c.git/hooks/prepare-commit-msg.sample     |   36 ++++
+ codebase/c.git/hooks/update.sample                 |  128 +++++++++++++++
+ codebase/c.git/info/exclude                        |    6 +
+ ...ck-bd7866753cf3ab58427a90186ce6ebce1bb92ec7.idx |  Bin 0 -> 18152 bytes
+ ...k-bd7866753cf3ab58427a90186ce6ebce1bb92ec7.pack |  Bin 0 -> 823498 bytes
+ codebase/c.git/packed-refs                         |    2 +
+ codebase/cpp.git/HEAD                              |    1 +
+ codebase/cpp.git/config                            |   11 ++
+ codebase/cpp.git/description                       |    1 +
+ codebase/cpp.git/hooks/applypatch-msg.sample       |   15 ++
+ codebase/cpp.git/hooks/commit-msg.sample           |   24 +++
+ codebase/cpp.git/hooks/post-commit.sample          |    8 +
+ codebase/cpp.git/hooks/post-receive.sample         |   15 ++
+ codebase/cpp.git/hooks/post-update.sample          |    8 +
+ codebase/cpp.git/hooks/pre-applypatch.sample       |   14 ++
+ codebase/cpp.git/hooks/pre-commit.sample           |   46 ++++++
+ codebase/cpp.git/hooks/pre-rebase.sample           |  169 ++++++++++++++++++++
+ codebase/cpp.git/hooks/prepare-commit-msg.sample   |   36 ++++
+ codebase/cpp.git/hooks/update.sample               |  128 +++++++++++++++
+ codebase/cpp.git/info/exclude                      |    6 +
+ ...ck-fd042a81393348f0798e2bf563a547ee97534ae6.idx |  Bin 0 -> 2696 bytes
+ ...k-fd042a81393348f0798e2bf563a547ee97534ae6.pack |  Bin 0 -> 16176 bytes
+ codebase/cpp.git/packed-refs                       |    2 +
+ codebase/devcpp.git/HEAD                           |    1 +
+ codebase/devcpp.git/config                         |   11 ++
+ codebase/devcpp.git/description                    |    1 +
+ codebase/devcpp.git/hooks/applypatch-msg.sample    |   15 ++
+ codebase/devcpp.git/hooks/commit-msg.sample        |   24 +++
+ codebase/devcpp.git/hooks/post-commit.sample       |    8 +
+ codebase/devcpp.git/hooks/post-receive.sample      |   15 ++
+ codebase/devcpp.git/hooks/post-update.sample       |    8 +
+ codebase/devcpp.git/hooks/pre-applypatch.sample    |   14 ++
+ codebase/devcpp.git/hooks/pre-commit.sample        |   46 ++++++
+ codebase/devcpp.git/hooks/pre-rebase.sample        |  169 ++++++++++++++++++++
+ .../devcpp.git/hooks/prepare-commit-msg.sample     |   36 ++++
+ codebase/devcpp.git/hooks/update.sample            |  128 +++++++++++++++
+ codebase/devcpp.git/info/exclude                   |    6 +
+ ...ck-750c7315e879e8aeec2c25a1e2a6ad0b96d76a7d.idx |  Bin 0 -> 1548 bytes
+ ...k-750c7315e879e8aeec2c25a1e2a6ad0b96d76a7d.pack |  Bin 0 -> 3608 bytes
+ codebase/devcpp.git/packed-refs                    |    2 +
+ codebase/eclipse.git/HEAD                          |    1 +
+ codebase/eclipse.git/config                        |   11 ++
+ codebase/eclipse.git/description                   |    1 +
+ codebase/eclipse.git/hooks/applypatch-msg.sample   |   15 ++
+ codebase/eclipse.git/hooks/commit-msg.sample       |   24 +++
+ codebase/eclipse.git/hooks/post-commit.sample      |    8 +
+ codebase/eclipse.git/hooks/post-receive.sample     |   15 ++
+ codebase/eclipse.git/hooks/post-update.sample      |    8 +
+ codebase/eclipse.git/hooks/pre-applypatch.sample   |   14 ++
+ codebase/eclipse.git/hooks/pre-commit.sample       |   46 ++++++
+ codebase/eclipse.git/hooks/pre-rebase.sample       |  169 ++++++++++++++++++++
+ .../eclipse.git/hooks/prepare-commit-msg.sample    |   36 ++++
+ codebase/eclipse.git/hooks/update.sample           |  128 +++++++++++++++
+ codebase/eclipse.git/info/exclude                  |    6 +
+ ...ck-89f4d9742c77f0ff8271028c619db9c91947dcb1.idx |  Bin 0 -> 6336 bytes
+ ...k-89f4d9742c77f0ff8271028c619db9c91947dcb1.pack |  Bin 0 -> 155758 bytes
+ codebase/eclipse.git/packed-refs                   |    2 +
+ codebase/freebasic.git/HEAD                        |    1 +
+ codebase/freebasic.git/config                      |   11 ++
+ codebase/freebasic.git/description                 |    1 +
+ codebase/freebasic.git/hooks/applypatch-msg.sample |   15 ++
+ codebase/freebasic.git/hooks/commit-msg.sample     |   24 +++
+ codebase/freebasic.git/hooks/post-commit.sample    |    8 +
+ codebase/freebasic.git/hooks/post-receive.sample   |   15 ++
+ codebase/freebasic.git/hooks/post-update.sample    |    8 +
+ codebase/freebasic.git/hooks/pre-applypatch.sample |   14 ++
+ codebase/freebasic.git/hooks/pre-commit.sample     |   46 ++++++
+ codebase/freebasic.git/hooks/pre-rebase.sample     |  169 ++++++++++++++++++++
+ .../freebasic.git/hooks/prepare-commit-msg.sample  |   36 ++++
+ codebase/freebasic.git/hooks/update.sample         |  128 +++++++++++++++
+ codebase/freebasic.git/info/exclude                |    6 +
+ ...ck-33af0181e1c8012641a0bb2261ebb0b969890051.idx |  Bin 0 -> 3368 bytes
+ ...k-33af0181e1c8012641a0bb2261ebb0b969890051.pack |  Bin 0 -> 81656 bytes
+ codebase/freebasic.git/packed-refs                 |    2 +
+ codebase/makefiles.git/HEAD                        |    1 +
+ codebase/makefiles.git/config                      |   11 ++
+ codebase/makefiles.git/description                 |    1 +
+ codebase/makefiles.git/hooks/applypatch-msg.sample |   15 ++
+ codebase/makefiles.git/hooks/commit-msg.sample     |   24 +++
+ codebase/makefiles.git/hooks/post-commit.sample    |    8 +
+ codebase/makefiles.git/hooks/post-receive.sample   |   15 ++
+ codebase/makefiles.git/hooks/post-update.sample    |    8 +
+ codebase/makefiles.git/hooks/pre-applypatch.sample |   14 ++
+ codebase/makefiles.git/hooks/pre-commit.sample     |   46 ++++++
+ codebase/makefiles.git/hooks/pre-rebase.sample     |  169 ++++++++++++++++++++
+ .../makefiles.git/hooks/prepare-commit-msg.sample  |   36 ++++
+ codebase/makefiles.git/hooks/update.sample         |  128 +++++++++++++++
+ codebase/makefiles.git/info/exclude                |    6 +
+ ...ck-9e374e8fe2d05acccdc9014fa46a24d8e558160f.idx |  Bin 0 -> 1268 bytes
+ ...k-9e374e8fe2d05acccdc9014fa46a24d8e558160f.pack |  Bin 0 -> 4282 bytes
+ codebase/makefiles.git/packed-refs                 |    2 +
+ codebase/vb6.git/HEAD                              |    1 +
+ codebase/vb6.git/config                            |   11 ++
+ codebase/vb6.git/description                       |    1 +
+ codebase/vb6.git/hooks/applypatch-msg.sample       |   15 ++
+ codebase/vb6.git/hooks/commit-msg.sample           |   24 +++
+ codebase/vb6.git/hooks/post-commit.sample          |    8 +
+ codebase/vb6.git/hooks/post-receive.sample         |   15 ++
+ codebase/vb6.git/hooks/post-update.sample          |    8 +
+ codebase/vb6.git/hooks/pre-applypatch.sample       |   14 ++
+ codebase/vb6.git/hooks/pre-commit.sample           |   46 ++++++
+ codebase/vb6.git/hooks/pre-rebase.sample           |  169 ++++++++++++++++++++
+ codebase/vb6.git/hooks/prepare-commit-msg.sample   |   36 ++++
+ codebase/vb6.git/hooks/update.sample               |  128 +++++++++++++++
+ codebase/vb6.git/info/exclude                      |    6 +
+ .../00/112abda4efd2e0af75a0dcc836b07622191a6d      |  Bin 0 -> 50 bytes
+ .../00/1a04065c2a2ff24bc611fcc47c3d53c61665bf      |    2 +
+ .../01/426368d3ea60598c2855643de39c43c874c40e      |  Bin 0 -> 319 bytes
+ .../01/8a3f46017e31c3db6ae360ad28ea389c8779b4      |  Bin 0 -> 706 bytes
+ .../02/f1664e423a036609b426d76f8b2d6c6fbaf1e7      |  Bin 0 -> 231 bytes
+ .../04/6d87f9e2e94ec9a3d31cad9d91d6659a0f57d2      |  Bin 0 -> 236 bytes
+ .../05/8816c7ec6a738c87d2be18b33972e140f05ec3      |  Bin 0 -> 1328 bytes
+ .../0c/91490ceb8bc050c2c0e5a56fa4421cfc57a5e6      |  Bin 0 -> 451 bytes
+ .../0f/cf42bff073fa903cf835ebf9ec17e1f76b6bfa      |  Bin 0 -> 49 bytes
+ .../10/bb10e31c56dadd540feb4067b560ec9c2601cf      |  Bin 0 -> 235 bytes
+ .../11/4364509308dcd4e4b5e20de89b7b1e8c35b8d8      |  Bin 0 -> 149 bytes
+ .../13/b0f3614efa6365a5b99304e68fcea134a991bd      |  Bin 0 -> 250 bytes
+ .../15/2d8d4807a2c59aa82bb19e697027d6e6ec1f87      |  Bin 0 -> 203 bytes
+ .../15/5a03c5963ddcdbc515511cab850db2191b6f5e      |  Bin 0 -> 178 bytes
+ .../16/03863c5f66022a0937803ead7ebd90a35897e3      |  Bin 0 -> 112 bytes
+ .../17/d2bcfa0fe89018122ec7c7cd69d59f33f89a15      |  Bin 0 -> 672 bytes
+ .../17/da5916a51c354bf84bd97173e68209b68502bc      |  Bin 0 -> 135 bytes
+ .../1b/25683c7c3bc17d0b450b42f88024b14f695c3d      |  Bin 0 -> 3058 bytes
+ .../1b/54306b0bae0631e5e37d4d8cdefd597bf3e527      |  Bin 0 -> 308 bytes
+ .../1c/aea7a7bada65f79cd4778122bc8d2374e9dd1f      |  Bin 0 -> 240 bytes
+ .../1f/8653444bc2d45753f43677b303291a401e7909      |  Bin 0 -> 381 bytes
+ .../20/66ca600cb0eb5b2223117eec6dfbe4fbf4851b      |    1 +
+ .../23/145dceba8b12b14e7766110ba0b3988646f9dd      |    2 +
+ .../23/60fc49cebf157ebaeccfa675b155af934c1d2a      |  Bin 0 -> 119 bytes
+ .../25/cf8b47afd637f0a70f8ec2a52b0b00bd3da439      |  Bin 0 -> 189 bytes
+ .../26/fa48d687b846fd9f9344cce30b394a50ea85f5      |  Bin 0 -> 378 bytes
+ .../27/3294822790c43910af5456a29b0ad4b58d981b      |  Bin 0 -> 199 bytes
+ .../27/6d534ca491e4249623afaa67954b8f0300d4d0      |  Bin 0 -> 396 bytes
+ .../28/3e9f6d7e602e46e887e7f455a64aeb49bf4b20      |    3 +
+ .../2e/72c8799e1beae1cdeff74b96fa7c004734ae42      |  Bin 0 -> 305 bytes
+ .../33/5448b8764fbf8035c75ba2ac56a05625aa0c35      |  Bin 0 -> 2803 bytes
+ .../33/7407f0ce43d6850068553bfeda35b23d3c9d50      |  Bin 0 -> 811 bytes
+ .../34/6105daab1d35ccc4670d4edb52dc671ff037e6      |  Bin 0 -> 46 bytes
+ .../35/ec40a6cf8484ca44607c8dee67da0498dca524      |  Bin 0 -> 466 bytes
+ .../36/86dc347b6e57845c236404b8d9710023b15dac      |  Bin 0 -> 194 bytes
+ .../39/9ac82f9a01e8705da0a7655d3801053316c9ea      |  Bin 0 -> 1523 bytes
+ .../39/b62adbf26c8b5752ebd4697c23ba16bbc445cf      |  Bin 0 -> 1409 bytes
+ .../3b/f6914a3cf67b3e49faac6ccc3a74172557d594      |  Bin 0 -> 1447 bytes
+ .../3d/24570a1ef0fa9d8d019f4d00d97dcf283cbc29      |  Bin 0 -> 209 bytes
+ .../40/51a34c103f7380457a5ffa96af1ea85e1c6d0b      |  Bin 0 -> 719 bytes
+ .../43/8de57da4a54a5309bef3c03f5b88c07e19093f      |  Bin 0 -> 192 bytes
+ .../43/d3fe661cd8abc1b77e82097173e64b099c2bd4      |  Bin 0 -> 203 bytes
+ .../46/63363b7a037f08d76adf5cf44628e4db8944a1      |  Bin 0 -> 82 bytes
+ .../4c/e73615d211203dae94853b719544f254a646b2      |  Bin 0 -> 146 bytes
+ .../4d/f0d86b63f64bad05c4d7dac00579c771dbc702      |  Bin 0 -> 254 bytes
+ .../50/6b5eb97de3a729e9907606d6c8af8cc9cfc3b8      |  Bin 0 -> 215 bytes
+ .../57/1d7d63da69a8ab7b583585f0e5f9c5b7759032      |  Bin 0 -> 239 bytes
+ .../59/5649a9e46f666096295b2ff6c1fdd8eb6ece47      |  Bin 0 -> 203 bytes
+ .../5f/94e60e8a4f866cfbd268efa6d159bfc5ca6c95      |  Bin 0 -> 120 bytes
+ .../60/407cc4c6581428185d8e486268948c79ce7984      |  Bin 0 -> 112 bytes
+ .../61/c3b4d79e6768f5d48db8a5a4c862f472dbda9b      |  Bin 0 -> 113 bytes
+ .../65/869bcd9bfaf7c8ac794526200ad937c967ec95      |  Bin 0 -> 154 bytes
+ .../66/876e8f218528df1dfbd2837e0efa4ffdd62591      |  Bin 0 -> 306 bytes
+ .../66/e0419b2997675aa0cdf36f10c179a48d05c907      |  Bin 0 -> 506 bytes
+ .../66/f2e64d5fc74e157b5a0076b368a93071963a8e      |  Bin 0 -> 254 bytes
+ .../67/4371b5a74b77da48ab1acde1a152106a81a111      |  Bin 0 -> 227 bytes
+ .../68/c72a3c5fe282e6d317dc3259b1eadce8f39471      |  Bin 0 -> 270 bytes
+ .../6b/0e160e2a6e1e3eb941fe3213cbe3926f769261      |  Bin 0 -> 171 bytes
+ .../6d/0295ce049669cf3506af240af1b3102c459967      |  Bin 0 -> 199 bytes
+ .../6d/eec28de3141d8a6efefec7d8e8cdae47f0ed33      |  Bin 0 -> 548 bytes
+ .../70/9fb514384caf603f9de52b42318b2c4b6a62be      |  Bin 0 -> 234 bytes
+ .../71/70f73292ffdce5768a8f09cf467f8ce51c7e71      |  Bin 0 -> 232 bytes
+ .../72/fd922d05f30b59da5a016f20dc5cffd782fc96      |  Bin 0 -> 227 bytes
+ .../74/24c6adce79c140a43eae2679525ebde52c1b3e      |  Bin 0 -> 359 bytes
+ .../75/8c194da5242310776387b8e5388a89d6100d66      |  Bin 0 -> 801 bytes
+ .../75/d9ed87750be53a4a80b0491eae227d92cb7789      |  Bin 0 -> 233 bytes
+ .../77/ffe6fa632907e9bbebf2af4d113f87b526ca92      |  Bin 0 -> 252 bytes
+ .../78/853d3513426ad6e70ddfa7806b60dd090dd8fd      |    1 +
+ .../79/6950b84f2999ef73703774f0ce8ab13c2bca30      |  Bin 0 -> 139 bytes
+ .../79/c10bcf5368f08b207a7fb49f8475a308fe1076      |  Bin 0 -> 135 bytes
+ .../7a/3eb37172b970cb2c52c97505830de07e750b2e      |  Bin 0 -> 410 bytes
+ .../7e/365ea3cb8ada3522195ec2b7c1b1bf41f7f270      |  Bin 0 -> 334 bytes
+ .../7f/be11b1ea32b86b5eed6688bedab7fd985e6435      |  Bin 0 -> 861 bytes
+ .../81/c01bfa960eb8383129d10c0b48a1f360487b91      |  Bin 0 -> 49 bytes
+ .../82/6dabc7714f45b136fdbdd1fc9867d3de7f2ce3      |  Bin 0 -> 137 bytes
+ .../83/58cd2a121f36535188f5171a6e72955813fd5c      |  Bin 0 -> 280 bytes
+ .../84/21ccb06cfc409ff6bb712f4ac97fe167e19878      |  Bin 0 -> 567 bytes
+ .../85/4130b1683741c6cd0c4503e8d40e17720d16e7      |  Bin 0 -> 603 bytes
+ .../85/9290287f9f35e9ab3d81deebddc6d4119b51df      |  Bin 0 -> 214 bytes
+ .../85/9a3e360276404bc3fb2188ea7d0d3c10a13286      |  Bin 0 -> 95 bytes
+ .../89/d5647191740f7aa58ce0b1c162d2192df5a7bf      |  Bin 0 -> 57 bytes
+ .../89/e8a8ca83b2facc89e83d2f16f69c19c5e39aee      |  Bin 0 -> 145 bytes
+ .../89/f94ce8dc2a4c448de752fcc05266e98d21ac8d      |  Bin 0 -> 48 bytes
+ .../8b/ae2ee6eb6b78061f10186c850897828eee8c28      |  Bin 0 -> 149 bytes
+ .../8b/fb218d38efcbdbfe428d69a87398e8ef116619      |  Bin 0 -> 683 bytes
+ .../8d/355a58dabd9e8705a499577b8644a3c8106299      |  Bin 0 -> 292 bytes
+ .../8e/d85faf7e1c845361a250ec29dc32c4f7b8d152      |  Bin 0 -> 166 bytes
+ .../90/f1a39373bd8a037bb7cd53b390bc4c69aca67e      |  Bin 0 -> 93 bytes
+ .../93/50a42bc0b94d4885488e6c29b56eb35f800f66      |  Bin 0 -> 152 bytes
+ .../95/8d61c2984ae42fc78f1759a1d3d123137cbe54      |  Bin 0 -> 92 bytes
+ .../98/083b43902fff01bd8c5bb72625e5f2b833ea0a      |  Bin 0 -> 442 bytes
+ .../98/1f326b48daa3926aabbb362b8570bb392c87d5      |  Bin 0 -> 216 bytes
+ .../98/5b8b06c66b9309a0402f321d6329b15d8ca3ff      |  Bin 0 -> 208 bytes
+ .../99/fed29dd3fce5ef058c263bf874115a350ea970      |  Bin 0 -> 87 bytes
+ .../9a/24175eff91d03e44cce74da34ab783f09f0787      |  Bin 0 -> 280 bytes
+ .../9c/5861d49ffd596c90255c7f54b101a1f07416a9      |  Bin 0 -> 154 bytes
+ .../a0/1c34c9a420d8dc1db2af49e2640d28cfb2811a      |  Bin 0 -> 723 bytes
+ .../a0/e669f5019777dbc7234aebc341e4b79090d514      |    2 +
+ .../a3/23f8c555c79df870053abe98b0047d43d265ae      |  Bin 0 -> 311 bytes
+ .../a6/4b1777969db01a5906b90bc819e187d54cae1f      |  Bin 0 -> 1213 bytes
+ .../aa/1f97836bc81dcf26c27686fe026d32a8d3a792      |  Bin 0 -> 112 bytes
+ .../aa/5124e1d24117d035c40fe1c169856e7a3fdb78      |  Bin 0 -> 130 bytes
+ .../ac/434380f81004c2548f5dcfbf23c191ac4b9dfa      |  Bin 0 -> 358 bytes
+ .../ae/3409b2729b95053dc1e9cbca574a8cd95841eb      |  Bin 0 -> 591 bytes
+ .../af/f368593055b5a96312a6f5794495037758ada7      |  Bin 0 -> 289 bytes
+ .../b0/4e1fba2439d49807237f7337db81a9005cdd99      |  Bin 0 -> 60 bytes
+ .../b0/c07e5ab9b5aebef8b99390d152a0255bbe8473      |  Bin 0 -> 574 bytes
+ .../b0/c5e0b3dcbb1405255927d2c9bf30a8a74c554b      |  Bin 0 -> 121 bytes
+ .../b1/5edc0040f21fa55544ce4931068106e1e1437a      |  Bin 0 -> 358 bytes
+ .../b3/ceffad3ac66d90d8e2e48cf504e183f523ce46      |  Bin 0 -> 735 bytes
+ .../b4/e493efb6c8006317d4557720cc870807de0dbe      |  Bin 0 -> 434 bytes
+ .../b8/39289933df38fd8e3db8cc2b22946fe6ad2ade      |  Bin 0 -> 185 bytes
+ .../b8/56308acf104b910f82be55ea0b372d9c2e6b18      |  Bin 0 -> 285 bytes
+ .../b9/258d05866120cc41a8218b3c243df241701558      |  Bin 0 -> 148 bytes
+ .../b9/fbe4955f233ed81bfc890709d286bbe43f617e      |  Bin 0 -> 1544 bytes
+ .../bb/1dec710a20ccc924f08b713bda489679e62e21      |  Bin 0 -> 368 bytes
+ .../bc/2233a0d73fa685c70098af20544d62397eb2f3      |  Bin 0 -> 649 bytes
+ .../be/a3b325a4a561c1ee893598e5a6b50371bd2085      |  Bin 0 -> 175 bytes
+ .../c0/1c7a3c8bdb3c08be5da50bb9dc8b01e3d2b5f2      |  Bin 0 -> 4171 bytes
+ .../c0/bed543554eb1bbbf5f572d12494404aa25a2ba      |  Bin 0 -> 602 bytes
+ .../c4/29eb3e3779687eda54fdd5318f1b2235707411      |  Bin 0 -> 179 bytes
+ .../c5/362dc82b7f9510e26868d4cc213f206976f6f7      |  Bin 0 -> 191 bytes
+ .../c9/24b79b59438bc8b471edc62ef90c03587467e5      |  Bin 0 -> 2872 bytes
+ .../c9/f8e19da035c0f9e943e76e08d54bcdc7495cac      |  Bin 0 -> 112 bytes
+ .../d7/a8cd523c2e64d8ddd8e674e69e08e9a68a8893      |  Bin 0 -> 728 bytes
+ .../d7/a9fa6b39864eb4a4245935b4333004f38a3618      |  Bin 0 -> 153 bytes
+ .../d7/fdc84e4442243a460a8f4d2d3cbe549060c1e8      |  Bin 0 -> 181 bytes
+ .../da/675b98b77f0e34cc23f2a564794da30c53702d      |  Bin 0 -> 149 bytes
+ .../df/0713a5c30f04c0953745b3f8fa99a3bc462527      |  Bin 0 -> 388 bytes
+ .../e0/4d227a6ac949b22b27d4ac240ad744df35d9a3      |  Bin 0 -> 112 bytes
+ .../e0/c5018bedbac7625b9883de57e9f5802e2d9c1a      |  Bin 0 -> 111 bytes
+ .../e3/93cdccf3fc1ae60f2258e35d13e025e88d1aa6      |  Bin 0 -> 56 bytes
+ .../e3/ec9081c585cec29fade7f5921005abafe4a5ea      |  Bin 0 -> 109 bytes
+ .../e5/72e9ec840bbec143fbdd40575c95593986a4df      |  Bin 0 -> 351 bytes
+ .../e6/9e60c1de13629f08de9f4fc94e9d34ea23eae0      |  Bin 0 -> 6475 bytes
+ .../e7/eb3a78517bac3cda318278999c9804edb632ba      |  Bin 0 -> 417 bytes
+ .../e9/6d6c5c54be74411d90484752effd322dbc2174      |  Bin 0 -> 259 bytes
+ .../eb/1dc019b7af78b52edd96c00daf0cfe65d73ca5      |  Bin 0 -> 228 bytes
+ .../eb/41fac7cc8fcefc4888f142a5cbb43e9c51a40b      |  Bin 0 -> 546 bytes
+ .../eb/6c844198b6d4fc07fac1021ad4ec18fc2e8f28      |  Bin 0 -> 292 bytes
+ .../ee/e5bb99e910cb27457427bfc27a84859f47608c      |    2 +
+ .../ef/59f1728bd21c96bdab1686892bfadd0fe3b6ee      |  Bin 0 -> 193 bytes
+ .../f1/a0efe5b6220306578b806e46f4913f6dc94fa2      |  Bin 0 -> 118 bytes
+ .../f2/88ec801c398c3324b918325143c99a0e9d8db9      |  Bin 0 -> 241 bytes
+ .../f3/b3e9b0a886169088949d20c01207fe29b6c28e      |  Bin 0 -> 251 bytes
+ .../f4/3235119d47079233ef0beb444a89dc5571b4af      |  Bin 0 -> 121 bytes
+ .../f8/1d848c5b6bb8b54a82156dc7840204ee88c225      |  Bin 0 -> 853 bytes
+ .../fa/e57e8f1c2d0ebfa57e37c132f529a18fcc2b38      |  Bin 0 -> 235 bytes
+ .../fb/1337e86c373c0b6793b9e7100b689c1a8bddf9      |  Bin 0 -> 5959 bytes
+ .../fb/66fb0bd88df52b6cb196814c0d3f47262b26ff      |  Bin 0 -> 239 bytes
+ .../fc/abab711ed3ecf67141ae819d35ac51165290dd      |  Bin 0 -> 285 bytes
+ .../fd/2405b17721ba6e8620476d82b4617161e4725e      |  Bin 0 -> 173 bytes
+ ...ck-22ba233a72405b50a2bfc72c105e4bddea05ca7e.idx |  Bin 0 -> 62784 bytes
+ ...k-22ba233a72405b50a2bfc72c105e4bddea05ca7e.pack |  Bin 0 -> 8735899 bytes
+ ...ck-4a22435b4710bca6938fff50abe9d8b66698d4e4.idx |  Bin 0 -> 62308 bytes
+ ...k-4a22435b4710bca6938fff50abe9d8b66698d4e4.pack |  Bin 0 -> 8730669 bytes
+ codebase/vb6.git/packed-refs                       |    2 +
+ codebase/vc6.git/HEAD                              |    1 +
+ codebase/vc6.git/config                            |   11 ++
+ codebase/vc6.git/description                       |    1 +
+ codebase/vc6.git/hooks/applypatch-msg.sample       |   15 ++
+ codebase/vc6.git/hooks/commit-msg.sample           |   24 +++
+ codebase/vc6.git/hooks/post-commit.sample          |    8 +
+ codebase/vc6.git/hooks/post-receive.sample         |   15 ++
+ codebase/vc6.git/hooks/post-update.sample          |    8 +
+ codebase/vc6.git/hooks/pre-applypatch.sample       |   14 ++
+ codebase/vc6.git/hooks/pre-commit.sample           |   46 ++++++
+ codebase/vc6.git/hooks/pre-rebase.sample           |  169 ++++++++++++++++++++
+ codebase/vc6.git/hooks/prepare-commit-msg.sample   |   36 ++++
+ codebase/vc6.git/hooks/update.sample               |  128 +++++++++++++++
+ codebase/vc6.git/info/exclude                      |    6 +
+ ...ck-f36ef961bea8de3bcb55c5c52453f51ef7a65b10.idx |  Bin 0 -> 6280 bytes
+ ...k-f36ef961bea8de3bcb55c5c52453f51ef7a65b10.pack |  Bin 0 -> 135757 bytes
+ codebase/vc6.git/packed-refs                       |    2 +
+ codebase/vsnet.git/HEAD                            |    1 +
+ codebase/vsnet.git/config                          |   11 ++
+ codebase/vsnet.git/description                     |    1 +
+ codebase/vsnet.git/hooks/applypatch-msg.sample     |   15 ++
+ codebase/vsnet.git/hooks/commit-msg.sample         |   24 +++
+ codebase/vsnet.git/hooks/post-commit.sample        |    8 +
+ codebase/vsnet.git/hooks/post-receive.sample       |   15 ++
+ codebase/vsnet.git/hooks/post-update.sample        |    8 +
+ codebase/vsnet.git/hooks/pre-applypatch.sample     |   14 ++
+ codebase/vsnet.git/hooks/pre-commit.sample         |   46 ++++++
+ codebase/vsnet.git/hooks/pre-rebase.sample         |  169 ++++++++++++++++++++
+ codebase/vsnet.git/hooks/prepare-commit-msg.sample |   36 ++++
+ codebase/vsnet.git/hooks/update.sample             |  128 +++++++++++++++
+ codebase/vsnet.git/info/exclude                    |    6 +
+ ...ck-c32cff50da1d0dde15047394ba45776d74c808da.idx |  Bin 0 -> 8856 bytes
+ ...k-c32cff50da1d0dde15047394ba45776d74c808da.pack |  Bin 0 -> 959843 bytes
+ codebase/vsnet.git/packed-refs                     |    2 +
+ drawings.git/HEAD                                  |    1 +
+ drawings.git/config                                |   11 ++
+ drawings.git/description                           |    1 +
+ drawings.git/hooks/applypatch-msg.sample           |   15 ++
+ drawings.git/hooks/commit-msg.sample               |   24 +++
+ drawings.git/hooks/post-commit.sample              |    8 +
+ drawings.git/hooks/post-receive.sample             |   15 ++
+ drawings.git/hooks/post-update.sample              |    8 +
+ drawings.git/hooks/pre-applypatch.sample           |   14 ++
+ drawings.git/hooks/pre-commit.sample               |   46 ++++++
+ drawings.git/hooks/pre-rebase.sample               |  169 ++++++++++++++++++++
+ drawings.git/hooks/prepare-commit-msg.sample       |   36 ++++
+ drawings.git/hooks/update.sample                   |  128 +++++++++++++++
+ drawings.git/info/exclude                          |    6 +
+ ...ck-2081d8b79dfbd9786520c05b68305023eb73fbae.idx |  Bin 0 -> 1352 bytes
+ ...k-2081d8b79dfbd9786520c05b68305023eb73fbae.pack |  Bin 0 -> 208347 bytes
+ drawings.git/packed-refs                           |    2 +
+ ebooks.git/HEAD                                    |    1 +
+ ebooks.git/config                                  |   13 ++
+ ebooks.git/description                             |    1 +
+ ebooks.git/hooks/applypatch-msg.sample             |   15 ++
+ ebooks.git/hooks/commit-msg.sample                 |   24 +++
+ ebooks.git/hooks/post-commit.sample                |    8 +
+ ebooks.git/hooks/post-receive.sample               |   15 ++
+ ebooks.git/hooks/post-update.sample                |    8 +
+ ebooks.git/hooks/pre-applypatch.sample             |   14 ++
+ ebooks.git/hooks/pre-commit.sample                 |   46 ++++++
+ ebooks.git/hooks/pre-rebase.sample                 |  169 ++++++++++++++++++++
+ ebooks.git/hooks/prepare-commit-msg.sample         |   36 ++++
+ ebooks.git/hooks/update.sample                     |  128 +++++++++++++++
+ ebooks.git/index                                   |  Bin 0 -> 105496 bytes
+ ebooks.git/info/exclude                            |    6 +
+ ebooks.git/logs/HEAD                               |    1 +
+ ebooks.git/logs/refs/heads/master                  |    1 +
+ ...ck-e14b5eb0edd884c2ca1675b0d972d5975e746dc8.idx |  Bin 0 -> 23416 bytes
+ ...k-e14b5eb0edd884c2ca1675b0d972d5975e746dc8.pack |  Bin 0 -> 8826319 bytes
+ ebooks.git/refs/heads/master                       |    1 +
+ loseplace/core.git/HEAD                            |    1 +
+ loseplace/core.git/config                          |    5 +
+ loseplace/core.git/description                     |    1 +
+ loseplace/core.git/hooks/applypatch-msg.sample     |   15 ++
+ loseplace/core.git/hooks/commit-msg.sample         |   24 +++
+ loseplace/core.git/hooks/post-commit.sample        |    8 +
+ loseplace/core.git/hooks/post-receive.sample       |   15 ++
+ loseplace/core.git/hooks/post-update.sample        |    8 +
+ loseplace/core.git/hooks/pre-applypatch.sample     |   14 ++
+ loseplace/core.git/hooks/pre-commit.sample         |   46 ++++++
+ loseplace/core.git/hooks/pre-rebase.sample         |  169 ++++++++++++++++++++
+ loseplace/core.git/hooks/prepare-commit-msg.sample |   36 ++++
+ loseplace/core.git/hooks/update.sample             |  128 +++++++++++++++
+ loseplace/core.git/info/exclude                    |    6 +
+ .../b4/a3128c517cc1fe1e1b22c7f09c91b81de63de2      |  Bin 0 -> 98 bytes
+ .../d4/4d5f8fe2f5b685285b381d0412fe88b7cccf47      |  Bin 0 -> 204 bytes
+ .../d8/03da8a39a14f31bac43e1bc2ed531becd843c6      |    2 +
+ .../fa/69db976e8ebada5799cae59affb1fab0d785b2      |  Bin 0 -> 161 bytes
+ ...ck-6ee219c76bdf3a658510558d86503d4a19d57d44.idx |  Bin 0 -> 10200 bytes
+ ...k-6ee219c76bdf3a658510558d86503d4a19d57d44.pack |  Bin 0 -> 4219576 bytes
+ loseplace/core.git/refs/heads/master               |    1 +
+ loseplace/losebox.git/FETCH_HEAD                   |    1 +
+ loseplace/losebox.git/HEAD                         |    1 +
+ loseplace/losebox.git/config                       |   11 ++
+ loseplace/losebox.git/description                  |    1 +
+ loseplace/losebox.git/hooks/applypatch-msg.sample  |   15 ++
+ loseplace/losebox.git/hooks/commit-msg.sample      |   24 +++
+ loseplace/losebox.git/hooks/post-commit.sample     |    8 +
+ loseplace/losebox.git/hooks/post-receive.sample    |   15 ++
+ loseplace/losebox.git/hooks/post-update.sample     |    8 +
+ loseplace/losebox.git/hooks/pre-applypatch.sample  |   14 ++
+ loseplace/losebox.git/hooks/pre-commit.sample      |   46 ++++++
+ loseplace/losebox.git/hooks/pre-rebase.sample      |  169 ++++++++++++++++++++
+ .../losebox.git/hooks/prepare-commit-msg.sample    |   36 ++++
+ loseplace/losebox.git/hooks/update.sample          |  128 +++++++++++++++
+ loseplace/losebox.git/info/exclude                 |    6 +
+ .../06/cc953c449b2a58c14b65d50b22ea77d524f625      |    1 +
+ .../06/d798c1965323469e62dbb269b025f30141e80f      |    2 +
+ .../0b/33aca25cfb61a99e396abf634e7c11bca101b2      |    2 +
+ .../0b/a1f11ee991037acc7f77261306f65166c9401f      |  Bin 0 -> 1485 bytes
+ .../0e/0cbeb20ac3c0fd2a8e8fd172d5522a6aaadef6      |  Bin 0 -> 53 bytes
+ .../0e/cc4c22e8eac937b53f9d92c42b67dc9515e061      |  Bin 0 -> 158 bytes
+ .../0f/57f49f3d6128a2ae8e63ca319aec103dfa20cd      |  Bin 0 -> 54 bytes
+ .../10/b8a548d65c46d53c29bcbe4ceb2f83cc6f59e0      |    1 +
+ .../11/9acbc876866f3261a0fbeeb99690be457ef1af      |  Bin 0 -> 134 bytes
+ .../18/bcfa0186556cce06bb4e2dfd30e30b235ced4d      |    3 +
+ .../1e/51c0f400900318336ef2dad745ed7623a33d21      |  Bin 0 -> 73 bytes
+ .../23/c11d06d872ab03e0c61c8bf36bb7f3d30e0214      |  Bin 0 -> 198 bytes
+ .../27/a03c3b5ed8e8c51dfb5bca14545f0be1bad677      |  Bin 0 -> 295 bytes
+ .../2a/24a35c19739d894af1272dd3f3b88a37cbaeb4      |  Bin 0 -> 1484 bytes
+ .../39/92a4633bf1f53ac84c09c23a93a43ae66b26d9      |  Bin 0 -> 55 bytes
+ .../44/81c4aa3fb1008732e840211d5a735e06b2006f      |  Bin 0 -> 244 bytes
+ .../46/48b0a31ddd14b215c44691cb2f6c18511403c7      |    1 +
+ .../49/a27e3b338c46789948e8bfaabae80327db0af9      |  Bin 0 -> 474 bytes
+ .../4b/825dc642cb6eb9a060e54bf8d69288fbee4904      |  Bin 0 -> 15 bytes
+ .../4c/28873ee0e2ce2fb80b06240dec4395b174883c      |  Bin 0 -> 63 bytes
+ .../5a/5ef73c3ced4c97a682db2c67a757d777f9bda0      |  Bin 0 -> 62 bytes
+ .../63/69168d5b3ae068c1bb36fa7c8a289ea27f44b5      |  Bin 0 -> 316748 bytes
+ .../65/de17e93e8cfc07431b1bf23b8fb6f49d12a070      |  Bin 0 -> 62 bytes
+ .../67/f23786cfb9245667e9dcf12f1239abb36a30b8      |  Bin 0 -> 118 bytes
+ .../75/9e82990ae91a9e32ad1f47279c332564e8fc30      |    3 +
+ .../81/91c8ef9698b2d7db8a9db9bf76e2383cf1bd58      |  Bin 0 -> 666970 bytes
+ .../84/bc1ecd0d51f1e1229e12c19862c1d2c69943df      |  Bin 0 -> 85682 bytes
+ .../89/f69e96ce81d35ee2d367a95491faa6b665e537      |  Bin 0 -> 102 bytes
+ .../8f/beb785fffc09edd896e78c55370fe312ca7e63      |  Bin 0 -> 107 bytes
+ .../90/f055d1bea5b59ba1712b7a0d8d9f84cde56951      |    3 +
+ .../95/0e5a2303789240758687ab7cdb569aa12645b1      |  Bin 0 -> 158 bytes
+ .../9d/2e5579aade5e5e535af6ce29b5e651841dc97f      |  Bin 0 -> 370 bytes
+ .../9f/6f49bd8377c1bcfedb73d150bf52d1b77316c7      |  Bin 0 -> 157 bytes
+ .../b5/5d2c4c7bfedbafca2f00226ea455edb503ede0      |  Bin 0 -> 65 bytes
+ .../b6/972205adcb127e248cfeb5efb0d6661ce4cfdc      |  Bin 0 -> 105 bytes
+ .../b8/2c68a20d52e91ea86f67736e92b509c09107ef      |  Bin 0 -> 425607 bytes
+ .../c0/71eaba3ae775a20064a0039a09cd3ee3a71be2      |  Bin 0 -> 5453 bytes
+ .../c0/f32aca773f2a39d8c4ff17469a0da7e3599fbb      |  Bin 0 -> 523 bytes
+ .../c1/2ec903adc93bfaa652916a9bbaa158f694d94a      |  Bin 0 -> 58 bytes
+ .../c4/ed5dbc82ce349afbd63ad6edeba2f51026999a      |  Bin 0 -> 339 bytes
+ .../c5/2883dcddc7c1ca337540127f2faae74a195776      |  Bin 0 -> 238 bytes
+ .../dc/2e933710bb32b74bd720e1589ac2e0b8801501      |  Bin 0 -> 8569054 bytes
+ .../e2/52eca5481c3ae41ee755a38e33cefbdf5f9286      |  Bin 0 -> 143 bytes
+ .../e7/b23ba713686ce8a38806d60d7f6978efc13e7f      |    4 +
+ .../e8/6d92609f42b45acc3e0919370484d44f9b0af7      |  Bin 0 -> 121 bytes
+ .../ee/fe6f159dadcb068c39ddcdad38dcd31018365b      |  Bin 0 -> 307 bytes
+ .../f6/d949a3c960fb19badfbe9807e3af9f4d147742      |  Bin 0 -> 85 bytes
+ .../f7/d982d6811cb4a141ce814790f89214fae6fdb2      |  Bin 0 -> 127 bytes
+ .../f8/2fc8770dcc8ef93befccf0da0850ee421cd1bb      |  Bin 0 -> 146513 bytes
+ .../ff/262ab5b37cacaf0e4dbcdd57ca3f034e2db737      |  Bin 0 -> 2149 bytes
+ loseplace/loseplace.git/HEAD                       |    1 +
+ loseplace/loseplace.git/config                     |   11 ++
+ loseplace/loseplace.git/description                |    1 +
+ .../loseplace.git/hooks/applypatch-msg.sample      |   15 ++
+ loseplace/loseplace.git/hooks/commit-msg.sample    |   24 +++
+ loseplace/loseplace.git/hooks/post-commit.sample   |    8 +
+ loseplace/loseplace.git/hooks/post-receive.sample  |   15 ++
+ loseplace/loseplace.git/hooks/post-update.sample   |    8 +
+ .../loseplace.git/hooks/pre-applypatch.sample      |   14 ++
+ loseplace/loseplace.git/hooks/pre-commit.sample    |   46 ++++++
+ loseplace/loseplace.git/hooks/pre-rebase.sample    |  169 ++++++++++++++++++++
+ .../loseplace.git/hooks/prepare-commit-msg.sample  |   36 ++++
+ loseplace/loseplace.git/hooks/update.sample        |  128 +++++++++++++++
+ loseplace/loseplace.git/info/exclude               |    6 +
+ .../01/d0695c9bfae701ecffedeb173717741ca750b6      |  Bin 0 -> 65 bytes
+ .../05/78e025590cf42ded4dad07555f492c8c4aff2b      |    2 +
+ .../05/bd7a08816a96aa0e51ee39ce1774068f91efdb      |  Bin 0 -> 48 bytes
+ .../06/bdf7d1a11490b795692d6f4592ceb55b02565d      |  Bin 0 -> 1148 bytes
+ .../07/4c0a2c782597773f1d04f7582b8f98df481bc9      |    1 +
+ .../07/7e5f715b6ff352a37e8af4d4c795d98040fd23      |  Bin 0 -> 316 bytes
+ .../08/e63486c61a907fcb346b84f173efea655df7b5      |  Bin 0 -> 39 bytes
+ .../0d/cd439625c722e26cebe2b482490c57edd891bc      |  Bin 0 -> 47 bytes
+ .../0e/c717f641341f0596ccbe94e705da91b38dc2d2      |  Bin 0 -> 41 bytes
+ .../16/bd0bdd2e7cd3e64c15e5079fab5e9b1171aba4      |  Bin 0 -> 54 bytes
+ .../1c/295808466148cac05985abee5527c233c6b73d      |    3 +
+ .../1e/711bd36bbd247e5d3402faa506466fe7db69da      |  Bin 0 -> 2995 bytes
+ .../23/bb2e3d8413918fa76e226f70bbc900d1f627fc      |    3 +
+ .../2a/ffd565ec75c3604709e0261cf74bcf16be2ccb      |  Bin 0 -> 303 bytes
+ .../2e/af9aedc4222b762cbd4526b4849423b0b1bd89      |  Bin 0 -> 50 bytes
+ .../33/0a5bfb81f0926c47e2efc376e272a7f8631853      |  Bin 0 -> 60 bytes
+ .../38/72ba0a92394c0efab67fcc979699ba78ab1e48      |  Bin 0 -> 501 bytes
+ .../3a/55ab90904481f3ecef4f83a9379983fe6e1fba      |  Bin 0 -> 121 bytes
+ .../3a/b37ed7f05afaf8cafb180a0ab257a8a9f918bd      |  Bin 0 -> 351 bytes
+ .../3d/681d6878188c31ca9711a554043e472f2e6bb4      |  Bin 0 -> 304 bytes
+ .../3e/c450c051596bd8265a6201b565e6270a0224fb      |  Bin 0 -> 64 bytes
+ .../40/1a2ef1ff0d052f76708b89fba31825f95b845d      |  Bin 0 -> 45 bytes
+ .../47/d8044147a709b9a35ed6392075409d68db6cc0      |  Bin 0 -> 50 bytes
+ .../49/30cc3f69d7a262abc6bc68b48aaf8d3f026413      |  Bin 0 -> 126 bytes
+ .../49/5817f1732939d7bcb3483a994e6c03c3490e13      |  Bin 0 -> 60 bytes
+ .../4c/2ec572f6d2e167cf1463fe192346bccfbaac2c      |    1 +
+ .../4c/7af2204a92d998a8fc6bbb56893c85115b397d      |  Bin 0 -> 50 bytes
+ .../4d/9d9aa846d5c015e2069d342465328367f807af      |  Bin 0 -> 39 bytes
+ .../4d/aab800d989c2984458b41b111c7b04248a5c30      |  Bin 0 -> 48 bytes
+ .../4e/e99f7b19350576618fb58b3b9e0ce4c4c29974      |  Bin 0 -> 1222 bytes
+ .../51/e970222f817895a1a1828c1c62aa5921565e0e      |  Bin 0 -> 43 bytes
+ .../52/1ccfbad9a4cbd04f0d357d8674ebf7fff6b32a      |    1 +
+ .../5d/b7aaced0e4541a52ad91b7c688d7f42564e599      |    1 +
+ .../65/040ab77b809d93fe460081efc020866be67c09      |  Bin 0 -> 426 bytes
+ .../67/c513e1df07ece65c44ea45ca8fe481bbd18b2f      |  Bin 0 -> 41 bytes
+ .../69/3f9a5b416ee4f5ebb950232c4c15a9bb59792a      |  Bin 0 -> 41 bytes
+ .../69/df4fddc2931c1bb14dbdac88eb72d4903414fa      |  Bin 0 -> 166 bytes
+ .../6a/ccf2f3c8f34261e9376974a5a125610e59f950      |  Bin 0 -> 48 bytes
+ .../7d/9ee21f77db9d2bdf7d4102918233b1a3affe03      |  Bin 0 -> 47 bytes
+ .../7d/fba7c8183abf73c742305ac87a6cdffee2f524      |  Bin 0 -> 122 bytes
+ .../7e/b52fba636eac0a5e361e6df23f3cbea4411c0f      |  Bin 0 -> 1022 bytes
+ .../7f/0d64e8fd3ba20a91192325554c7e0c6bc1cf31      |  Bin 0 -> 41 bytes
+ .../80/917bc8586c6ccf7cdcabbb2af88f70a4d536ff      |  Bin 0 -> 122 bytes
+ .../82/85af61cdef86f319c784044bc2ea30fd3df6dd      |  Bin 0 -> 181 bytes
+ .../94/fd6d11449205a0c2f373f215b21a18580b56fc      |  Bin 0 -> 126 bytes
+ .../95/70836cef6a2af0f8576acf26aa0cf105bc4536      |  Bin 0 -> 316 bytes
+ .../96/6df0d73f6f15fa25cb1361523c07dd9d126e16      |    2 +
+ .../98/4d02271448986ecdac46230396de5d3b2c8c89      |  Bin 0 -> 192 bytes
+ .../9e/3155e563e068c54f26472220303bb7a84b487d      |  Bin 0 -> 316 bytes
+ .../a3/de9011f72469733df0fcaebfbb4968426cab71      |  Bin 0 -> 57 bytes
+ .../aa/d4828285a7e822c720544504c947b61ca7d274      |  Bin 0 -> 61 bytes
+ .../ab/fe6507af43b75474e26d897cbf43c088a59afe      |  Bin 0 -> 47 bytes
+ .../ac/ea0f837283b8af81140beaeac665ecadf5402b      |  Bin 0 -> 1300 bytes
+ .../ad/8c177fcdfb87cffbd86adedce5680d6b58c638      |  Bin 0 -> 51 bytes
+ .../b2/162f711b73e8c58526ae2fdad260ef245742e4      |  Bin 0 -> 156 bytes
+ .../b8/c69f56fa00fdb8d3b81a4210c6fba1a477ec66      |  Bin 0 -> 122 bytes
+ .../ba/6630a61954dd42ae5c9aadbedb6ca095ccb2ac      |  Bin 0 -> 1117 bytes
+ .../bb/081e6e5fe75cff14d5814bdb2dbc5136d66a06      |  Bin 0 -> 48 bytes
+ .../c3/480243361225c48da2a84c8e2db9a41e9298f8      |  Bin 0 -> 46 bytes
+ .../c7/2b415e7cddc1ef4cfc7ebf79647a9abe98d5af      |    1 +
+ .../c7/2c1451d7f64e8e7fd84bf9dbbca442c3897d56      |  Bin 0 -> 63 bytes
+ .../c9/fc85dc162c581ba0524069e720497d7c994c79      |  Bin 0 -> 316 bytes
+ .../cb/8ac8fb1fcb0caf6d0f2035bf7b5e7e6a85694a      |  Bin 0 -> 281 bytes
+ .../ce/f5def4f87cdb839815a3d20d7f39e117001b55      |  Bin 0 -> 651 bytes
+ .../d0/b5a253b30870b570860ec2d6f9cf8e3f8fe99b      |  Bin 0 -> 173 bytes
+ .../d3/0b896e0471553dd321f5062f631f68a06a4d8d      |  Bin 0 -> 122 bytes
+ .../dc/6d5b0206fad934403ea943a40f2ef05252e277      |  Bin 0 -> 116 bytes
+ .../de/dabd0bd751db33a9595666010511ddcc9b975a      |  Bin 0 -> 117 bytes
+ .../e2/9c55d0c61c93641d4ab9e336a98aac11c6414b      |  Bin 0 -> 78 bytes
+ .../e8/1a2358f8e4908452d5d4922bcaefbde70e5277      |  Bin 0 -> 49 bytes
+ .../ea/7b5237a17d7c6e51dc4ea1b086c0aadc1a3491      |  Bin 0 -> 44 bytes
+ .../ee/b2943f005bd0dd957060883568a2455c30c74f      |  Bin 0 -> 315 bytes
+ .../f7/53475664dab762402c8bb0e030ce0a58520bf6      |  Bin 0 -> 315 bytes
+ .../f8/57001f5af5ed747f4c3ca317c2c317731e3356      |  Bin 0 -> 39 bytes
+ .../f9/8a9bb00eb6a1b9aa1a62fd39e64f68fb6e6416      |  Bin 0 -> 501 bytes
+ loseplace/loseplace.git/objects/info/packs         |    2 +
+ ...ck-9da67c4c75591e90485aea96c48640f07c4ade89.idx |  Bin 0 -> 30528 bytes
+ ...k-9da67c4c75591e90485aea96c48640f07c4ade89.pack |  Bin 0 -> 18850755 bytes
+ loseplace/loseplace.git/packed-refs                |    2 +
+ loseplace/loseplace.git/refs/heads/master          |    1 +
+ loseplace/mini.git/HEAD                            |    1 +
+ loseplace/mini.git/config                          |    5 +
+ loseplace/mini.git/description                     |    1 +
+ loseplace/mini.git/hooks/applypatch-msg.sample     |   15 ++
+ loseplace/mini.git/hooks/commit-msg.sample         |   24 +++
+ loseplace/mini.git/hooks/post-commit.sample        |    8 +
+ loseplace/mini.git/hooks/post-receive.sample       |   15 ++
+ loseplace/mini.git/hooks/post-update.sample        |    8 +
+ loseplace/mini.git/hooks/pre-applypatch.sample     |   14 ++
+ loseplace/mini.git/hooks/pre-commit.sample         |   46 ++++++
+ loseplace/mini.git/hooks/pre-rebase.sample         |  169 ++++++++++++++++++++
+ loseplace/mini.git/hooks/prepare-commit-msg.sample |   36 ++++
+ loseplace/mini.git/hooks/update.sample             |  128 +++++++++++++++
+ loseplace/mini.git/info/exclude                    |    6 +
+ .../1b/69135d6f8bcbaaa53be53b334cba110cefb26d      |  Bin 0 -> 32 bytes
+ .../2e/af9aedc4222b762cbd4526b4849423b0b1bd89      |  Bin 0 -> 50 bytes
+ .../33/464df6f9bf99c5dc9fa8e2fab4095b6efa491f      |  Bin 0 -> 155 bytes
+ .../67/f23786cfb9245667e9dcf12f1239abb36a30b8      |  Bin 0 -> 118 bytes
+ .../71/014e9d5d2009e4b00e9342b252546edc7db27d      |    2 +
+ .../be/69816645b6115c094d5e4ebc6397f594e2bfa8      |  Bin 0 -> 49 bytes
+ .../c7/2c1451d7f64e8e7fd84bf9dbbca442c3897d56      |  Bin 0 -> 63 bytes
+ loseplace/mini.git/refs/heads/master               |    1 +
+ loseplace/thinapp.git/HEAD                         |    1 +
+ loseplace/thinapp.git/config                       |   11 ++
+ loseplace/thinapp.git/description                  |    1 +
+ loseplace/thinapp.git/hooks/applypatch-msg.sample  |   15 ++
+ loseplace/thinapp.git/hooks/commit-msg.sample      |   24 +++
+ loseplace/thinapp.git/hooks/post-commit.sample     |    8 +
+ loseplace/thinapp.git/hooks/post-receive.sample    |   15 ++
+ loseplace/thinapp.git/hooks/post-update.sample     |    8 +
+ loseplace/thinapp.git/hooks/pre-applypatch.sample  |   14 ++
+ loseplace/thinapp.git/hooks/pre-commit.sample      |   46 ++++++
+ loseplace/thinapp.git/hooks/pre-rebase.sample      |  169 ++++++++++++++++++++
+ .../thinapp.git/hooks/prepare-commit-msg.sample    |   36 ++++
+ loseplace/thinapp.git/hooks/update.sample          |  128 +++++++++++++++
+ loseplace/thinapp.git/info/exclude                 |    6 +
+ ...ck-527fc705faa5ed28b50a495885f74f0ab4384c79.idx |  Bin 0 -> 3088 bytes
+ ...k-527fc705faa5ed28b50a495885f74f0ab4384c79.pack |  Bin 0 -> 4359838 bytes
+ loseplace/thinapp.git/packed-refs                  |    2 +
+ nightgun/nightgun.git/HEAD                         |    1 +
+ nightgun/nightgun.git/config                       |   11 ++
+ nightgun/nightgun.git/description                  |    1 +
+ nightgun/nightgun.git/hooks/applypatch-msg.sample  |   15 ++
+ nightgun/nightgun.git/hooks/commit-msg.sample      |   24 +++
+ nightgun/nightgun.git/hooks/post-commit.sample     |    8 +
+ nightgun/nightgun.git/hooks/post-receive.sample    |   15 ++
+ nightgun/nightgun.git/hooks/post-update.sample     |    8 +
+ nightgun/nightgun.git/hooks/pre-applypatch.sample  |   14 ++
+ nightgun/nightgun.git/hooks/pre-commit.sample      |   46 ++++++
+ nightgun/nightgun.git/hooks/pre-rebase.sample      |  169 ++++++++++++++++++++
+ .../nightgun.git/hooks/prepare-commit-msg.sample   |   36 ++++
+ nightgun/nightgun.git/hooks/update.sample          |  128 +++++++++++++++
+ nightgun/nightgun.git/info/exclude                 |    6 +
+ ...ck-973fbc2a14f0e81fe2a20076820e9adc33367fce.idx |  Bin 0 -> 6252 bytes
+ ...k-973fbc2a14f0e81fe2a20076820e9adc33367fce.pack |  Bin 0 -> 84979 bytes
+ nightgun/nightgun.git/packed-refs                  |    2 +
+ profiles/avatars.git/HEAD                          |    1 +
+ profiles/avatars.git/config                        |   13 ++
+ profiles/avatars.git/description                   |    1 +
+ profiles/avatars.git/hooks/applypatch-msg.sample   |   15 ++
+ profiles/avatars.git/hooks/commit-msg.sample       |   24 +++
+ profiles/avatars.git/hooks/post-commit.sample      |    8 +
+ profiles/avatars.git/hooks/post-receive.sample     |   15 ++
+ profiles/avatars.git/hooks/post-update.sample      |    8 +
+ profiles/avatars.git/hooks/pre-applypatch.sample   |   14 ++
+ profiles/avatars.git/hooks/pre-commit.sample       |   46 ++++++
+ profiles/avatars.git/hooks/pre-rebase.sample       |  169 ++++++++++++++++++++
+ .../avatars.git/hooks/prepare-commit-msg.sample    |   36 ++++
+ profiles/avatars.git/hooks/update.sample           |  128 +++++++++++++++
+ profiles/avatars.git/index                         |  Bin 0 -> 272 bytes
+ profiles/avatars.git/info/exclude                  |    6 +
+ profiles/avatars.git/logs/HEAD                     |    1 +
+ profiles/avatars.git/logs/refs/heads/master        |    1 +
+ .../03/3a0b58e8241d1e31a05f1e9ebb1ae96ffeb458      |  Bin 0 -> 163 bytes
+ .../07/110b66e66706c97729fa5eef1ffcd5c5736066      |  Bin 0 -> 155 bytes
+ .../0b/50940d45d32a0c159e46872dbce335297cefa0      |  Bin 0 -> 121 bytes
+ .../4f/4833f81b86ba13d5b5300f90f0a62092bd267a      |  Bin 0 -> 121 bytes
+ .../7d/15e8d5a150ce8751e80255a1dd013366b6c05e      |  Bin 0 -> 155 bytes
+ .../92/0eb1d230fd17a5dbb74efe20f610982b4be4fc      |  Bin 0 -> 121 bytes
+ .../98/6eeff4a03c306f304cdbee8c5bbc3ec4560c93      |  Bin 0 -> 160 bytes
+ .../a1/2554aa4e2b4eae248667ec5e348a1b1dfc8419      |  Bin 0 -> 81 bytes
+ .../c1/405c8ac631728b93b881452119c63e265463fb      |  Bin 0 -> 167 bytes
+ .../ca/a13eb3e194a95a6347e06c463de8cb7c01e362      |  Bin 0 -> 1916923 bytes
+ .../ce/f30f4eda7d81b497baea380b0be5862d18f811      |  Bin 0 -> 116 bytes
+ .../ea/d6013f2f0ecb82d66a6f8957f1143391942bf0      |  Bin 0 -> 150361 bytes
+ .../f7/b48b68862a8dbec415710886dc1670890cbf87      |    2 +
+ profiles/avatars.git/refs/heads/master             |    1 +
+ profiles/babebase.git/HEAD                         |    1 +
+ profiles/babebase.git/config                       |   14 ++
+ profiles/babebase.git/description                  |    1 +
+ profiles/babebase.git/hooks/applypatch-msg.sample  |   15 ++
+ profiles/babebase.git/hooks/commit-msg.sample      |   24 +++
+ profiles/babebase.git/hooks/post-commit.sample     |    8 +
+ profiles/babebase.git/hooks/post-receive.sample    |   15 ++
+ profiles/babebase.git/hooks/post-update.sample     |    8 +
+ profiles/babebase.git/hooks/pre-applypatch.sample  |   14 ++
+ profiles/babebase.git/hooks/pre-commit.sample      |   46 ++++++
+ profiles/babebase.git/hooks/pre-rebase.sample      |  169 ++++++++++++++++++++
+ .../babebase.git/hooks/prepare-commit-msg.sample   |   36 ++++
+ profiles/babebase.git/hooks/update.sample          |  128 +++++++++++++++
+ profiles/babebase.git/info/exclude                 |    6 +
+ ...ck-9572ed59feb0f63d65bba6b6c965cb03c3e92398.idx |  Bin 0 -> 20112 bytes
+ ...k-9572ed59feb0f63d65bba6b6c965cb03c3e92398.pack |  Bin 0 -> 300927 bytes
+ profiles/babebase.git/refs/heads/master            |    1 +
+ profiles/firefox.git/HEAD                          |    1 +
+ profiles/firefox.git/config                        |   11 ++
+ profiles/firefox.git/description                   |    1 +
+ profiles/firefox.git/hooks/applypatch-msg.sample   |   15 ++
+ profiles/firefox.git/hooks/commit-msg.sample       |   24 +++
+ profiles/firefox.git/hooks/post-commit.sample      |    8 +
+ profiles/firefox.git/hooks/post-receive.sample     |   15 ++
+ profiles/firefox.git/hooks/post-update.sample      |    8 +
+ profiles/firefox.git/hooks/pre-applypatch.sample   |   14 ++
+ profiles/firefox.git/hooks/pre-commit.sample       |   46 ++++++
+ profiles/firefox.git/hooks/pre-rebase.sample       |  169 ++++++++++++++++++++
+ .../firefox.git/hooks/prepare-commit-msg.sample    |   36 ++++
+ profiles/firefox.git/hooks/update.sample           |  128 +++++++++++++++
+ profiles/firefox.git/info/exclude                  |    6 +
+ .../00/acdfb12dce4160d8d6aa7c849813b6d0465319      |  Bin 0 -> 3323 bytes
+ .../04/e06a3e746b3db3b6a7663881364f2ced93514c      |  Bin 0 -> 518 bytes
+ .../08/b3bf4785c4f397778333943eb9f23f69fc9db1      |  Bin 0 -> 62 bytes
+ .../0a/5013156fb3c3f54c78351e37648fc1d3dae09f      |  Bin 0 -> 1275 bytes
+ .../0a/dcaa3b68b389b5b7925f49c68f19a1860eea65      |  Bin 0 -> 1087 bytes
+ .../0a/e842c5869716ecd3f5068834ed87cceee0727f      |  Bin 0 -> 2027 bytes
+ .../0e/a05174d4441d04bbcfd5c180b9205034fd7ee3      |  Bin 0 -> 1467 bytes
+ .../14/2a64c100563569f91c0749f7829ad81ec715d7      |  Bin 0 -> 1906 bytes
+ .../18/bd0aa253231e50256108991abd8344dd3ff2bb      |  Bin 0 -> 118 bytes
+ .../1e/09e3bf3b0db24a6f98f50aeb66313d15d27760      |  Bin 0 -> 1241 bytes
+ .../1e/4c5f63585acae7edf8d30787f61bdbf8146303      |  Bin 0 -> 7231 bytes
+ .../1e/cb5c90f00dca8a0fef9a7f469c2955b9cc7fd6      |  Bin 0 -> 3093 bytes
+ .../23/7038eca17eeba5981dd95b9ca5991ce53ff2a5      |  Bin 0 -> 5207 bytes
+ .../27/a1ff35127d1865dcfa09536cf31f9abd866991      |  Bin 0 -> 447 bytes
+ .../28/ccee818f3d610756b41a2ec1bbd1d66e989550      |    1 +
+ .../29/e3ee11d271ceddbc72de3a9d1af88b076d1bb8      |  Bin 0 -> 10900 bytes
+ .../2f/93681f208359a6b51214305c822e061e577a7a      |  Bin 0 -> 1585 bytes
+ .../33/cfe2cc560a97aac6c5c894b9859bcfc24a10dc      |  Bin 0 -> 1223 bytes
+ .../3b/911435f9fc65638a8e25b5ce2d4ed56eb422e8      |  Bin 0 -> 188 bytes
+ .../46/07fbea93a7ef0ba0a2c5bc8a4c8f0dfad42dc5      |  Bin 0 -> 1090 bytes
+ .../51/02da6a3406b4aabbda64ec6cce925045afd524      |  Bin 0 -> 616 bytes
+ .../52/e7cfcb5090b5ec509a53b7756440c822f5bfae      |  Bin 0 -> 5140 bytes
+ .../53/023fbd35eb243a267fe38473cb86e0ecd13358      |  Bin 0 -> 5268 bytes
+ .../54/2d51d621893a7e32315bd2fef0bcd128e966fa      |  Bin 0 -> 564 bytes
+ .../57/b9e3bac21b348c06d493124206b2dfa2fab12a      |  Bin 0 -> 179 bytes
+ .../5e/b61fcb23214ce23dada1132550fbcc0155a794      |  Bin 0 -> 518 bytes
+ .../5e/f74ec5b021c1ede63c5d61436ae70b08549d78      |  Bin 0 -> 513 bytes
+ .../64/dbb457072e0ab5ef39e64e994151c4fed7bbf0      |    2 +
+ .../65/8579c46ac1cc342ba6cbab927ae1700d41e8a5      |  Bin 0 -> 1127 bytes
+ .../66/01c764e56b0114dc87b17aa14c80103f7ca8a4      |  Bin 0 -> 810 bytes
+ .../67/76b66b8f75ce8930822b6d4f856a68716cd764      |  Bin 0 -> 745 bytes
+ .../69/6c71559708b9a9f67b6dafe68641e34dfcb5b6      |  Bin 0 -> 59 bytes
+ .../69/6d529f1181553f35decbc29cd88ab9dd50e9e9      |  Bin 0 -> 285 bytes
+ .../74/87d4b0f0788c6e9d5efdf6d9a29f205d7c14eb      |  Bin 0 -> 2488 bytes
+ .../76/fdb92f219d0b3884114ac11b694f9890700405      |  Bin 0 -> 512 bytes
+ .../7c/576dd6a8f9ba87ca1d2808e229d13de754841c      |  Bin 0 -> 426 bytes
+ .../7c/8ac711a5a5dbe55c0122cae6160e7943040dab      |  Bin 0 -> 438105 bytes
+ .../7d/a7aee4faf21ee13b76debe7975e45354243e4e      |  Bin 0 -> 1169 bytes
+ .../85/ef0f6f7b32c9591b9dbddc9c411ad0c7afc0dc      |  Bin 0 -> 5145 bytes
+ .../89/c6b4feb69d63f865492ece35a28cd2f3965338      |  Bin 0 -> 6751 bytes
+ .../8e/246a1fef17549688518b27ec280adab933ec28      |    2 +
+ .../93/10ac10327991451dece8bf56424425b740febe      |  Bin 0 -> 1412 bytes
+ .../98/b462df79affb9149cb33d87c9271cbc61837ff      |  Bin 0 -> 13543 bytes
+ .../9e/48e0193e3503db03462b34c216fc7897565900      |  Bin 0 -> 193 bytes
+ .../a0/267a525abf0315076b95868ab7796367d575bc      |  Bin 0 -> 5268 bytes
+ .../a0/3f8e2f7c85a35755bf25e274c8d33fb1adc47c      |  Bin 0 -> 166 bytes
+ .../af/f87a50019010d4886fae47fe3e2080cbd741fe      |  Bin 0 -> 1181 bytes
+ .../b2/1a44cf1e32f6b53e543b941bdf2697bdf9a411      |  Bin 0 -> 2749 bytes
+ .../b4/e1cb18b72517b97e4345eaa18150914f73da5d      |  Bin 0 -> 1156 bytes
+ .../b6/2a26627310419746d04b0b6f93ec9578f3e06f      |  Bin 0 -> 145502 bytes
+ .../bb/974a2595aa9a6e6ade921d9659ad939aed47b2      |  Bin 0 -> 1099 bytes
+ .../bc/551860e730daab9189f8eb212693ed08c9dea8      |    1 +
+ .../c0/5a5d8e53d96a59f053c134e5e12cce7d168a5a      |  Bin 0 -> 1459 bytes
+ .../c1/0720de9248d4de62ff8855965f31b42d842322      |  Bin 0 -> 11602 bytes
+ .../c7/95ed4698b08ccc7ca5158d64f3ac231fd027f2      |  Bin 0 -> 160 bytes
+ .../c8/4585280607a3c4c236e4bbdf67cca7de9acf5e      |  Bin 0 -> 173 bytes
+ .../c8/616f2e5e29d8ce7a98e2aa755a2912b3f60b0c      |  Bin 0 -> 1315 bytes
+ .../c9/5d05f041f78c2ce3294d61e7755c2226bd8617      |  Bin 0 -> 3284 bytes
+ .../cc/dc6c672c5eb28cae19466d9eb70fe16e5ff2a1      |  Bin 0 -> 518 bytes
+ .../cf/7fb5406844e91254eac9ecbae9843e3be84235      |  Bin 0 -> 1095 bytes
+ .../d1/92c420522a831301eb99d12a32f1365a15c9d6      |  Bin 0 -> 518 bytes
+ .../d4/f6fe48f60fb3da8c66f542e6544663478b99e7      |  Bin 0 -> 284 bytes
+ .../d5/38d9cbacb154e5ecf0fc363e8ff5415bc43309      |  Bin 0 -> 1998 bytes
+ .../d6/95255a9cea88ede01853980b82e2a37ca6e54c      |  Bin 0 -> 1158 bytes
+ .../d9/f2e3a442813d86400fe348251d600d16806ebd      |  Bin 0 -> 10797 bytes
+ .../de/bfeac453278ba8f85462d4cdc29d3d904f34b1      |  Bin 0 -> 1160 bytes
+ .../e2/4a655af365786a727fe850fb66afeb78b3348a      |  Bin 0 -> 1193 bytes
+ .../e4/9da747e441a811825c8d34a1597d5a717defb6      |  Bin 0 -> 239 bytes
+ .../ef/c31a87f6e77eda5aa40e6fccdeff7b7d9908bd      |  Bin 0 -> 180 bytes
+ .../f1/eef96f95ec7700274adb34b9efde231da5393f      |  Bin 0 -> 60 bytes
+ .../f2/274d61a835b9bf02936f7eae1c66bce6f8ea58      |  Bin 0 -> 1725 bytes
+ .../f8/c0cda386e222267c0d5ce058d4519bc567a432      |  Bin 0 -> 549 bytes
+ .../ff/c6dfca506af940d7412ed399d27aabe5460575      |  Bin 0 -> 1869 bytes
+ ...ck-45f199e64ddb84feba1a756bd3c29ad80efaee00.idx |  Bin 0 -> 49400 bytes
+ ...k-45f199e64ddb84feba1a756bd3c29ad80efaee00.pack |  Bin 0 -> 11596562 bytes
+ ...ck-a9009261646dc74b2c2d6e02173c5d9e14630b06.idx |  Bin 0 -> 24144 bytes
+ ...k-a9009261646dc74b2c2d6e02173c5d9e14630b06.pack |  Bin 0 -> 3961661 bytes
+ profiles/firefox.git/packed-refs                   |    2 +
+ profiles/firefox.git/refs/heads/master             |    1 +
+ .../firefox.git/refs/heads/master (myplace-win7)   |    1 +
+ profiles/gm-scripts.git/HEAD                       |    1 +
+ profiles/gm-scripts.git/config                     |   14 ++
+ profiles/gm-scripts.git/description                |    1 +
+ .../gm-scripts.git/hooks/applypatch-msg.sample     |   15 ++
+ profiles/gm-scripts.git/hooks/commit-msg.sample    |   24 +++
+ profiles/gm-scripts.git/hooks/post-commit.sample   |    8 +
+ profiles/gm-scripts.git/hooks/post-receive.sample  |   15 ++
+ profiles/gm-scripts.git/hooks/post-update.sample   |    8 +
+ .../gm-scripts.git/hooks/pre-applypatch.sample     |   14 ++
+ profiles/gm-scripts.git/hooks/pre-commit.sample    |   46 ++++++
+ profiles/gm-scripts.git/hooks/pre-rebase.sample    |  169 ++++++++++++++++++++
+ .../gm-scripts.git/hooks/prepare-commit-msg.sample |   36 ++++
+ profiles/gm-scripts.git/hooks/update.sample        |  128 +++++++++++++++
+ profiles/gm-scripts.git/info/exclude               |    6 +
+ ...ck-d4d011915bbae975c91e3947f05b33a4d19dc84e.idx |  Bin 0 -> 2612 bytes
+ ...k-d4d011915bbae975c91e3947f05b33a4d19dc84e.pack |  Bin 0 -> 95418 bytes
+ profiles/gm-scripts.git/packed-refs                |    2 +
+ profiles/homebase.git/HEAD                         |    1 +
+ profiles/homebase.git/config                       |   14 ++
+ profiles/homebase.git/description                  |    1 +
+ profiles/homebase.git/hooks/applypatch-msg.sample  |   15 ++
+ profiles/homebase.git/hooks/commit-msg.sample      |   24 +++
+ profiles/homebase.git/hooks/post-commit.sample     |    8 +
+ profiles/homebase.git/hooks/post-receive.sample    |   15 ++
+ profiles/homebase.git/hooks/post-update.sample     |    8 +
+ profiles/homebase.git/hooks/pre-applypatch.sample  |   14 ++
+ profiles/homebase.git/hooks/pre-commit.sample      |   46 ++++++
+ profiles/homebase.git/hooks/pre-rebase.sample      |  169 ++++++++++++++++++++
+ .../homebase.git/hooks/prepare-commit-msg.sample   |   36 ++++
+ profiles/homebase.git/hooks/update.sample          |  128 +++++++++++++++
+ profiles/homebase.git/info/exclude                 |    6 +
+ .../0b/324af649f28e3fd818307f9a05fa6dd628be90      |  Bin 0 -> 259 bytes
+ .../0c/8137797cf3cc9e3f9952b307248a4aac7a77d8      |  Bin 0 -> 1091 bytes
+ .../0d/06f36d2bbc5e88a7f340450ae17248affeb0ef      |  Bin 0 -> 620 bytes
+ .../12/f19f0a961ee06c77cdb0b72e91498228194168      |  Bin 0 -> 517 bytes
+ .../2a/8fe1ae9166e00557574ba9d5a9fac84b46618a      |  Bin 0 -> 194 bytes
+ .../34/b7a475f2fddb35e14ff4b243d849860fecc5a7      |  Bin 0 -> 481 bytes
+ .../3c/d3c4f26ed363d0e9ba3a3307c1e42b9b91c56a      |  Bin 0 -> 732 bytes
+ .../46/54ac0e06b1c7d311589427335795cc53b63e7f      |  Bin 0 -> 1261 bytes
+ .../50/82c760dcad311bf68d45e026f0d042998c5db8      |    9 +
+ .../71/7ea74f4c17146b3731921f66bc0f44af89a2d7      |    3 +
+ .../71/9903fddb1454d7839650df725cafc93a4e258a      |  Bin 0 -> 1556 bytes
+ .../72/8755de0524fd702da6c37eecb38cf62924460f      |  Bin 0 -> 295 bytes
+ .../73/f6d28fe95aefe02944ea34667c98f7b6a44225      |  Bin 0 -> 2240 bytes
+ .../85/64fc43007d3e3357f64d3a919b73c805bc7816      |  Bin 0 -> 624 bytes
+ .../95/2603a176d05f76359595341bef00a08a60e46e      |  Bin 0 -> 167 bytes
+ .../a3/e6d999d34e61dfcd70d4857399ef7e7e8a47c6      |  Bin 0 -> 1091 bytes
+ .../b2/5621de2de5199382dcc9a10a7578275c9c1f34      |  Bin 0 -> 1092 bytes
+ .../c7/173085e840535e228718fbcd7fd66fbeaee9f6      |    3 +
+ .../e1/8b229baa1a9631739e61d60b737ad895a8a30f      |  Bin 0 -> 163 bytes
+ .../e1/b685962eddb9bd0d8db9eedc67899de2d1424b      |  Bin 0 -> 1258 bytes
+ .../e5/1de05051c1f3dc6e33022ad163d76d784d69f8      |  Bin 0 -> 89 bytes
+ .../f4/74f0dbb0d187a11e5032f7a661eb10d9d35060      |  Bin 0 -> 1092 bytes
+ .../fd/f3d520c1e64b4f350bb9ba9fb293bf0afde295      |  Bin 0 -> 160 bytes
+ ...ck-2defc0a24a43280af4cc579e520406080306b527.idx |  Bin 0 -> 9808 bytes
+ ...k-2defc0a24a43280af4cc579e520406080306b527.pack |  Bin 0 -> 1014608 bytes
+ ...ck-67765f6dc3d628fc2e767c547208d7b79c7b4bf1.idx |  Bin 0 -> 14400 bytes
+ ...k-67765f6dc3d628fc2e767c547208d7b79c7b4bf1.pack |  Bin 0 -> 96731 bytes
+ ...ck-9a1d792ea49206b5d7f3f38f8739c86dbc4bf6ef.idx |  Bin 0 -> 22380 bytes
+ ...k-9a1d792ea49206b5d7f3f38f8739c86dbc4bf6ef.pack |  Bin 0 -> 2606249 bytes
+ profiles/homebase.git/packed-refs                  |    2 +
+ profiles/homebase.git/refs/heads/master            |    1 +
+ profiles/private.git/HEAD                          |    1 +
+ profiles/private.git/config                        |    5 +
+ profiles/private.git/description                   |    1 +
+ profiles/private.git/hooks/applypatch-msg.sample   |   15 ++
+ profiles/private.git/hooks/commit-msg.sample       |   24 +++
+ profiles/private.git/hooks/post-commit.sample      |    8 +
+ profiles/private.git/hooks/post-receive.sample     |   15 ++
+ profiles/private.git/hooks/post-update.sample      |    8 +
+ profiles/private.git/hooks/pre-applypatch.sample   |   14 ++
+ profiles/private.git/hooks/pre-commit.sample       |   46 ++++++
+ profiles/private.git/hooks/pre-rebase.sample       |  169 ++++++++++++++++++++
+ .../private.git/hooks/prepare-commit-msg.sample    |   36 ++++
+ profiles/private.git/hooks/update.sample           |  128 +++++++++++++++
+ profiles/private.git/info/exclude                  |    6 +
+ .../08/ac197c3e51dda6e7fae9493df2f5e5563c3a32      |  Bin 0 -> 1299 bytes
+ .../15/b5c5dfd1de89593a58d1db4630b3d6ab56a4cf      |  Bin 0 -> 79 bytes
+ .../57/ec7853bc40fb17fb674e97be982dfdc5f53986      |  Bin 0 -> 354 bytes
+ .../cc/7b3068e7d612d7497a0e17245297cb9631894d      |    2 +
+ profiles/private.git/refs/heads/master             |    1 +
+ projects.workspace                                 |    1 +
+ repos.lst                                          |   46 ++++++
+ scripts/batch.git/HEAD                             |    1 +
+ scripts/batch.git/config                           |   11 ++
+ scripts/batch.git/description                      |    1 +
+ scripts/batch.git/hooks/applypatch-msg.sample      |   15 ++
+ scripts/batch.git/hooks/commit-msg.sample          |   24 +++
+ scripts/batch.git/hooks/post-commit.sample         |    8 +
+ scripts/batch.git/hooks/post-receive.sample        |   15 ++
+ scripts/batch.git/hooks/post-update.sample         |    8 +
+ scripts/batch.git/hooks/pre-applypatch.sample      |   14 ++
+ scripts/batch.git/hooks/pre-commit.sample          |   46 ++++++
+ scripts/batch.git/hooks/pre-rebase.sample          |  169 ++++++++++++++++++++
+ scripts/batch.git/hooks/prepare-commit-msg.sample  |   36 ++++
+ scripts/batch.git/hooks/update.sample              |  128 +++++++++++++++
+ scripts/batch.git/info/exclude                     |    6 +
+ ...ck-783a5ef8e41774bb1f2ef8ce68034f2b57c5f580.idx |  Bin 0 -> 3228 bytes
+ ...k-783a5ef8e41774bb1f2ef8ce68034f2b57c5f580.pack |  Bin 0 -> 14892 bytes
+ scripts/batch.git/packed-refs                      |    2 +
+ scripts/libmyplace-perl.git/HEAD                   |    1 +
+ scripts/libmyplace-perl.git/config                 |   14 ++
+ scripts/libmyplace-perl.git/description            |    1 +
+ .../hooks/applypatch-msg.sample                    |   15 ++
+ .../libmyplace-perl.git/hooks/commit-msg.sample    |   24 +++
+ .../libmyplace-perl.git/hooks/post-commit.sample   |    8 +
+ .../libmyplace-perl.git/hooks/post-receive.sample  |   15 ++
+ .../libmyplace-perl.git/hooks/post-update.sample   |    8 +
+ .../hooks/pre-applypatch.sample                    |   14 ++
+ .../libmyplace-perl.git/hooks/pre-commit.sample    |   46 ++++++
+ .../libmyplace-perl.git/hooks/pre-rebase.sample    |  169 ++++++++++++++++++++
+ .../hooks/prepare-commit-msg.sample                |   36 ++++
+ scripts/libmyplace-perl.git/hooks/update.sample    |  128 +++++++++++++++
+ scripts/libmyplace-perl.git/info/exclude           |    6 +
+ ...ck-e64efa0b27768d976022d3fecb8776844cab0673.idx |  Bin 0 -> 6924 bytes
+ ...k-e64efa0b27768d976022d3fecb8776844cab0673.pack |  Bin 0 -> 75125 bytes
+ scripts/libmyplace-perl.git/packed-refs            |    2 +
+ scripts/logo.git/HEAD                              |    1 +
+ scripts/logo.git/config                            |   11 ++
+ scripts/logo.git/description                       |    1 +
+ scripts/logo.git/hooks/applypatch-msg.sample       |   15 ++
+ scripts/logo.git/hooks/commit-msg.sample           |   24 +++
+ scripts/logo.git/hooks/post-commit.sample          |    8 +
+ scripts/logo.git/hooks/post-receive.sample         |   15 ++
+ scripts/logo.git/hooks/post-update.sample          |    8 +
+ scripts/logo.git/hooks/pre-applypatch.sample       |   14 ++
+ scripts/logo.git/hooks/pre-commit.sample           |   46 ++++++
+ scripts/logo.git/hooks/pre-rebase.sample           |  169 ++++++++++++++++++++
+ scripts/logo.git/hooks/prepare-commit-msg.sample   |   36 ++++
+ scripts/logo.git/hooks/update.sample               |  128 +++++++++++++++
+ scripts/logo.git/info/exclude                      |    6 +
+ ...ck-215f9ee7b6da82f89caeeb7c73b47829826fc2b7.idx |  Bin 0 -> 1156 bytes
+ ...k-215f9ee7b6da82f89caeeb7c73b47829826fc2b7.pack |  Bin 0 -> 396 bytes
+ scripts/logo.git/packed-refs                       |    2 +
+ scripts/lua.git/HEAD                               |    1 +
+ scripts/lua.git/config                             |   11 ++
+ scripts/lua.git/description                        |    1 +
+ scripts/lua.git/hooks/applypatch-msg.sample        |   15 ++
+ scripts/lua.git/hooks/commit-msg.sample            |   24 +++
+ scripts/lua.git/hooks/post-commit.sample           |    8 +
+ scripts/lua.git/hooks/post-receive.sample          |   15 ++
+ scripts/lua.git/hooks/post-update.sample           |    8 +
+ scripts/lua.git/hooks/pre-applypatch.sample        |   14 ++
+ scripts/lua.git/hooks/pre-commit.sample            |   46 ++++++
+ scripts/lua.git/hooks/pre-rebase.sample            |  169 ++++++++++++++++++++
+ scripts/lua.git/hooks/prepare-commit-msg.sample    |   36 ++++
+ scripts/lua.git/hooks/update.sample                |  128 +++++++++++++++
+ scripts/lua.git/info/exclude                       |    6 +
+ ...ck-18c633a2bd2907a038b4bc086b6f9f8504633a77.idx |  Bin 0 -> 1408 bytes
+ ...k-18c633a2bd2907a038b4bc086b6f9f8504633a77.pack |  Bin 0 -> 5631 bytes
+ scripts/lua.git/packed-refs                        |    2 +
+ scripts/perl.git/HEAD                              |    1 +
+ scripts/perl.git/config                            |   14 ++
+ scripts/perl.git/description                       |    1 +
+ scripts/perl.git/hooks/applypatch-msg.sample       |   15 ++
+ scripts/perl.git/hooks/commit-msg.sample           |   24 +++
+ scripts/perl.git/hooks/post-commit.sample          |    8 +
+ scripts/perl.git/hooks/post-receive.sample         |   15 ++
+ scripts/perl.git/hooks/post-update.sample          |    8 +
+ scripts/perl.git/hooks/pre-applypatch.sample       |   14 ++
+ scripts/perl.git/hooks/pre-commit.sample           |   46 ++++++
+ scripts/perl.git/hooks/pre-rebase.sample           |  169 ++++++++++++++++++++
+ scripts/perl.git/hooks/prepare-commit-msg.sample   |   36 ++++
+ scripts/perl.git/hooks/update.sample               |  128 +++++++++++++++
+ scripts/perl.git/info/exclude                      |    6 +
+ .../19/26fb6a7c8bedf7a9890f4af39a638159b69040      |  Bin 0 -> 170 bytes
+ .../19/57cbea4219d00c13d62dfa1d1fbfb10912a91b      |  Bin 0 -> 8957 bytes
+ .../23/cb5c5a5bf5d0af256e1a3cf3463e4a09787176      |  Bin 0 -> 189 bytes
+ .../27/1e818970836eddad67dd86c7c423d7fa165dca      |  Bin 0 -> 9063 bytes
+ .../3b/d26400af8dbf51569283cfac68c35b3c871f6b      |    3 +
+ .../5d/3b2f7affcbc533ad7fa482781f075bcba4b82c      |  Bin 0 -> 9063 bytes
+ .../6a/6f9369984534a0072f5878dda38489c236c3a7      |  Bin 0 -> 1294 bytes
+ .../6b/46850c9da166f94b235fac1c27187cd6462121      |  Bin 0 -> 105 bytes
+ .../6c/cdd07b4aeed2bdba235298582cd08435e6e4b1      |    6 +
+ .../6d/577662a11b009fba720aa28dbce0d343f52b67      |  Bin 0 -> 187 bytes
+ .../8d/5a33e5bcdb73fb74c1ae5db0795bd0338eb4e0      |  Bin 0 -> 9063 bytes
+ .../aa/65ece787b1280f994a242d5a677b5a498e5f5b      |  Bin 0 -> 1904 bytes
+ .../b2/86732406fe6c0b955df8b4b93ef843e2e1a671      |  Bin 0 -> 8986 bytes
+ .../b6/c17478cb6f2d36fabb9321862ee3804bb23c7c      |  Bin 0 -> 72 bytes
+ .../b9/55c613401a22899ec845c93e63f5d75350e5ec      |  Bin 0 -> 1033 bytes
+ .../bc/33b399d210fe2be78e2cfac2bac4d6b70777ad      |  Bin 0 -> 433 bytes
+ .../c2/5b98598b530a7b68fe165e5c08ee5646b26638      |  Bin 0 -> 73 bytes
+ .../cc/820b813a0aec02c6825d0f85664b6a71dd9172      |  Bin 0 -> 115 bytes
+ .../cf/b11bf5a95d5cde0af7390e9a9acf2c90f02581      |  Bin 0 -> 180 bytes
+ .../e6/80ff42fc21c5c7cf0267874df2490160e60458      |  Bin 0 -> 811 bytes
+ .../ff/daee1e96ca0e793eaec62f15d25bf3d9722b8a      |  Bin 0 -> 867 bytes
+ ...ck-d0d87449ab8aef4d3ad2f78019922a0f86b482a4.idx |  Bin 0 -> 35876 bytes
+ ...k-d0d87449ab8aef4d3ad2f78019922a0f86b482a4.pack |  Bin 0 -> 558859 bytes
+ scripts/perl.git/packed-refs                       |    2 +
+ scripts/sh.git/HEAD                                |    1 +
+ scripts/sh.git/config                              |   14 ++
+ scripts/sh.git/description                         |    1 +
+ scripts/sh.git/hooks/applypatch-msg.sample         |   15 ++
+ scripts/sh.git/hooks/commit-msg.sample             |   24 +++
+ scripts/sh.git/hooks/post-commit.sample            |    8 +
+ scripts/sh.git/hooks/post-receive.sample           |   15 ++
+ scripts/sh.git/hooks/post-update.sample            |    8 +
+ scripts/sh.git/hooks/pre-applypatch.sample         |   14 ++
+ scripts/sh.git/hooks/pre-commit.sample             |   46 ++++++
+ scripts/sh.git/hooks/pre-rebase.sample             |  169 ++++++++++++++++++++
+ scripts/sh.git/hooks/prepare-commit-msg.sample     |   36 ++++
+ scripts/sh.git/hooks/update.sample                 |  128 +++++++++++++++
+ scripts/sh.git/info/exclude                        |    6 +
+ .../41/052c3d1e12d4e94d6f2de386078399d820d6a4      |  Bin 0 -> 10189 bytes
+ .../d0/af31c30943b3db30766d3a4b8b93abf17df28c      |    3 +
+ .../d5/929dc50724361ee1d15b2fe41c052cd5899aa4      |  Bin 0 -> 168 bytes
+ ...ck-fc3ea8f0eeeea2a47aa0a0b487d0575c89ec1abc.idx |  Bin 0 -> 15856 bytes
+ ...k-fc3ea8f0eeeea2a47aa0a0b487d0575c89ec1abc.pack |  Bin 0 -> 164662 bytes
+ scripts/sh.git/packed-refs                         |    2 +
+ scripts/wscript.git/HEAD                           |    1 +
+ scripts/wscript.git/config                         |   11 ++
+ scripts/wscript.git/description                    |    1 +
+ scripts/wscript.git/hooks/applypatch-msg.sample    |   15 ++
+ scripts/wscript.git/hooks/commit-msg.sample        |   24 +++
+ scripts/wscript.git/hooks/post-commit.sample       |    8 +
+ scripts/wscript.git/hooks/post-receive.sample      |   15 ++
+ scripts/wscript.git/hooks/post-update.sample       |    8 +
+ scripts/wscript.git/hooks/pre-applypatch.sample    |   14 ++
+ scripts/wscript.git/hooks/pre-commit.sample        |   46 ++++++
+ scripts/wscript.git/hooks/pre-rebase.sample        |  169 ++++++++++++++++++++
+ .../wscript.git/hooks/prepare-commit-msg.sample    |   36 ++++
+ scripts/wscript.git/hooks/update.sample            |  128 +++++++++++++++
+ scripts/wscript.git/info/exclude                   |    6 +
+ ...ck-f53cbd6057786cbae85328682d94f0c83373ecc7.idx |  Bin 0 -> 1212 bytes
+ ...k-f53cbd6057786cbae85328682d94f0c83373ecc7.pack |  Bin 0 -> 1014 bytes
+ scripts/wscript.git/packed-refs                    |    2 +
+ supports/kuaipan_1.20.0.738.exe                    |  Bin 0 -> 2871872 bytes
+ texts/notes.git/HEAD                               |    1 +
+ texts/notes.git/config                             |   11 ++
+ texts/notes.git/description                        |    1 +
+ texts/notes.git/hooks/applypatch-msg.sample        |   15 ++
+ texts/notes.git/hooks/commit-msg.sample            |   24 +++
+ texts/notes.git/hooks/post-commit.sample           |    8 +
+ texts/notes.git/hooks/post-receive.sample          |   15 ++
+ texts/notes.git/hooks/post-update.sample           |    8 +
+ texts/notes.git/hooks/pre-applypatch.sample        |   14 ++
+ texts/notes.git/hooks/pre-commit.sample            |   46 ++++++
+ texts/notes.git/hooks/pre-rebase.sample            |  169 ++++++++++++++++++++
+ texts/notes.git/hooks/prepare-commit-msg.sample    |   36 ++++
+ texts/notes.git/hooks/update.sample                |  128 +++++++++++++++
+ texts/notes.git/info/exclude                       |    6 +
+ ...ck-cd1d65b20ff7d8a1c90278d518a7a2495bd3de3d.idx |  Bin 0 -> 1268 bytes
+ ...k-cd1d65b20ff7d8a1c90278d518a7a2495bd3de3d.pack |  Bin 0 -> 15950 bytes
+ texts/notes.git/packed-refs                        |    2 +
+ texts/texts.git/HEAD                               |    1 +
+ texts/texts.git/config                             |   13 ++
+ texts/texts.git/description                        |    1 +
+ texts/texts.git/hooks/applypatch-msg.sample        |   15 ++
+ texts/texts.git/hooks/commit-msg.sample            |   24 +++
+ texts/texts.git/hooks/post-commit.sample           |    8 +
+ texts/texts.git/hooks/post-receive.sample          |   15 ++
+ texts/texts.git/hooks/post-update.sample           |    8 +
+ texts/texts.git/hooks/pre-applypatch.sample        |   14 ++
+ texts/texts.git/hooks/pre-commit.sample            |   46 ++++++
+ texts/texts.git/hooks/pre-rebase.sample            |  169 ++++++++++++++++++++
+ texts/texts.git/hooks/prepare-commit-msg.sample    |   36 ++++
+ texts/texts.git/hooks/update.sample                |  128 +++++++++++++++
+ texts/texts.git/index                              |  Bin 0 -> 57472 bytes
+ texts/texts.git/info/exclude                       |    6 +
+ texts/texts.git/logs/HEAD                          |    1 +
+ texts/texts.git/logs/refs/heads/master             |    1 +
+ ...ck-7fc19c36bcac0f4c286d0d663e94d232105b41ac.idx |  Bin 0 -> 25348 bytes
+ ...k-7fc19c36bcac0f4c286d0d663e94d232105b41ac.pack |  Bin 0 -> 1491651 bytes
+ texts/texts.git/refs/heads/master                  |    1 +
+ texts/webpages.git/HEAD                            |    1 +
+ texts/webpages.git/config                          |   11 ++
+ texts/webpages.git/description                     |    1 +
+ texts/webpages.git/hooks/applypatch-msg.sample     |   15 ++
+ texts/webpages.git/hooks/commit-msg.sample         |   24 +++
+ texts/webpages.git/hooks/post-commit.sample        |    8 +
+ texts/webpages.git/hooks/post-receive.sample       |   15 ++
+ texts/webpages.git/hooks/post-update.sample        |    8 +
+ texts/webpages.git/hooks/pre-applypatch.sample     |   14 ++
+ texts/webpages.git/hooks/pre-commit.sample         |   46 ++++++
+ texts/webpages.git/hooks/pre-rebase.sample         |  169 ++++++++++++++++++++
+ texts/webpages.git/hooks/prepare-commit-msg.sample |   36 ++++
+ texts/webpages.git/hooks/update.sample             |  128 +++++++++++++++
+ texts/webpages.git/info/exclude                    |    6 +
+ ...ck-5a2e8e3c0c03c2a572e39ced10f607661fb41768.idx |  Bin 0 -> 1240 bytes
+ ...k-5a2e8e3c0c03c2a572e39ced10f607661fb41768.pack |  Bin 0 -> 641 bytes
+ texts/webpages.git/packed-refs                     |    2 +
+ texts/www.git/HEAD                                 |    1 +
+ texts/www.git/config                               |   11 ++
+ texts/www.git/description                          |    1 +
+ texts/www.git/hooks/applypatch-msg.sample          |   15 ++
+ texts/www.git/hooks/commit-msg.sample              |   24 +++
+ texts/www.git/hooks/post-commit.sample             |    8 +
+ texts/www.git/hooks/post-receive.sample            |   15 ++
+ texts/www.git/hooks/post-update.sample             |    8 +
+ texts/www.git/hooks/pre-applypatch.sample          |   14 ++
+ texts/www.git/hooks/pre-commit.sample              |   46 ++++++
+ texts/www.git/hooks/pre-rebase.sample              |  169 ++++++++++++++++++++
+ texts/www.git/hooks/prepare-commit-msg.sample      |   36 ++++
+ texts/www.git/hooks/update.sample                  |  128 +++++++++++++++
+ texts/www.git/info/exclude                         |    6 +
+ ...ck-3bb69a06cc1e7d551adf43f0d5615d22ba77b88f.idx |  Bin 0 -> 14764 bytes
+ ...k-3bb69a06cc1e7d551adf43f0d5615d22ba77b88f.pack |  Bin 0 -> 672124 bytes
+ texts/www.git/packed-refs                          |    2 +
+ usys/sysbuilder.git/HEAD                           |    1 +
+ usys/sysbuilder.git/config                         |   11 ++
+ usys/sysbuilder.git/description                    |    1 +
+ usys/sysbuilder.git/hooks/applypatch-msg.sample    |   15 ++
+ usys/sysbuilder.git/hooks/commit-msg.sample        |   24 +++
+ usys/sysbuilder.git/hooks/post-commit.sample       |    8 +
+ usys/sysbuilder.git/hooks/post-receive.sample      |   15 ++
+ usys/sysbuilder.git/hooks/post-update.sample       |    8 +
+ usys/sysbuilder.git/hooks/pre-applypatch.sample    |   14 ++
+ usys/sysbuilder.git/hooks/pre-commit.sample        |   46 ++++++
+ usys/sysbuilder.git/hooks/pre-rebase.sample        |  169 ++++++++++++++++++++
+ .../sysbuilder.git/hooks/prepare-commit-msg.sample |   36 ++++
+ usys/sysbuilder.git/hooks/update.sample            |  128 +++++++++++++++
+ usys/sysbuilder.git/info/exclude                   |    6 +
+ ...ck-7458e02990ce581c428bc0b414994dd5412a0fe8.idx |  Bin 0 -> 22912 bytes
+ ...k-7458e02990ce581c428bc0b414994dd5412a0fe8.pack |  Bin 0 -> 10595386 bytes
+ usys/sysbuilder.git/refs/heads/master              |    1 +
+ usys/toolbox.git/HEAD                              |    1 +
+ usys/toolbox.git/config                            |   11 ++
+ usys/toolbox.git/description                       |    1 +
+ usys/toolbox.git/hooks/applypatch-msg.sample       |   15 ++
+ usys/toolbox.git/hooks/commit-msg.sample           |   24 +++
+ usys/toolbox.git/hooks/post-commit.sample          |    8 +
+ usys/toolbox.git/hooks/post-receive.sample         |   15 ++
+ usys/toolbox.git/hooks/post-update.sample          |    8 +
+ usys/toolbox.git/hooks/pre-applypatch.sample       |   14 ++
+ usys/toolbox.git/hooks/pre-commit.sample           |   46 ++++++
+ usys/toolbox.git/hooks/pre-rebase.sample           |  169 ++++++++++++++++++++
+ usys/toolbox.git/hooks/prepare-commit-msg.sample   |   36 ++++
+ usys/toolbox.git/hooks/update.sample               |  128 +++++++++++++++
+ usys/toolbox.git/info/exclude                      |    6 +
+ .../01/16ded22b0859aee266440df47f36da456217e9      |  Bin 0 -> 286 bytes
+ .../01/d8a0c02f8e79038e08fb8f6a2e8bce97b47b6b      |  Bin 0 -> 89 bytes
+ .../05/26168ae44b7ae0492ffb5296801464f235bd17      |  Bin 0 -> 335 bytes
+ .../07/b4cec3f4808fa3b61f3559a539cc08c461fead      |  Bin 0 -> 80 bytes
+ .../12/5b730f0544d3aafcd174ff2d6702de8f8d487a      |  Bin 0 -> 388 bytes
+ .../12/7c730bf83c52ef1513be530c027590343b32e4      |  Bin 0 -> 9596 bytes
+ .../12/d798781f375a43ab7d3be1e7ed42b42abad5fd      |  Bin 0 -> 1737 bytes
+ .../15/7101c2ca5e62d1619406ea6927e6334c1debaf      |  Bin 0 -> 4596 bytes
+ .../16/8c943c3fb67387fae608446e14b9bc03bae5de      |  Bin 0 -> 3076 bytes
+ .../17/6c8ff02fbe23ffb03593cb9a81b79b7b050f55      |  Bin 0 -> 14703 bytes
+ .../19/fe59d79c02c2205e4a1ec8b601ab6c03ac7410      |  Bin 0 -> 21199 bytes
+ .../1b/6b2a0d8476d98adacfecc4d4ff4f89870a3c12      |  Bin 0 -> 154 bytes
+ .../1e/334cf833e04a24e4380a9a8a3dd9c04fad037d      |  Bin 0 -> 2780 bytes
+ .../1e/8db1e38c2f51b2ddaed0fbcc1ce7e157410eb8      |  Bin 0 -> 5255 bytes
+ .../20/09f294c15a5722411c9039af3ba65b107144dc      |  Bin 0 -> 10571 bytes
+ .../21/d4a588b5f088b966476754f5caac7dbe6d147a      |  Bin 0 -> 14281 bytes
+ .../22/5f66bf4eaaf4a80f6037f2d09b16610a16d594      |  Bin 0 -> 194 bytes
+ .../22/70fd0dda142adb875d9e4623f8e254cf5afa66      |  Bin 0 -> 16999 bytes
+ .../24/3f6df41804126297a27c9646d00faf432e53d9      |  Bin 0 -> 9866 bytes
+ .../24/60298c39981776105398f35283355ea25c76a3      |  Bin 0 -> 8065 bytes
+ .../29/77a5f3db3b214ecc2dd98a7e854e8b235ae549      |  Bin 0 -> 123649 bytes
+ .../2c/277e57049eda492aca82b851815e33cecd00a5      |  Bin 0 -> 104 bytes
+ .../2e/2d4fd892f085ba0c0f00469d0bc516157339f6      |  Bin 0 -> 30944 bytes
+ .../2f/44af8994dbcfcdc8eab5cbef463a4ef2ae9870      |  Bin 0 -> 2206 bytes
+ .../31/7ac665079416b357f4197de4f6b544e5a55f2b      |  Bin 0 -> 37 bytes
+ .../31/a00f7434b2a21b9d031e99919c9f3e7b74be22      |  Bin 0 -> 1402 bytes
+ .../33/029172581d4a32630eff8d95b11152dcbd6238      |  Bin 0 -> 23342 bytes
+ .../34/5d2df7d466e83ada661548196a441fa534e96e      |  Bin 0 -> 182 bytes
+ .../35/20babefa111a2000054a4f7ab8a60fe4af5384      |  Bin 0 -> 42708 bytes
+ .../36/a4d2a8e0111dc790252afc447f4632c5a4daba      |  Bin 0 -> 3343 bytes
+ .../3a/c467661f68ce1aee8c53667777fde6e6957fcd      |  Bin 0 -> 1226 bytes
+ .../3b/9030b1cdf8c45846c1ca529a6c163a554b779f      |  Bin 0 -> 6327 bytes
+ .../3c/f1e6cd4a3a135a1f5765274824323708566c3c      |  Bin 0 -> 21554 bytes
+ .../3d/a4e0f8b3776b41f721bcaaf9226de0d9836701      |    1 +
+ .../3d/db962feac339f8bbd7866300488d9dc4a50bf5      |  Bin 0 -> 1021 bytes
+ .../46/6a7489f6602f52723cc7ecb4d3cd12253966e6      |  Bin 0 -> 22128 bytes
+ .../46/8501e173c2c790cfd2b02bd455651bf3ff1163      |  Bin 0 -> 29 bytes
+ .../47/04510b388fd9a1ac48318844651e9a923d1912      |  Bin 0 -> 262 bytes
+ .../4a/ac500cfd10d8015bbfcbbff62445a7981ed09c      |  Bin 0 -> 2593 bytes
+ .../4a/d4cdd01777e7f53e418846ee80b76e163b5ac3      |  Bin 0 -> 2585 bytes
+ .../4c/6bcd8220dcaaebf15595b351df73c44ef1d8e0      |  Bin 0 -> 635 bytes
+ .../4c/9ee52ee4f3e3a0b01604ed8d7de6f6d2c7d99d      |  Bin 0 -> 3346 bytes
+ .../4f/014f88e10b98b530d459321d4ed8c9db06b91f      |  Bin 0 -> 47 bytes
+ .../5b/1e341436e18dfdd1d9ae442c91910365d07040      |  Bin 0 -> 408 bytes
+ .../5c/f5c036d8bce6db098de6ad87100175d7213f7a      |  Bin 0 -> 71515 bytes
+ .../5d/61b650dcc0db9308930b27f3dbece45d49c07a      |  Bin 0 -> 132 bytes
+ .../5d/cb7519a60272596d6bc5043ee7a3c0fee824fa      |  Bin 0 -> 948 bytes
+ .../5e/2511522aa789c3b7031fc579306ef8c878e5bf      |  Bin 0 -> 57 bytes
+ .../5e/71d850cb165629a7e3af95ce4b2d60aec4782d      |  Bin 0 -> 9822 bytes
+ .../5e/9349eec636593c5813a3918ea965b2fd37ab6b      |  Bin 0 -> 498 bytes
+ .../60/3cf9c8ee73066154d8b6e7e4a8406c9b6a273c      |  Bin 0 -> 20691 bytes
+ .../68/ae2229a5db9607ee8a9b2712cd0aa3b0d13d1e      |  Bin 0 -> 77 bytes
+ .../69/957275823657d5a5def435abfff575136176ca      |  Bin 0 -> 371 bytes
+ .../6a/2a48f31455e70a711766d0dd828b8a2f0ce9ae      |  Bin 0 -> 651 bytes
+ .../6a/fcdd7cb50d664be031f7555463d2decec9a9f3      |    2 +
+ .../6d/1491ae13c8584571b44b5da504ad9007ba150d      |  Bin 0 -> 29 bytes
+ .../6f/6932b09e58af741b332f32009749cc8cba4206      |  Bin 0 -> 21519 bytes
+ .../6f/a770e145caa517750bb4282b7dbc49179f859f      |  Bin 0 -> 16232 bytes
+ .../76/32544cd755ae43cb72d52eca7fc617608075c1      |  Bin 0 -> 3112 bytes
+ .../76/c962d1c654220b4af9ba26c1b62251399757d2      |  Bin 0 -> 280 bytes
+ .../79/6e9ee76c256380b9994cda90ac589844f5b509      |  Bin 0 -> 46495 bytes
+ .../7d/53648012bbfa59903f4c07d7073cab6b19819f      |  Bin 0 -> 23454 bytes
+ .../7d/a3bcc6deb5249c0fcab41aed657f08f6091ec9      |  Bin 0 -> 55 bytes
+ .../7e/b1aff343b8038940708621f3349bab34562e76      |  Bin 0 -> 5087 bytes
+ .../7f/424b049b1ca2248a26a239efa2ad22f601190e      |  Bin 0 -> 272 bytes
+ .../82/a19e3e5f9c0a31c03f2bc44cc3883737ed5f98      |  Bin 0 -> 5894 bytes
+ .../83/9e21a636ded2f9b6446b26cbb4015cd9e751d6      |  Bin 0 -> 54432 bytes
+ .../88/09854576b37d82d6996b8c419fc037d7841118      |  Bin 0 -> 278 bytes
+ .../89/da5a4c8988c082d9b8d44c57b877de4e5e78a7      |  Bin 0 -> 3440 bytes
+ .../8b/71bcbe5e9cd55e38957f5b06dfee326042119f      |  Bin 0 -> 412376 bytes
+ .../8b/84141a9ca3dd5f2bf538e54378c161a9fad6d8      |  Bin 0 -> 2916 bytes
+ .../8c/29c9533a7c6fb6baaedda13bb3b31a093499b4      |    2 +
+ .../8c/7f6586f3ec95afaf7c14d0c2e0d38a47ce4614      |  Bin 0 -> 214691 bytes
+ .../8d/5a801628c65a9b01b4bdf1dedbe14226e1ae69      |  Bin 0 -> 81 bytes
+ .../8d/7595fa2dc4b5bf288d5a4471fbc404bfd47e2b      |    2 +
+ .../94/b9c55f9d9465aa6dac7bc4cb1b6b081ee9f753      |  Bin 0 -> 6416 bytes
+ .../94/d55b61f69d864cbecc5b3277c0d9d514b6b086      |  Bin 0 -> 6952 bytes
+ .../97/7786c95afbc319aa3c269c27eade6b581f8cef      |  Bin 0 -> 637 bytes
+ .../97/bec2543b47dbf7c8cc0d8267ba3ceb3a903e14      |  Bin 0 -> 869477 bytes
+ .../98/3c6b4f987608763e0dd3e71046861f1bb0212d      |  Bin 0 -> 498 bytes
+ .../98/bc871d1fab9b1a01ecd127df10941cd6e89961      |  Bin 0 -> 3034 bytes
+ .../9b/3fac16b065e54bf0896eb6ad9f1f2ce8f4ab14      |  Bin 0 -> 7035 bytes
+ .../9b/72eca665b8b67069ccf0ff1942d34a1cfceecf      |    3 +
+ .../9b/92d2589952f72c244a43fe081cb875b83bc810      |    1 +
+ .../9c/a2a56ec0cb93bcdf004727483304ce48fad836      |  Bin 0 -> 47810 bytes
+ .../9e/2dfecd02f11567843ef4542783e013f6cacd84      |  Bin 0 -> 15410 bytes
+ .../9f/4dd593c0397ee3220fdc0f7e34ccfca9305aa3      |  Bin 0 -> 256 bytes
+ .../9f/d93e17161b0268c473dc2332aff8e27772fc23      |  Bin 0 -> 8621 bytes
+ .../a0/5314277c29d6145bf6d850f04b4dfa162616d6      |  Bin 0 -> 21 bytes
+ .../a0/a152027bda811f3a312285bd2c01a8052f639f      |  Bin 0 -> 60 bytes
+ .../a1/3fd68ef865b8db49929c9e1f5215082be1096f      |  Bin 0 -> 328 bytes
+ .../a3/d5042222d413c79475d3ec834cb6427b66a2c2      |  Bin 0 -> 78933 bytes
+ .../a5/cfcb522038fe59cd2beeef631a9f75ebfaf67c      |  Bin 0 -> 1417376 bytes
+ .../a6/62b514bc011802ee732b58c5de9de51657f35c      |  Bin 0 -> 428 bytes
+ .../a8/cc28d1dd5427c454f05004a2d9f4efa75069d1      |  Bin 0 -> 629201 bytes
+ .../ab/ad2841268aefc36f2275e92035a476b84f2924      |  Bin 0 -> 1171435 bytes
+ .../ac/8a7051ca2c5584e82f48779f358181281c4040      |  Bin 0 -> 75 bytes
+ .../ae/b38f375eff492a293b01adb658ff485f335e6c      |  Bin 0 -> 15607 bytes
+ .../af/304763c58f20e0401a8a5f03988b397c755a68      |    1 +
+ .../b1/bbd6318380b2d7e8e1e7c4b2b3963e1d559740      |  Bin 0 -> 335 bytes
+ .../b9/d3ad11a2916a4a0d7ec057edd7730cc71a25a0      |  Bin 0 -> 147 bytes
+ .../bb/2970bf4cea241dd3f7f57b163cc4b73e0da73e      |  Bin 0 -> 87 bytes
+ .../bb/3da8df83c29375579e3772187fe3b3e0168a47      |  Bin 0 -> 4466 bytes
+ .../c1/9b9fe2f3be09866e0aa1031596cc32faac67b3      |  Bin 0 -> 2478 bytes
+ .../c4/057aef82e03ab8a4ccb3731981e64665338dd3      |  Bin 0 -> 6922 bytes
+ .../c6/47e1f48c40f623df61aa38255f0ea4174caf58      |  Bin 0 -> 6284 bytes
+ .../c6/d540378f3df45cc1ba2f9ff794dca956b351d9      |  Bin 0 -> 25897 bytes
+ .../ca/7df531420d9a46b2ae9149955540b7c53fc2da      |  Bin 0 -> 29869 bytes
+ .../cd/9b5727f97ed7dd7d4efe111dbdfa1b61298eb0      |  Bin 0 -> 2644 bytes
+ .../cd/c959d4ebaa65ab0b4720197a17cabd7c54fa28      |  Bin 0 -> 245 bytes
+ .../cd/d7c72ba6b399f92b8a49cc42603dd1f902b7fd      |  Bin 0 -> 76 bytes
+ .../d2/1ef6397fd011c831673db8b33c1d35a4725006      |  Bin 0 -> 22991 bytes
+ .../d6/11e26676963a2bacc603604dd35264469d1cfb      |  Bin 0 -> 9392 bytes
+ .../d7/4322d735ea50a358e667093ca7de13e5a9eb45      |  Bin 0 -> 408046 bytes
+ .../db/707e566547a908613cb24663cd9319592fb3aa      |  Bin 0 -> 3599 bytes
+ .../e0/1dc40ae0afd52cc7a3e8d986d04fd32e67263d      |  Bin 0 -> 8693 bytes
+ .../e3/55e640b2a200023fbaa6cd2eee96785f967bf1      |  Bin 0 -> 56246 bytes
+ .../e6/27636b615ae529b6cafc5a24b248be6d9f6c78      |  Bin 0 -> 26467 bytes
+ .../e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391      |  Bin 0 -> 15 bytes
+ .../e8/5ab9d01622a9543c391d8a10f3d7f55280cc35      |  Bin 0 -> 3848 bytes
+ .../e9/407658422bbb75eb1d1a72a770c3444ef09e2e      |  Bin 0 -> 1653 bytes
+ .../ec/712137202aff670728e0ce6825ff82d43e9af4      |  Bin 0 -> 43551 bytes
+ .../ed/80d71f9d5af1df637be830fefbc32f6bb93ed6      |  Bin 0 -> 77 bytes
+ .../f3/c84d52b28251e34bcdbcb2d5d35eaf10f0229c      |  Bin 0 -> 6027 bytes
+ .../f4/ad08920106f887dd54be8be9cc5bff52e1d927      |  Bin 0 -> 660 bytes
+ .../f5/8b8cd8768d88e57f68e72e32800fe6cbb72abf      |  Bin 0 -> 133 bytes
+ .../f9/bf9fbd45a3165cb1d21290ff4802042a0d4f4e      |  Bin 0 -> 329 bytes
+ .../fa/8748cb6665efe5cd3f5be3944c1b3e6ca9f7ad      |  Bin 0 -> 2929 bytes
+ .../fa/eeccc0fca22d028b6255d1fb5a690e5f4772dc      |  Bin 0 -> 54 bytes
+ .../fb/2cfa2fe17cecbccf346ed45497c5e252d61a8a      |  Bin 0 -> 493117 bytes
+ .../fd/166a5731e01aa096d751a26d3cf77db68ec588      |  Bin 0 -> 3475 bytes
+ .../fd/c08d83c7a30bf68ed321a7a90fc937e1f8b05a      |  Bin 0 -> 413 bytes
+ usys/toolbox.git/packed-refs                       |    3 +
+ usys/usys.git/HEAD                                 |    1 +
+ usys/usys.git/config                               |   11 ++
+ usys/usys.git/description                          |    1 +
+ usys/usys.git/hooks/applypatch-msg.sample          |   15 ++
+ usys/usys.git/hooks/commit-msg.sample              |   24 +++
+ usys/usys.git/hooks/post-commit.sample             |    8 +
+ usys/usys.git/hooks/post-receive.sample            |   15 ++
+ usys/usys.git/hooks/post-update.sample             |    8 +
+ usys/usys.git/hooks/pre-applypatch.sample          |   14 ++
+ usys/usys.git/hooks/pre-commit.sample              |   46 ++++++
+ usys/usys.git/hooks/pre-rebase.sample              |  169 ++++++++++++++++++++
+ usys/usys.git/hooks/prepare-commit-msg.sample      |   36 ++++
+ usys/usys.git/hooks/update.sample                  |  128 +++++++++++++++
+ usys/usys.git/info/exclude                         |    6 +
+ .../00/a40bbde68262c8745a0a3d34a159c6c59a970f      |  Bin 0 -> 270 bytes
+ .../05/67c7f9cde31da29522281e2f8f133dda657e67      |  Bin 0 -> 736246 bytes
+ .../07/ed07c4629b6271cedb8fbb1ad89c6834f17dd1      |  Bin 0 -> 591 bytes
+ .../08/14f647e925af5e6c6551ef5b01a328a80e546b      |  Bin 0 -> 2443 bytes
+ .../08/a6f5542705d8c586a26a1416962455671afedb      |  Bin 0 -> 4960742 bytes
+ .../0d/18f41a91d73d7b2d5127b663b01a16d81a8292      |  Bin 0 -> 173 bytes
+ .../17/147e98a7bdbf6eee16bce022fe28238db696ca      |  Bin 0 -> 448 bytes
+ .../1b/aa79355491327e423fc5687c900292e634e44b      |  Bin 0 -> 149954 bytes
+ .../1e/3c3c42980ff30f551fbbea0d024fb39dfab13f      |    3 +
+ .../21/e86e7978413b677459ab2b0bcb89c18cd9ad04      |  Bin 0 -> 147954 bytes
+ .../2f/a7cb0aa9369154039e71823b9f5fc77da460d8      |  Bin 0 -> 177 bytes
+ .../35/9a921b1249a150c6fa64c794640b59a9f406e9      |  Bin 0 -> 48 bytes
+ .../39/e8250a849228a571e1a51d256afe65bb160790      |  Bin 0 -> 158355 bytes
+ .../41/1c07d5e15b3587fbdc5011f5a3b1a70229a91a      |  Bin 0 -> 13806 bytes
+ .../44/56a6ef50a8a16aac52e49154973ee18f3ec928      |  Bin 0 -> 158 bytes
+ .../45/98ba850e0484cfa6861f72a842fb944000edea      |  Bin 0 -> 761 bytes
+ .../46/b82eb5c1831f0f77eae74dc1a152304bf0b0f3      |  Bin 0 -> 2789 bytes
+ .../53/ea480d774cfd12e7f9a82077acb509546884bf      |  Bin 0 -> 47 bytes
+ .../59/b5bfb6dce4641ebf40c223ae151eea6464e382      |  Bin 0 -> 289 bytes
+ .../61/cfe0269e3c05abd677eb9d3c9b990ed74f01ac      |  Bin 0 -> 13086776 bytes
+ .../74/80c5eec4f6cb18646ee1287b9caef07e04b69a      |  Bin 0 -> 13815 bytes
+ .../76/c908762308bcaf7ec4e89809c5d1f968e8dfbe      |  Bin 0 -> 179 bytes
+ .../7b/cf652c41e4321aca26719e044b3115ffaf874d      |  Bin 0 -> 448 bytes
+ .../8c/b116f968e36d263ec8d024fc8ff10d03decdb3      |  Bin 0 -> 159951 bytes
+ .../8e/612266a69142aec0ad8d42d46d13368b0516b5      |  Bin 0 -> 289 bytes
+ .../8f/2dcbd5541369826a150ee7b556f885ab75c2ad      |  Bin 0 -> 790 bytes
+ .../94/3e7792f9ea5038cef768d54135a508782f0a42      |  Bin 0 -> 588 bytes
+ .../94/c31c2d3ceefbc09004aba3e9342329d43525ad      |  Bin 0 -> 1106579 bytes
+ .../98/6f8811aed059ff7e6cd9d4ab883eb6194f4893      |  Bin 0 -> 820528 bytes
+ .../9f/458da6c178e4d1c342f37de341dd2bcc2cfb6d      |  Bin 0 -> 7437469 bytes
+ .../a5/8febf0c65c31998895dd58e3d0cf5b6fb2f5ee      |  Bin 0 -> 763 bytes
+ .../a6/c5bbec8583ed42343be366a2cc8515b2e1410f      |  Bin 0 -> 7887 bytes
+ .../b8/c64cfe328438981be6fb88e76603e23c4f1a4a      |  Bin 0 -> 267 bytes
+ .../ba/75ebeccede896b584df34bd9fda3b5ae6dc6df      |  Bin 0 -> 189 bytes
+ .../ba/e3b519f18d23290da8462d6734eb78f83af83d      |  Bin 0 -> 288 bytes
+ .../c3/1b8c340702e2c211e7ed81c784997c87d09a86      |  Bin 0 -> 67253 bytes
+ .../cb/464b048a8c7674cd43de98ddae0d2bd0f5cce0      |  Bin 0 -> 80 bytes
+ .../d6/596bb9bcdb60ff405aec9150560de2ebe78e49      |  Bin 0 -> 46406 bytes
+ .../d8/c7358cb868639058bffe8cc81f39238069affe      |  Bin 0 -> 1028306 bytes
+ .../d8/e3d90485a07d528f4a28713827d496606488ef      |  Bin 0 -> 1354 bytes
+ .../dd/e3244b88a9535560b0c48eac60bc711e688310      |  Bin 0 -> 1990887 bytes
+ .../e2/f0a44028aec7fcef0489c7b23fa14155a3721d      |  Bin 0 -> 156340 bytes
+ .../e4/d1e988be1ef7ac9e3e7a6f5f9de0c233ecaff5      |  Bin 0 -> 849 bytes
+ .../e7/fefe7208eece6e86785752f3ba089cfd6634d6      |    2 +
+ .../e8/0887d2670b2bc26516daf9938e7d4b830c0a5d      |  Bin 0 -> 179 bytes
+ .../f0/3c6978252c7d1b4e754d11c33fa40cd753ac88      |  Bin 0 -> 47 bytes
+ .../f1/87c8b4c2b758658fe149acc299a9755e45465b      |  Bin 0 -> 6182 bytes
+ .../f3/3511a8f55eac0cd5563e620d2d1662d4cf8688      |  Bin 0 -> 18658 bytes
+ .../f6/5b572550c61da317c7701ff2c560d71573337f      |  Bin 0 -> 50067 bytes
+ .../f9/34e80d1a801989e39baf3c22c6ff78aeff7a39      |  Bin 0 -> 151537 bytes
+ .../fb/f411f4dd85db065cbda2079bd0caad60fdbec9      |    1 +
+ .../fd/00878f5d77f2d7302f5b65bae4558ba41b42d5      |  Bin 0 -> 151696 bytes
+ ...ck-158a82c883529f2182280dfa0bc83b1a9ef7605f.idx |  Bin 0 -> 7176 bytes
+ ...k-158a82c883529f2182280dfa0bc83b1a9ef7605f.pack |  Bin 0 -> 8537365 bytes
+ ...ck-c74e3948e5072402da04f35843720a60d145ee72.idx |  Bin 0 -> 12468 bytes
+ ...k-c74e3948e5072402da04f35843720a60d145ee72.pack |  Bin 0 -> 5729297 bytes
+ usys/usys.git/packed-refs                          |    3 +
+ usys/usys.git/refs/heads/master                    |    1 +
+ usys/xrdos.git/HEAD                                |    1 +
+ usys/xrdos.git/config                              |   11 ++
+ usys/xrdos.git/description                         |    1 +
+ usys/xrdos.git/hooks/applypatch-msg.sample         |   15 ++
+ usys/xrdos.git/hooks/commit-msg.sample             |   24 +++
+ usys/xrdos.git/hooks/post-commit.sample            |    8 +
+ usys/xrdos.git/hooks/post-receive.sample           |   15 ++
+ usys/xrdos.git/hooks/post-update.sample            |    8 +
+ usys/xrdos.git/hooks/pre-applypatch.sample         |   14 ++
+ usys/xrdos.git/hooks/pre-commit.sample             |   46 ++++++
+ usys/xrdos.git/hooks/pre-rebase.sample             |  169 ++++++++++++++++++++
+ usys/xrdos.git/hooks/prepare-commit-msg.sample     |   36 ++++
+ usys/xrdos.git/hooks/update.sample                 |  128 +++++++++++++++
+ usys/xrdos.git/info/exclude                        |    6 +
+ .../1d/158e7504411f7f9f54f1f8ecaf96243863dd1a      |  Bin 0 -> 1197 bytes
+ .../1d/db1d791287ecb076e2765aebd954318193a500      |  Bin 0 -> 1332 bytes
+ .../1e/47f26f54daa55e1112bc7779e4c76e50b86c39      |  Bin 0 -> 811 bytes
+ .../20/6b456c1571272f9b443e7e7a01a4bdaa7fcbdd      |  Bin 0 -> 6761 bytes
+ .../21/99d9436598bd6a9a40229471d0c83c57a81448      |  Bin 0 -> 50 bytes
+ .../22/f02692e3b78d2ebfbd35187049a5858031610f      |    3 +
+ .../28/74ab449308e20fd4b81593929c6968d0196e90      |  Bin 0 -> 388 bytes
+ .../29/c4996d991fb506a95bfda62eab64639ca2e8fe      |  Bin 0 -> 486 bytes
+ .../2a/5c3699ac7c5f91b4f7141e148f0ef41ed2d637      |    1 +
+ .../2b/001d7948437f69819ad011ddf35a5cb2db742e      |  Bin 0 -> 87 bytes
+ .../35/338007f016adb9740707e7779445ae24f6d597      |  Bin 0 -> 8005 bytes
+ .../39/f024d020958851e0c6271e8000b41042479ef9      |    4 +
+ .../43/e14e5acee155e589d4fa6c6cb7065f2346a4d4      |  Bin 0 -> 946 bytes
+ .../4b/0f266f7765e7e89d27e579efade41f6e98023a      |  Bin 0 -> 381 bytes
+ .../57/a4797d903f52e407e745ea6e17687d60b4f170      |    4 +
+ .../58/fb4b64055aed352678d873754f8c07e4bf5372      |  Bin 0 -> 780 bytes
+ .../59/4f9df04459afce1eaf075a2c7ef70efd2beacf      |  Bin 0 -> 47 bytes
+ .../64/d74b258c82fc73438609c55fac8e2caa427002      |  Bin 0 -> 638 bytes
+ .../65/4a765a754c35a7bbd7c4be3b168a729e22cd44      |  Bin 0 -> 45 bytes
+ .../65/56670cbd00a3c2afc975f41ca0c4bc9a35b1b5      |  Bin 0 -> 81 bytes
+ .../68/2994c69958f574c61c0ec7d117dbf63d0748fc      |  Bin 0 -> 16498 bytes
+ .../68/c922b0fffe368f81eaafe68dfee2da52f91bc9      |    6 +
+ .../6a/04f2456601b9fa940e47dfa093abd01acaab1a      |  Bin 0 -> 3263 bytes
+ .../80/069ca1ea2f44758b913443251e3a1ba716cdbc      |  Bin 0 -> 130 bytes
+ .../83/275fe5278b04843332e2fd1a80c70855d53f31      |  Bin 0 -> 441902 bytes
+ .../8f/4a7bfec20859c21d9bfd14c4a40c3b5dcdd30c      |    2 +
+ .../91/7bc0424a80db5f6712e6548d20fb9deec15286      |  Bin 0 -> 4000 bytes
+ .../99/bb2c99beeda8a4b3a5b3f2a34036e4e044aaaf      |  Bin 0 -> 82 bytes
+ .../9f/4166643f2ae699bd9673283caf4f828e118930      |  Bin 0 -> 6080 bytes
+ .../a5/ee1484570301e942f654ca30ae8f1805fb1614      |  Bin 0 -> 6077 bytes
+ .../a8/6c81c2372614e7b6703e52a5ed660a720f465a      |  Bin 0 -> 3073 bytes
+ .../ad/b53699c24fd5aeaff99589155c0bfe93f560ea      |  Bin 0 -> 131 bytes
+ .../ae/2d498b4439c70dd99ba620b5cf8813aa4a4f6d      |  Bin 0 -> 42 bytes
+ .../ae/aeeca25d77d1d49d74a23133415e8efefa19a3      |  Bin 0 -> 1041 bytes
+ .../b0/d4d865de178d4b02950f492523f24e57b2518f      |  Bin 0 -> 922 bytes
+ .../b1/d84583d0b2b211771228bd416009fa593d3d9b      |  Bin 0 -> 119 bytes
+ .../b2/070ab6345c6ad4f9d9abd0bad96368d5c9fc43      |  Bin 0 -> 57 bytes
+ .../b5/c2d37c304661127912392f237034c239b9a59b      |  Bin 0 -> 3176 bytes
+ .../b8/efe085493d22d76bf7eca8aa93d7ac96b2ea47      |    3 +
+ .../bc/5c86ff268e95caa4c42369210e650dbd0f3382      |  Bin 0 -> 741 bytes
+ .../bf/0def2723aad18934b3f10817f43a13d0fc0aa3      |  Bin 0 -> 2144 bytes
+ .../c4/e85dd088f6e73b368cffbb4a670c106909003b      |  Bin 0 -> 290 bytes
+ .../c5/45d2f08bd1f82c8f2cc6c4ee0a30518a02a7af      |  Bin 0 -> 299 bytes
+ .../c8/60a178e22135312549f0939775929e08a2a34b      |  Bin 0 -> 11828 bytes
+ .../cc/2068b2f2e4889eaa7c133aa0a85971e194b14e      |  Bin 0 -> 54 bytes
+ .../ce/64e7bd7e67998a2cc3255c260253350118926c      |  Bin 0 -> 117 bytes
+ .../d1/f5168915a2816bcd73a42be12ca9b434e6e8f6      |  Bin 0 -> 48 bytes
+ .../d2/c8d35168cc2751934aa1f31f21178ee123ad32      |    2 +
+ .../e4/f8fab32aa52682805e064181e2a2a2e2058a26      |  Bin 0 -> 165101 bytes
+ .../e7/b23ba713686ce8a38806d60d7f6978efc13e7f      |    4 +
+ .../ea/a5884afedd2af19c3c7dafca618255f2dabf38      |  Bin 0 -> 4631 bytes
+ .../ed/34c0bdc0c8c688c9ca972326a42337c9a4f732      |  Bin 0 -> 53 bytes
+ .../ed/9a5e8553ef642fb6d97d7d93095709c5b1fb21      |  Bin 0 -> 257 bytes
+ .../f1/9ee57c1da1bdb90475afb471a2b6f81fc6dfe4      |  Bin 0 -> 128 bytes
+ .../f2/bf5138f2615b17fcfdcdd6640a0d12a4745db0      |    2 +
+ .../f7/6bc0fbaebc4c70a49648a731e75efeda7255e4      |  Bin 0 -> 545 bytes
+ .../f7/ec9f981591fe714dd2f9be103aee546792fd5e      |  Bin 0 -> 43293 bytes
+ .../fb/84e949ad592d9055cdee4c37e7e5d6f8dc9167      |  Bin 0 -> 471 bytes
+ usys/xrdos.git/packed-refs                         |    3 +
+ utils.git/HEAD                                     |    1 +
+ utils.git/config                                   |   11 ++
+ utils.git/description                              |    1 +
+ utils.git/hooks/applypatch-msg.sample              |   15 ++
+ utils.git/hooks/commit-msg.sample                  |   24 +++
+ utils.git/hooks/post-commit.sample                 |    8 +
+ utils.git/hooks/post-receive.sample                |   15 ++
+ utils.git/hooks/post-update.sample                 |    8 +
+ utils.git/hooks/pre-applypatch.sample              |   14 ++
+ utils.git/hooks/pre-commit.sample                  |   46 ++++++
+ utils.git/hooks/pre-rebase.sample                  |  169 ++++++++++++++++++++
+ utils.git/hooks/prepare-commit-msg.sample          |   36 ++++
+ utils.git/hooks/update.sample                      |  128 +++++++++++++++
+ utils.git/info/exclude                             |    6 +
+ ...ck-347175d5249473c32426c3a88c08e9ce29c389d2.idx |  Bin 0 -> 1520 bytes
+ ...k-347175d5249473c32426c3a88c08e9ce29c389d2.pack |  Bin 0 -> 26096 bytes
+ utils.git/packed-refs                              |    2 +
+ vcsplace/github-sync.git/HEAD                      |    1 +
+ vcsplace/github-sync.git/config                    |   11 ++
+ vcsplace/github-sync.git/description               |    1 +
+ .../github-sync.git/hooks/applypatch-msg.sample    |   15 ++
+ vcsplace/github-sync.git/hooks/commit-msg.sample   |   24 +++
+ vcsplace/github-sync.git/hooks/post-commit.sample  |    8 +
+ vcsplace/github-sync.git/hooks/post-receive.sample |   15 ++
+ vcsplace/github-sync.git/hooks/post-update.sample  |    8 +
+ .../github-sync.git/hooks/pre-applypatch.sample    |   14 ++
+ vcsplace/github-sync.git/hooks/pre-commit.sample   |   46 ++++++
+ vcsplace/github-sync.git/hooks/pre-rebase.sample   |  169 ++++++++++++++++++++
+ .../hooks/prepare-commit-msg.sample                |   36 ++++
+ vcsplace/github-sync.git/hooks/update.sample       |  128 +++++++++++++++
+ vcsplace/github-sync.git/info/exclude              |    6 +
+ ...ck-8af4659a363254f3c992e1708564d0e282c80c0c.idx |  Bin 0 -> 1352 bytes
+ ...k-8af4659a363254f3c992e1708564d0e282c80c0c.pack |  Bin 0 -> 2015 bytes
+ vcsplace/github-sync.git/packed-refs               |    2 +
+ vcsplace/gsbridge.git/HEAD                         |    1 +
+ vcsplace/gsbridge.git/config                       |   16 ++
+ vcsplace/gsbridge.git/description                  |    1 +
+ vcsplace/gsbridge.git/hooks/applypatch-msg.sample  |   15 ++
+ vcsplace/gsbridge.git/hooks/commit-msg.sample      |   24 +++
+ vcsplace/gsbridge.git/hooks/post-commit.sample     |    8 +
+ vcsplace/gsbridge.git/hooks/post-receive.sample    |   15 ++
+ vcsplace/gsbridge.git/hooks/post-update.sample     |    8 +
+ vcsplace/gsbridge.git/hooks/pre-applypatch.sample  |   14 ++
+ vcsplace/gsbridge.git/hooks/pre-commit.sample      |   46 ++++++
+ vcsplace/gsbridge.git/hooks/pre-rebase.sample      |  169 ++++++++++++++++++++
+ .../gsbridge.git/hooks/prepare-commit-msg.sample   |   36 ++++
+ vcsplace/gsbridge.git/hooks/update.sample          |  128 +++++++++++++++
+ vcsplace/gsbridge.git/index                        |  Bin 0 -> 856 bytes
+ vcsplace/gsbridge.git/info/exclude                 |    6 +
+ vcsplace/gsbridge.git/logs/HEAD                    |    1 +
+ vcsplace/gsbridge.git/logs/refs/heads/master       |    1 +
+ ...ck-e008126e60bd039a53dc9306ee89cb0ce2028354.idx |  Bin 0 -> 7120 bytes
+ ...k-e008126e60bd039a53dc9306ee89cb0ce2028354.pack |  Bin 0 -> 43040 bytes
+ vcsplace/gsbridge.git/refs/heads/master            |    1 +
+ vcsplace/gsvn-bundle.git/HEAD                      |    1 +
+ vcsplace/gsvn-bundle.git/config                    |   11 ++
+ vcsplace/gsvn-bundle.git/description               |    1 +
+ .../gsvn-bundle.git/hooks/applypatch-msg.sample    |   15 ++
+ vcsplace/gsvn-bundle.git/hooks/commit-msg.sample   |   24 +++
+ vcsplace/gsvn-bundle.git/hooks/post-commit.sample  |    8 +
+ vcsplace/gsvn-bundle.git/hooks/post-receive.sample |   15 ++
+ vcsplace/gsvn-bundle.git/hooks/post-update.sample  |    8 +
+ .../gsvn-bundle.git/hooks/pre-applypatch.sample    |   14 ++
+ vcsplace/gsvn-bundle.git/hooks/pre-commit.sample   |   46 ++++++
+ vcsplace/gsvn-bundle.git/hooks/pre-rebase.sample   |  169 ++++++++++++++++++++
+ .../hooks/prepare-commit-msg.sample                |   36 ++++
+ vcsplace/gsvn-bundle.git/hooks/update.sample       |  128 +++++++++++++++
+ vcsplace/gsvn-bundle.git/info/exclude              |    6 +
+ vcsplace/reposman.git/FETCH_HEAD                   |    1 +
+ vcsplace/reposman.git/HEAD                         |    1 +
+ vcsplace/reposman.git/config                       |   14 ++
+ vcsplace/reposman.git/description                  |    1 +
+ vcsplace/reposman.git/hooks/applypatch-msg.sample  |   15 ++
+ vcsplace/reposman.git/hooks/commit-msg.sample      |   24 +++
+ vcsplace/reposman.git/hooks/post-commit.sample     |    8 +
+ vcsplace/reposman.git/hooks/post-receive.sample    |   15 ++
+ vcsplace/reposman.git/hooks/post-update.sample     |    8 +
+ vcsplace/reposman.git/hooks/pre-applypatch.sample  |   14 ++
+ vcsplace/reposman.git/hooks/pre-commit.sample      |   46 ++++++
+ vcsplace/reposman.git/hooks/pre-rebase.sample      |  169 ++++++++++++++++++++
+ .../reposman.git/hooks/prepare-commit-msg.sample   |   36 ++++
+ vcsplace/reposman.git/hooks/update.sample          |  128 +++++++++++++++
+ vcsplace/reposman.git/info/exclude                 |    6 +
+ .../00/15885f941dc69c16e8466b9ef2395e4a8ba371      |  Bin 0 -> 816 bytes
+ .../06/6d4bfb4bea7f2dbe8b4a9b2ac78b4d6a8f0d4a      |    1 +
+ .../06/9113d6bda6742d48d7c2eedf80e1d984ee640f      |  Bin 0 -> 1635 bytes
+ .../0c/68cfda95442a80fa25c7b24f0932a7807b041f      |    1 +
+ .../0d/784090d54e465b3a7f99bbd543ad10eb28128a      |    2 +
+ .../0e/196e79fb492a7f1caeb48d415501498caa0941      |    1 +
+ .../0e/28f9194d4d56582f6238694144aa67141f8965      |  Bin 0 -> 6025 bytes
+ .../10/3d5c0396a979dfc77d1f6cff4a4366787d8e0f      |  Bin 0 -> 816 bytes
+ .../11/6ed77383439840a6a9fb844c0804444843b0b0      |    2 +
+ .../11/c46a26c38ed6ca3499162db0fba7cb0412bbdd      |  Bin 0 -> 818 bytes
+ .../12/7d69ba5638715bf2512bfbe8758144ad7a17f8      |    1 +
+ .../13/2dd20425e76803d86269d1e33d7efad431a8ce      |  Bin 0 -> 1447 bytes
+ .../15/f4d4912347865f928d3d2cbe445d22d6254259      |  Bin 0 -> 49 bytes
+ .../17/9f7c4135cf369ebe21d4a2b485b4eda78a2b80      |  Bin 0 -> 164 bytes
+ .../1a/1c6f3c2ba7e1bb7dc13163d3494b4005da8ae4      |  Bin 0 -> 790 bytes
+ .../1e/3b716a8f376ecb3e9373a49bc96c98b77429a3      |  Bin 0 -> 5700 bytes
+ .../21/40f018b241f2ee256b1370a099a6d9bfeddea5      |  Bin 0 -> 1340 bytes
+ .../27/1c4b8bbdfd541bcef873806969bf3925a75238      |    2 +
+ .../28/951c712b7849e8683da676422f2a8851f00e09      |  Bin 0 -> 185 bytes
+ .../28/e4ddcbabe1796e1603e85e3636ffdc1749cde9      |  Bin 0 -> 1584 bytes
+ .../29/1cc6936f9fafe11b9e467eed6b5a36a6bf62c5      |  Bin 0 -> 1584 bytes
+ .../29/34f41a2ec7d746770ed12a1d8e33b985818686      |  Bin 0 -> 6773 bytes
+ .../2b/feaaaa7bc793979f74503c30fe6ed04152bc13      |  Bin 0 -> 816 bytes
+ .../2e/d55bff128dffdd985e7d2e913e836db2b71d50      |  Bin 0 -> 816 bytes
+ .../2e/ffeb985b37f4fc14cbbe51c482efc6d7f270a3      |  Bin 0 -> 1698 bytes
+ .../41/a84445d50b11da01cd69b35ef61bea77151ae7      |  Bin 0 -> 1521 bytes
+ .../43/a0a5758f05c685478828fc4e74c8220d9a9c08      |    3 +
+ .../44/37cdbbc0801a6f5078ca6408f0b25a462b4425      |  Bin 0 -> 187 bytes
+ .../47/54a4e7431e7266d05247b095689f8960e592d2      |  Bin 0 -> 818 bytes
+ .../47/7ae21b1daf4755bcc870b85815708af7737a51      |  Bin 0 -> 789 bytes
+ .../4c/31b34e4f35025ab3d703192550ec117c8cd6e6      |    1 +
+ .../4d/21e9cf86a0c189f61ee3997404018d6711109c      |    1 +
+ .../4d/7d28a7b1e11595dd5125e9e6bbf8f8306ec800      |  Bin 0 -> 818 bytes
+ .../4d/e8e80bfcdf25a19de512304640de7e17122760      |  Bin 0 -> 818 bytes
+ .../4e/e81f1fae2505f85ced24c67eaceea9daa98b2e      |  Bin 0 -> 6784 bytes
+ .../50/96257c557487ca082f1f33252c1f1072159287      |    1 +
+ .../52/490573e584c91b0246e1e2aa505c6008504de5      |  Bin 0 -> 817 bytes
+ .../54/ba79062e2be83dc31ab12f3b5980a5a4cce34c      |  Bin 0 -> 817 bytes
+ .../55/3f2db6b5a34f8083c188bfe4839e6ee32b24d1      |  Bin 0 -> 1563 bytes
+ .../59/2e3f8a861d349bd163cededd5881dca2eb66ff      |  Bin 0 -> 818 bytes
+ .../5f/3d87855c178253e68a7d19f37c098aae004c8d      |  Bin 0 -> 6402 bytes
+ .../62/ad811dfacf028025223394aa8bd212aa5f2b58      |  Bin 0 -> 1507 bytes
+ .../64/a3a07dc0029598b32f136a9929887f9e4d6b16      |  Bin 0 -> 173 bytes
+ .../67/d6f5c7716e3e98a3789eefc9c47bb35aa7a4cb      |  Bin 0 -> 816 bytes
+ .../69/971e3a6249dd7919bc5c99dc92216452baea3a      |  Bin 0 -> 816 bytes
+ .../69/a2705d9a2c897c10120631fb8e8d94f8b62869      |  Bin 0 -> 229 bytes
+ .../6a/6ebf5e545e70d30b1b150afaefd27c56b1af03      |  Bin 0 -> 1734 bytes
+ .../6a/d40d4615ff8cb0f6552662123e88eb4c1ba587      |    3 +
+ .../6a/e0ba2a82691ec144fae511d29019853575d369      |  Bin 0 -> 790 bytes
+ .../6d/00fcfaf16e4d4f0c9c5445d220f390e6bcbdfd      |  Bin 0 -> 180 bytes
+ .../6f/8492d17d26d42c042373c861b80a6f489601f1      |  Bin 0 -> 846 bytes
+ .../72/2ea20331aaa56baac3afe5fa803af26b47f087      |  Bin 0 -> 1642 bytes
+ .../75/472fb2e9c40e506069893067f101bb7e75887f      |  Bin 0 -> 818 bytes
+ .../78/deed23e43ae3445490009f9c879c1d05130837      |  Bin 0 -> 819 bytes
+ .../7d/cccf9cbb54aa00620bc845d94ae36fcc67010c      |  Bin 0 -> 816 bytes
+ .../7e/8dfd027864ad670a0349e83fd553b3374f1ccb      |  Bin 0 -> 1473 bytes
+ .../7e/bc1e410062f6c81baba71ab834d4f3445157b5      |  Bin 0 -> 1442 bytes
+ .../83/6eacd715d3c548f31b014a0dd61ce2c9cb269b      |  Bin 0 -> 54 bytes
+ .../85/35492f32f219daf45add6ea743d72f0342cb97      |  Bin 0 -> 1505 bytes
+ .../88/4baff339f918d6513ed62651e1c6e1029b22f8      |  Bin 0 -> 1575 bytes
+ .../89/0ee931160228d6fa82ad81fb30a8bca75f6f6a      |  Bin 0 -> 6153 bytes
+ .../8c/c9325d1926a3a9b8a1c17eb40b6d75136270a9      |  Bin 0 -> 817 bytes
+ .../94/47f9e67dc04b6da32a9d13399c06cafc8b8c78      |  Bin 0 -> 34 bytes
+ .../9a/fb37472d798a7f7713278d4910f00bd9fcbf56      |  Bin 0 -> 5699 bytes
+ .../9b/9c21880db9021fb7e49a51989c1c9907a8e85a      |  Bin 0 -> 54 bytes
+ .../9d/589a92848607b2027b8144d914e31394e0e583      |  Bin 0 -> 946 bytes
+ .../a2/4f324a3f619e68b2a851eb9b9073d0c6451fba      |  Bin 0 -> 817 bytes
+ .../a6/86d398e47066b46be59ff6334597bb468bedac      |  Bin 0 -> 816 bytes
+ .../a6/d3fee894ad4f14e6d13aa10f4ff9467e3350ba      |  Bin 0 -> 5693 bytes
+ .../a7/ad361da4dc09c3bfc3a698321a65c8f29f94b6      |  Bin 0 -> 274 bytes
+ .../ad/573810c020e25a38934573909aeed51b614262      |    1 +
+ .../b7/b142c65ba56a90467d3133e8fb4fb6417753cb      |    1 +
+ .../b7/d497435dcbc3bf4552a7571b486db1a8ab6150      |  Bin 0 -> 818 bytes
+ .../b9/b2c90a52e41ae343feb2f817f574b1debf28c1      |  Bin 0 -> 194 bytes
+ .../ba/6291f8b9537b7ef1b7a450bde9b056677c570b      |  Bin 0 -> 789 bytes
+ .../bd/d95070080d59d1ae2d2753903d828dd6f8c34f      |    2 +
+ .../bf/f2dfcb22420ea69500bb7a5e3807a27726f889      |    1 +
+ .../c0/12731308546ca9c15126c704607fedd2d347b4      |  Bin 0 -> 5707 bytes
+ .../c3/2e952b4954e16b2bf22e8462d58a50ebdc7a5e      |  Bin 0 -> 789 bytes
+ .../c3/9da4de6c5ad864f2518a0ed27476b1ecc2e2f2      |  Bin 0 -> 1343 bytes
+ .../c6/ebe5f1bfa62c2e21a2cc98d91e611d608f0cfe      |    1 +
+ .../c7/46c4bf2ee39a8060e7691ac44f0b9f807ecaf9      |  Bin 0 -> 888 bytes
+ .../c9/d7da1309cb7196045ae9a964ca88ac8b7c9f31      |  Bin 0 -> 5722 bytes
+ .../c9/fecb66499c8c2f054b2a12b1ba556cf9b4bdc9      |  Bin 0 -> 1669 bytes
+ .../ca/6f7294074d4e92a7360bb7c9441385cfe6e8d0      |    2 +
+ .../cf/0d56c544e7ecb4026bb2261f0b9c009dd00dbb      |  Bin 0 -> 5485 bytes
+ .../d1/8e647abfc32b72fa82eacf16e81d708d254d52      |  Bin 0 -> 200 bytes
+ .../d3/8d554305a4f8e0f5fde2d0b5a874af0dafcd65      |  Bin 0 -> 1351 bytes
+ .../d8/5b355faec01abd57c698afb46adefe88262937      |  Bin 0 -> 1308 bytes
+ .../d9/060974ee17620eaa05d60c3c9858c6d5911ba2      |  Bin 0 -> 790 bytes
+ .../da/c80437f0abd526f0c588ef99f63d9984399599      |  Bin 0 -> 1306 bytes
+ .../db/f06690632d0b5a7f46ca69a56a24226dd1d536      |    1 +
+ .../dd/521091e44c4834ed8f6973361409419d7448c0      |    1 +
+ .../df/09d80911de9c51ca04b529085e6334a16956c0      |  Bin 0 -> 1460 bytes
+ .../e0/2453df8093297c34b0b6a2b5c3c714bf8ab299      |  Bin 0 -> 1151 bytes
+ .../e0/c994cc9b19ee080a77903fed8509f0a771c3e3      |  Bin 0 -> 818 bytes
+ .../e2/16dee9a5e7e37826490e0d71818abfcf43d555      |    2 +
+ .../e7/4a08a34d47f00159600bf6388a6a83deed0ac4      |  Bin 0 -> 1445 bytes
+ .../e8/2d4aab48b1d527f316edae250c330c4d439c58      |  Bin 0 -> 818 bytes
+ .../eb/cab350dc64d84c94ed4374a5c8f21bf4365e12      |    1 +
+ .../f2/c12c513968828c5c1b8b528ebca38c16760064      |  Bin 0 -> 5894 bytes
+ .../f8/536c968994a52afd739837ee6bca8f0aafa666      |  Bin 0 -> 1520 bytes
+ .../fb/d7b87b62aadf47af45bbed09652347ff7d8a71      |  Bin 0 -> 816 bytes
+ .../fe/087780fd8549e75d9d5715fc5daa9edb7e3917      |  Bin 0 -> 5916 bytes
+ .../fe/17e96a59c3174f47db4fea3aa5cf520488e9f7      |  Bin 0 -> 1690 bytes
+ .../fe/30a474f3800eb0c8eca59ea558784156ceb8ee      |  Bin 0 -> 818 bytes
+ ...ck-85b6c92cdc6eb618b3cae217c748ceb1525d1130.idx |  Bin 0 -> 5664 bytes
+ ...k-85b6c92cdc6eb618b3cae217c748ceb1525d1130.pack |  Bin 0 -> 112809 bytes
+ vcsplace/reposman.git/packed-refs                  |    2 +
+ vcsplace/reposman.git/refs/heads/master            |    1 +
+ .../reposman.git/refs/heads/master (myplace-win7)  |    1 +
+ vcsplace/ws.git/HEAD                               |    1 +
+ vcsplace/ws.git/config                             |   14 ++
+ vcsplace/ws.git/description                        |    1 +
+ vcsplace/ws.git/hooks/applypatch-msg.sample        |   15 ++
+ vcsplace/ws.git/hooks/commit-msg.sample            |   24 +++
+ vcsplace/ws.git/hooks/post-commit.sample           |    8 +
+ vcsplace/ws.git/hooks/post-receive.sample          |   15 ++
+ vcsplace/ws.git/hooks/post-update.sample           |    8 +
+ vcsplace/ws.git/hooks/pre-applypatch.sample        |   14 ++
+ vcsplace/ws.git/hooks/pre-commit.sample            |   46 ++++++
+ vcsplace/ws.git/hooks/pre-rebase.sample            |  169 ++++++++++++++++++++
+ vcsplace/ws.git/hooks/prepare-commit-msg.sample    |   36 ++++
+ vcsplace/ws.git/hooks/update.sample                |  128 +++++++++++++++
+ vcsplace/ws.git/info/exclude                       |    6 +
+ .../05/f1bbacca8cfa5fa80a520b9ce8d0a7485774d7      |    2 +
+ .../08/56f2d1abf659a6c6dda0e9b39e6160cbf9b36f      |  Bin 0 -> 168 bytes
+ .../10/71213df47ac08be7d50dd1df650ca0416555a8      |  Bin 0 -> 23 bytes
+ .../13/005909ef4b6a5fc0ab873ed784bf436e1ca75e      |    1 +
+ .../15/9ea10459e96318a091a756d4a00a084034a4d9      |  Bin 0 -> 341 bytes
+ .../1c/cd3eb6a6507260267e61b59d86320041540c8f      |    2 +
+ .../32/68ae6e9f69be618b9efa45469986493891a3e7      |    3 +
+ .../39/971b03121dd770595d4a54443ff960dc56e12a      |  Bin 0 -> 342 bytes
+ .../3c/8983ac35411a5643510b4641bf633cf61f743b      |  Bin 0 -> 171 bytes
+ .../42/b240e73715fef15f77e7d240d09f97567d3261      |  Bin 0 -> 46 bytes
+ .../47/d3a3697f1bdc9cb78e100ea09af0c843ee6dae      |  Bin 0 -> 198 bytes
+ .../4c/c7d811b3c62d0440b37381f965c9cfc54d58b5      |    2 +
+ .../4e/44c6c0e427bc004ab63fa45d728e16f096a4cb      |  Bin 0 -> 310 bytes
+ .../4e/4ea7c05beb178c9ef63bfcd21c8c06da74dc95      |    1 +
+ .../52/9ef8f04f60482865ee61843f31e3031432309e      |    2 +
+ .../57/ee9d6770201bdbed09b682917e890a6940d77b      |    2 +
+ .../5c/2036e4374348db24af58e70337a240d0506488      |  Bin 0 -> 198 bytes
+ .../5c/ba7a678072e834844cabd6131af42883528dbf      |  Bin 0 -> 33 bytes
+ .../5c/ebab9271ce66e4827a6902dd191b79aadcf956      |  Bin 0 -> 197 bytes
+ .../69/c3b971da01cfe8ea57f7ba9ad23c1b83ff7134      |  Bin 0 -> 99 bytes
+ .../74/dd63f314a229dd53b0d5a481100d1c8536da7f      |  Bin 0 -> 278 bytes
+ .../75/08596577175821454bd97b4c3cc824419efed5      |    3 +
+ .../7c/121497e795485df4f3b6c0aa0d1adba11e66de      |    1 +
+ .../7c/bf860e18d398553050ae6e521c795485fbbd12      |  Bin 0 -> 182 bytes
+ .../7f/febe464cea52eebc584b9dab7e5d169fa98d87      |    1 +
+ .../91/39c418a3f10d62fe4eba358502702e7247f67b      |  Bin 0 -> 277 bytes
+ .../97/da93bc775490c38fd8b8644bba39177b6fc794      |    2 +
+ .../a2/28269500ca33cd7158f86a843e13b519e1b4ca      |  Bin 0 -> 341 bytes
+ .../a2/8a53c84303c01829bb7dffc799565cd72aea78      |  Bin 0 -> 188 bytes
+ .../a3/00299dad4a042d514329e37fcaa812df567a6a      |  Bin 0 -> 43 bytes
+ .../a3/e878daef32aa396c12b4463029d7f392f14f8f      |  Bin 0 -> 163 bytes
+ .../a4/72bae089db96315fd53c51715302607d97f506      |  Bin 0 -> 167 bytes
+ .../a7/737644df105e06268e74db5973888f258e3785      |  Bin 0 -> 73 bytes
+ .../a9/466a75fd2ded3dd4dfb5918033aa0e6ca29cfd      |  Bin 0 -> 74 bytes
+ .../b1/8168c37a20177cb8681f9a34e1c638447db7b3      |  Bin 0 -> 18 bytes
+ .../b9/145410fb39ddc9588150128018172cde515d28      |  Bin 0 -> 336 bytes
+ .../bb/cdebfebc81bcac575c916dbeed0e3435b8e597      |  Bin 0 -> 158 bytes
+ .../c4/ba01df0af6fb7fe3a22962cadc0b672f6ad6a4      |  Bin 0 -> 235 bytes
+ .../cc/1b90269e70921dc8a0788138c6fcb2a9c57a09      |  Bin 0 -> 222 bytes
+ .../d8/9d080ccec7f0e3ec7575ddd3fa8aa3cb433c07      |  Bin 0 -> 214 bytes
+ .../d8/ac722e37e04a60e086201cd48b0529e518636c      |  Bin 0 -> 223 bytes
+ .../e7/c79e93c3fe366b4ab08e5659511a722eede586      |  Bin 0 -> 336 bytes
+ .../e7/db30777a8ce65c8b0647fd8748c0e7939c3734      |  Bin 0 -> 130 bytes
+ .../e8/2f4addaa41386c7c00aa601995bd98e26623f0      |  Bin 0 -> 82 bytes
+ .../e9/8567761bdfb1018142a30cf15cac7b75d0213b      |  Bin 0 -> 248 bytes
+ .../f1/3951456ea1319b11c253f2d3b2997d5689d2be      |  Bin 0 -> 277 bytes
+ .../f4/1585eee9fd0246ce0bc84ad58ae95ec26bbcc5      |  Bin 0 -> 249 bytes
+ .../f7/ce6f6be52816f3833373f3fb25949d594f169f      |  Bin 0 -> 180 bytes
+ .../f7/ea06a2fe95ff7c11b815f04fed2e56420fab4f      |    3 +
+ .../f8/2b8c324770bdfee5db98af821760a5df8712fc      |  Bin 0 -> 248 bytes
+ vcsplace/ws.git/packed-refs                        |    2 +
+ vcsplace/ws.git/refs/heads/master                  |    1 +
+ vcsplace/ws.git/refs/heads/sh-sf                   |    1 +
+ webdev/css.git/HEAD                                |    1 +
+ webdev/css.git/config                              |   11 ++
+ webdev/css.git/description                         |    1 +
+ webdev/css.git/hooks/applypatch-msg.sample         |   15 ++
+ webdev/css.git/hooks/commit-msg.sample             |   24 +++
+ webdev/css.git/hooks/post-commit.sample            |    8 +
+ webdev/css.git/hooks/post-receive.sample           |   15 ++
+ webdev/css.git/hooks/post-update.sample            |    8 +
+ webdev/css.git/hooks/pre-applypatch.sample         |   14 ++
+ webdev/css.git/hooks/pre-commit.sample             |   46 ++++++
+ webdev/css.git/hooks/pre-rebase.sample             |  169 ++++++++++++++++++++
+ webdev/css.git/hooks/prepare-commit-msg.sample     |   36 ++++
+ webdev/css.git/hooks/update.sample                 |  128 +++++++++++++++
+ webdev/css.git/info/exclude                        |    6 +
+ ...ck-4cef60830797861bbcd2f065743f51257135b766.idx |  Bin 0 -> 2136 bytes
+ ...k-4cef60830797861bbcd2f065743f51257135b766.pack |  Bin 0 -> 30751 bytes
+ webdev/css.git/packed-refs                         |    2 +
+ webdev/htmlscripts.git/HEAD                        |    1 +
+ webdev/htmlscripts.git/config                      |   11 ++
+ webdev/htmlscripts.git/description                 |    1 +
+ webdev/htmlscripts.git/hooks/applypatch-msg.sample |   15 ++
+ webdev/htmlscripts.git/hooks/commit-msg.sample     |   24 +++
+ webdev/htmlscripts.git/hooks/post-commit.sample    |    8 +
+ webdev/htmlscripts.git/hooks/post-receive.sample   |   15 ++
+ webdev/htmlscripts.git/hooks/post-update.sample    |    8 +
+ webdev/htmlscripts.git/hooks/pre-applypatch.sample |   14 ++
+ webdev/htmlscripts.git/hooks/pre-commit.sample     |   46 ++++++
+ webdev/htmlscripts.git/hooks/pre-rebase.sample     |  169 ++++++++++++++++++++
+ .../hooks/prepare-commit-msg.sample                |   36 ++++
+ webdev/htmlscripts.git/hooks/update.sample         |  128 +++++++++++++++
+ webdev/htmlscripts.git/info/exclude                |    6 +
+ ...ck-51f1ae4333e43719b46a25f0214e2c2b4e087c86.idx |  Bin 0 -> 1380 bytes
+ ...k-51f1ae4333e43719b46a25f0214e2c2b4e087c86.pack |  Bin 0 -> 4120 bytes
+ webdev/htmlscripts.git/packed-refs                 |    2 +
+ webdev/templates.git/HEAD                          |    1 +
+ webdev/templates.git/config                        |   11 ++
+ webdev/templates.git/description                   |    1 +
+ webdev/templates.git/hooks/applypatch-msg.sample   |   15 ++
+ webdev/templates.git/hooks/commit-msg.sample       |   24 +++
+ webdev/templates.git/hooks/post-commit.sample      |    8 +
+ webdev/templates.git/hooks/post-receive.sample     |   15 ++
+ webdev/templates.git/hooks/post-update.sample      |    8 +
+ webdev/templates.git/hooks/pre-applypatch.sample   |   14 ++
+ webdev/templates.git/hooks/pre-commit.sample       |   46 ++++++
+ webdev/templates.git/hooks/pre-rebase.sample       |  169 ++++++++++++++++++++
+ .../templates.git/hooks/prepare-commit-msg.sample  |   36 ++++
+ webdev/templates.git/hooks/update.sample           |  128 +++++++++++++++
+ webdev/templates.git/info/exclude                  |    6 +
+ ...ck-4bd67bee29cd90aa972c4ba25592f9479c5e28a3.idx |  Bin 0 -> 1800 bytes
+ ...k-4bd67bee29cd90aa972c4ba25592f9479c5e28a3.pack |  Bin 0 -> 9187 bytes
+ webdev/templates.git/packed-refs                   |    2 +
+ websaver/websaver2.git/HEAD                        |    1 +
+ websaver/websaver2.git/config                      |   11 ++
+ websaver/websaver2.git/description                 |    1 +
+ websaver/websaver2.git/hooks/applypatch-msg.sample |   15 ++
+ websaver/websaver2.git/hooks/commit-msg.sample     |   24 +++
+ websaver/websaver2.git/hooks/post-commit.sample    |    8 +
+ websaver/websaver2.git/hooks/post-receive.sample   |   15 ++
+ websaver/websaver2.git/hooks/post-update.sample    |    8 +
+ websaver/websaver2.git/hooks/pre-applypatch.sample |   14 ++
+ websaver/websaver2.git/hooks/pre-commit.sample     |   46 ++++++
+ websaver/websaver2.git/hooks/pre-rebase.sample     |  169 ++++++++++++++++++++
+ .../websaver2.git/hooks/prepare-commit-msg.sample  |   36 ++++
+ websaver/websaver2.git/hooks/update.sample         |  128 +++++++++++++++
+ websaver/websaver2.git/info/exclude                |    6 +
+ .../a5/80c50629b963cce890a1567f97cd9a9a3c35c8      |    1 +
+ .../c0/efebc8c2f67663f3a0e79e0bb94df29ee29913      |  Bin 0 -> 543 bytes
+ .../e8/70d3a167bfc959c9cc336ef2d5727cd679923a      |    1 +
+ ...ck-8bd707be72146b48abcf443fec47571067e8a3ca.idx |  Bin 0 -> 4572 bytes
+ ...k-8bd707be72146b48abcf443fec47571067e8a3ca.pack |  Bin 0 -> 59639 bytes
+ websaver/websaver2.git/packed-refs                 |    2 +
+ websaver/websaver2.git/refs/heads/master           |    1 +
+ 1681 files changed, 23994 insertions(+), 0 deletions(-)
