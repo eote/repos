@@ -162,6 +162,7 @@ profiles/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+546e1555f58b1ab925b6d2fa7da0b08a5b40b4bd Add generate-log.pl.
 4deeab06aef32484de21a5e720cd4ee1d50a43f1 Update PROJECTS.
 430b3323d1ffcda7e219f7b1c2ae5cb64e9ffca5 Remap projects name "eotect" to "eot".
 b4b6e617035a3145abe65606d164872c4660f8ab Add mask file.

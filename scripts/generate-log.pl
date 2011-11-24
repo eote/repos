@@ -23,7 +23,10 @@ sub generate_diff {
 	my $right = shift;
 	open FO,">",$filename;
 	open FI,"-|","diff",$left,$right;
-	print FO <FI>;
+	foreach(<FI>) {
+		print FO $_;
+		print STDERR $_;
+	}
 	close FI;
 	close FO;
 }
@@ -31,11 +34,12 @@ sub generate_diff {
 foreach(@repos_type) {
 	next unless(-d $_);
 	my $filename = "$_-$log_filename";
-	if( -f $filename) {
+	if(-f $filename) {
+		unlink $filename . ".old" if(-f $filename . ".old");
 		rename $filename, $filename . ".old";
 	}
 	generate_log($filename,$_);
-	if( -f $filename . ".old") {
+	if(-f $filename . ".old") {
 		generate_diff("$filename.diff",$filename , $filename . ".old");
 	}
 	else {
