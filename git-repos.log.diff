@@ -1,0 +1,313 @@
+1,312d0
+< badluck/badluck.git:
+< da4e10151f7bcda733c89d84bffad9797af2d0e7 update README
+< d9f1b02493daa03125aa8a2496f329d8746152d0 initial import
+< 
+< codebase/c.git:
+< 2e7afa5f0c110bffa254b2e24a5d7077bd44214b Add project MPSHELL.
+< 05f56324d1c969bc7f450dce964fd5e38b31c118 Add project HDSTART.
+< 85d1ae9fee37b636a1b1ef9bb5949d8b4520cbc5 Add project whello.
+< c2040a681670bae93a7e003a41e9b85c9c8de891 Add codeblock files for project zcmd.
+< b7e45c823035c926672d3cba7bc6214aea8ebaf2 Update project xrzlib.
+< 
+< codebase/cpp.git:
+< b91bc39c541d05c36bfb6210f9908a24867d5ca5 [cpp] initial commit
+< 
+< codebase/devcpp.git:
+< 602e0c1e211c58a87fc00835cf4ceec24232ce9b Initial commit.
+< 
+< codebase/eclipse.git:
+< 0a5c272541b6a6b080d3cd17109c990186a153ec Initial commit.
+< 
+< codebase/freebasic.git:
+< 8548f1e72ad0eac797f6d57f207f8676e46da47d update git config files, add README
+< bf33816478dab95967aaf37d69309165ccf6db54 update gitconfig, README
+< a2d01ccc8cc0873e1cceafd6540b854bc1bc3f73 delete exe files, add README
+< 7c56685943426e4e847d65b7e29d4179ea46b632 initial import
+< 82dd75f1d4ec5719adc3191804e5186132dd7574 Initial directory structure.
+< 
+< codebase/makefiles.git:
+< d07f2a92fe9ea3c02f942549b4661eb0211d4513 Initial commit
+< 
+< codebase/vb6.git:
+< 001a04065c2a2ff24bc611fcc47c3d53c61665bf Fix files mode.
+< 8343d022b083a32c1e8474475ad7b5465cb511d2 cleanup, update sslibExplorer, add Fac
+< 7cc492c052b344402fb0f28bacab898065eaf201 delete useless files
+< 47040d25ce5da20bd8d589bd892e38bd6457436c initial import
+< 
+< codebase/vc6.git:
+< 0c11d7a81197793e1106c8dd3e7ec6b097a68248 Add project MPSHELL.
+< fd8cd575ae87446254d45ca9407d2569c7e96b83 Update project HDSTART.
+< c5d3da68f6be92d093668c84473aa22b94e6bddc Initial commit.
+< 
+< codebase/vsnet.git:
+< 6306c9f92ec470cc204fbdaa873118072303a5fc Add project FormFiller.
+< 9ca551b6428cd76feaec7bf5c04fb27080551e53 Initial commit.
+< 
+< drawings.git:
+< 63ff6562d6256c12c16865357f2dbfc1962d1820 initial commit
+< 
+< ebooks.git:
+< a8c3d039b97c964ee519867a7f16eb64ea87d562 added .repos, config file for gsvn-init-repo
+< 9b3565870bc175252db9b29c9aa8110a55c298e1 update README
+< 74363a62eadad6bc4614861b63f64e886fae52d0 add README
+< c3d35fce0cad6401ca7673556f605d8f87478181 initial import
+< 82484c53e16593921ce6b9d8718e71715c1b14e5 Initial directory structure.
+< 
+< excs/learningperl.git:
+< 4f272ffee3008d9f59b42e356788f5fc416fa7f6 Initial commit.
+< 
+< loseplace/losebox.git:
+< 4648b0a31ddd14b215c44691cb2f6c18511403c7 initial commit, from loseplace revision r5
+< 18bcfa0186556cce06bb4e2dfd30e30b235ced4d initial directory structure.
+< 
+< loseplace/loseplace.git:
+< 60dbbd038c5a3b249138a0e937f0bf58b3360e2a data updated, auto.d moved.
+< 734d3a493d6951f00502ea8670eaf24d5109652a Update Shell.bat.
+< 2c189b7acc78f673f6678602bb369f06f8024690 Update mpshell.exe and Init.js.
+< 4deaea84cb512b8c25ab0d5f91c20d06c4af5aed Update Files-link.bat.
+< f0bf59c7e33b181c0d8a2b15ca8dbf716b254052 Add junction.exe ln.exe.
+< 
+< loseplace/thinapp.git:
+< e61ea1b39752be46c18e474e75185f470dce1836 Initial commit.
+< 
+< nightgun/nightgun.git:
+< 7e10000b376b17e70d598fa84c8630e08f5c0350 added .repos, config file for gsvn-init-repo
+< 7361bff89b5cbab2e22d4be3de096b1b50e7934c update README
+< c3c73457965a2fb2b0b379faf9640a66c19a5433 add git related files
+< 865322e569346db3c38ab8e0f21079d93b38a499 update desktop file
+< c21cd6e88e12edb2500a3af67c46015203e2f452 source clean up
+< 
+< profiles/avatars.git:
+< 2fab0b85115a1d18df3b26c1fcee7f05e920b8c0 Add avatars for afun, eotect and xrlfun.
+< cc08080b3dc5fa92eb383f3d40dfa486efc2676d Add xrlfun4.jpg.
+< 202446c39519f1112412427da255fb7e215c6ee7 Add avatars for xiaoranzzz.
+< f152ee9dbd48b399da359c9b7c53c2e38cdc223e Add avatar for xrlfun.
+< c1405c8ac631728b93b881452119c63e265463fb Update README again.
+< 
+< profiles/babebase.git:
+< a6558344fd8b59936e1a35e2a1cf0504ae4636ce Update HOST.URL.
+< 21d761871f6683210095bdb9457297c334650210 Fix filemode.
+< d7d81e7bbc0b0c0248fcc8a1454dc7b925d0a653 Update rule vlike.com/0.
+< 2b51f8e6a159a4b8640866ab37f93152d28fa2b8 Reformat database BABES.
+< 1adcd8ac456a64989d8b93559b25e100c409db2e Add .gitignore
+< 
+< profiles/config-awesome.git:
+< 5e3a3885ac671a801b4add53be631492049d01a6 Initial commit.
+< 
+< profiles/firefox.git:
+< 491ccd757c0a274a432eebad8844b5c7ff582cc1 Update extensions for firefox-5.0.1.
+< 9afc45405bd7b6f4fe8cb0889590fd43846997c1 Extensions update 2011/5/27.
+< e3ad8b4de64b34a84df83d0c053e458d2c3bcb8d Extensions: Remove admin@stickr.com, Add foxmark, Update IETAB.
+< 4b93858391e36e9dda21def54728c043604274f4 Update extensions 2011/5/13.
+< 3f3593ea4cda6ecaab1d8e109209d60df2c934ce Update extensions 2011/4/26.
+< 
+< profiles/foxwps.git:
+< c2e42758276bf37f29e5fd5dde9123ff38d18143 数据录入到20110831, 导入逐月数据。
+< 2d4b7f6f8b4e522cce0ad43020ab8cce3191f44e 数据录入至20110817,加入模板替换 脚本.
+< 22dabec35b6f2986b009903c238fefe5cd0d3a18 录入数据至5月31日。
+< d9d1e3c49e9d63adce1889be0be53f5391d68342 录入数据至5月16日。
+< ad7db5e3e3d61a3fb2ceef52258ec892c1035226 添加业绩录入模板，更新数据至4月8日。
+< 
+< profiles/gm-scripts.git:
+< 1f0ce7f08d10b614cf7dda75e547a62283bf2198 Update global_panel.
+< f56c94a8e8eeeefcd2278756c2332efc96536a0a Update "eotect_global panel", add misc scripts for google.
+< c1def3fe5046d1fc5da003196841897e583083ae Update scripts dependence.
+< c91247b30fe7c1f2173d5420b29e5047c4c0e9c3 Update scripts dependences.
+< e89686a09adb680fd470bd9015529e82bc4e098e Add script for google reader.
+< 
+< profiles/google-chrome/eotect.git:
+< 0a6d3253e16a6403a525c8ed2fa86882f24cb8cb Update extensions and preferences.
+< 01145a7a3acba53565ce641774ae09559f213270 Update 2011/3/15.
+< f36c0e042b56bdd97cb61591e0c839e702b9f875 Downgrade application and data to V10.
+< 11205e8af1cbdb2b89d22bc8cb7dbcaa34d77749 Update form_filler script for reg.mail.163.com.
+< 249fa6f809e74ca40b80187450cbc26da978b66e Update auto form filler script.
+< 
+< profiles/google-chrome/fun.git:
+< b899ae40a117a6e1b4d2fbe378f8adf784c9a433 profile clean up.
+< 1d02abaa6d0ee1ec250bbfe48a20d8a5aeb90841 Initial commit.
+< 
+< profiles/google-chrome/xiaoranzzz.git:
+< d628e75251ece2f6f7d1ff1dc62b86cd07760c7b Update preferences.
+< 1d02abaa6d0ee1ec250bbfe48a20d8a5aeb90841 Initial commit.
+< 
+< profiles/homebase.git:
+< 5c9c994412419916c3eced298d7b22f5c60c28f3 Update mc/bindings, .gitignore.
+< 51a6d052f9b09aba046df21214b7c9376445b9f3 Correct PERL5LIB exporting.
+< 3134d5837ab0f1e75afa376fc90b82e8b4a3fe2a Update bashrc.
+< 42af0b5ec814df181102b84a165189d89117b9b7 Update config/awesome.
+< dbf01f26ba366662104cecf49e0e8d631b5b1bf8 Cleanup unless files.
+< 
+< profiles/linux.git:
+< 4d803191af6280078256cf6a17efdde827ab5351 Update fstab, apt configuration and sudoers.
+< d70fc7e636bf7a798e18422234fabf306612af0a Update etc, var.
+< 02f6bb37d6abb6658178f691d41da58e60e7ab61 update exports
+< e3edfb6e275b5dd00dd60767c1fddb9b0988e8a1 initial commit
+< 
+< profiles/mails.git:
+< 47e83d161b043a62e75a7d4e5d03a35880631841 Update in 20110320.
+< 10c52207c85e5f94b0c45aa0289481d964cd48db Daily update at 20110307.
+< 4804187324f4ae1daa96a599f5632f072a620f63 Daily update 20110227.
+< 6eb7c8ba5ed94ade902696e11344831edfbd0ec2 Update mails 20100226 14:54.
+< 71a50c0682d05b3d7c9bf7df4679c92abeeb9d48 Update data 20110225.
+< 
+< profiles/private.git:
+< 0546f6014b28ede8486bfc6828040e8d362b4a99 Add feeds, Update bookmarks.
+< 8d9c595f9b7b073f333594854e1e218d36e9a2bb Cleanup bookmarks files, Update bookmarks.
+< a54ee89990f1df7606318aea3bba50c42e7bd317 Add bookmarks.
+< 156a2e6c730cf57bd08625732d68b1fae63df54f Update bookmarks.
+< a9c5980d8e09c09cb12d5f2d24fa0c4be998362a Add bm-edit (not-finished).
+< 
+< profiles/users/xiaoranzzz.git:
+< 4df9907771f843bb069efd53dc8b619e9158d8b1 Remove .pulse.
+< 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
+< 
+< repos.git:
+< 4deeab06aef32484de21a5e720cd4ee1d50a43f1 Update PROJECTS.
+< 430b3323d1ffcda7e219f7b1c2ae5cb64e9ffca5 Remap projects name "eotect" to "eot".
+< b4b6e617035a3145abe65606d164872c4660f8ab Add mask file.
+< 5c979dcc8b1bf91df183994161d3567f5de94441 Initial commit.
+< 
+< scripts/batch.git:
+< cb455189784f20cbd7a35ee819036aed024ce293 initial commit
+< 3de553c29652604f3e4fa12e36f4852d2d8d5c42 initial directory layout
+< 
+< scripts/libmyplace-perl.git:
+< 54874aafe4ecd4958d277ac8c304f7a7cc5f6f38 Update Google::Search::HTML.
+< 53728ba33a0d130ab7734dcbde909c47a58afeb1 Add IniExt.
+< b850b340944f68cb31665be85ed4c5c785072de4 added Daum::Search
+< 97c53059652e28ef9ae85172e292ede178b660b2 fixed URLRule,updated Discuz
+< f4adc80d103f625505d906032d1e1242b18797e4 updates URLRule, made use of original URL as default referer when downloading
+< 
+< scripts/logo.git:
+< cf35ee3142a44b5079c105ac58d048d5f535bfd3 Initial commit
+< 
+< scripts/lua.git:
+< 889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
+< 
+< scripts/perl.git:
+< 7a01e1ba57c0037796092797678209120812a12f Update rtorrent-action.
+< 55b6487d4e1a8c7b25b469d820cfa27ee2f1d6ca Upgrade reposman to v2.000.
+< fa528ddd9683d31f1869762330637588becba2f0 Remove exercises for learningPerl.
+< d712d5ea775b1776f920e63a2df306a024e104f0 Update r-at, tagfs.
+< b6a1bb9cc41f359177b59c19b030df5cde073165 urlrule_action: clean source up.
+< 
+< scripts/sh.git:
+< d5929dc50724361ee1d15b2fe41c052cd5899aa4 Add script chmod_reset.
+< dab8b4b5396eb0048dd3f03211c76beaa915f50c updated script "myphone"
+< 8f034c839689139137791e60a3fd5f97085da741 rename git-svn-clone-googlecode to gsvn-clone-googlecode
+< a42178044a4d67a210658db40ca36163c80a03da added scripts 7z-store, raysource and thunder. updated scripts r-edit and shnew
+< ff9f19a6e8aa4f0ad490e9a685215317d4f600a0 update script_template and shnew
+< 
+< scripts/wscript.git:
+< b0bb735d00ec8f9385cf4afc3b4e6b17ce46962b Add script get_rand_mail.
+< 6602d3253fc27420cad404af63c673bdc0ed232e Initial commit.
+< 
+< texts/notes.git:
+< 1a2b3fa9bad83e3c984864e9a1e528e88c780577 Initial commit.
+< 
+< texts/texts.git:
+< 3079105c63ac41eede85985ad1ac67970fe8fcbb added .repos, config file for gsvn-init-repo
+< 4d5dc4c97e52f025c81765d0c7791ed8f1ddb57a update README
+< a8fd3a72fcb049fbb179c810dbb46e9107ff55a2 add README, update .gitconfig
+< f32ac11bd8910a4ebeda1675e3706be68c828432 add README
+< c98c79ac9ee70bda4ff67f24d6493fbf50f01b14 add articles for git-svn
+< 
+< texts/webpages.git:
+< 06c27bb1c793a2fe4420c61913062a6f6ac631f6 created index page
+< fc88a9eff41b51606dc026f0ee35455888968ee3 initial directory structure
+< 
+< texts/www.git:
+< ed747f127f3a3846da268ce87967dee494c6f422 initial commit
+< 
+< usys/sysbuilder.git:
+< cd34e291324ab1ace552d27bda128fbe28ba559d Fix files mode and pathname.
+< bfa3c2b56dbbaede3b0030599d3b20560f400e56 Initial commit.
+< 
+< usys/toolbox.git:
+< 6afcdd7cb50d664be031f7555463d2decec9a9f3 Add mbr tools.
+< 5d61b650dcc0db9308930b27f3dbece45d49c07a Initial commit.
+< 
+< usys/usys.git:
+< 942bcca2980f7de518cb98c50ac9798d96d656e7 Add BOOTFONT.BIN to files root.
+< 6659b07abe64da17f58d82325516d3faea2c91ec Add large floppy disk image for my toolbox.
+< e80887d2670b2bc26516daf9938e7d4b830c0a5d Compress bootdisk images, update menus.
+< ba75ebeccede896b584df34bd9fda3b5ae6dc6df Update grub4dos, menus. Add hiren's bootcd v13.1.
+< 1e3c3c42980ff30f551fbbea0d024fb39dfab13f Move files to "files/".
+< 
+< usys/utils.git:
+< b50571bac2d2a75277df7e84ca12ad3df0dce91e Add MaxDos.
+< 0b79bcdc41878ccbe427e7208e6d2ffc32677cee Initial commit.
+< 
+< usys/xrdos.git:
+< 80069ca1ea2f44758b913443251e3a1ba716cdbc Initial commit.
+< 
+< utils/utils.git:
+< 60264daa78d4b84b626a4e92602f5f41563ead94 [marksix] added script for downloading data pages
+< 27eefd8892e387bba32c7b07a5f52a4c958416c5 added .repos, config file for gsvn-init-repo
+< d85997ab1d861d7ab155787ce67aa1549623893a initial import
+< 1538c2a2fbad020c6c094f487b9fe2ed8f54af68 Initial directory structure.
+< 
+< vcsplace/github-sync.git:
+< 49001f10f3c909e93282a464685b51038cc04704 [update_repolist.pl] added "vcsplace" as default project
+< 45ed4d61ba1b5b4a8e65ec39292b94624e55f7ee github-sync initial commit
+< c542d7328056935123169d11de685156179d6e6a github-sync initial directory layout
+< 
+< vcsplace/gsbridge.git:
+< b097d64eb74d7e95ec695764f2a48f40b5c8bf24 added project entries for vcsplace and github-sync
+< 0fbe857b5875e64c28e4d1b0294b717e776d6a70 gsbridge: fixed pulling new projects
+< 9a39d3b55d2a12f4c375b6f4819ee48f85affd7b gsbridge: downgraded perl version requirement
+< f7c53c7485d958425a50d5b0e7ff6513b7e1464a added bootstrap.sh
+< 3e3a1d12526379f3d5cb829741c07b42cf7cebdf updated .PROJECTS, gsbridge
+< 
+< vcsplace/reposman.git:
+< f3a32a19ca3b8ec53b179d114ec0cd9793cfdfe6 Upgrade version number to v2.000.
+< 7414ce56d258d740c5078210ae739c86034207c3 Re-design data format.
+< c34123a75898c7bdb0f9bfa39cedd60b203b6196 Update reposman.pl and projects data.
+< 48efc59d3730c2be375a238e915c60bf8a23fcff [reposman.pl] Add option "mirror".
+< 83b0ed22a364651222aec882e7df92a4dec897c2 Update reposman.pl, Add actions "List" and "Query".
+< 
+< vcsplace/ws.git:
+< 0bef4c0b1b7713a3884736c9fa4a4f2471df45c3 Update .gitignore.
+< 3ea0ed3ca7ff40092a5374fa59cd862608285d57 Update "checkout.win"
+< 3268ae6e9f69be618b9efa45469986493891a3e7 Update checkout scripts.
+< 7c121497e795485df4f3b6c0aa0d1adba11e66de Add script "checkout.win".
+< a28a53c84303c01829bb7dffc799565cd72aea78 Delete symbol-link reposman, update .gitignore.
+< 
+< webdev/css.git:
+< bbda354bc2bcf1407f5c547915c6f3a9786388b1 Initial commit
+< 
+< webdev/htmlscripts.git:
+< 0c9778ad58a99bd2725e81dcd539e485d5d69987 Initial commit.
+< 
+< webdev/templates.git:
+< d66e448f79afd9bfa28bf46ec9e2305cd296845c Initial commit.
+< 
+< websaver/editplaces.git:
+< e260db4afccafa999ed607a1800a7bd983c21369 Fix stylesheet naming.
+< 79735b291734d06fd9baa1e3d59599734c66cd73 Enchance deleteduplicates.
+< 2dc6495e9229382c17bbee4b2424fcce53045893 Rename "*checktplaces*" as "*editplaces*".
+< 5a705c83f82b53a2a8580217d8af146537fbc07c Replace "checkplaces" as "editplaces".
+< 354d6b97b9c6fbd4fec63e1761ed4d20b7d1247d Initial commit.
+< 
+< websaver/tombloo-data.git:
+< 471ba6f9bc6d52ab754fa8d4d6d96a5110435655 Add video posting support for ikeepu, tumblr and clipp.
+< 8b7332575c2d991257caafc0f9f2deed23e77742 Remove debug routines.
+< ae8d6535add42cd807044ed1481ac5e8b1eb1369 Update model for firefox bookmark.
+< 51afc5073fcbc774d08c037459d7c15925bc7ad8 Update common scripts, rewrite scripts using subclassing.
+< 9e388f3720646ed94108f30b7cb2dbf7930a6973 Update model for ikeepu.com.
+< 
+< websaver/tombloo.git:
+< 7304c2b6dbf03b34c98b5bd78d51d9272306ad18 Merge remote-tracking branch 'github2/master'
+< 4f0ceea8ef01cb75b7cfb94bff1fa9d91f2204e8 Delicious、タグ取得とブックマーク済み判定を修正
+< 970dc87e6659d9e64e3b3791ebd40f36fd3ae93c typo
+< 98f258bc18069e5003891a02086a4d57f340cea0 Tombloo 0.4.24(新Delicious対応/Pinboard追加/ほかHTML引用などの修正)
+< 5da8211ac2ee3732e28c25ca871b7e6756c208b9 Delicious、ユーザー名の取得をクッキーの_userを使わないように(ブラウザ再起動で消える)
+< 
+< websaver/websaver2.git:
+< 628971d16ad65951cee31fc610f6435a66f3c944 Update install.rdf to match Firefox version 4.
+< 6591ab88f6ae6b96164d4af800cfe18c4ad52e65 fixed bug found from cataedit3.js,function addCatalog(), which open an old catalog editor instead of the new
+< 78dc69a059798398dc985a35ead8b44c30cef628 update dbopFS.js, move useless files to unused
+< 03f6848226727e2cd9f60c5159742233287810a9 add .repos, update topicedit.js
+< 3fea1b05f830f535185459dcff1d6ffa3543a3a1 update README
+< 
