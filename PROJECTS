@@ -1,611 +1,638 @@
 [#define#]
-user:e=eotect
-user:x=xiaoranzzz
-username:e = Eotect Nahn
-username:x = Xiaoranzzz
-email:e=#user:e#@gmail.com
-email:x=#user:x#@gmail.com
-author:e = #username:e# <#email:e#>
-author:x = #username:x# <#email:x#>
-user = #user:e#
-username = #username:e#
-email = #email:e#
-author = #author:e#
+user.e = eotect
+user.x = xiaoranzzz
+username.e = Eotect Nahn
+username.x = Xiaoranzzz
+email.e= #user.e#@gmail.com
+email.x= #user.x#@gmail.com
+author.e = #username.e# <#email.e#>
+author.x = #username.x# <#email.x#>
+user = #user.e#
+username = #username.e#
+email = #email.e#
+author = #author.e#
 type = git
-s:local:read = #1/svn/#2
-s:local:write = #1/svn/#2
-s:local2:read = #1/svn
-s:local2:write = #1/svn
-h:local:read = #1/hg
-h:local:write = #1/hg
-g:local:read = /myplace/repos/git/#1.git
-g:local:write = /myplace/repos/git/#1.git
-s:asm:read = http://subversion.assembla.com/svn/#1
-s:asm:write = https://subversion.assembla.com/svn/#1
-s:gc:read = http://#1.googlecode.com/svn/#2
-s:gc:write = https://#1.googlecode.com/svn/#2
-h:gc:read = http://#2.#1.googlecode.com/hg
-h:gc:write = https://#2.#1.googlecode.com/hg
-s:sf:read = http://#1.svn.sourceforge.net/svnroot/#1
-s:sf:write = https://eotect@#1.svn.sourceforge.net/svnroot/#1
-g:sf:read = http://#1.git.sourceforge.net/gitroot/#1/#2
-g:sf:write = ssh://eotect@#1.git.sourceforge.net/gitroot/#1/#2
-h:sf:read = http://#1.hg.sourceforge.net:8000/hgroot/#1/#2
-h:sf:write = ssh://eotect@#1.hg.sourceforge.net/hgroot/#1/#2
-h:sf1:read = http://#1.hg.sourceforge.net:8000/hgroot/#1/#1
-h:sf1:write = ssh://eotect@#1.hg.sourceforge.net/hgroot/#1/#1
-h:sf-zrepos:read = http://zrepos.hg.sourceforge.net:8000/hgroot/zrepos/#1/#2
-h:sf-zrepos:write = ssh://zrepos.hg.sourceforge.net/hgroot/zrepos/#1/#2
-s:pl:read = http://pl3.projectlocker.com/#1/#2/svn
-s:pl:write = https://pl3.projectlocker.com/#1/#2/svn
-s:ufd:read = http://#1.unfuddle.com/svn/#1_#2
-s:ufd:write = http://#1.unfuddle.com/svn/#1_#2
-h:zrepos:write = zrepos/svn/#1/hg
-h:zrepos:read = zrepos/svn/#1/hg
-h:bb:write = https://bitbucket.org/#user:e#/#1
-h:bb:read = https://bitbucket.org/#user:e#/#1
-g:gh:read = http://github.com/#1.git
-g:gh:write = git@github.com:#1.git
-g:gh1:read = http://github.com/eotect/#1.git
-g:gh1:write = git@github.com:eotect/#1.git
-g:gr:read = http://gitorious.org/#1.git
-g:gr:write = git@gitorious.org:#1.git
-g:gr1:read = http://gitorious.org/eotect/#1.git
-g:gr1:write = git@gitorious.org:eotect/#1.git
-g:checkout:read = #1
-g:checkout:write = #1
-g:sf:read = http://#1.git.sourceforge.net:8000/gitroot/#1/#2
-g:sf:write = ssh://#1.git.sourceforge.net/gitroot/#1/#2
-g:sf1:read = http://#1.git.sourceforge.net:8000/gitroot/#1/#1
-g:sf1:write = ssh://#1.git.sourceforge.net/gitroot/#1/#1
-g:sf-zrepos:read = http://zrepos.git.sourceforge.net:8000/gitroot/zrepos/#1/#2
-g:sf-zrepos:write = ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/#1/#2
-g:asm:read = git@git.assembla.com:#1.git
-g:asm:write = git@git.assembla.com:#1.git
-g:ufd:read = git@eotect.unfuddle.com:eotect/#1.git
-g:ufd:write = git@eotect.unfuddle.com:eotect/#1.git
-g:gc:read = http://code.google.com/p/#1.#2
-g:gc:write = https://eotect@code.google.com/p/#1.#2
-g:gc2:read = http://#1.#2.googlecode.com/git
-g:gc2:write = https://#user#@#1.#2.googlecode.com/git
-checkout = ./
-g:checkout:write = #checkout##1
-g:checkout:read = #checkout##1
-s:checkout:write = #checkout##1
-s:checkout:read = #checkout##1
-localname>maps>zprofiles = profiles
-localname>maps>ztexts = texts
-localname>maps>zcodebase = codebase
-localname>maps>zscripts = scripts
-localname>maps>zwebdev = webdev
-localname>maps>zmyplace = myplace
-localname>maps>zrepos = repos
-sourceforge.zrepos = g:sf-zrepos/#localname#
+checkout = /myplace/workspace/
+local = /myplace/repos/git/
+
+[host.local]
+map = localname
+svn.read = #local##1/svn/#2
+svn.write = #local##1/svn/#2
+hg.read = #local##1/hg
+hg.write = #local##1/hg
+git.read = #local##1.git
+git.write = #local##1.git
+
+[host.local2]
+map = localname
+svn.read = #local##1/svn
+svn.write = #local##1/svn
+
+[host.google]
+svn.read = http://#1.googlecode.com/svn/#2
+svn.write = https://#1.googlecode.com/svn/#2
+hg.read = http://#2.#1.googlecode.com/hg
+hg.write = https://#2.#1.googlecode.com/hg
+
+[host.assembla]
+svn.read = http://subversion.assembla.com/svn/#1
+svn.write = https://subversion.assembla.com/svn/#1
+git.read = git@git.assembla.com:#1.git
+git.write = git@git.assembla.com:#1.git
+
+[host.sourceforge]
+svn.read = http://#1.svn.sourceforge.net/svnroot/#1
+svn.write = https://eotect@#1.svn.sourceforge.net/svnroot/#1
+hg.read = http://#1.hg.sourceforge.net:8000/hgroot/#1/#2
+hg.write = ssh://eotect@#1.hg.sourceforge.net/hgroot/#1/#2
+git.read = http://#1.git.sourceforge.net:8000/gitroot/#1/#2
+git.write = ssh://#1.git.sourceforge.net/gitroot/#1/#2
+
+[host.sf1]
+hg.read = http://#1.hg.sourceforge.net:8000/hgroot/#1/#1
+hg.write = ssh://eotect@#1.hg.sourceforge.net/hgroot/#1/#1
+git.read = http://#1.git.sourceforge.net:8000/gitroot/#1/#1
+git.write = ssh://#1.git.sourceforge.net/gitroot/#1/#1
+
+[host.sf-zrepos]
+map = localname
+hg.read = http://zrepos.hg.sourceforge.net:8000/hgroot/zrepos/#1/#2
+hg.write = ssh://zrepos.hg.sourceforge.net/hgroot/zrepos/#1/#2
+git.read = http://zrepos.git.sourceforge.net:8000/gitroot/zrepos/#1/#2
+git.write = ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/#1/#2
+
+[host.projectlocker]
+svn.read = http://pl3.projectlocker.com/#1/#2/svn
+svn.write = https://pl3.projectlocker.com/#1/#2/svn
+
+[host.unfuddle]
+svn.read = http://#1.unfuddle.com/svn/#1_#2
+svn.write = http://#1.unfuddle.com/svn/#1_#2
+git.read = git@#user#.unfuddle.com:#user#/#1
+git.write = git@#user#.unfuddle.com:#user#/#1
+
+[host.zrepos]
+hg.read = zrepos/svn/#1/hg
+hg.write = zrepos/svn/#1/hg
+
+[host.github]
+git.read = http://github.com/#1.git
+git.write = git@github.com:#1.git
+
+[host.github1]
+git.read = http://github.com/eotect/#1.git
+git.write = git@github.com:eotect/#1.git
+
+[host.gitorious]
+git.read = http://gitorious.org/#1.git
+git.write = git@gitorious.org:#1.git
+
+[host.gitorious1]
+git.read = http://gitorious.org/eotect/#1.git
+git.write = git@gitorious.org:eotect/#1.git
+
+[type.git]
+checkout.write = #checkout##1
+checkout.read = #checkout##1
+
+[type.svn]
+checkout.write = #checkout##1
+checkout.read = #checkout##1
+
+[map.localname]
+zprofiles = profiles
+ztexts = texts
+zcodebase = codebase
+zscripts = scripts
+zwebdev = webdev
+zmyplace = myplace
+zrepos = repos
 
 
 [firefox]
 name = zprofiles/firefox
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 [homebase]
 name = zprofiles/homebase
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [gm-scripts]
 name = zprofiles/gm-scripts
 checkout = firefox/gm_scripts
-g:local = g:local/
-g:source = g:asm/gm-scripts
-g:mirrors = {
-	#sourceforge.zrepos#
-	g:ufd/gm-scripts
+local = local.git/
+source = assembla.git/gm-scripts
+mirrors= {
+	sf-zrepos.git/
+	unfuddle.git/gm-scripts
 }
 
 [babebase]
 name = zprofiles/babebase
-checkout = g:checkout/perl/urlrule
-g:local = g:local/
-g:source = g:asm/babebase
-g:mirrors = {
-	#sourceforge.zrepos#
-	g:ufd/babebase
+checkout = #checkout#/perl/urlrule
+local = local.git/
+source = assembla.git/babebase
+mirrors= {
+	sf-zrepos.git/
+	unfuddle.git/babebase
 }
 
 [foxwps]
 name = zprofiles/foxwps
-g:local = g:local/
-g:source = g:asm/foxwps
-g:mirrors = {
-	#sourceforge.zrepos#
-	g:ufd/foxwps
+local = local.git/
+source = assembla.git/foxwps
+mirrors= {
+	sf-zrepos.git/
+	unfuddle.git/foxwps
 }
 
 [private]
 name = zprofiles/private
-g:local = g:local/
-g:source = g:asm/profiles-private
-g:mirrors = {
-	#sourceforge.zrepos#
-	g:ufd/private
+local = local.git/
+source = assembla.git/profiles-private
+mirrors= {
+	sf-zrepos.git/
+	unfuddle.git/private
 }
 
 [gsbridge]
 name = vcsplace/gsbridge
-g:local = g:local/
-g:source = g:asm/gsbridge
-g:mirrors = {
-	#sourceforge.zrepos#
-	g:ufd/gsbridge
+local = local.git/
+source = assembla.git/gsbridge
+mirrors= {
+	sf-zrepos.git/
+	unfuddle.git/gsbridge
 }
 
 [texts]
 name = ztexts/texts
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [notes]
 name = ztexts/notes
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [www]
 name = ztexts/www
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [webpages]
 name = ztexts/webpages
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 ;loseplace
 [losebox]
 name = loseplace/losebox
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [loseplace]
 name = loseplace/loseplace
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [loseplace/mini]
-g:local = g:local/
-g:mirrors = {
-	g:gh/
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+mirrors= {
+	github.git/
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [loseplace/core]
-g:local = g:local/
-g:mirrors = {
-	g:gh/
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+mirrors= {
+	github.git/
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [thinapp]
 name = loseplace/thinapp
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [github-sync]
 name = vcsplace/github-sync
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 
 [gsvn-bundle]
 name = vcsplace/gsvn-bundle
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [reposman]
 name = vcsplace/reposman
-g:local = g:local/
-g:mirrors = {
-	g:gh/
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+mirrors= {
+	github.git/
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [ws]
 name = vcsplace/ws
 checkout = .
-g:local = g:local/
-g:mirrors = {
-	g:gh/
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+mirrors= {
+	github.git/
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 ;zcodebase
 [vb6]
 name = zcodebase/vb6
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [vc6]
 name = zcodebase/vc6
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [freebasic]
 name = zcodebase/freebasic
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [c]
 name = zcodebase/c
-checkout = g:checkout/codebase/
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+checkout = #checkout#/codebase/
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [cpp]
 name = zcodebase/cpp
-checkout = g:checkout/codebase/
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+checkout = #checkout#/codebase/
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [vsnet]
 name = zcodebase/vsnet
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [devcpp]
 name = zcodebase/devcpp
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [eclipse]
 name = zcodebase/eclipse
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [makefiles]
 name = zcodebase/makefiles
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 
 ;zscripts
 [logo]
 name = zscripts/logo
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [lua]
 name = zscripts/lua
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [wscript]
 name = zscripts/wscript
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [perl]
 name = zscripts/perl
-g:local = g:local/
-g:mirrors = {
-	g:gh/
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+mirrors= {
+	github.git/
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [shellscript]
 name = zscripts/sh
-g:local = g:local/
-g:mirrors = {
-	g:gh/
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+mirrors= {
+	github.git/
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [batch]
 name = zscripts/batch
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [libmyplace-perl]
 name = zscripts/libmyplace-perl
 checkout = perl/modules/MyPlace
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [badluck]
 name = badluck/badluck
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [nightgun]
 name = nightgun/nightgun
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [utils]
 name = zutils/utils
 localname = utils/utils
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 ;USB Disk Booting System
 [usys]
 name = usys/usys
 checkout = usys/usys
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [xrdos]
 name = usys/xrdos
 checkout = usys/xrdos
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [toolbox]
 name = usys/toolbox
 checkout = usys/toolbox
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [sysbuilder]
 name = usys/sysbuilder
 checkout = usys/sysbuilder
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [websaver2]
 name = websaver/websaver2
 checkout = firefox/extensions/websaver2@myplace.hell
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [tombloo]
 name = websaver/tombloo
 checkout = firefox/extensions/tombloo
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gh/to/tombloo
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	github.git/to/tombloo
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [tombloo-data]
 name = websaver/tombloo-data
 checkout = firefox/tombloo
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [htmlscripts]
 name = zwebdev/htmlscripts
-checkout = g:checkout/webdev/
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+checkout = #checkout#/webdev/
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [css]
 name = zwebdev/css
-checkout = g:checkout/webdev/
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+checkout = #checkout#/webdev/
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [templates]
 name = zwebdev/templates
-checkout = g:checkout/webdev/
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+checkout = #checkout#/webdev/
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [avatars]
 name = zprofiles/avatars
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [drawings]
 name = eot/drawings
 localname = drawings
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [ebooks]
 name = eot/ebooks
 localname = ebooks
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [zrepos]
-s:local = s:local/
-s:source = s:gc/
-s:mirrors = {
-	s:sf/
+local = local.svn/
+source = google.svn/
+mirrors = {
+	sf.svn/
 }
 
 [repos]
 name = eot/repos
-g:local = git/repos.git
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
+local = git/repos.git
+source = github.git/
+mirrors= {
+	gitorious.git/
 	g:sf-zrepos/repos.git
 }
 
 [config-awesome]
 name = zprofiles/config-awesome
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [excs/learningperl]
-g:local = g:local/
-g:source = g:gh/
-g:mirrors = {
-	g:gr/
-	g:gc/
-	#sourceforge.zrepos#
+local = local.git/
+source = github.git/
+mirrors= {
+	gitorious.git/
+	google.git/
+	sf-zrepos.git/
 }
 
 ;	vim:filetype=dosini

@@ -102,11 +102,11 @@ e3ad8b4de64b34a84df83d0c053e458d2c3bcb8d Extensions: Remove admin@stickr.com, Ad
 3f3593ea4cda6ecaab1d8e109209d60df2c934ce Update extensions 2011/4/26.
 
 profiles/foxwps.git:
+c2e42758276bf37f29e5fd5dde9123ff38d18143 数据录入到20110831, 导入逐月数据。
+2d4b7f6f8b4e522cce0ad43020ab8cce3191f44e 数据录入至20110817,加入模板替换 脚本.
 22dabec35b6f2986b009903c238fefe5cd0d3a18 录入数据至5月31日。
 d9d1e3c49e9d63adce1889be0be53f5391d68342 录入数据至5月16日。
 ad7db5e3e3d61a3fb2ceef52258ec892c1035226 添加业绩录入模板，更新数据至4月8日。
-1f76c92e009885d7a04def241119a016a9116f43 数据录入到4月1日。
-3227586c2370b9eafd182b19e84a9dc2bb4ac9b8 Backup 2011/4/2.
 
 profiles/gm-scripts.git:
 1f0ce7f08d10b614cf7dda75e547a62283bf2198 Update global_panel.
@@ -162,6 +162,9 @@ profiles/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+430b3323d1ffcda7e219f7b1c2ae5cb64e9ffca5 Remap projects name "eotect" to "eot".
+b4b6e617035a3145abe65606d164872c4660f8ab Add mask file.
+5c979dcc8b1bf91df183994161d3567f5de94441 Initial commit.
 
 scripts/batch.git:
 cb455189784f20cbd7a35ee819036aed024ce293 initial commit
@@ -181,11 +184,11 @@ scripts/lua.git:
 889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
 
 scripts/perl.git:
+7a01e1ba57c0037796092797678209120812a12f Update rtorrent-action.
+55b6487d4e1a8c7b25b469d820cfa27ee2f1d6ca Upgrade reposman to v2.000.
+fa528ddd9683d31f1869762330637588becba2f0 Remove exercises for learningPerl.
 d712d5ea775b1776f920e63a2df306a024e104f0 Update r-at, tagfs.
 b6a1bb9cc41f359177b59c19b030df5cde073165 urlrule_action: clean source up.
-f08fba0739d1398025f854aa6d69f556caa8b4df Update perl_script.template.
-4783eb604ba33ea0d5339ba6c6ee7fbc418ee08a Update tagfs.
-953af0e87dd8a0f6e35ea93b4b7c33ee34f9ac59 Update r-readitlater, rtorrent-action and tagfs.
 
 scripts/sh.git:
 d5929dc50724361ee1d15b2fe41c052cd5899aa4 Add script chmod_reset.
@@ -256,11 +259,11 @@ f7c53c7485d958425a50d5b0e7ff6513b7e1464a added bootstrap.sh
 3e3a1d12526379f3d5cb829741c07b42cf7cebdf updated .PROJECTS, gsbridge
 
 vcsplace/reposman.git:
+f3a32a19ca3b8ec53b179d114ec0cd9793cfdfe6 Upgrade version number to v2.000.
+7414ce56d258d740c5078210ae739c86034207c3 Re-design data format.
 c34123a75898c7bdb0f9bfa39cedd60b203b6196 Update reposman.pl and projects data.
 48efc59d3730c2be375a238e915c60bf8a23fcff [reposman.pl] Add option "mirror".
 83b0ed22a364651222aec882e7df92a4dec897c2 Update reposman.pl, Add actions "List" and "Query".
-e45a945b5b782c3e6781b2a06561edaab8ba2972 Update projects, Upgrade reposman.pl to V1.2.
-ca0661361d1c07e9603e07ee971d510ce1b6d0ef Add option 'to-remote', enchance project file parsing.
 
 vcsplace/ws.git:
 0bef4c0b1b7713a3884736c9fa4a4f2471df45c3 Update .gitignore.
