@@ -24,16 +24,18 @@ hg.write = #local##1/hg
 git.read = #local##1.git
 git.write = #local##1.git
 
-[host.local2]
-map = localname
-svn.read = #local##1/svn
-svn.write = #local##1/svn
-
 [host.google]
 svn.read = http://#1.googlecode.com/svn/#2
 svn.write = https://#1.googlecode.com/svn/#2
 hg.read = http://#2.#1.googlecode.com/hg
 hg.write = https://#2.#1.googlecode.com/hg
+git.read = http://code.google.com/p/#1.#2/
+git.write = http://code.google.com/p/#1.#2/
+git.type = git
+eote.read = http://code.google.com/p/eote.#1/
+eote.write = http://code.google.com/p/eote.#1/
+eote.type = git
+
 
 [host.assembla]
 svn.read = http://subversion.assembla.com/svn/#1
@@ -44,10 +46,10 @@ git.write = git@git.assembla.com:#1.git
 [host.sourceforge]
 svn.read = http://#1.svn.sourceforge.net/svnroot/#1
 svn.write = https://eotect@#1.svn.sourceforge.net/svnroot/#1
-hg.read = http://#1.hg.sourceforge.net:8000/hgroot/#1/#2
-hg.write = ssh://eotect@#1.hg.sourceforge.net/hgroot/#1/#2
-git.read = http://#1.git.sourceforge.net:8000/gitroot/#1/#2
-git.write = ssh://#1.git.sourceforge.net/gitroot/#1/#2
+hg.read = http://#1.hg.sourceforge.net:8000/hgroot/#1
+hg.write = ssh://eotect@#1.hg.sourceforge.net/hgroot/#1
+git.read = http://#1.git.sourceforge.net:8000/gitroot/#1
+git.write = ssh://#1.git.sourceforge.net/gitroot/#1
 
 [host.sf1]
 hg.read = http://#1.hg.sourceforge.net:8000/hgroot/#1/#1
@@ -57,10 +59,10 @@ git.write = ssh://#1.git.sourceforge.net/gitroot/#1/#1
 
 [host.sf-zrepos]
 map = localname
-hg.read = http://zrepos.hg.sourceforge.net:8000/hgroot/zrepos/#1/#2
-hg.write = ssh://zrepos.hg.sourceforge.net/hgroot/zrepos/#1/#2
-git.read = http://zrepos.git.sourceforge.net:8000/gitroot/zrepos/#1/#2
-git.write = ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/#1/#2
+hg.read = http://zrepos.hg.sourceforge.net:8000/hgroot/zrepos/#1
+hg.write = ssh://zrepos.hg.sourceforge.net/hgroot/zrepos/#1
+git.read = http://zrepos.git.sourceforge.net:8000/gitroot/zrepos/#1.git
+git.write = ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/#1.git
 
 [host.projectlocker]
 svn.read = http://pl3.projectlocker.com/#1/#2/svn
@@ -72,25 +74,23 @@ svn.write = http://#1.unfuddle.com/svn/#1_#2
 git.read = git@#user#.unfuddle.com:#user#/#1
 git.write = git@#user#.unfuddle.com:#user#/#1
 
-[host.zrepos]
-hg.read = zrepos/svn/#1/hg
-hg.write = zrepos/svn/#1/hg
+[host.privepo]
+hg.read = privepo/svn/#1/hg
+hg.write = privepo/svn/#1/hg
 
 [host.github]
-git.read = http://github.com/#1.git
-git.write = git@github.com:#1.git
-
-[host.github1]
-git.read = http://github.com/eotect/#1.git
-git.write = git@github.com:eotect/#1.git
+git.read = http://github.com/#1/#2!.git
+git.write = git@github.com:#1/#2!.git
+eote.read = http://github.com/eote/#1.git
+eote.write = git@github.com:eote/#1.git
+eote.type = git
 
 [host.gitorious]
-git.read = http://gitorious.org/#1.git
-git.write = git@gitorious.org:#1.git
-
-[host.gitorious1]
-git.read = http://gitorious.org/eotect/#1.git
-git.write = git@gitorious.org:eotect/#1.git
+git.read = http://gitorious.org/#1/#2!.git
+git.write = git@gitorious.org:#1/#2!.git
+eote.read = http://gitorious.org/eote/#1.git
+eote.write = git@gitorious.org:eote/#1.git
+eote.type = git
 
 [type.git]
 checkout.write = #checkout##1
@@ -111,24 +111,26 @@ zrepos = repos
 
 
 [firefox]
-name = zprofiles/firefox
+name = profs/firefox
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 [homebase]
-name = zprofiles/homebase
+name = profs/homebase
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [gm-scripts]
-name = zprofiles/gm-scripts
+name = profs/gm-scripts
 checkout = firefox/gm_scripts
 local = local.git/
 source = assembla.git/gm-scripts
@@ -138,7 +140,7 @@ mirrors= {
 }
 
 [babebase]
-name = zprofiles/babebase
+name = profs/babebase
 checkout = #checkout#/perl/urlrule
 local = local.git/
 source = assembla.git/babebase
@@ -148,7 +150,7 @@ mirrors= {
 }
 
 [foxwps]
-name = zprofiles/foxwps
+name = profs/foxwps
 local = local.git/
 source = assembla.git/foxwps
 mirrors= {
@@ -157,7 +159,7 @@ mirrors= {
 }
 
 [private]
-name = zprofiles/private
+name = profs/private
 local = local.git/
 source = assembla.git/profiles-private
 mirrors= {
@@ -175,37 +177,41 @@ mirrors= {
 }
 
 [texts]
-name = ztexts/texts
+name = plaintexts/texts
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [notes]
-name = ztexts/notes
+name = plaintexts/notes
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [www]
-name = ztexts/www
+name = webscrap/www
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [webpages]
-name = ztexts/webpages
+name = plaintexts/webpages
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
@@ -216,15 +222,16 @@ name = loseplace/losebox
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [loseplace]
-name = loseplace/loseplace
-local = local.git/
+local = local.git/loseplace/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
@@ -232,6 +239,7 @@ mirrors= {
 [loseplace/mini]
 local = local.git/
 mirrors= {
+	google.git/
 	github.git/
 	gitorious.git/
 	sf-zrepos.git/
@@ -240,6 +248,7 @@ mirrors= {
 [loseplace/core]
 local = local.git/
 mirrors= {
+	google.git/
 	github.git/
 	gitorious.git/
 	sf-zrepos.git/
@@ -250,6 +259,7 @@ name = loseplace/thinapp
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
@@ -259,6 +269,7 @@ name = vcsplace/github-sync
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
@@ -269,6 +280,7 @@ name = vcsplace/gsvn-bundle
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
@@ -277,6 +289,7 @@ mirrors= {
 name = vcsplace/reposman
 local = local.git/
 mirrors= {
+	google.git/
 	github.git/
 	gitorious.git/
 	sf-zrepos.git/
@@ -287,196 +300,211 @@ name = vcsplace/ws
 checkout = .
 local = local.git/
 mirrors= {
+	google.git/
 	github.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
-;zcodebase
+;badcodes
 [vb6]
-name = zcodebase/vb6
+name = badcodes/vb6
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [vc6]
-name = zcodebase/vc6
+name = badcodes/vc6
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [freebasic]
-name = zcodebase/freebasic
+name = badcodes/freebasic
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [c]
-name = zcodebase/c
+name = badcodes/c
 checkout = #checkout#/codebase/
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [cpp]
-name = zcodebase/cpp
+name = badcodes/cpp
 checkout = #checkout#/codebase/
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [vsnet]
-name = zcodebase/vsnet
+name = badcodes/vsnet
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [devcpp]
-name = zcodebase/devcpp
+name = badcodes/devcpp
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [eclipse]
-name = zcodebase/eclipse
+name = badcodes/eclipse
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [makefiles]
-name = zcodebase/makefiles
+name = badcodes/makefiles
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 
-;zscripts
+;scriptlib
 [logo]
-name = zscripts/logo
+name = scriptlib/logo
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [lua]
-name = zscripts/lua
+name = scriptlib/lua
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [wscript]
-name = zscripts/wscript
+name = scriptlib/wscript
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [perl]
-name = zscripts/perl
+name = scriptlib/perl
 local = local.git/
 mirrors= {
+	google.git/
 	github.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [shellscript]
-name = zscripts/sh
+name = scriptlib/sh
 local = local.git/
 mirrors= {
+	google.git/
 	github.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [batch]
-name = zscripts/batch
+name = scriptlib/batch
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [libmyplace-perl]
-name = zscripts/libmyplace-perl
 checkout = perl/modules/MyPlace
 local = local.git/
-source = github.git/
+source = github.eote/
 mirrors= {
-	gitorious.git/
+	google.git/
+	gitorious.eote/
 	sf-zrepos.git/
 }
 
 [badluck]
-name = badluck/badluck
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [nightgun]
-name = nightgun/nightgun
 local = local.git/
-source = github.git/
-mirrors= {
+mirrors = {
+	google.git/
+	github.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [utils]
-name = zutils/utils
-localname = utils/utils
 local = local.git/
-source = github.git/
+source = github.git/eote/
 mirrors= {
-	gitorious.git/
+	google.git/eote/
+	gitorious.git/eote/
 	sf-zrepos.git/
 }
 
 ;USB Disk Booting System
 [usys]
 name = usys/usys
-checkout = usys/usys
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
@@ -487,6 +515,7 @@ checkout = usys/xrdos
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
@@ -497,6 +526,7 @@ checkout = usys/toolbox
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
@@ -507,101 +537,108 @@ checkout = usys/sysbuilder
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [websaver2]
-name = websaver/websaver2
 checkout = firefox/extensions/websaver2@myplace.hell
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [tombloo]
-name = websaver/tombloo
+name = webscrap/tombloo
 checkout = firefox/extensions/tombloo
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	github.git/to/tombloo
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [tombloo-data]
-name = websaver/tombloo-data
+name = webscrap/tombloo-data
 checkout = firefox/tombloo
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [htmlscripts]
-name = zwebdev/htmlscripts
+name = webscrap/htmlscripts
 checkout = #checkout#/webdev/
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [css]
-name = zwebdev/css
+name = webscrap/css
 checkout = #checkout#/webdev/
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [templates]
-name = zwebdev/templates
+name = webscrap/templates
 checkout = #checkout#/webdev/
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [avatars]
-name = zprofiles/avatars
+name = profs/avatars
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [drawings]
-name = eot/drawings
-localname = drawings
+name = prints/drawings
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
 [ebooks]
-name = eot/ebooks
-localname = ebooks
+name = prints/ebooks
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
 
-[zrepos]
+[privepo]
 local = local.svn/
 source = google.svn/
 mirrors = {
@@ -609,16 +646,16 @@ mirrors = {
 }
 
 [repos]
-name = eot/repos
-local = git/repos.git
-source = github.git/
+local = local.git/
+source = github.git/eote/
 mirrors= {
-	gitorious.git/
-	g:sf-zrepos/repos.git
+	google.git/eote/
+	gitorious.git/eote/
+	sf-zrepos.git/
 }
 
 [config-awesome]
-name = zprofiles/config-awesome
+name = profs/config-awesome
 local = local.git/
 source = github.git/
 mirrors= {

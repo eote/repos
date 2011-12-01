@@ -1,0 +1,263 @@
+1c1,5
+< badcodes/c.git:
+---
+> badluck/badluck.git:
+> da4e10151f7bcda733c89d84bffad9797af2d0e7 update README
+> d9f1b02493daa03125aa8a2496f329d8746152d0 initial import
+> 
+> codebase/c.git:
+8c12
+< badcodes/cpp.git:
+---
+> codebase/cpp.git:
+11c15
+< badcodes/devcpp.git:
+---
+> codebase/devcpp.git:
+14c18
+< badcodes/eclipse.git:
+---
+> codebase/eclipse.git:
+17c21
+< badcodes/freebasic.git:
+---
+> codebase/freebasic.git:
+24c28
+< badcodes/makefiles.git:
+---
+> codebase/makefiles.git:
+27c31
+< badcodes/vb6.git:
+---
+> codebase/vb6.git:
+33c37
+< badcodes/vc6.git:
+---
+> codebase/vc6.git:
+38c42
+< badcodes/vsnet.git:
+---
+> codebase/vsnet.git:
+42,44c46,54
+< badluck/badluck.git:
+< da4e10151f7bcda733c89d84bffad9797af2d0e7 update README
+< d9f1b02493daa03125aa8a2496f329d8746152d0 initial import
+---
+> drawings.git:
+> 63ff6562d6256c12c16865357f2dbfc1962d1820 initial commit
+> 
+> ebooks.git:
+> a8c3d039b97c964ee519867a7f16eb64ea87d562 added .repos, config file for gsvn-init-repo
+> 9b3565870bc175252db9b29c9aa8110a55c298e1 update README
+> 74363a62eadad6bc4614861b63f64e886fae52d0 add README
+> c3d35fce0cad6401ca7673556f605d8f87478181 initial import
+> 82484c53e16593921ce6b9d8718e71715c1b14e5 Initial directory structure.
+49,55d58
+< libmyplace-perl.git:
+< 54874aafe4ecd4958d277ac8c304f7a7cc5f6f38 Update Google::Search::HTML.
+< 53728ba33a0d130ab7734dcbde909c47a58afeb1 Add IniExt.
+< b850b340944f68cb31665be85ed4c5c785072de4 added Daum::Search
+< 97c53059652e28ef9ae85172e292ede178b660b2 fixed URLRule,updated Discuz
+< f4adc80d103f625505d906032d1e1242b18797e4 updates URLRule, made use of original URL as default referer when downloading
+< 
+70c73
+< nightgun.git:
+---
+> nightgun/nightgun.git:
+77,108c80
+< plaintexts/notes.git:
+< 1a2b3fa9bad83e3c984864e9a1e528e88c780577 Initial commit.
+< 
+< plaintexts/texts.git:
+< 3079105c63ac41eede85985ad1ac67970fe8fcbb added .repos, config file for gsvn-init-repo
+< 4d5dc4c97e52f025c81765d0c7791ed8f1ddb57a update README
+< a8fd3a72fcb049fbb179c810dbb46e9107ff55a2 add README, update .gitconfig
+< f32ac11bd8910a4ebeda1675e3706be68c828432 add README
+< c98c79ac9ee70bda4ff67f24d6493fbf50f01b14 add articles for git-svn
+< 
+< plaintexts/webpages.git:
+< 06c27bb1c793a2fe4420c61913062a6f6ac631f6 created index page
+< fc88a9eff41b51606dc026f0ee35455888968ee3 initial directory structure
+< 
+< prints/drawings.git:
+< 63ff6562d6256c12c16865357f2dbfc1962d1820 initial commit
+< 
+< prints/ebooks.git:
+< a8c3d039b97c964ee519867a7f16eb64ea87d562 added .repos, config file for gsvn-init-repo
+< 9b3565870bc175252db9b29c9aa8110a55c298e1 update README
+< 74363a62eadad6bc4614861b63f64e886fae52d0 add README
+< c3d35fce0cad6401ca7673556f605d8f87478181 initial import
+< 82484c53e16593921ce6b9d8718e71715c1b14e5 Initial directory structure.
+< 
+< privepo/babebase.git:
+< a6558344fd8b59936e1a35e2a1cf0504ae4636ce Update HOST.URL.
+< 21d761871f6683210095bdb9457297c334650210 Fix filemode.
+< d7d81e7bbc0b0c0248fcc8a1454dc7b925d0a653 Update rule vlike.com/0.
+< 2b51f8e6a159a4b8640866ab37f93152d28fa2b8 Reformat database BABES.
+< 1adcd8ac456a64989d8b93559b25e100c409db2e Add .gitignore
+< 
+< profs/avatars.git:
+---
+> profiles/avatars.git:
+115c87
+< profs/babebase.git:
+---
+> profiles/babebase.git:
+122c94
+< profs/config-awesome.git:
+---
+> profiles/config-awesome.git:
+125c97
+< profs/firefox.git:
+---
+> profiles/firefox.git:
+132c104
+< profs/foxwps.git:
+---
+> profiles/foxwps.git:
+139c111
+< profs/gm-scripts.git:
+---
+> profiles/gm-scripts.git:
+146c118
+< profs/google-chrome/eotect.git:
+---
+> profiles/google-chrome/eotect.git:
+153c125
+< profs/google-chrome/fun.git:
+---
+> profiles/google-chrome/fun.git:
+157c129
+< profs/google-chrome/xiaoranzzz.git:
+---
+> profiles/google-chrome/xiaoranzzz.git:
+161c133
+< profs/homebase.git:
+---
+> profiles/homebase.git:
+168c140
+< profs/linux.git:
+---
+> profiles/linux.git:
+174c146
+< profs/mails.git:
+---
+> profiles/mails.git:
+181c153
+< profs/private.git:
+---
+> profiles/private.git:
+188c160
+< profs/users/xiaoranzzz.git:
+---
+> profiles/users/xiaoranzzz.git:
+193,194d164
+< 75b873870ea214eeee50d68dfe84e2b695e0a65d Clean scripts in git/.
+< f1408887f37009641666d845ceab343b859fae8b Add script scripts/git-repos-commit.pl
+197a168,169
+> b4b6e617035a3145abe65606d164872c4660f8ab Add mask file.
+> 5c979dcc8b1bf91df183994161d3567f5de94441 Initial commit.
+199c171
+< scriptlib/batch.git:
+---
+> scripts/batch.git:
+203c175,182
+< scriptlib/logo.git:
+---
+> scripts/libmyplace-perl.git:
+> 54874aafe4ecd4958d277ac8c304f7a7cc5f6f38 Update Google::Search::HTML.
+> 53728ba33a0d130ab7734dcbde909c47a58afeb1 Add IniExt.
+> b850b340944f68cb31665be85ed4c5c785072de4 added Daum::Search
+> 97c53059652e28ef9ae85172e292ede178b660b2 fixed URLRule,updated Discuz
+> f4adc80d103f625505d906032d1e1242b18797e4 updates URLRule, made use of original URL as default referer when downloading
+> 
+> scripts/logo.git:
+206c185
+< scriptlib/lua.git:
+---
+> scripts/lua.git:
+209,211c188
+< scriptlib/perl.git:
+< 26464c08d81d81a00b28e23480704b6da2b1fd62 Update reposman again.
+< 8551176819755cef77ac702915efe200e2f5c845 Update reposman.
+---
+> scripts/perl.git:
+214a192,193
+> d712d5ea775b1776f920e63a2df306a024e104f0 Update r-at, tagfs.
+> b6a1bb9cc41f359177b59c19b030df5cde073165 urlrule_action: clean source up.
+216c195
+< scriptlib/sh.git:
+---
+> scripts/sh.git:
+223c202
+< scriptlib/wscript.git:
+---
+> scripts/wscript.git:
+226a206,222
+> texts/notes.git:
+> 1a2b3fa9bad83e3c984864e9a1e528e88c780577 Initial commit.
+> 
+> texts/texts.git:
+> 3079105c63ac41eede85985ad1ac67970fe8fcbb added .repos, config file for gsvn-init-repo
+> 4d5dc4c97e52f025c81765d0c7791ed8f1ddb57a update README
+> a8fd3a72fcb049fbb179c810dbb46e9107ff55a2 add README, update .gitconfig
+> f32ac11bd8910a4ebeda1675e3706be68c828432 add README
+> c98c79ac9ee70bda4ff67f24d6493fbf50f01b14 add articles for git-svn
+> 
+> texts/webpages.git:
+> 06c27bb1c793a2fe4420c61913062a6f6ac631f6 created index page
+> fc88a9eff41b51606dc026f0ee35455888968ee3 initial directory structure
+> 
+> texts/www.git:
+> ed747f127f3a3846da268ce87967dee494c6f422 initial commit
+> 
+249c245
+< utils.git:
+---
+> utils/utils.git:
+281,288c277
+< websaver2.git:
+< 628971d16ad65951cee31fc610f6435a66f3c944 Update install.rdf to match Firefox version 4.
+< 6591ab88f6ae6b96164d4af800cfe18c4ad52e65 fixed bug found from cataedit3.js,function addCatalog(), which open an old catalog editor instead of the new
+< 78dc69a059798398dc985a35ead8b44c30cef628 update dbopFS.js, move useless files to unused
+< 03f6848226727e2cd9f60c5159742233287810a9 add .repos, update topicedit.js
+< 3fea1b05f830f535185459dcff1d6ffa3543a3a1 update README
+< 
+< webscrap/css.git:
+---
+> webdev/css.git:
+291c280,286
+< webscrap/editplaces.git:
+---
+> webdev/htmlscripts.git:
+> 0c9778ad58a99bd2725e81dcd539e485d5d69987 Initial commit.
+> 
+> webdev/templates.git:
+> d66e448f79afd9bfa28bf46ec9e2305cd296845c Initial commit.
+> 
+> websaver/editplaces.git:
+298,307c293
+< webscrap/htmlscripts.git:
+< 0c9778ad58a99bd2725e81dcd539e485d5d69987 Initial commit.
+< 
+< webscrap/myplace.git:
+< ed747f127f3a3846da268ce87967dee494c6f422 initial commit
+< 
+< webscrap/templates.git:
+< d66e448f79afd9bfa28bf46ec9e2305cd296845c Initial commit.
+< 
+< webscrap/tombloo-data.git:
+---
+> websaver/tombloo-data.git:
+314c300
+< webscrap/tombloo.git:
+---
+> websaver/tombloo.git:
+319a306,312
+> 
+> websaver/websaver2.git:
+> 628971d16ad65951cee31fc610f6435a66f3c944 Update install.rdf to match Firefox version 4.
+> 6591ab88f6ae6b96164d4af800cfe18c4ad52e65 fixed bug found from cataedit3.js,function addCatalog(), which open an old catalog editor instead of the new
+> 78dc69a059798398dc985a35ead8b44c30cef628 update dbopFS.js, move useless files to unused
+> 03f6848226727e2cd9f60c5159742233287810a9 add .repos, update topicedit.js
+> 3fea1b05f830f535185459dcff1d6ffa3543a3a1 update README
