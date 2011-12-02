@@ -23,6 +23,10 @@ hg.read = #local##1/hg
 hg.write = #local##1/hg
 git.read = #local##1.git
 git.write = #local##1.git
+privepo-git.read = #local#privepo/#1/git
+privepo-git.write = #local#privepo/#1/git
+privepo-git.type = git
+
 
 [host.google]
 svn.read = http://#1.googlecode.com/svn/#2
@@ -64,6 +68,13 @@ hg.write = ssh://zrepos.hg.sourceforge.net/hgroot/zrepos/#1
 git.read = http://zrepos.git.sourceforge.net:8000/gitroot/zrepos/#1.git
 git.write = ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/#1.git
 
+[host.privepo]
+git.read = #local##1/.git
+git.write = #local##1/.git
+sf-git.read = http://zrepos.git.sourceforge.net:8000/gitroot/zrepos/#1.git
+sf-git.write = ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/#1.git
+sf-git.type = git
+
 [host.projectlocker]
 svn.read = http://pl3.projectlocker.com/#1/#2/svn
 svn.write = https://pl3.projectlocker.com/#1/#2/svn
@@ -73,10 +84,6 @@ svn.read = http://#1.unfuddle.com/svn/#1_#2
 svn.write = http://#1.unfuddle.com/svn/#1_#2
 git.read = git@#user#.unfuddle.com:#user#/#1
 git.write = git@#user#.unfuddle.com:#user#/#1
-
-[host.privepo]
-hg.read = privepo/svn/#1/hg
-hg.write = privepo/svn/#1/hg
 
 [host.github]
 git.read = http://github.com/#1/#2!.git
@@ -119,6 +126,7 @@ mirrors= {
 	gitorious.git/
 	sf-zrepos.git/
 }
+
 [homebase]
 name = profs/homebase
 local = local.git/
@@ -127,53 +135,6 @@ mirrors= {
 	google.git/
 	gitorious.git/
 	sf-zrepos.git/
-}
-
-[gm-scripts]
-name = profs/gm-scripts
-checkout = firefox/gm_scripts
-local = local.git/
-source = assembla.git/gm-scripts
-mirrors= {
-	sf-zrepos.git/
-	unfuddle.git/gm-scripts
-}
-
-[babebase]
-name = profs/babebase
-checkout = #checkout#/perl/urlrule
-local = local.git/
-source = assembla.git/babebase
-mirrors= {
-	sf-zrepos.git/
-	unfuddle.git/babebase
-}
-
-[foxwps]
-name = profs/foxwps
-local = local.git/
-source = assembla.git/foxwps
-mirrors= {
-	sf-zrepos.git/
-	unfuddle.git/foxwps
-}
-
-[private]
-name = profs/private
-local = local.git/
-source = assembla.git/profiles-private
-mirrors= {
-	sf-zrepos.git/
-	unfuddle.git/private
-}
-
-[gsbridge]
-name = vcsplace/gsbridge
-local = local.git/
-source = assembla.git/gsbridge
-mirrors= {
-	sf-zrepos.git/
-	unfuddle.git/gsbridge
 }
 
 [texts]
@@ -608,15 +569,6 @@ mirrors= {
 	sf-zrepos.git/
 }
 
-[avatars]
-name = profs/avatars
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
 
 [drawings]
 name = prints/drawings
@@ -636,13 +588,6 @@ mirrors= {
 	google.git/
 	gitorious.git/
 	sf-zrepos.git/
-}
-
-[privepo]
-local = local.svn/
-source = google.svn/
-mirrors = {
-	sf.svn/
 }
 
 [repos]
@@ -672,4 +617,128 @@ mirrors= {
 	sf-zrepos.git/
 }
 
+[avatars]
+local = local.privepo-git/
+mirrors = {
+	assembla.git/
+	unfuddle.git/
+}
+
+[gm-scripts]
+checkout = firefox/gm_scripts
+local = local.privepo-git/
+mirrors = {
+	assembla.git/
+	unfuddle.git/
+}
+
+[babebase]
+name = babebase
+checkout = #checkout#/perl/urlrule
+local = local.privepo-git/
+mirrors = {
+	assembla.git/
+	unfuddle.git/
+}
+
+[foxwps]
+local = local.privepo-git/
+mirrors = {
+	assembla.git/
+	unfuddle.git/
+}
+
+[private]
+local = local.privepo-git/
+mirrors = {
+	assembla.git/
+	unfuddle.git/
+}
+
+[gsbridge]
+local = local.privepo-git/
+mirrors = {
+	assembla.git/
+	unfuddle.git/
+}
+
+[privepo/empty]
+local = local.git/
+mirrors = {
+	google.git/
+	github.git/
+	gitorious.git/
+	sf-zrepos.git/
+}
+
+[privepo/root]
+local = local.git/
+mirrors = {
+	google.git/
+	github.git/
+	gitorious.git/
+	sf-zrepos.git/
+}
+
+[privepo/gm-scripts]
+local = privepo.git/
+mirrors = {
+	google.git/
+	github.git/
+	gitorious.git/
+	sf-zrepos.git/
+}
+
+[privepo/babebase]
+local = privepo.git/
+mirrors = {
+	google.git/
+	github.git/
+	gitorious.git/
+	sf-zrepos.git/
+}
+
+[privepo/gsbridge]
+local = privepo.git/
+mirrors = {
+	google.git/
+	github.git/
+	gitorious.git/
+	sf-zrepos.git/
+}
+
+
+[privepo/workspace]
+local = privepo.git/
+mirrors = {
+	google.git/
+	github.git/
+	gitorious.git/
+	sf-zrepos.git/
+}
+
+[privepo/avatars]
+local = privepo.git/
+mirrors = {
+	google.git/
+	github.git/
+	gitorious.git/
+	sf-zrepos.git/
+}
+[privepo/private]
+local = privepo.git/
+mirrors = {
+	google.git/
+	github.git/
+	gitorious.git/
+	sf-zrepos.git/
+}
+[privepo/foxwps]
+local = privepo.git/
+mirrors = {
+	google.git/
+	github.git/
+	gitorious.git/
+	sf-zrepos.git/
+}
 ;	vim:filetype=dosini
