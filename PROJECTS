@@ -189,7 +189,7 @@ mirrors= {
 }
 
 [loseplace]
-local = local.git/loseplace/
+local = local.git/
 source = github.git/
 mirrors= {
 	google.git/
@@ -604,6 +604,7 @@ name = profs/config-awesome
 local = local.git/
 source = github.git/
 mirrors= {
+	google.git/
 	gitorious.git/
 	sf-zrepos.git/
 }
@@ -660,6 +661,22 @@ local = local.privepo-git/
 mirrors = {
 	assembla.git/
 	unfuddle.git/
+}
+
+[linux]
+local = local.privepo-git/
+mirrors = {
+	assembla.git/
+	unfuddle.git/
+}
+
+[privepo/linux]
+local = local.git/
+mirrors = {
+	google.git/
+	github.git/
+	gitorious.git/
+	sf-zrepos.git/
 }
 
 [privepo/empty]
