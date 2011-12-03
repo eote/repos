@@ -133,3 +133,65 @@ Everything up-to-date
 Everything up-to-date
 
 [2011-12-03 15:55:32] Finished.
+========================================================
+[2011-12-03 15:59:47] Started:
+reposman --to-remote privepo/linux
+reading ".PROJECTS"... 66 projects.
+To Push 1 project ...
+[1/1] Push project [privepo/linux]
+Source: /myplace/repos/git/privepo/linux.git
+	 Error directory not exists.
+
+[2011-12-03 15:59:47] Finished.
+========================================================
+[2011-12-03 16:00:34] Started:
+reposman --to-remote privepo/linux
+reading ".PROJECTS"... 66 projects.
+To Push 1 project ...
+[1/1] Push project [privepo/linux]
+Source: /myplace/repos/git/privepo/linux/.git
+  Dest: http://code.google.com/p/privepo.linux/ (push) 
+Everything up-to-date
+  Dest: git@github.com:privepo/linux.git (push) 
+No refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
+fatal: The remote end hung up unexpectedly
+error: failed to push some refs to 'git@github.com:privepo/linux.git'
+  Dest: git@gitorious.org:privepo/linux.git (push) 
+No refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
+fatal: The remote end hung up unexpectedly
+error: failed to push some refs to 'git@gitorious.org:privepo/linux.git'
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/linux.git (push) 
+No refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
+fatal: The remote end hung up unexpectedly
+error: failed to push some refs to 'ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/linux.git'
+
+[2011-12-03 16:01:04] Finished.
+========================================================
+[2011-12-03 16:01:28] Started:
+reposman --to-remote --branch master privepo/linux
+reading ".PROJECTS"... 66 projects.
+To Push 1 project ...
+[1/1] Push project [privepo/linux]
+Source: /myplace/repos/git/privepo/linux/.git
+  Dest: http://code.google.com/p/privepo.linux/ (push) 
+remote: Scanning pack: 0% (1/211)[Kremote: Scanning pack: 1% (3/211)[Kremote: Scanning pack: 2% (5/211)[Kremote: Scanning pack: 3% (7/211)[Kremote: Scanning pack: 4% (9/211)[Kremote: Scanning pack: 5% (11/211)[Kremote: Scanning pack: 6% (13/211)[Kremote: Scanning pack: 7% (15/211)[Kremote: Scanning pack: 8% (17/211)[Kremote: Scanning pack: 9% (19/211)[Kremote: Scanning pack: 10% (22/211)[Kremote: Scanning pack: 11% (24/211)[Kremote: Scanning pack: 12% (26/211)[Kremote: Scanning pack: 13% (28/211)[Kremote: Scanning pack: 14% (30/211)[Kremote: Scanning pack: 15% (32/211)[Kremote: Scanning pack: 16% (34/211)[Kremote: Scanning pack: 17% (36/211)[Kremote: Scanning pack: 18% (38/211)[Kremote: Scanning pack: 19% (41/211)[Kremote: Scanning pack: 20% (43/211)[Kremote: Scanning pack: 21% (45/211)[Kremote: Scanning pack: 22% (47/211)[Kremote: Scanning pack: 23% (49/211)[Kremote: Scanning pack: 24% (51/211)[Kremote: Scanning pack: 25% (53/211)[Kremote: Scanning pack: 26% (55/211)[Kremote: Scanning pack: 27% (57/211)[Kremote: Scanning pack: 28% (60/211)[Kremote: Scanning pack: 29% (62/211)[Kremote: Scanning pack: 30% (64/211)[Kremote: Scanning pack: 31% (66/211)[Kremote: Scanning pack: 32% (68/211)[Kremote: Scanning pack: 33% (70/211)[Kremote: Scanning pack: 34% (72/211)[Kremote: Scanning pack: 35% (74/211)[Kremote: Scanning pack: 36% (76/211)[Kremote: Scanning pack: 37% (79/211)[Kremote: Scanning pack: 38% (81/211)[Kremote: Scanning pack: 39% (83/211)[Kremote: Scanning pack: 40% (85/211)[Kremote: Scanning pack: 41% (87/211)[Kremote: Scanning pack: 42% (89/211)[Kremote: Scanning pack: 43% (91/211)[Kremote: Scanning pack: 44% (93/211)[Kremote: Scanning pack: 45% (95/211)[Kremote: Scanning pack: 46% (98/211)[Kremote: Scanning pack: 47% (100/211)[Kremote: Scanning pack: 48% (102/211)[Kremote: Scanning pack: 49% (104/211)[Kremote: Scanning pack: 50% (106/211)[Kremote: Scanning pack: 51% (108/211)[Kremote: Scanning pack: 52% (110/211)[Kremote: Scanning pack: 53% (112/211)[Kremote: Scanning pack: 54% (114/211)[Kremote: Scanning pack: 55% (117/211)[Kremote: Scanning pack: 56% (119/211)[Kremote: Scanning pack: 57% (121/211)[Kremote: Scanning pack: 58% (123/211)[Kremote: Scanning pack: 59% (125/211)[Kremote: Scanning pack: 60% (127/211)[Kremote: Scanning pack: 61% (129/211)[Kremote: Scanning pack: 62% (131/211)[Kremote: Scanning pack: 63% (133/211)[Kremote: Scanning pack: 64% (136/211)[Kremote: Scanning pack: 65% (138/211)[Kremote: Scanning pack: 66% (140/211)[Kremote: Scanning pack: 67% (142/211)[Kremote: Scanning pack: 68% (144/211)[Kremote: Scanning pack: 69% (146/211)[Kremote: Scanning pack: 70% (148/211)[Kremote: Scanning pack: 71% (150/211)[Kremote: Scanning pack: 72% (152/211)[Kremote: Scanning pack: 73% (155/211)[Kremote: Scanning pack: 74% (157/211)[Kremote: Scanning pack: 75% (159/211)[Kremote: Scanning pack: 76% (161/211)[Kremote: Scanning pack: 77% (163/211)[Kremote: Scanning pack: 78% (165/211)[Kremote: Scanning pack: 79% (167/211)[Kremote: Scanning pack: 80% (169/211)[Kremote: Scanning pack: 81% (171/211)[Kremote: Scanning pack: 82% (174/211)[Kremote: Scanning pack: 83% (176/211)[Kremote: Scanning pack: 84% (178/211)[Kremote: Scanning pack: 85% (180/211)[Kremote: Scanning pack: 86% (182/211)[Kremote: Scanning pack: 87% (184/211)[Kremote: Scanning pack: 88% (186/211)[Kremote: Scanning pack: 89% (188/211)[Kremote: Scanning pack: 90% (190/211)[Kremote: Scanning pack: 91% (193/211)[Kremote: Scanning pack: 92% (195/211)[Kremote: Scanning pack: 93% (197/211)[Kremote: Scanning pack: 94% (199/211)[Kremote: Scanning pack: 95% (201/211)[Kremote: Scanning pack: 96% (203/211)[Kremote: Scanning pack: 97% (205/211)[Kremote: Scanning pack: 98% (207/211)[Kremote: Scanning pack: 99% (209/211)[Kremote: Scanning pack: 100% (211/211)[Kremote: Scanning pack: 100% (211/211), done.[K
+remote: Storing objects: 0% (1/211)[Kremote: Storing objects: 1% (3/211)[Kremote: Storing objects: 2% (5/211)[Kremote: Storing objects: 3% (7/211)[Kremote: Storing objects: 4% (9/211)[Kremote: Storing objects: 5% (11/211)[Kremote: Storing objects: 6% (13/211)[Kremote: Storing objects: 7% (15/211)[Kremote: Storing objects: 8% (17/211)[Kremote: Storing objects: 9% (19/211)[Kremote: Storing objects: 10% (22/211)[Kremote: Storing objects: 11% (24/211)[Kremote: Storing objects: 12% (26/211)[Kremote: Storing objects: 13% (28/211)[Kremote: Storing objects: 14% (30/211)[Kremote: Storing objects: 15% (32/211)[Kremote: Storing objects: 16% (34/211)[Kremote: Storing objects: 17% (36/211)[Kremote: Storing objects: 18% (38/211)[Kremote: Storing objects: 19% (41/211)[Kremote: Storing objects: 20% (43/211)[Kremote: Storing objects: 21% (45/211)[Kremote: Storing objects: 22% (47/211)[Kremote: Storing objects: 23% (49/211)[Kremote: Storing objects: 24% (51/211)[Kremote: Storing objects: 25% (53/211)[Kremote: Storing objects: 26% (55/211)[Kremote: Storing objects: 27% (57/211)[Kremote: Storing objects: 28% (60/211)[Kremote: Storing objects: 29% (62/211)[Kremote: Storing objects: 30% (64/211)[Kremote: Storing objects: 31% (66/211)[Kremote: Storing objects: 32% (68/211)[Kremote: Storing objects: 33% (70/211)[Kremote: Storing objects: 34% (72/211)[Kremote: Storing objects: 35% (74/211)[Kremote: Storing objects: 36% (76/211)[Kremote: Storing objects: 37% (79/211)[Kremote: Storing objects: 38% (81/211)[Kremote: Storing objects: 39% (83/211)[Kremote: Storing objects: 40% (85/211)[Kremote: Storing objects: 41% (87/211)[Kremote: Storing objects: 42% (89/211)[Kremote: Storing objects: 43% (91/211)[Kremote: Storing objects: 44% (93/211)[Kremote: Storing objects: 45% (95/211)[Kremote: Storing objects: 46% (98/211)[Kremote: Storing objects: 47% (100/211)[Kremote: Storing objects: 48% (102/211)[Kremote: Storing objects: 49% (104/211)[Kremote: Storing objects: 50% (106/211)[Kremote: Storing objects: 51% (108/211)[Kremote: Storing objects: 52% (110/211)[Kremote: Storing objects: 53% (112/211)[Kremote: Storing objects: 54% (114/211)[Kremote: Storing objects: 55% (117/211)[Kremote: Storing objects: 56% (119/211)[Kremote: Storing objects: 57% (121/211)[Kremote: Storing objects: 58% (123/211)[Kremote: Storing objects: 59% (125/211)[Kremote: Storing objects: 60% (127/211)[Kremote: Storing objects: 61% (129/211)[Kremote: Storing objects: 62% (131/211)[Kremote: Storing objects: 63% (133/211)[Kremote: Storing objects: 64% (136/211)[Kremote: Storing objects: 65% (138/211)[Kremote: Storing objects: 66% (140/211)[Kremote: Storing objects: 67% (142/211)[Kremote: Storing objects: 68% (144/211)[Kremote: Storing objects: 69% (146/211)[Kremote: Storing objects: 70% (148/211)[Kremote: Storing objects: 71% (150/211)[Kremote: Storing objects: 72% (152/211)[Kremote: Storing objects: 73% (155/211)[Kremote: Storing objects: 74% (157/211)[Kremote: Storing objects: 75% (159/211)[Kremote: Storing objects: 76% (161/211)[Kremote: Storing objects: 77% (163/211)[Kremote: Storing objects: 78% (165/211)[Kremote: Storing objects: 79% (167/211)[Kremote: Storing objects: 80% (169/211)[Kremote: Storing objects: 81% (171/211)[Kremote: Storing objects: 82% (174/211)[Kremote: Storing objects: 83% (176/211)[Kremote: Storing objects: 84% (178/211)[Kremote: Storing objects: 85% (180/211)[Kremote: Storing objects: 86% (182/211)[Kremote: Storing objects: 87% (184/211)[Kremote: Storing objects: 88% (186/211)[Kremote: Storing objects: 89% (188/211)[Kremote: Storing objects: 90% (190/211)[Kremote: Storing objects: 91% (193/211)[Kremote: Storing objects: 92% (195/211)[Kremote: Storing objects: 93% (197/211)[Kremote: Storing objects: 94% (199/211)[Kremote: Storing objects: 95% (201/211)[Kremote: Storing objects: 96% (203/211)[Kremote: Storing objects: 97% (205/211)[Kremote: Storing objects: 98% (207/211)[Kremote: Storing objects: 99% (209/211)[Kremote: Storing objects: 100% (211/211)[Kremote: Storing objects: 100% (211/211), done.[K
+remote: Processing commits: 33% (1/3)[Kremote: Processing commits: 66% (2/3)[Kremote: Processing commits: 100% (3/3)[Kremote: Processing commits: 100% (3/3), done.[K
+To http://code.google.com/p/privepo.linux/
+ * [new branch]      master -> master
+  Dest: git@github.com:privepo/linux.git (push) 
+To git@github.com:privepo/linux.git
+ * [new branch]      master -> master
+  Dest: git@gitorious.org:privepo/linux.git (push) 
+=> Syncing Gitorious... [OK]
+To git@gitorious.org:privepo/linux.git
+ * [new branch]      master -> master
+  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/linux.git (push) 
+remote: fatal: Not a git repository: '/gitroot/zrepos/privepo'[K
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/linux.git
+ * [new branch]      master -> master
+
+[2011-12-03 16:02:16] Finished.

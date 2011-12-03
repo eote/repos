@@ -671,7 +671,7 @@ mirrors = {
 }
 
 [privepo/linux]
-local = local.git/
+local = privepo.git/
 mirrors = {
 	google.git/
 	github.git/
