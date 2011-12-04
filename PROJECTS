@@ -14,6 +14,23 @@ author = #author.e#
 type = git
 checkout = /myplace/workspace/
 local = /myplace/repos/git/
+GitHostsPublic = (
+	local = local.git/
+	mirrors = {
+		github.git/
+		google.git/
+		gitorious.git/
+		sf-zrepos.git/
+	}
+)
+
+GitHostsPrivate = (
+	local = local.privepo-git/
+	mirrors = {
+		assembla.git/
+		unfuddle.repo/
+	}
+)
 
 [host.local]
 map = localname
@@ -27,7 +44,6 @@ privepo-git.read = #local#privepo/#1/git
 privepo-git.write = #local#privepo/#1/git
 privepo-git.type = git
 
-
 [host.google]
 svn.read = http://#1.googlecode.com/svn/#2
 svn.write = https://#1.googlecode.com/svn/#2
@@ -39,7 +55,6 @@ git.type = git
 eote.read = http://code.google.com/p/eote.#1/
 eote.write = http://code.google.com/p/eote.#1/
 eote.type = git
-
 
 [host.assembla]
 svn.read = http://subversion.assembla.com/svn/#1
@@ -84,6 +99,9 @@ svn.read = http://#1.unfuddle.com/svn/#1_#2
 svn.write = http://#1.unfuddle.com/svn/#1_#2
 git.read = git@#user#.unfuddle.com:#user#/#1
 git.write = git@#user#.unfuddle.com:#user#/#1
+repo.read = git@repo.unfuddle.com:repo/#1
+repo.write = git@repo.unfuddle.com:repo/#1
+repo.type = git
 
 [host.github]
 git.read = http://github.com/#1/#2!.git
@@ -116,477 +134,195 @@ zwebdev = webdev
 zmyplace = myplace
 zrepos = repos
 
+;xxxxxxxxxxxxxxxxxxx
+;scriptlib
+[perl]
+name = scriptlib/perl
+#GitHostsPublic#
 
+[sh]
+name = scriptlib/sh
+#GitHostsPublic#
+
+[batch]
+name = scriptlib/batch
+#GitHostsPublic#
+
+[lua]
+name = scriptlib/lua
+#GitHostsPublic#
+
+[wscript]
+name = scriptlib/wscript
+#GitHostsPublic#
+
+[logo]
+name = scriptlib/logo
+#GitHostsPublic#
+
+
+;xxxxxxxxxxxxxxxxxxx
+;standalone projects
+[websaver2]
+checkout = firefox/extensions/websaver2@myplace.hell
+#GitHostsPublic#
+
+[usys]
+#GitHostsPublic#
+
+[nightgun]
+#GitHostsPublic#
+
+[badluck]
+#GitHostsPublic#
+
+[libmyplace-perl]
+checkout = perl/modules/MyPlace
+#GitHostsPublic#
+
+[reposman]
+#GitHostsPublic#
+source = assembla.git/
+
+[loseplace]
+#GitHostsPublic#
+
+;xxxxxxxxxxxxxxxxxxx
+;profiles
 [firefox]
 name = profs/firefox
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
 [homebase]
 name = profs/homebase
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic# 
 
+[config-awesome]
+name = profs/config-awesome
+#GitHostsPublic#
+
+;xxxxxxxxxxxxxxxxxxx
+;plaintexts
 [texts]
 name = plaintexts/texts
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
 [notes]
 name = plaintexts/notes
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[www]
-name = webscrap/www
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
 [webpages]
 name = plaintexts/webpages
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
+;xxxxxxxxxxxxxxxxxxx
 ;loseplace
 [losebox]
 name = loseplace/losebox
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[loseplace]
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
 [loseplace/mini]
-local = local.git/
-mirrors= {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
 [loseplace/core]
-local = local.git/
-mirrors= {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
 [thinapp]
 name = loseplace/thinapp
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
+;xxxxxxxxxxxxxxxxxxx
+;vcsplace
 [github-sync]
 name = vcsplace/github-sync
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
+#GitHostsPublic#
 
 [gsvn-bundle]
 name = vcsplace/gsvn-bundle
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[reposman]
-name = vcsplace/reposman
-local = local.git/
-mirrors= {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
 [ws]
 name = vcsplace/ws
 checkout = .
-local = local.git/
-mirrors= {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
+;xxxxxxxxxxxxxxxxxxx
 ;badcodes
 [vb6]
 name = badcodes/vb6
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
 [vc6]
 name = badcodes/vc6
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
 [freebasic]
 name = badcodes/freebasic
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
 [c]
 name = badcodes/c
 checkout = #checkout#/codebase/
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
 [cpp]
 name = badcodes/cpp
 checkout = #checkout#/codebase/
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
 [vsnet]
 name = badcodes/vsnet
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
-[devcpp]
-name = badcodes/devcpp
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+;xxxxxxxxxxxxxxxxxxx
+;webscrap
+[webscrap/http-myplace]
+#GitHostsPublic#
 
-[eclipse]
-name = badcodes/eclipse
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+[tombloo]
+name = webscrap/tombloo
+checkout = firefox/extensions/tombloo
+#GitHostsPublic#
+source = github.git/to/tombloo
 
-[makefiles]
-name = badcodes/makefiles
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+[tombloo-data]
+name = webscrap/tombloo-data
+checkout = firefox/tombloo
+#GitHostsPublic#
 
+[htmlscripts]
+name = webscrap/htmlscripts
+checkout = #checkout#/webdev/
+#GitHostsPublic#
 
-;scriptlib
-[logo]
-name = scriptlib/logo
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+[css]
+name = webscrap/css
+checkout = #checkout#/webdev/
+#GitHostsPublic#
 
-[lua]
-name = scriptlib/lua
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+[templates]
+name = webscrap/templates
+checkout = #checkout#/webdev/
+#GitHostsPublic#
 
-[wscript]
-name = scriptlib/wscript
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+;xxxxxxxxxxxxxxxxxxx
+;prints
+[drawings]
+name = prints/drawings
+#GitHostsPublic#
 
-[perl]
-name = scriptlib/perl
-local = local.git/
-mirrors= {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+[ebooks]
+name = prints/ebooks
+#GitHostsPublic#
 
-[shellscript]
-name = scriptlib/sh
-local = local.git/
-mirrors= {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[batch]
-name = scriptlib/batch
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[libmyplace-perl]
-checkout = perl/modules/MyPlace
-local = local.git/
-source = github.eote/
-mirrors= {
-	google.git/
-	gitorious.eote/
-	sf-zrepos.git/
-}
-
-[badluck]
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[nightgun]
-local = local.git/
-mirrors = {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
+;xxxxxxxxxxxxxxxxxxx
+;small personal projects
 [utils]
 local = local.git/
 source = github.git/eote/
 mirrors= {
 	google.git/eote/
 	gitorious.git/eote/
-	sf-zrepos.git/
-}
-
-;USB Disk Booting System
-[usys]
-name = usys/usys
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[xrdos]
-name = usys/xrdos
-checkout = usys/xrdos
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[toolbox]
-name = usys/toolbox
-checkout = usys/toolbox
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[sysbuilder]
-name = usys/sysbuilder
-checkout = usys/sysbuilder
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[websaver2]
-checkout = firefox/extensions/websaver2@myplace.hell
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[tombloo]
-name = webscrap/tombloo
-checkout = firefox/extensions/tombloo
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	github.git/to/tombloo
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[tombloo-data]
-name = webscrap/tombloo-data
-checkout = firefox/tombloo
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[htmlscripts]
-name = webscrap/htmlscripts
-checkout = #checkout#/webdev/
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[css]
-name = webscrap/css
-checkout = #checkout#/webdev/
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[templates]
-name = webscrap/templates
-checkout = #checkout#/webdev/
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-
-[drawings]
-name = prints/drawings
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[ebooks]
-name = prints/ebooks
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
 	sf-zrepos.git/
 }
 
@@ -599,163 +335,77 @@ mirrors= {
 	sf-zrepos.git/
 }
 
-[config-awesome]
-name = profs/config-awesome
-local = local.git/
-source = github.git/
-mirrors= {
-	google.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
-[excs/learningperl]
-local = local.git/
-source = github.git/
-mirrors= {
-	gitorious.git/
-	google.git/
-	sf-zrepos.git/
-}
-
+;xxxxxxxxxxxxxxxxxxx
+;private repositories
 [avatars]
-local = local.privepo-git/
-mirrors = {
-	assembla.git/
-	unfuddle.git/
-}
+#GitHostsPrivate#
 
 [gm-scripts]
 checkout = firefox/gm_scripts
-local = local.privepo-git/
-mirrors = {
-	assembla.git/
-	unfuddle.git/
-}
+#GitHostsPrivate#
 
 [babebase]
 name = babebase
 checkout = #checkout#/perl/urlrule
-local = local.privepo-git/
-mirrors = {
-	assembla.git/
-	unfuddle.git/
-}
+#GitHostsPrivate#
 
 [foxwps]
-local = local.privepo-git/
-mirrors = {
-	assembla.git/
-	unfuddle.git/
-}
+#GitHostsPrivate#
 
-[private]
-local = local.privepo-git/
-mirrors = {
-	assembla.git/
-	unfuddle.git/
-}
+[privacy]
+#GitHostsPrivate#
 
 [gsbridge]
-local = local.privepo-git/
-mirrors = {
-	assembla.git/
-	unfuddle.git/
-}
+#GitHostsPrivate#
 
 [linux]
 local = local.privepo-git/
 mirrors = {
-	assembla.git/
-	unfuddle.git/
+	assembla.git/linuxbase
+	unfuddle.repo/
 }
 
-[privepo/linux]
-local = privepo.git/
-mirrors = {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
 
+;xxxxxxxxxxxxxxxxxxx
+;privepo
 [privepo/empty]
-local = local.git/
-mirrors = {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
 
 [privepo/root]
-local = local.git/
-mirrors = {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+#GitHostsPublic#
+
+[privepo/linux]
+#GitHostsPublic#
+local = privepo.git/
 
 [privepo/gm-scripts]
+#GitHostsPublic#
 local = privepo.git/
-mirrors = {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
 
 [privepo/babebase]
+#GitHostsPublic#
 local = privepo.git/
-mirrors = {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
 
 [privepo/gsbridge]
+#GitHostsPublic#
 local = privepo.git/
-mirrors = {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-
 
 [privepo/workspace]
+#GitHostsPublic#
 local = privepo.git/
-mirrors = {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
 
 [privepo/avatars]
+#GitHostsPublic#
 local = privepo.git/
-mirrors = {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-[privepo/private]
+
+[privepo/privacy]
+#GitHostsPublic#
 local = privepo.git/
-mirrors = {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
-[privepo/foxwps]
-local = privepo.git/
-mirrors = {
-	google.git/
-	github.git/
-	gitorious.git/
-	sf-zrepos.git/
-}
+
+
+;xxxxxxxxxxxxxxxxxxx
+;excs
+[excs/learningperl]
+#GitHostsPublic#
+
 ;	vim:filetype=dosini
