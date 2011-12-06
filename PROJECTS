@@ -17,6 +17,7 @@ local = /myplace/repos/git/
 GitHostsPublic = (
 	local = local.git/
 	mirrors = {
+		assembla.git/
 		github.git/
 		google.git/
 		gitorious.git/
@@ -50,7 +51,7 @@ svn.write = https://#1.googlecode.com/svn/#2
 hg.read = http://#2.#1.googlecode.com/hg
 hg.write = https://#2.#1.googlecode.com/hg
 git.read = http://code.google.com/p/#1.#2/
-git.write = http://code.google.com/p/#1.#2/
+git.write = https://code.google.com/p/#1.#2/
 git.type = git
 eote.read = http://code.google.com/p/eote.#1/
 eote.write = http://code.google.com/p/eote.#1/
@@ -59,8 +60,8 @@ eote.type = git
 [host.assembla]
 svn.read = http://subversion.assembla.com/svn/#1
 svn.write = https://subversion.assembla.com/svn/#1
-git.read = git@git.assembla.com:#1.git
-git.write = git@git.assembla.com:#1.git
+git.read = git@git.assembla.com:#1-#2.git
+git.write = git@git.assembla.com:#1-#2.git
 
 [host.sourceforge]
 svn.read = http://#1.svn.sourceforge.net/svnroot/#1
@@ -182,7 +183,6 @@ checkout = perl/modules/MyPlace
 
 [reposman]
 #GitHostsPublic#
-source = assembla.git/
 
 [loseplace]
 #GitHostsPublic#
@@ -318,22 +318,25 @@ name = prints/ebooks
 ;xxxxxxxxxxxxxxxxxxx
 ;small personal projects
 [utils]
-local = local.git/
-source = github.git/eote/
-mirrors= {
-	google.git/eote/
-	gitorious.git/eote/
-	sf-zrepos.git/
-}
-
+name = eote/utils
+	local = local.git/utils
+	mirrors = {
+		assembla.git/
+		github.git/
+		google.git/
+		gitorious.git/
+		sf-zrepos.git/utils
+	}
 [repos]
-local = local.git/
-source = github.git/eote/
-mirrors= {
-	google.git/eote/
-	gitorious.git/eote/
-	sf-zrepos.git/
-}
+name = eote/repos
+	local = local.git/repos
+	mirrors = {
+		assembla.git/
+		github.git/
+		google.git/
+		gitorious.git/
+		sf-zrepos.git/repos
+	}
 
 ;xxxxxxxxxxxxxxxxxxx
 ;private repositories
