@@ -25,6 +25,17 @@ GitHostsPublic = (
 	}
 )
 
+GitHostsPublic2 = (
+	local = local.git/
+	mirrors = {
+		assembla.git/
+		github.eote/
+		google.git/
+		gitorious.git/
+		sf-zrepos.git/
+	}
+)
+
 GitHostsPrivate = (
 	local = local.privepo-git/
 	mirrors = {
@@ -166,23 +177,23 @@ name = scriptlib/logo
 ;standalone projects
 [websaver2]
 checkout = firefox/extensions/websaver2@myplace.hell
-#GitHostsPublic#
+#GitHostsPublic2#
 
 [usys]
 #GitHostsPublic#
 
 [nightgun]
-#GitHostsPublic#
+#GitHostsPublic2#
 
 [badluck]
-#GitHostsPublic#
+#GitHostsPublic2#
 
 [libmyplace-perl]
 checkout = perl/modules/MyPlace
-#GitHostsPublic#
+#GitHostsPublic2#
 
 [reposman]
-#GitHostsPublic#
+#GitHostsPublic2#
 
 [loseplace]
 #GitHostsPublic#
@@ -409,6 +420,12 @@ local = privepo.git/
 ;xxxxxxxxxxxxxxxxxxx
 ;excs
 [excs/learningperl]
+#GitHostsPublic#
+
+
+;xxxxxxxxxxxxxxxxxxx
+;new projects
+[urlrule]
 #GitHostsPublic#
 
 ;	vim:filetype=dosini
