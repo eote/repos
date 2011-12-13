@@ -1,5 +1,5 @@
 #!/bin/sh
-script="reposman --to-remote"
+script="reposman push"
 logfile="sync-repos.log"
 echo " "
 echo "========================================================" | tee -a $logfile
