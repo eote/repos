@@ -195,7 +195,7 @@ checkout = perl/modules/MyPlace
 [reposman]
 #GitHostsPublic2#
 
-[loseplace]
+[losep]
 #GitHostsPublic#
 
 ;xxxxxxxxxxxxxxxxxxx
@@ -227,19 +227,19 @@ name = plaintexts/webpages
 #GitHostsPublic#
 
 ;xxxxxxxxxxxxxxxxxxx
-;loseplace
+;losep
 [losebox]
-name = loseplace/losebox
+name = losep/losebox
 #GitHostsPublic#
 
-[loseplace/mini]
+[losep/mini]
 #GitHostsPublic#
 
-[loseplace/core]
+[losep/core]
 #GitHostsPublic#
 
 [thinapp]
-name = loseplace/thinapp
+name = losep/thinapp
 #GitHostsPublic#
 
 ;xxxxxxxxxxxxxxxxxxx

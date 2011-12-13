@@ -831,3 +831,54 @@ Everything up-to-date
 Everything up-to-date
 
 [2011-12-05 01:11:04] Finished.
+========================================================
+[2011-12-14 03:43:17] Started:
+reposman push privepo/gm-scripts privepo/babebase
+reposman> [36mReading "/home/xiaoranzzz/.reposman/PROJECTS" ...
+[0mreposman> [36m60 projects read.
+[0mreposman> [36mSyncing  2 projects to remotes ...
+[0mreposman> [36m[1/2] Syncing project [privepo/gm-scripts] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/privepo/gm-scripts/.git
+[0mreposman> [36m  Dest: git@git.assembla.com:privepo-gm-scripts.git (push) 
+[0mE, [2011-12-13T19:51:26.213678 #27525] ERROR -- : no repository found
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: git@github.com:privepo/gm-scripts.git (push) 
+[0mTo git@github.com:privepo/gm-scripts.git
+   8dcc727..bfc974c  master -> master
+reposman> [36m  Dest: https://code.google.com/p/privepo.gm-scripts/ (push) 
+[0mremote: Scanning pack: 2% (1/45)[Kremote: Scanning pack: 4% (2/45)[Kremote: Scanning pack: 6% (3/45)[Kremote: Scanning pack: 8% (4/45)[Kremote: Scanning pack: 11% (5/45)[Kremote: Scanning pack: 13% (6/45)[Kremote: Scanning pack: 15% (7/45)[Kremote: Scanning pack: 17% (8/45)[Kremote: Scanning pack: 20% (9/45)[Kremote: Scanning pack: 22% (10/45)[Kremote: Scanning pack: 24% (11/45)[Kremote: Scanning pack: 26% (12/45)[Kremote: Scanning pack: 28% (13/45)[Kremote: Scanning pack: 31% (14/45)[Kremote: Scanning pack: 33% (15/45)[Kremote: Scanning pack: 35% (16/45)[Kremote: Scanning pack: 37% (17/45)[Kremote: Scanning pack: 40% (18/45)[Kremote: Scanning pack: 42% (19/45)[Kremote: Scanning pack: 44% (20/45)[Kremote: Scanning pack: 46% (21/45)[Kremote: Scanning pack: 48% (22/45)[Kremote: Scanning pack: 51% (23/45)[Kremote: Scanning pack: 53% (24/45)[Kremote: Scanning pack: 55% (25/45)[Kremote: Scanning pack: 57% (26/45)[Kremote: Scanning pack: 60% (27/45)[Kremote: Scanning pack: 62% (28/45)[Kremote: Scanning pack: 64% (29/45)[Kremote: Scanning pack: 66% (30/45)[Kremote: Scanning pack: 68% (31/45)[Kremote: Scanning pack: 71% (32/45)[Kremote: Scanning pack: 73% (33/45)[Kremote: Scanning pack: 75% (34/45)[Kremote: Scanning pack: 77% (35/45)[Kremote: Scanning pack: 80% (36/45)[Kremote: Scanning pack: 82% (37/45)[Kremote: Scanning pack: 84% (38/45)[Kremote: Scanning pack: 86% (39/45)[Kremote: Scanning pack: 88% (40/45)[Kremote: Scanning pack: 91% (41/45)[Kremote: Scanning pack: 93% (42/45)[Kremote: Scanning pack: 95% (43/45)[Kremote: Scanning pack: 97% (44/45)[Kremote: Scanning pack: 100% (45/45)[Kremote: Scanning pack: 100% (45/45), done.[K
+remote: Storing objects: 2% (1/45)[Kremote: Storing objects: 4% (2/45)[Kremote: Storing objects: 6% (3/45)[Kremote: Storing objects: 8% (4/45)[Kremote: Storing objects: 11% (5/45)[Kremote: Storing objects: 13% (6/45)[Kremote: Storing objects: 15% (7/45)[Kremote: Storing objects: 17% (8/45)[Kremote: Storing objects: 20% (9/45)[Kremote: Storing objects: 22% (10/45)[Kremote: Storing objects: 24% (11/45)[Kremote: Storing objects: 26% (12/45)[Kremote: Storing objects: 28% (13/45)[Kremote: Storing objects: 31% (14/45)[Kremote: Storing objects: 33% (15/45)[Kremote: Storing objects: 35% (16/45)[Kremote: Storing objects: 37% (17/45)[Kremote: Storing objects: 40% (18/45)[Kremote: Storing objects: 42% (19/45)[Kremote: Storing objects: 44% (20/45)[Kremote: Storing objects: 46% (21/45)[Kremote: Storing objects: 48% (22/45)[Kremote: Storing objects: 51% (23/45)[Kremote: Storing objects: 53% (24/45)[Kremote: Storing objects: 55% (25/45)[Kremote: Storing objects: 57% (26/45)[Kremote: Storing objects: 60% (27/45)[Kremote: Storing objects: 62% (28/45)[Kremote: Storing objects: 64% (29/45)[Kremote: Storing objects: 66% (30/45)[Kremote: Storing objects: 68% (31/45)[Kremote: Storing objects: 71% (32/45)[Kremote: Storing objects: 73% (33/45)[Kremote: Storing objects: 75% (34/45)[Kremote: Storing objects: 77% (35/45)[Kremote: Storing objects: 80% (36/45)[Kremote: Storing objects: 82% (37/45)[Kremote: Storing objects: 84% (38/45)[Kremote: Storing objects: 86% (39/45)[Kremote: Storing objects: 88% (40/45)[Kremote: Storing objects: 91% (41/45)[Kremote: Storing objects: 93% (42/45)[Kremote: Storing objects: 95% (43/45)[Kremote: Storing objects: 97% (44/45)[Kremote: Storing objects: 100% (45/45)[Kremote: Storing objects: 100% (45/45), done.[K
+remote: Processing commits: 100% (1/1)[Kremote: Processing commits: 100% (1/1), done.[K
+To https://code.google.com/p/privepo.gm-scripts/
+   8dcc727..bfc974c  master -> master
+reposman> [36m  Dest: git@gitorious.org:privepo/gm-scripts.git (push) 
+[0m=> Syncing Gitorious... [OK]
+To git@gitorious.org:privepo/gm-scripts.git
+   8dcc727..bfc974c  master -> master
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/gm-scripts.git (push) 
+[0mremote: fatal: Not a git repository: '/gitroot/zrepos/privepo'[K
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/gm-scripts.git
+   8dcc727..bfc974c  master -> master
+reposman> [36m[2/2] Syncing project [privepo/babebase] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/privepo/babebase/.git
+[0mreposman> [36m  Dest: git@git.assembla.com:privepo-babebase.git (push) 
+[0mE, [2011-12-13T19:52:11.377307 #29191] ERROR -- : no repository found
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: git@github.com:privepo/babebase.git (push) 
+[0mEverything up-to-date
+reposman> [36m  Dest: https://code.google.com/p/privepo.babebase/ (push) 
+[0mTo https://code.google.com/p/privepo.babebase/
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://code.google.com/p/privepo.babebase/'
+To prevent you from losing history, non-fast-forward updates were rejected
+Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+'Note about fast-forwards' section of 'git push --help' for details.
+reposman> [36m  Dest: git@gitorious.org:privepo/babebase.git (push) 
+[0m=> Syncing Gitorious... [OK]
+To git@gitorious.org:privepo/babebase.git
+   93f4753..daec8b4  master -> master
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/babebase.git (push) 
+[0mremote: fatal: Not a git repository: '/gitroot/zrepos/privepo'[K
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/babebase.git
+   93f4753..daec8b4  master -> master
+[2011-12-14 03:44:44] Finished.
