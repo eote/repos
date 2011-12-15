@@ -1,0 +1,113 @@
+id: 8-1.0.r1/0
+type: dir
+count: 0
+cpath: /trunk/linux
+copyroot: 0 /
+
+id: 2-1.0.r1/69
+type: dir
+count: 0
+cpath: /trunk/avatars
+copyroot: 0 /
+
+id: 4-1.0.r1/141
+type: dir
+count: 0
+cpath: /trunk/babebase
+copyroot: 0 /
+
+id: 5-1.0.r1/215
+type: dir
+count: 0
+cpath: /trunk/foxwps
+copyroot: 0 /
+
+id: 7-1.0.r1/287
+type: dir
+count: 0
+cpath: /trunk/gsbridge
+copyroot: 0 /
+
+id: 6-1.0.r1/361
+type: dir
+count: 0
+cpath: /trunk/gm-scripts
+copyroot: 0 /
+
+id: 9-1.0.r1/437
+type: dir
+count: 0
+cpath: /trunk/privacy
+copyroot: 0 /
+
+PLAIN
+K 7
+avatars
+V 15
+dir 2-1.0.r1/69
+K 8
+babebase
+V 16
+dir 4-1.0.r1/141
+K 6
+foxwps
+V 16
+dir 5-1.0.r1/215
+K 10
+gm-scripts
+V 16
+dir 6-1.0.r1/361
+K 8
+gsbridge
+V 16
+dir 7-1.0.r1/287
+K 5
+linux
+V 14
+dir 8-1.0.r1/0
+K 7
+privacy
+V 16
+dir 9-1.0.r1/437
+END
+ENDREP
+id: 0-1.0.r1/765
+type: dir
+count: 0
+text: 1 510 242 242 e93a401d1d15aed38e5729b8c35950bb
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 5
+trunk
+V 16
+dir 0-1.0.r1/765
+END
+ENDREP
+id: 0.0.r1/932
+type: dir
+pred: 0.0.r0/17
+count: 1
+text: 1 883 36 36 9060d46b0561b967328c5d7b4701e270
+cpath: /
+copyroot: 0 /
+
+_9.0.t0-0 add-dir false false /trunk/privacy
+
+_8.0.t0-0 add-dir false false /trunk/linux
+
+_0.0.t0-0 add-dir false false /trunk
+
+_2.0.t0-0 add-dir false false /trunk/avatars
+
+_4.0.t0-0 add-dir false false /trunk/babebase
+
+_5.0.t0-0 add-dir false false /trunk/foxwps
+
+_7.0.t0-0 add-dir false false /trunk/gsbridge
+
+_6.0.t0-0 add-dir false false /trunk/gm-scripts
+
+
+932 1057

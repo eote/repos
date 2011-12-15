@@ -11,7 +11,7 @@ sub generate_log {
 	my $dir = shift;
 	open FO, ">", $logfile;
 	chdir $dir;
-	open FI,"-|","perl generate-log.pl";
+	open FI,"-|","perl","generate-log.pl";
 	print FO <FI>;
 	close FO;
 	chdir $CWD;

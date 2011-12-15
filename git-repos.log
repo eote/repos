@@ -174,11 +174,11 @@ profs/config-awesome.git:
 5e3a3885ac671a801b4add53be631492049d01a6 Initial commit.
 
 profs/firefox.git:
-491ccd757c0a274a432eebad8844b5c7ff582cc1 Update extensions for firefox-5.0.1.
-9afc45405bd7b6f4fe8cb0889590fd43846997c1 Extensions update 2011/5/27.
-e3ad8b4de64b34a84df83d0c053e458d2c3bcb8d Extensions: Remove admin@stickr.com, Add foxmark, Update IETAB.
-4b93858391e36e9dda21def54728c043604274f4 Update extensions 2011/5/13.
-3f3593ea4cda6ecaab1d8e109209d60df2c934ce Update extensions 2011/4/26.
+efb1df4df2cabcb4b3ae65972d416126d5c47691 Update sub-modules: websaver2, gm_scripts and tombloo.
+6ce0b1c12cc06e1273d335368b14da956f490b9d Add .deeplink.pl
+5dbafc38025f329c738b8ab9a4000c2989a5b498 Update extensions.*.
+7c8bd444e71441ba728476366780be3e4087b048 Update extensions 20111215.
+d41469b82c80b58bbf3b5dae2b524ee1ca9566a3 Update searchplugins.
 
 profs/google-chrome/eotect.git:
 0a6d3253e16a6403a525c8ed2fa86882f24cb8cb Update extensions and preferences.
@@ -214,11 +214,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+ffabab764f63af32722a92e63e2c7f0f48a4a616 Update git-repos.log.
 f6cb6a6d8935deda0258e0eba368b674785bf5be Update sync-repos.log.
 4042a8b280c7490ecbd1ac2ebef73a7a1384b65a Move loseplace to losep, Update PROJECTS.
 e79f34159beeb3ab2fdcbc1cbe2a5c795b12dc43 Update git/sync-reos.sh.
 40d617e40421528eef668f854d6342a05ef8b195 Update PROJECTS.
-b934575677fd5c25c68adc081e532ac89645be17 Update PROJECTS.
 
 reposman.git:
 0e8193ddba3840c24333bea2d34f49a779102955 Remove .PROJECTS, read ~/.reposman/PROJECTS instead.
@@ -296,11 +296,11 @@ vcsplace/ws.git:
 a28a53c84303c01829bb7dffc799565cd72aea78 Delete symbol-link reposman, update .gitignore.
 
 websaver2.git:
+256327da8d350890e6fbcfd01d92565d763c7a13 Update install.rdf.
 628971d16ad65951cee31fc610f6435a66f3c944 Update install.rdf to match Firefox version 4.
 6591ab88f6ae6b96164d4af800cfe18c4ad52e65 fixed bug found from cataedit3.js,function addCatalog(), which open an old catalog editor instead of the new
 78dc69a059798398dc985a35ead8b44c30cef628 update dbopFS.js, move useless files to unused
 03f6848226727e2cd9f60c5159742233287810a9 add .repos, update topicedit.js
-3fea1b05f830f535185459dcff1d6ffa3543a3a1 update README
 
 webscrap/css.git:
 bbda354bc2bcf1407f5c547915c6f3a9786388b1 Initial commit
@@ -322,11 +322,11 @@ webscrap/templates.git:
 d66e448f79afd9bfa28bf46ec9e2305cd296845c Initial commit.
 
 webscrap/tombloo-data.git:
+6678148863900bc16be1a58ce07914e283c9c519 Add model_misc.
+cb65c2ee1fd59bb17d5cdb8aeb728e470972254b Update models common, 115, baidu, delicious, firefox, ikeepu, youdao, zootool and clipp. Add misc model.
 471ba6f9bc6d52ab754fa8d4d6d96a5110435655 Add video posting support for ikeepu, tumblr and clipp.
 8b7332575c2d991257caafc0f9f2deed23e77742 Remove debug routines.
 ae8d6535add42cd807044ed1481ac5e8b1eb1369 Update model for firefox bookmark.
-51afc5073fcbc774d08c037459d7c15925bc7ad8 Update common scripts, rewrite scripts using subclassing.
-9e388f3720646ed94108f30b7cb2dbf7930a6973 Update model for ikeepu.com.
 
 webscrap/tombloo.git:
 7304c2b6dbf03b34c98b5bd78d51d9272306ad18 Merge remote-tracking branch 'github2/master'
