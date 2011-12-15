@@ -293,13 +293,27 @@ name = badcodes/vsnet
 [tombloo]
 name = webscrap/tombloo
 checkout = firefox/extensions/tombloo
-#GitHostsPublic#
-source = github.git/to/tombloo
+source = local.git/
+mirrors = {
+	github.git/
+	gitorious.git/
+	google.git/
+	sf-zrepos.git/
+	assembla.git/tombloo
+	github.git/to/tombloo
+}
 
 [tombloo-data]
 name = webscrap/tombloo-data
 checkout = firefox/tombloo
-#GitHostsPublic#
+source = local.git/
+mirrors = {
+	github.git/
+	gitorious.git/
+	google.git/
+	sf-zrepos.git/
+	assembla.git/tombloo-data
+}
 
 [htmlscripts]
 name = webscrap/htmlscripts

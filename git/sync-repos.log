@@ -1021,3 +1021,105 @@ fatal: The remote end hung up unexpectedly
 reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/repos.git (push) 
 [0mEverything up-to-date
 [2011-12-15 12:29:55] Finished.
+========================================================
+[2011-12-16 04:24:08] Started:
+reposman push gm-scripts reposman perl sh privepo/gm-scripts
+reposman> [36mReading "/home/xiaoranzzz/.reposman/PROJECTS" ...
+[0mreposman> [36m60 projects read.
+[0mreposman> [36mSyncing  5 projects to remotes ...
+[0mreposman> [36m[1/5] Syncing project [gm-scripts] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/privepo/gm-scripts/git
+[0mreposman> [36m  Dest: git@git.assembla.com:gm-scripts.git (push) 
+[0mTo git@git.assembla.com:gm-scripts.git
+   45a4578..58eb832  master -> master
+reposman> [36m  Dest: git@repo.unfuddle.com:repo/gm-scripts (push) 
+[0mTo git@repo.unfuddle.com:repo/gm-scripts
+   45a4578..58eb832  master -> master
+reposman> [36m[2/5] Syncing project [reposman] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/reposman.git
+[0mreposman> [36m  Dest: git@git.assembla.com:reposman.git (push) 
+[0mTo git@git.assembla.com:reposman.git
+   0e8193d..995b7c1  master -> master
+reposman> [36m  Dest: git@github.com:eote/reposman.git (push) 
+[0mTo git@github.com:eote/reposman.git
+   0e8193d..995b7c1  master -> master
+reposman> [36m  Dest: https://code.google.com/p/reposman/ (push) 
+[0mremote: Scanning pack: 33% (1/3)[Kremote: Scanning pack: 66% (2/3)[Kremote: Scanning pack: 100% (3/3)[Kremote: Scanning pack: 100% (3/3), done.[K
+remote: Storing objects: 33% (1/3)[Kremote: Storing objects: 66% (2/3)[Kremote: Storing objects: 100% (3/3)[Kremote: Storing objects: 100% (3/3), done.[K
+remote: Processing commits: 100% (1/1)[Kremote: Processing commits: 100% (1/1), done.[K
+To https://code.google.com/p/reposman/
+   0e8193d..995b7c1  master -> master
+reposman> [36m  Dest: git@gitorious.org:reposman/reposman.git (push) 
+[0m=> Syncing Gitorious... [OK]
+To git@gitorious.org:reposman/reposman.git
+   0e8193d..995b7c1  master -> master
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/reposman.git (push) 
+[0mTo ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/reposman.git
+   0e8193d..995b7c1  master -> master
+reposman> [36m[3/5] Syncing project [scriptlib/perl] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/scriptlib/perl.git
+[0mreposman> [36m  Dest: git@git.assembla.com:scriptlib-perl.git (push) 
+[0mTo git@git.assembla.com:scriptlib-perl.git
+   7be9a53..e1368c5  master -> master
+reposman> [36m  Dest: git@github.com:scriptlib/perl.git (push) 
+[0mTo git@github.com:scriptlib/perl.git
+   7be9a53..e1368c5  master -> master
+reposman> [36m  Dest: https://code.google.com/p/scriptlib.perl/ (push) 
+[0mremote: Scanning pack: 25% (1/4)[Kremote: Scanning pack: 50% (2/4)[Kremote: Scanning pack: 75% (3/4)[Kremote: Scanning pack: 100% (4/4)[Kremote: Scanning pack: 100% (4/4), done.[K
+remote: Storing objects: 25% (1/4)[Kremote: Storing objects: 50% (2/4)[Kremote: Storing objects: 75% (3/4)[Kremote: Storing objects: 100% (4/4)[Kremote: Storing objects: 100% (4/4), done.[K
+remote: Processing commits: 100% (1/1)[Kremote: Processing commits: 100% (1/1), done.[K
+To https://code.google.com/p/scriptlib.perl/
+   7be9a53..e1368c5  master -> master
+reposman> [36m  Dest: git@gitorious.org:scriptlib/perl.git (push) 
+[0m=> Syncing Gitorious... [OK]
+To git@gitorious.org:scriptlib/perl.git
+   7be9a53..e1368c5  master -> master
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scriptlib/perl.git (push) 
+[0mremote: fatal: Not a git repository: '/gitroot/zrepos/scriptlib'[K
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scriptlib/perl.git
+   7be9a53..e1368c5  master -> master
+reposman> [36m[4/5] Syncing project [scriptlib/sh] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/scriptlib/sh.git
+[0mreposman> [36m  Dest: git@git.assembla.com:scriptlib-sh.git (push) 
+[0mE, [2011-12-15T20:34:34.647082 #18437] ERROR -- : no repository found
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: git@github.com:scriptlib/sh.git (push) 
+[0mTo git@github.com:scriptlib/sh.git
+   d5929dc..a51aa67  master -> master
+reposman> [36m  Dest: https://code.google.com/p/scriptlib.sh/ (push) 
+[0mremote: Scanning pack: 6% (1/15)[Kremote: Scanning pack: 13% (2/15)[Kremote: Scanning pack: 20% (3/15)[Kremote: Scanning pack: 26% (4/15)[Kremote: Scanning pack: 33% (5/15)[Kremote: Scanning pack: 40% (6/15)[Kremote: Scanning pack: 46% (7/15)[Kremote: Scanning pack: 53% (8/15)[Kremote: Scanning pack: 60% (9/15)[Kremote: Scanning pack: 66% (10/15)[Kremote: Scanning pack: 73% (11/15)[Kremote: Scanning pack: 80% (12/15)[Kremote: Scanning pack: 86% (13/15)[Kremote: Scanning pack: 93% (14/15)[Kremote: Scanning pack: 100% (15/15)[Kremote: Scanning pack: 100% (15/15), done.[K
+remote: Storing objects: 6% (1/15)[Kremote: Storing objects: 13% (2/15)[Kremote: Storing objects: 20% (3/15)[Kremote: Storing objects: 26% (4/15)[Kremote: Storing objects: 33% (5/15)[Kremote: Storing objects: 40% (6/15)[Kremote: Storing objects: 46% (7/15)[Kremote: Storing objects: 53% (8/15)[Kremote: Storing objects: 60% (9/15)[Kremote: Storing objects: 66% (10/15)[Kremote: Storing objects: 73% (11/15)[Kremote: Storing objects: 80% (12/15)[Kremote: Storing objects: 86% (13/15)[Kremote: Storing objects: 93% (14/15)[Kremote: Storing objects: 100% (15/15)[Kremote: Storing objects: 100% (15/15), done.[K
+remote: Processing commits: 100% (1/1)[Kremote: Processing commits: 100% (1/1), done.[K
+To https://code.google.com/p/scriptlib.sh/
+   d5929dc..a51aa67  master -> master
+reposman> [36m  Dest: git@gitorious.org:scriptlib/sh.git (push) 
+[0m=> Syncing Gitorious... [OK]
+To git@gitorious.org:scriptlib/sh.git
+   d5929dc..a51aa67  master -> master
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scriptlib/sh.git (push) 
+[0mremote: fatal: Not a git repository: '/gitroot/zrepos/scriptlib'[K
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scriptlib/sh.git
+   d5929dc..a51aa67  master -> master
+reposman> [36m[5/5] Syncing project [privepo/gm-scripts] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/privepo/gm-scripts/.git
+[0mreposman> [36m  Dest: git@git.assembla.com:privepo-gm-scripts.git (push) 
+[0mE, [2011-12-15T20:35:39.157451 #19530] ERROR -- : no repository found
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: git@github.com:privepo/gm-scripts.git (push) 
+[0mTo git@github.com:privepo/gm-scripts.git
+   6556392..0ddde82  master -> master
+reposman> [36m  Dest: https://code.google.com/p/privepo.gm-scripts/ (push) 
+[0mremote: Scanning pack: 3% (1/30)[Kremote: Scanning pack: 6% (2/30)[Kremote: Scanning pack: 10% (3/30)[Kremote: Scanning pack: 13% (4/30)[Kremote: Scanning pack: 16% (5/30)[Kremote: Scanning pack: 20% (6/30)[Kremote: Scanning pack: 23% (7/30)[Kremote: Scanning pack: 26% (8/30)[Kremote: Scanning pack: 30% (9/30)[Kremote: Scanning pack: 33% (10/30)[Kremote: Scanning pack: 36% (11/30)[Kremote: Scanning pack: 40% (12/30)[Kremote: Scanning pack: 43% (13/30)[Kremote: Scanning pack: 46% (14/30)[Kremote: Scanning pack: 50% (15/30)[Kremote: Scanning pack: 53% (16/30)[Kremote: Scanning pack: 56% (17/30)[Kremote: Scanning pack: 60% (18/30)[Kremote: Scanning pack: 63% (19/30)[Kremote: Scanning pack: 66% (20/30)[Kremote: Scanning pack: 70% (21/30)[Kremote: Scanning pack: 73% (22/30)[Kremote: Scanning pack: 76% (23/30)[Kremote: Scanning pack: 80% (24/30)[Kremote: Scanning pack: 83% (25/30)[Kremote: Scanning pack: 86% (26/30)[Kremote: Scanning pack: 90% (27/30)[Kremote: Scanning pack: 93% (28/30)[Kremote: Scanning pack: 96% (29/30)[Kremote: Scanning pack: 100% (30/30)[Kremote: Scanning pack: 100% (30/30), done.[K
+remote: Storing objects: 3% (1/30)[Kremote: Storing objects: 6% (2/30)[Kremote: Storing objects: 10% (3/30)[Kremote: Storing objects: 13% (4/30)[Kremote: Storing objects: 16% (5/30)[Kremote: Storing objects: 20% (6/30)[Kremote: Storing objects: 23% (7/30)[Kremote: Storing objects: 26% (8/30)[Kremote: Storing objects: 30% (9/30)[Kremote: Storing objects: 33% (10/30)[Kremote: Storing objects: 36% (11/30)[Kremote: Storing objects: 40% (12/30)[Kremote: Storing objects: 43% (13/30)[Kremote: Storing objects: 46% (14/30)[Kremote: Storing objects: 50% (15/30)[Kremote: Storing objects: 53% (16/30)[Kremote: Storing objects: 56% (17/30)[Kremote: Storing objects: 60% (18/30)[Kremote: Storing objects: 63% (19/30)[Kremote: Storing objects: 66% (20/30)[Kremote: Storing objects: 70% (21/30)[Kremote: Storing objects: 73% (22/30)[Kremote: Storing objects: 76% (23/30)[Kremote: Storing objects: 80% (24/30)[Kremote: Storing objects: 83% (25/30)[Kremote: Storing objects: 86% (26/30)[Kremote: Storing objects: 90% (27/30)[Kremote: Storing objects: 93% (28/30)[Kremote: Storing objects: 96% (29/30)[Kremote: Storing objects: 100% (30/30)[Kremote: Storing objects: 100% (30/30), done.[K
+remote: Processing commits: 100% (1/1)[Kremote: Processing commits: 100% (1/1), done.[K
+To https://code.google.com/p/privepo.gm-scripts/
+   6556392..0ddde82  master -> master
+reposman> [36m  Dest: git@gitorious.org:privepo/gm-scripts.git (push) 
+[0m=> Syncing Gitorious... [OK]
+To git@gitorious.org:privepo/gm-scripts.git
+   6556392..0ddde82  master -> master
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/gm-scripts.git (push) 
+[0mremote: fatal: Not a git repository: '/gitroot/zrepos/privepo'[K
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/gm-scripts.git
+   6556392..0ddde82  master -> master
+[2011-12-16 04:28:10] Finished.
