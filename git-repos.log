@@ -140,11 +140,11 @@ privepo/foxwps/.git:
 55f308b387065429de6b5d5f9273891f35d712a0 Initial commit.
 
 privepo/gm-scripts/.git:
+c313ba362b090a363bb96b873d9320ed338dee1f GM-SCRIPTS [GIT] commit bbe23fc2: Update imagealbumpanel.
 0ddde828a1554530cc92fb1e84fc6a8d559ebf44 GM-SCRIPTS [GIT] commit 58eb8325: Update imagealbumpanel, parts of code moved to data_miner.js.
 6556392e166fac3536d85745afe84ece2a7104b2 GM-SCRIPTS [GIT] commit 45a45788: Eotect Global Panel, Google_Mod, Image Album Panel, and Links Navigator Updated.
 bfc974c97a575715bc985384defaf51257ac9a90 GM-SCRIPTS [GIT] commit a8f05bb3: Add .reposman.
 8dcc7270e714f149efb659e742095cc45d7270fe Add .reposman.
-73666b293c60b48f98ba2592ad1d1ae6f49b080d GM-SCRIPTS [GIT] commit 19b2f15d: Add "Github mod", "IFileit Auto Request", "Secure HTTP", and "Depositfiles Download".
 
 privepo/gsbridge/.git:
 08c3d1540fc0d38fd50ac2dbdbdcd81263698e28 GSBRIDGE [GIT] commit b097d64e: added project entries for vcsplace and github-sync
@@ -214,11 +214,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+1c4fd04c68380ce5548912d485eb69d419975014 Update gm-scripts, reposman, perl and sh.
+417b58083769695f9f81b3b3fe4ffcf657ae09b1 Update gm-scripts, firefox, websaver2 and tombloo-data.
 ffabab764f63af32722a92e63e2c7f0f48a4a616 Update git-repos.log.
 f6cb6a6d8935deda0258e0eba368b674785bf5be Update sync-repos.log.
 4042a8b280c7490ecbd1ac2ebef73a7a1384b65a Move loseplace to losep, Update PROJECTS.
-e79f34159beeb3ab2fdcbc1cbe2a5c795b12dc43 Update git/sync-reos.sh.
-40d617e40421528eef668f854d6342a05ef8b195 Update PROJECTS.
 
 reposman.git:
 995b7c1c283e91bb42b924863db675c0eecb0436 Update install script.

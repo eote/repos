@@ -1123,3 +1123,52 @@ To git@gitorious.org:privepo/gm-scripts.git
 To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/gm-scripts.git
    6556392..0ddde82  master -> master
 [2011-12-16 04:28:10] Finished.
+========================================================
+[2011-12-17 05:05:14] Started:
+reposman push gm-scripts repos privepo/gm-scripts
+reposman> [36mReading "/home/xiaoranzzz/.reposman/PROJECTS" ...
+[0mreposman> [36m60 projects read.
+[0mreposman> [36mSyncing  3 projects to remotes ...
+[0mreposman> [36m[1/3] Syncing project [gm-scripts] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/privepo/gm-scripts/git
+[0mreposman> [36m  Dest: git@git.assembla.com:gm-scripts.git (push) 
+[0mTo git@git.assembla.com:gm-scripts.git
+   58eb832..bbe23fc  master -> master
+reposman> [36m  Dest: git@repo.unfuddle.com:repo/gm-scripts (push) 
+[0mTo git@repo.unfuddle.com:repo/gm-scripts
+   58eb832..bbe23fc  master -> master
+reposman> [36m[2/3] Syncing project [eote/repos] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/repos.git
+[0mreposman> [36m  Dest: git@git.assembla.com:eote-repos.git (push) 
+[0mEverything up-to-date
+reposman> [36m  Dest: git@github.com:eote/repos.git (push) 
+[0mEverything up-to-date
+reposman> [36m  Dest: https://code.google.com/p/eote.repos/ (push) 
+[0mEverything up-to-date
+reposman> [36m  Dest: git@gitorious.org:eote/repos.git (push) 
+[0mEverything up-to-date
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/repos.git (push) 
+[0mEverything up-to-date
+reposman> [36m[3/3] Syncing project [privepo/gm-scripts] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/privepo/gm-scripts/.git
+[0mreposman> [36m  Dest: git@git.assembla.com:privepo-gm-scripts.git (push) 
+[0mE, [2011-12-16T21:14:21.328914 #31866] ERROR -- : no repository found
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: git@github.com:privepo/gm-scripts.git (push) 
+[0mTo git@github.com:privepo/gm-scripts.git
+   0ddde82..c313ba3  master -> master
+reposman> [36m  Dest: https://code.google.com/p/privepo.gm-scripts/ (push) 
+[0mremote: Scanning pack: 2% (1/49)[Kremote: Scanning pack: 4% (2/49)[Kremote: Scanning pack: 6% (3/49)[Kremote: Scanning pack: 8% (4/49)[Kremote: Scanning pack: 10% (5/49)[Kremote: Scanning pack: 12% (6/49)[Kremote: Scanning pack: 14% (7/49)[Kremote: Scanning pack: 16% (8/49)[Kremote: Scanning pack: 18% (9/49)[Kremote: Scanning pack: 20% (10/49)[Kremote: Scanning pack: 22% (11/49)[Kremote: Scanning pack: 24% (12/49)[Kremote: Scanning pack: 26% (13/49)[Kremote: Scanning pack: 28% (14/49)[Kremote: Scanning pack: 30% (15/49)[Kremote: Scanning pack: 32% (16/49)[Kremote: Scanning pack: 34% (17/49)[Kremote: Scanning pack: 36% (18/49)[Kremote: Scanning pack: 38% (19/49)[Kremote: Scanning pack: 40% (20/49)[Kremote: Scanning pack: 42% (21/49)[Kremote: Scanning pack: 44% (22/49)[Kremote: Scanning pack: 46% (23/49)[Kremote: Scanning pack: 48% (24/49)[Kremote: Scanning pack: 51% (25/49)[Kremote: Scanning pack: 53% (26/49)[Kremote: Scanning pack: 55% (27/49)[Kremote: Scanning pack: 57% (28/49)[Kremote: Scanning pack: 59% (29/49)[Kremote: Scanning pack: 61% (30/49)[Kremote: Scanning pack: 63% (31/49)[Kremote: Scanning pack: 65% (32/49)[Kremote: Scanning pack: 67% (33/49)[Kremote: Scanning pack: 69% (34/49)[Kremote: Scanning pack: 71% (35/49)[Kremote: Scanning pack: 73% (36/49)[Kremote: Scanning pack: 75% (37/49)[Kremote: Scanning pack: 77% (38/49)[Kremote: Scanning pack: 79% (39/49)[Kremote: Scanning pack: 81% (40/49)[Kremote: Scanning pack: 83% (41/49)[Kremote: Scanning pack: 85% (42/49)[Kremote: Scanning pack: 87% (43/49)[Kremote: Scanning pack: 89% (44/49)[Kremote: Scanning pack: 91% (45/49)[Kremote: Scanning pack: 93% (46/49)[Kremote: Scanning pack: 95% (47/49)[Kremote: Scanning pack: 97% (48/49)[Kremote: Scanning pack: 100% (49/49)[Kremote: Scanning pack: 100% (49/49), done.[K
+remote: Storing objects: 2% (1/49)[Kremote: Storing objects: 4% (2/49)[Kremote: Storing objects: 6% (3/49)[Kremote: Storing objects: 8% (4/49)[Kremote: Storing objects: 10% (5/49)[Kremote: Storing objects: 12% (6/49)[Kremote: Storing objects: 14% (7/49)[Kremote: Storing objects: 16% (8/49)[Kremote: Storing objects: 18% (9/49)[Kremote: Storing objects: 20% (10/49)[Kremote: Storing objects: 22% (11/49)[Kremote: Storing objects: 24% (12/49)[Kremote: Storing objects: 26% (13/49)[Kremote: Storing objects: 28% (14/49)[Kremote: Storing objects: 30% (15/49)[Kremote: Storing objects: 32% (16/49)[Kremote: Storing objects: 34% (17/49)[Kremote: Storing objects: 36% (18/49)[Kremote: Storing objects: 38% (19/49)[Kremote: Storing objects: 40% (20/49)[Kremote: Storing objects: 42% (21/49)[Kremote: Storing objects: 44% (22/49)[Kremote: Storing objects: 46% (23/49)[Kremote: Storing objects: 48% (24/49)[Kremote: Storing objects: 51% (25/49)[Kremote: Storing objects: 53% (26/49)[Kremote: Storing objects: 55% (27/49)[Kremote: Storing objects: 57% (28/49)[Kremote: Storing objects: 59% (29/49)[Kremote: Storing objects: 61% (30/49)[Kremote: Storing objects: 63% (31/49)[Kremote: Storing objects: 65% (32/49)[Kremote: Storing objects: 67% (33/49)[Kremote: Storing objects: 69% (34/49)[Kremote: Storing objects: 71% (35/49)[Kremote: Storing objects: 73% (36/49)[Kremote: Storing objects: 75% (37/49)[Kremote: Storing objects: 77% (38/49)[Kremote: Storing objects: 79% (39/49)[Kremote: Storing objects: 81% (40/49)[Kremote: Storing objects: 83% (41/49)[Kremote: Storing objects: 85% (42/49)[Kremote: Storing objects: 87% (43/49)[Kremote: Storing objects: 89% (44/49)[Kremote: Storing objects: 91% (45/49)[Kremote: Storing objects: 93% (46/49)[Kremote: Storing objects: 95% (47/49)[Kremote: Storing objects: 97% (48/49)[Kremote: Storing objects: 100% (49/49)[Kremote: Storing objects: 100% (49/49), done.[K
+remote: Processing commits: 100% (1/1)[Kremote: Processing commits: 100% (1/1), done.[K
+To https://code.google.com/p/privepo.gm-scripts/
+   0ddde82..c313ba3  master -> master
+reposman> [36m  Dest: git@gitorious.org:privepo/gm-scripts.git (push) 
+[0m=> Syncing Gitorious... [OK]
+To git@gitorious.org:privepo/gm-scripts.git
+   0ddde82..c313ba3  master -> master
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/gm-scripts.git (push) 
+[0mremote: fatal: Not a git repository: '/gitroot/zrepos/privepo'[K
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/gm-scripts.git
+   0ddde82..c313ba3  master -> master
+[2011-12-17 05:07:03] Finished.

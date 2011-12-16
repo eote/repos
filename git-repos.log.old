@@ -140,11 +140,11 @@ privepo/foxwps/.git:
 55f308b387065429de6b5d5f9273891f35d712a0 Initial commit.
 
 privepo/gm-scripts/.git:
+0ddde828a1554530cc92fb1e84fc6a8d559ebf44 GM-SCRIPTS [GIT] commit 58eb8325: Update imagealbumpanel, parts of code moved to data_miner.js.
+6556392e166fac3536d85745afe84ece2a7104b2 GM-SCRIPTS [GIT] commit 45a45788: Eotect Global Panel, Google_Mod, Image Album Panel, and Links Navigator Updated.
 bfc974c97a575715bc985384defaf51257ac9a90 GM-SCRIPTS [GIT] commit a8f05bb3: Add .reposman.
 8dcc7270e714f149efb659e742095cc45d7270fe Add .reposman.
 73666b293c60b48f98ba2592ad1d1ae6f49b080d GM-SCRIPTS [GIT] commit 19b2f15d: Add "Github mod", "IFileit Auto Request", "Secure HTTP", and "Depositfiles Download".
-9960e95f1e4a5e168e9689510c7989663756c3d9 GM-SCRIPTS [GIT] commit d6196088: Add github_mod.user.js.
-01f2bcfc3c2f248a9daf40738b857418b801b6a1 Update git/config.
 
 privepo/gsbridge/.git:
 08c3d1540fc0d38fd50ac2dbdbdcd81263698e28 GSBRIDGE [GIT] commit b097d64e: added project entries for vcsplace and github-sync
@@ -221,11 +221,11 @@ e79f34159beeb3ab2fdcbc1cbe2a5c795b12dc43 Update git/sync-reos.sh.
 40d617e40421528eef668f854d6342a05ef8b195 Update PROJECTS.
 
 reposman.git:
+995b7c1c283e91bb42b924863db675c0eecb0436 Update install script.
 0e8193ddba3840c24333bea2d34f49a779102955 Remove .PROJECTS, read ~/.reposman/PROJECTS instead.
 25320798f8a1ed2c6bcbdea9375834a3bfc800c1 Fix ~/.reposman/PROJECTS to $ENV{HOME}/...
 4c344300b369962fe0c053373a08263c4ffcbd53 Add action "reset-target"
 4eeead56c979a6d487f196d3468525898f5fe0fd Update reposman.pl, for reading ./.reposman as quering definition.
-a2299a254a25ce5ce3fc777a0dcca44aac51da61 Fix query_repos().
 
 scriptlib/batch.git:
 cb455189784f20cbd7a35ee819036aed024ce293 initial commit
@@ -238,18 +238,18 @@ scriptlib/lua.git:
 889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
 
 scriptlib/perl.git:
+e1368c524d92e19e9f9c9a3f8a30140cf1a77cc8 Update r-config, deep_link.pl.
 7be9a53be71adc1a802301d6d0dcb22df999804a Update renameext, reposman.
 689c6d8bedcd7cb785ce939f276abe229c66dfcc Update reposman, v2.200.
 cfd97820a9c7fa101a4f03eb49bb992f613c2d69 Add git-config-binary.pl
 9e5ea60cce2b0ae8f0952dfa001354cbb8750949 Fix bug git-repos-exec.
-26464c08d81d81a00b28e23480704b6da2b1fd62 Update reposman again.
 
 scriptlib/sh.git:
+a51aa67b44f5c1d78a69ed23f7b95f1e3ad31a1b Add r-at-rtorrent, r-firefox-afun
 d5929dc50724361ee1d15b2fe41c052cd5899aa4 Add script chmod_reset.
 dab8b4b5396eb0048dd3f03211c76beaa915f50c updated script "myphone"
 8f034c839689139137791e60a3fd5f97085da741 rename git-svn-clone-googlecode to gsvn-clone-googlecode
 a42178044a4d67a210658db40ca36163c80a03da added scripts 7z-store, raysource and thunder. updated scripts r-edit and shnew
-ff9f19a6e8aa4f0ad490e9a685215317d4f600a0 update script_template and shnew
 
 scriptlib/wscript.git:
 b0bb735d00ec8f9385cf4afc3b4e6b17ce46962b Add script get_rand_mail.
