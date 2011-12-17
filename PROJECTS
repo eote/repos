@@ -13,48 +13,43 @@ email = #email.e#
 author = #author.e#
 type = git
 checkout = /myplace/workspace/
-local = /myplace/repos/git/
+localroot = /myplace/repos/
 GitHostsPublic = (
-	local = local.git/
-	mirrors = {
-		assembla.git/
-		github.git/
-		google.git/
-		gitorious.git/
-		sf-zrepos.git/
-	}
+	source = local.git/
+	mirrors[0] = assembla.git/
+	mirrors[1] = github.git/
+	mirrors[2] = gitorious.git/
+	mirrors[3] = google.git/
+	mirrors[4] = sf-zrepos.git/
 )
 
 GitHostsPublic2 = (
-	local = local.git/
-	mirrors = {
-		assembla.git/
-		github.eote/
-		google.git/
-		gitorious.git/
-		sf-zrepos.git/
-	}
+	source = local.git/
+	mirrors[0] = assembla.git/
+	mirrors[1] = github.eote/
+	mirrors[2] = gitorious.git/
+	mirrors[3] = google.git/
+	mirrors[4] = sf-zrepos.git/
 )
 
 GitHostsPrivate = (
-	local = local.privepo-git/
-	mirrors = {
-		assembla.git/
-		unfuddle.repo/
-	}
+	source = local.privepo-git/
+	mirrors[0] = assembla.git/
+	mirrors[1] = unfuddle.repo/
 )
 
 [host.local]
 map = localname
-svn.read = #local##1/svn/#2
-svn.write = #local##1/svn/#2
-hg.read = #local##1/hg
-hg.write = #local##1/hg
-git.read = #local##1.git
-git.write = #local##1.git
-privepo-git.read = #local#privepo/#1/git
-privepo-git.write = #local#privepo/#1/git
+svn.read = #localroot#svn/#1/#2
+svn.write = #localroot#svn/#1/#2
+hg.read = #localroot#hg/#1
+hg.write = #localroot#hg/#1
+git.read = #localroot#git/#1.git
+git.write = #localroot#git/#1.git
+privepo-git.read = #localroot#git/privepo/#1/git
+privepo-git.write = #localroot#git/privepo/#1/git
 privepo-git.type = git
+privepo-git.default = shortname
 
 [host.google]
 svn.read = http://#1.googlecode.com/svn/#2
@@ -73,6 +68,7 @@ svn.read = http://subversion.assembla.com/svn/#1
 svn.write = https://subversion.assembla.com/svn/#1
 git.read = git@git.assembla.com:#1-#2.git
 git.write = git@git.assembla.com:#1-#2.git
+git.default = assembla
 
 [host.sourceforge]
 svn.read = http://#1.svn.sourceforge.net/svnroot/#1
@@ -96,8 +92,8 @@ git.read = http://zrepos.git.sourceforge.net:8000/gitroot/zrepos/#1.git
 git.write = ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/#1.git
 
 [host.privepo]
-git.read = #local##1/.git
-git.write = #local##1/.git
+git.read = #localroot#git/#1/.git
+git.write = #localroot#git/#1/.git
 sf-git.read = http://zrepos.git.sourceforge.net:8000/gitroot/zrepos/#1.git
 sf-git.write = ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/#1.git
 sf-git.type = git
@@ -114,6 +110,7 @@ git.write = git@#user#.unfuddle.com:#user#/#1
 repo.read = git@repo.unfuddle.com:repo/#1
 repo.write = git@repo.unfuddle.com:repo/#1
 repo.type = git
+repo.default = unfuddle
 
 [host.github]
 git.read = http://github.com/#1/#2!.git
@@ -202,6 +199,8 @@ checkout = perl/modules/MyPlace
 ;profiles
 [firefox]
 name = profs/firefox
+assembla = fs-shared
+checkout = #checkout#firefox
 #GitHostsPublic#
 
 [homebase]
@@ -292,28 +291,16 @@ name = badcodes/vsnet
 
 [tombloo]
 name = webscrap/tombloo
+assembla = tombloo
 checkout = firefox/extensions/tombloo
-source = local.git/
-mirrors = {
-	github.git/
-	gitorious.git/
-	google.git/
-	sf-zrepos.git/
-	assembla.git/tombloo
-	github.git/to/tombloo
-}
+#GitHostsPublic#
+mirrors[5] = github.git/to/tombloo
 
 [tombloo-data]
 name = webscrap/tombloo-data
 checkout = firefox/tombloo
-source = local.git/
-mirrors = {
-	github.git/
-	gitorious.git/
-	google.git/
-	sf-zrepos.git/
-	assembla.git/tombloo-data
-}
+assembla = tombloo-data
+#GitHostsPublic#
 
 [htmlscripts]
 name = webscrap/htmlscripts
@@ -344,24 +331,15 @@ name = prints/ebooks
 ;small personal projects
 [utils]
 name = eote/utils
-	local = local.git/utils
-	mirrors = {
-		assembla.git/
-		github.git/
-		google.git/
-		gitorious.git/
-		sf-zrepos.git/utils
-	}
+local = utils
+sf-zrepos = utils
+#GitHostsPublic#
+
 [repos]
 name = eote/repos
-	local = local.git/repos
-	mirrors = {
-		assembla.git/
-		github.git/
-		google.git/
-		gitorious.git/
-		sf-zrepos.git/repos
-	}
+local = repos
+sf-zrepos = repos
+#GitHostsPublic#
 
 ;xxxxxxxxxxxxxxxxxxx
 ;private repositories
@@ -386,13 +364,17 @@ checkout = #checkout#/perl/urlrule
 [gsbridge]
 #GitHostsPrivate#
 
-[linux]
-local = local.privepo-git/
-mirrors = {
-	assembla.git/linuxbase
-	unfuddle.repo/
-}
+[fp-default]
+checkout = /myplace/appdata/firefox/profiles/xiaoranzzz
+#GitHostsPrivate#
 
+[fp-afun]
+checkout = /myplace/appdata/firefox/profiles/afun
+#GitHostsPrivate#
+
+[linux]
+assembla = linuxbase
+#GitHostsPrivate#
 
 ;xxxxxxxxxxxxxxxxxxx
 ;privepo
@@ -404,32 +386,39 @@ mirrors = {
 
 [privepo/linux]
 #GitHostsPublic#
-local = privepo.git/
+source = privepo.git/
 
 [privepo/gm-scripts]
 #GitHostsPublic#
-local = privepo.git/
+source = privepo.git/
 
 [privepo/babebase]
 #GitHostsPublic#
-local = privepo.git/
+source = privepo.git/
 
 [privepo/gsbridge]
 #GitHostsPublic#
-local = privepo.git/
+source = privepo.git/
 
 [privepo/workspace]
 #GitHostsPublic#
-local = privepo.git/
+source = privepo.git/
 
 [privepo/avatars]
 #GitHostsPublic#
-local = privepo.git/
+source = privepo.git/
 
 [privepo/privacy]
 #GitHostsPublic#
-local = privepo.git/
+source = privepo.git/
 
+[privepo/fp-default]
+#GitHostsPublic#
+source = privepo.git/
+
+[privepo/fp-afun]
+#GitHostsPublic#
+source = privepo.git/
 
 ;xxxxxxxxxxxxxxxxxxx
 ;excs

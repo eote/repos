@@ -1,10 +1,39 @@
-143d142
-< c313ba362b090a363bb96b873d9320ed338dee1f GM-SCRIPTS [GIT] commit bbe23fc2: Update imagealbumpanel.
-147a147
-> 73666b293c60b48f98ba2592ad1d1ae6f49b080d GM-SCRIPTS [GIT] commit 19b2f15d: Add "Github mod", "IFileit Auto Request", "Secure HTTP", and "Depositfiles Download".
-217,218d216
-< 1c4fd04c68380ce5548912d485eb69d419975014 Update gm-scripts, reposman, perl and sh.
-< 417b58083769695f9f81b3b3fe4ffcf657ae09b1 Update gm-scripts, firefox, websaver2 and tombloo-data.
-221a220,221
-> e79f34159beeb3ab2fdcbc1cbe2a5c795b12dc43 Update git/sync-reos.sh.
-> 40d617e40421528eef668f854d6342a05ef8b195 Update PROJECTS.
+116d115
+< 0035be38e9a16ee05e803099cde9fba674cd9378 Update babebase, gm-scripts. Add fp-afun, fp-defualt.
+120a120
+> abb970c31519318de2ef58fc09323ff3640f282d added script svndump.pl
+128d127
+< 91166e5509a94d2d3ffd93223716bfbc3f1338c4 Add .reposman.
+132a132
+> 571ad243aa942ebeeb8831372dd82d5488e0cdc4 BABEBASE [SVN] r60 [GIT] commit c9776c2e: updated database BEAUTY
+142,147d141
+< privepo/fp-afun/.git:
+< 1f426b30214925ab4c1cf8faa97922329c271146 FP-AFUN [GIT] commit 07e82bc5: Update 20121217.
+< 
+< privepo/fp-default/.git:
+< ddffdeb6706970aabcb7e58f4893cde9b90d3328 FP-DEFAULT [GIT] commit 36473941: Initial commit.
+< 
+173d166
+< 0035be38e9a16ee05e803099cde9fba674cd9378 Update babebase, gm-scripts. Add fp-afun, fp-defualt.
+177a171
+> abb970c31519318de2ef58fc09323ff3640f282d added script svndump.pl
+183d176
+< 91c890a235b632ac5f7fed41bb3a70165089c64a Update 20111217.
+187a181
+> d41469b82c80b58bbf3b5dae2b524ee1ca9566a3 Update searchplugins.
+223d216
+< ac665aba8b921ca7c3d588bda7e384e98dfc566e Update gm-scripts, repos.
+227a221
+> 4042a8b280c7490ecbd1ac2ebef73a7a1384b65a Move loseplace to losep, Update PROJECTS.
+230,234c224,228
+< c57f4a446027a96077579cdc24dc1456af51417f Update installer script.
+< a47e8accf6b4cff4a02ce298c4d82a210887a4ae Add testing files.
+< e33dcacd656bfbf3d74a863612222e279aee4c64 Fix action dump.
+< f6d5d54bfe299310a991a9460f2aab65a4b0f1df Update MyPlace::IniExt.pm for array and hash supporting.
+< dddd8bdc1515d8f5e50a4f1c05ab878297b53370 Update MyPlace::Reposman::Projects: hosts add  default entry for projects.
+---
+> 995b7c1c283e91bb42b924863db675c0eecb0436 Update install script.
+> 0e8193ddba3840c24333bea2d34f49a779102955 Remove .PROJECTS, read ~/.reposman/PROJECTS instead.
+> 25320798f8a1ed2c6bcbdea9375834a3bfc800c1 Fix ~/.reposman/PROJECTS to $ENV{HOME}/...
+> 4c344300b369962fe0c053373a08263c4ffcbd53 Add action "reset-target"
+> 4eeead56c979a6d487f196d3468525898f5fe0fd Update reposman.pl, for reading ./.reposman as quering definition.

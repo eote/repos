@@ -1172,3 +1172,213 @@ To git@gitorious.org:privepo/gm-scripts.git
 To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/gm-scripts.git
    0ddde82..c313ba3  master -> master
 [2011-12-17 05:07:03] Finished.
+========================================================
+[2011-12-18 03:37:49] Started:
+reposman push privepo/fp-afun privepo/fp-default privepo/root firefox reposman
+reposman> [36mReading "/home/xiaoranzzz/.reposman/PROJECTS" ...
+[0mreposman> [36m64 projects read.
+[0mreposman> [36mSyncing  5 projects to remotes ...
+[0mreposman> [36m[1/5] Syncing project [privepo/fp-afun] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/privepo/fp-afun.git
+[0mreposman> [31mError directory not exists.
+[0mreposman> [36m[2/5] Syncing project [privepo/fp-default] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/privepo/fp-default/.git
+[0mreposman> [36m  Dest: git@git.assembla.com:privepo-fp-default.git (push) 
+[0mE, [2011-12-17T19:46:04.965696 #12758] ERROR -- : no repository found
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: git@github.com:privepo/fp-default.git (push) 
+[0m[2011-12-18 03:37:57] Finished.
+========================================================
+[2011-12-18 03:39:18] Started:
+reposman push privepo/fp-afun privepo/fp-default privepo/root firefox reposman
+reposman> [36mReading "/home/xiaoranzzz/.reposman/PROJECTS" ...
+[0mreposman> [36m64 projects read.
+[0mreposman> [36mSyncing  5 projects to remotes ...
+[0mreposman> [36m[1/5] Syncing project [privepo/fp-afun] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/privepo/fp-afun/.git
+[0mreposman> [36m  Dest: git@git.assembla.com:privepo-fp-afun.git (push) 
+[0mE, [2011-12-17T19:47:34.681273 #7828] ERROR -- : no repository found
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: git@github.com:privepo/fp-afun.git (push) 
+[0mERROR: privepo/fp-afun.git doesn't exist. Did you enter it correctly?
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: git@gitorious.org:privepo/fp-afun.git (push) 
+[0m
+== Gitorious: ==========================================================
+Access denied or wrong repository path
+========================================================================
+
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: https://code.google.com/p/privepo.fp-afun/ (push) 
+[0mfatal: remote error: Repository not found
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/fp-afun.git (push) 
+[0mfatal: '/gitroot/zrepos/privepo/fp-afun.git' does not appear to be a git repository
+fatal: The remote end hung up unexpectedly
+reposman> [36m[2/5] Syncing project [privepo/fp-default] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/privepo/fp-default/.git
+[0mreposman> [36m  Dest: git@git.assembla.com:privepo-fp-default.git (push) 
+[0mE, [2011-12-17T19:48:03.315198 #16876] ERROR -- : no repository found
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: git@github.com:privepo/fp-default.git (push) 
+[0mERROR: privepo/fp-default.git doesn't exist. Did you enter it correctly?
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: git@gitorious.org:privepo/fp-default.git (push) 
+[0m
+== Gitorious: ==========================================================
+Access denied or wrong repository path
+========================================================================
+
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: https://code.google.com/p/privepo.fp-default/ (push) 
+[0mfatal: remote error: Repository not found
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/fp-default.git (push) 
+[0mfatal: '/gitroot/zrepos/privepo/fp-default.git' does not appear to be a git repository
+fatal: The remote end hung up unexpectedly
+reposman> [36m[3/5] Syncing project [privepo/root] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/privepo/root.git
+[0mreposman> [36m  Dest: git@git.assembla.com:privepo-root.git (push) 
+[0mE, [2011-12-17T19:48:29.991056 #9107] ERROR -- : no repository found
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: git@github.com:privepo/root.git (push) 
+[0mTo git@github.com:privepo/root.git
+   fbdf345..0035be3  master -> master
+reposman> [36m  Dest: git@gitorious.org:privepo/root.git (push) 
+[0m=> Syncing Gitorious... [OK]
+To git@gitorious.org:privepo/root.git
+   fbdf345..0035be3  master -> master
+reposman> [36m  Dest: https://code.google.com/p/privepo.root/ (push) 
+[0mremote: Scanning pack: 50% (1/2)[Kremote: Scanning pack: 100% (2/2)[Kremote: Scanning pack: 100% (2/2), done.[K
+remote: Storing objects: 50% (1/2)[Kremote: Storing objects: 100% (2/2)[Kremote: Storing objects: 100% (2/2), done.[K
+remote: Processing commits: 100% (1/1)[Kremote: Processing commits: 100% (1/1), done.[K
+To https://code.google.com/p/privepo.root/
+   fbdf345..0035be3  master -> master
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/root.git (push) 
+[0mremote: fatal: Not a git repository: '/gitroot/zrepos/privepo'[K
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/root.git
+   fbdf345..0035be3  master -> master
+reposman> [36m[4/5] Syncing project [profs/firefox] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/profs/firefox.git
+[0mreposman> [36m  Dest: git@git.assembla.com:fs-shared.git (push) 
+[0mE, [2011-12-17T19:49:04.998589 #18979] ERROR -- : no repository found
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: git@github.com:profs/firefox.git (push) 
+[0mTo git@github.com:profs/firefox.git
+   efb1df4..91c890a  master -> master
+reposman> [36m  Dest: git@gitorious.org:profs/firefox.git (push) 
+[0m=> Syncing Gitorious... [OK]
+To git@gitorious.org:profs/firefox.git
+   efb1df4..91c890a  master -> master
+reposman> [36m  Dest: https://code.google.com/p/profs.firefox/ (push) 
+[0mremote: Scanning pack: 12% (1/8)[Kremote: Scanning pack: 25% (2/8)[Kremote: Scanning pack: 37% (3/8)[Kremote: Scanning pack: 50% (4/8)[Kremote: Scanning pack: 62% (5/8)[Kremote: Scanning pack: 75% (6/8)[Kremote: Scanning pack: 87% (7/8)[Kremote: Scanning pack: 100% (8/8)[Kremote: Scanning pack: 100% (8/8), done.[K
+remote: Storing objects: 12% (1/8)[Kremote: Storing objects: 25% (2/8)[Kremote: Storing objects: 37% (3/8)[Kremote: Storing objects: 50% (4/8)[Kremote: Storing objects: 62% (5/8)[Kremote: Storing objects: 75% (6/8)[Kremote: Storing objects: 87% (7/8)[Kremote: Storing objects: 100% (8/8)[Kremote: Storing objects: 100% (8/8), done.[K
+remote: Processing commits: 100% (1/1)[Kremote: Processing commits: 100% (1/1), done.[K
+To https://code.google.com/p/profs.firefox/
+   efb1df4..91c890a  master -> master
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profs/firefox.git (push) 
+[0mremote: fatal: Not a git repository: '/gitroot/zrepos/profs'[K
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/profs/firefox.git
+   efb1df4..91c890a  master -> master
+reposman> [36m[5/5] Syncing project [reposman] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/reposman.git
+[0mreposman> [36m  Dest: git@git.assembla.com:reposman.git (push) 
+[0mTo git@git.assembla.com:reposman.git
+   995b7c1..c57f4a4  master -> master
+reposman> [36m  Dest: git@github.com:eote/reposman.git (push) 
+[0mTo git@github.com:eote/reposman.git
+   995b7c1..c57f4a4  master -> master
+reposman> [36m  Dest: git@gitorious.org:reposman/reposman.git (push) 
+[0m=> Syncing Gitorious... [OK]
+To git@gitorious.org:reposman/reposman.git
+   995b7c1..c57f4a4  master -> master
+reposman> [36m  Dest: https://code.google.com/p/reposman/ (push) 
+[0mremote: Scanning pack: 4% (1/21)[Kremote: Scanning pack: 9% (2/21)[Kremote: Scanning pack: 14% (3/21)[Kremote: Scanning pack: 19% (4/21)[Kremote: Scanning pack: 23% (5/21)[Kremote: Scanning pack: 28% (6/21)[Kremote: Scanning pack: 33% (7/21)[Kremote: Scanning pack: 38% (8/21)[Kremote: Scanning pack: 42% (9/21)[Kremote: Scanning pack: 47% (10/21)[Kremote: Scanning pack: 52% (11/21)[Kremote: Scanning pack: 57% (12/21)[Kremote: Scanning pack: 61% (13/21)[Kremote: Scanning pack: 66% (14/21)[Kremote: Scanning pack: 71% (15/21)[Kremote: Scanning pack: 76% (16/21)[Kremote: Scanning pack: 80% (17/21)[Kremote: Scanning pack: 85% (18/21)[Kremote: Scanning pack: 90% (19/21)[Kremote: Scanning pack: 95% (20/21)[Kremote: Scanning pack: 100% (21/21)[Kremote: Scanning pack: 100% (21/21), done.[K
+remote: Storing objects: 4% (1/21)[Kremote: Storing objects: 9% (2/21)[Kremote: Storing objects: 14% (3/21)[Kremote: Storing objects: 19% (4/21)[Kremote: Storing objects: 23% (5/21)[Kremote: Storing objects: 28% (6/21)[Kremote: Storing objects: 33% (7/21)[Kremote: Storing objects: 38% (8/21)[Kremote: Storing objects: 42% (9/21)[Kremote: Storing objects: 47% (10/21)[Kremote: Storing objects: 52% (11/21)[Kremote: Storing objects: 57% (12/21)[Kremote: Storing objects: 61% (13/21)[Kremote: Storing objects: 66% (14/21)[Kremote: Storing objects: 71% (15/21)[Kremote: Storing objects: 76% (16/21)[Kremote: Storing objects: 80% (17/21)[Kremote: Storing objects: 85% (18/21)[Kremote: Storing objects: 90% (19/21)[Kremote: Storing objects: 95% (20/21)[Kremote: Storing objects: 100% (21/21)[Kremote: Storing objects: 100% (21/21), done.[K
+remote: Processing commits: 20% (1/5)[Kremote: Processing commits: 40% (2/5)[Kremote: Processing commits: 60% (3/5)[Kremote: Processing commits: 80% (4/5)[Kremote: Processing commits: 100% (5/5)[Kremote: Processing commits: 100% (5/5), done.[K
+To https://code.google.com/p/reposman/
+   995b7c1..c57f4a4  master -> master
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/reposman.git (push) 
+[0mTo ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/reposman.git
+   995b7c1..c57f4a4  master -> master
+[2011-12-18 03:44:03] Finished.
+========================================================
+[2011-12-18 03:47:46] Started:
+reposman push privepo/fp-afun privepo/fp-default privepo/root master
+reposman> [36mReading "/home/xiaoranzzz/.reposman/PROJECTS" ...
+[0mreposman> [36m64 projects read.
+[0mreposman> [36mSyncing  3 projects to remotes ...
+[0mreposman> [36m[1/3] Syncing project [privepo/fp-afun] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/privepo/fp-afun/.git
+[0mreposman> [36m  Dest: git@git.assembla.com:privepo-fp-afun.git (push) 
+[0mE, [2011-12-17T19:56:01.868019 #1832] ERROR -- : no repository found
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: git@github.com:privepo/fp-afun.git (push) 
+[0mNo refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
+fatal: The remote end hung up unexpectedly
+error: failed to push some refs to 'git@github.com:privepo/fp-afun.git'
+reposman> [36m  Dest: git@gitorious.org:privepo/fp-afun.git (push) 
+[0m[2011-12-18 03:48:02] Finished.
+========================================================
+[2011-12-18 03:48:07] Started:
+reposman push privepo/fp-afun privepo/fp-default privepo/root --append master
+reposman> [36mReading "/home/xiaoranzzz/.reposman/PROJECTS" ...
+[0mreposman> [36m64 projects read.
+[0mreposman> [36mSyncing  3 projects to remotes ...
+[0mreposman> [36m[1/3] Syncing project [privepo/fp-afun] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/privepo/fp-afun/.git
+[0mreposman> [36m  Dest: git@git.assembla.com:privepo-fp-afun.git (push) 
+[0mE, [2011-12-17T19:56:23.012395 #2674] ERROR -- : no repository found
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: git@github.com:privepo/fp-afun.git (push) 
+[0mTo git@github.com:privepo/fp-afun.git
+ * [new branch]      master -> master
+reposman> [36m  Dest: git@gitorious.org:privepo/fp-afun.git (push) 
+[0m=> Syncing Gitorious... [OK]
+To git@gitorious.org:privepo/fp-afun.git
+ * [new branch]      master -> master
+reposman> [36m  Dest: https://code.google.com/p/privepo.fp-afun/ (push) 
+[0mremote: Scanning pack: 4% (1/24)[Kremote: Scanning pack: 8% (2/24)[Kremote: Scanning pack: 12% (3/24)[Kremote: Scanning pack: 16% (4/24)[Kremote: Scanning pack: 20% (5/24)[Kremote: Scanning pack: 25% (6/24)[Kremote: Scanning pack: 29% (7/24)[Kremote: Scanning pack: 33% (8/24)[Kremote: Scanning pack: 37% (9/24)[Kremote: Scanning pack: 41% (10/24)[Kremote: Scanning pack: 45% (11/24)[Kremote: Scanning pack: 50% (12/24)[Kremote: Scanning pack: 54% (13/24)[Kremote: Scanning pack: 58% (14/24)[Kremote: Scanning pack: 62% (15/24)[Kremote: Scanning pack: 66% (16/24)[Kremote: Scanning pack: 70% (17/24)[Kremote: Scanning pack: 75% (18/24)[Kremote: Scanning pack: 79% (19/24)[Kremote: Scanning pack: 83% (20/24)[Kremote: Scanning pack: 87% (21/24)[Kremote: Scanning pack: 91% (22/24)[Kremote: Scanning pack: 95% (23/24)[Kremote: Scanning pack: 100% (24/24)[Kremote: Scanning pack: 100% (24/24), done.[K
+remote: Storing objects: 4% (1/24)[Kremote: Storing objects: 8% (2/24)[Kremote: Storing objects: 12% (3/24)[Kremote: Storing objects: 16% (4/24)[Kremote: Storing objects: 20% (5/24)[Kremote: Storing objects: 25% (6/24)[Kremote: Storing objects: 29% (7/24)[Kremote: Storing objects: 33% (8/24)[Kremote: Storing objects: 37% (9/24)[Kremote: Storing objects: 41% (10/24)[Kremote: Storing objects: 45% (11/24)[Kremote: Storing objects: 50% (12/24)[Kremote: Storing objects: 54% (13/24)[Kremote: Storing objects: 58% (14/24)[Kremote: Storing objects: 62% (15/24)[Kremote: Storing objects: 66% (16/24)[Kremote: Storing objects: 70% (17/24)[Kremote: Storing objects: 75% (18/24)[Kremote: Storing objects: 79% (19/24)[Kremote: Storing objects: 83% (20/24)[Kremote: Storing objects: 87% (21/24)[Kremote: Storing objects: 91% (22/24)[Kremote: Storing objects: 95% (23/24)[Kremote: Storing objects: 100% (24/24)[Kremote: Storing objects: 100% (24/24), done.[K
+remote: Processing commits: 100% (1/1)[Kremote: Processing commits: 100% (1/1), done.[K
+To https://code.google.com/p/privepo.fp-afun/
+ * [new branch]      master -> master
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/fp-afun.git (push) 
+[0mremote: fatal: Not a git repository: '/gitroot/zrepos/privepo'[K
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/fp-afun.git
+ * [new branch]      master -> master
+reposman> [36m[2/3] Syncing project [privepo/fp-default] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/privepo/fp-default/.git
+[0mreposman> [36m  Dest: git@git.assembla.com:privepo-fp-default.git (push) 
+[0mE, [2011-12-17T19:57:54.325394 #23479] ERROR -- : no repository found
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: git@github.com:privepo/fp-default.git (push) 
+[0mTo git@github.com:privepo/fp-default.git
+ * [new branch]      master -> master
+reposman> [36m  Dest: git@gitorious.org:privepo/fp-default.git (push) 
+[0m=> Syncing Gitorious... [OK]
+To git@gitorious.org:privepo/fp-default.git
+ * [new branch]      master -> master
+reposman> [36m  Dest: https://code.google.com/p/privepo.fp-default/ (push) 
+[0mremote: Scanning pack: 1% (1/91)[Kremote: Scanning pack: 2% (2/91)[Kremote: Scanning pack: 3% (3/91)[Kremote: Scanning pack: 4% (4/91)[Kremote: Scanning pack: 5% (5/91)[Kremote: Scanning pack: 6% (6/91)[Kremote: Scanning pack: 7% (7/91)[Kremote: Scanning pack: 8% (8/91)[Kremote: Scanning pack: 9% (9/91)[Kremote: Scanning pack: 10% (10/91)[Kremote: Scanning pack: 12% (11/91)[Kremote: Scanning pack: 13% (12/91)[Kremote: Scanning pack: 14% (13/91)[Kremote: Scanning pack: 15% (14/91)[Kremote: Scanning pack: 16% (15/91)[Kremote: Scanning pack: 17% (16/91)[Kremote: Scanning pack: 18% (17/91)[Kremote: Scanning pack: 19% (18/91)[Kremote: Scanning pack: 20% (19/91)[Kremote: Scanning pack: 21% (20/91)[Kremote: Scanning pack: 23% (21/91)[Kremote: Scanning pack: 24% (22/91)[Kremote: Scanning pack: 25% (23/91)[Kremote: Scanning pack: 26% (24/91)[Kremote: Scanning pack: 27% (25/91)[Kremote: Scanning pack: 28% (26/91)[Kremote: Scanning pack: 29% (27/91)[Kremote: Scanning pack: 30% (28/91)[Kremote: Scanning pack: 31% (29/91)[Kremote: Scanning pack: 32% (30/91)[Kremote: Scanning pack: 34% (31/91)[Kremote: Scanning pack: 35% (32/91)[Kremote: Scanning pack: 36% (33/91)[Kremote: Scanning pack: 37% (34/91)[Kremote: Scanning pack: 38% (35/91)[Kremote: Scanning pack: 39% (36/91)[Kremote: Scanning pack: 40% (37/91)[Kremote: Scanning pack: 41% (38/91)[Kremote: Scanning pack: 42% (39/91)[Kremote: Scanning pack: 43% (40/91)[Kremote: Scanning pack: 45% (41/91)[Kremote: Scanning pack: 46% (42/91)[Kremote: Scanning pack: 47% (43/91)[Kremote: Scanning pack: 48% (44/91)[Kremote: Scanning pack: 49% (45/91)[Kremote: Scanning pack: 50% (46/91)[Kremote: Scanning pack: 51% (47/91)[Kremote: Scanning pack: 52% (48/91)[Kremote: Scanning pack: 53% (49/91)[Kremote: Scanning pack: 54% (50/91)[Kremote: Scanning pack: 56% (51/91)[Kremote: Scanning pack: 57% (52/91)[Kremote: Scanning pack: 58% (53/91)[Kremote: Scanning pack: 59% (54/91)[Kremote: Scanning pack: 60% (55/91)[Kremote: Scanning pack: 61% (56/91)[Kremote: Scanning pack: 62% (57/91)[Kremote: Scanning pack: 63% (58/91)[Kremote: Scanning pack: 64% (59/91)[Kremote: Scanning pack: 65% (60/91)[Kremote: Scanning pack: 67% (61/91)[Kremote: Scanning pack: 68% (62/91)[Kremote: Scanning pack: 69% (63/91)[Kremote: Scanning pack: 70% (64/91)[Kremote: Scanning pack: 71% (65/91)[Kremote: Scanning pack: 72% (66/91)[Kremote: Scanning pack: 73% (67/91)[Kremote: Scanning pack: 74% (68/91)[Kremote: Scanning pack: 75% (69/91)[Kremote: Scanning pack: 76% (70/91)[Kremote: Scanning pack: 78% (71/91)[Kremote: Scanning pack: 79% (72/91)[Kremote: Scanning pack: 80% (73/91)[Kremote: Scanning pack: 81% (74/91)[Kremote: Scanning pack: 82% (75/91)[Kremote: Scanning pack: 83% (76/91)[Kremote: Scanning pack: 84% (77/91)[Kremote: Scanning pack: 85% (78/91)[Kremote: Scanning pack: 86% (79/91)[Kremote: Scanning pack: 87% (80/91)[Kremote: Scanning pack: 89% (81/91)[Kremote: Scanning pack: 90% (82/91)[Kremote: Scanning pack: 91% (83/91)[Kremote: Scanning pack: 92% (84/91)[Kremote: Scanning pack: 93% (85/91)[Kremote: Scanning pack: 94% (86/91)[Kremote: Scanning pack: 95% (87/91)[Kremote: Scanning pack: 96% (88/91)[Kremote: Scanning pack: 97% (89/91)[Kremote: Scanning pack: 98% (90/91)[Kremote: Scanning pack: 100% (91/91)[Kremote: Scanning pack: 100% (91/91), done.[K
+remote: Storing objects: 1% (1/91)[Kremote: Storing objects: 2% (2/91)[Kremote: Storing objects: 3% (3/91)[Kremote: Storing objects: 4% (4/91)[Kremote: Storing objects: 5% (5/91)[Kremote: Storing objects: 6% (6/91)[Kremote: Storing objects: 7% (7/91)[Kremote: Storing objects: 8% (8/91)[Kremote: Storing objects: 9% (9/91)[Kremote: Storing objects: 10% (10/91)[Kremote: Storing objects: 12% (11/91)[Kremote: Storing objects: 13% (12/91)[Kremote: Storing objects: 14% (13/91)[Kremote: Storing objects: 15% (14/91)[Kremote: Storing objects: 16% (15/91)[Kremote: Storing objects: 17% (16/91)[Kremote: Storing objects: 18% (17/91)[Kremote: Storing objects: 19% (18/91)[Kremote: Storing objects: 20% (19/91)[Kremote: Storing objects: 21% (20/91)[Kremote: Storing objects: 23% (21/91)[Kremote: Storing objects: 24% (22/91)[Kremote: Storing objects: 25% (23/91)[Kremote: Storing objects: 26% (24/91)[Kremote: Storing objects: 27% (25/91)[Kremote: Storing objects: 28% (26/91)[Kremote: Storing objects: 29% (27/91)[Kremote: Storing objects: 30% (28/91)[Kremote: Storing objects: 31% (29/91)[Kremote: Storing objects: 32% (30/91)[Kremote: Storing objects: 34% (31/91)[Kremote: Storing objects: 35% (32/91)[Kremote: Storing objects: 36% (33/91)[Kremote: Storing objects: 37% (34/91)[Kremote: Storing objects: 38% (35/91)[Kremote: Storing objects: 39% (36/91)[Kremote: Storing objects: 40% (37/91)[Kremote: Storing objects: 41% (38/91)[Kremote: Storing objects: 42% (39/91)[Kremote: Storing objects: 43% (40/91)[Kremote: Storing objects: 45% (41/91)[Kremote: Storing objects: 46% (42/91)[Kremote: Storing objects: 47% (43/91)[Kremote: Storing objects: 48% (44/91)[Kremote: Storing objects: 49% (45/91)[Kremote: Storing objects: 50% (46/91)[Kremote: Storing objects: 51% (47/91)[Kremote: Storing objects: 52% (48/91)[Kremote: Storing objects: 53% (49/91)[Kremote: Storing objects: 54% (50/91)[Kremote: Storing objects: 56% (51/91)[Kremote: Storing objects: 57% (52/91)[Kremote: Storing objects: 58% (53/91)[Kremote: Storing objects: 59% (54/91)[Kremote: Storing objects: 60% (55/91)[Kremote: Storing objects: 61% (56/91)[Kremote: Storing objects: 62% (57/91)[Kremote: Storing objects: 63% (58/91)[Kremote: Storing objects: 64% (59/91)[Kremote: Storing objects: 65% (60/91)[Kremote: Storing objects: 67% (61/91)[Kremote: Storing objects: 68% (62/91)[Kremote: Storing objects: 69% (63/91)[Kremote: Storing objects: 70% (64/91)[Kremote: Storing objects: 71% (65/91)[Kremote: Storing objects: 72% (66/91)[Kremote: Storing objects: 73% (67/91)[Kremote: Storing objects: 74% (68/91)[Kremote: Storing objects: 75% (69/91)[Kremote: Storing objects: 76% (70/91)[Kremote: Storing objects: 78% (71/91)[Kremote: Storing objects: 79% (72/91)[Kremote: Storing objects: 80% (73/91)[Kremote: Storing objects: 81% (74/91)[Kremote: Storing objects: 82% (75/91)[Kremote: Storing objects: 83% (76/91)[Kremote: Storing objects: 84% (77/91)[Kremote: Storing objects: 85% (78/91)[Kremote: Storing objects: 86% (79/91)[Kremote: Storing objects: 87% (80/91)[Kremote: Storing objects: 89% (81/91)[Kremote: Storing objects: 90% (82/91)[Kremote: Storing objects: 91% (83/91)[Kremote: Storing objects: 92% (84/91)[Kremote: Storing objects: 93% (85/91)[Kremote: Storing objects: 94% (86/91)[Kremote: Storing objects: 95% (87/91)[Kremote: Storing objects: 96% (88/91)[Kremote: Storing objects: 97% (89/91)[Kremote: Storing objects: 98% (90/91)[Kremote: Storing objects: 100% (91/91)[Kremote: Storing objects: 100% (91/91), done.[K
+remote: Processing commits: 100% (1/1)[Kremote: Processing commits: 100% (1/1), done.[K
+To https://code.google.com/p/privepo.fp-default/
+ * [new branch]      master -> master
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/fp-default.git (push) 
+[0mremote: fatal: Not a git repository: '/gitroot/zrepos/privepo'[K
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/fp-default.git
+ * [new branch]      master -> master
+reposman> [36m[3/3] Syncing project [privepo/root] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/privepo/root.git
+[0mreposman> [36m  Dest: git@git.assembla.com:privepo-root.git (push) 
+[0mE, [2011-12-17T20:00:50.394715 #27927] ERROR -- : no repository found
+fatal: The remote end hung up unexpectedly
+reposman> [36m  Dest: git@github.com:privepo/root.git (push) 
+[0mEverything up-to-date
+reposman> [36m  Dest: git@gitorious.org:privepo/root.git (push) 
+[0mEverything up-to-date
+reposman> [36m  Dest: https://code.google.com/p/privepo.root/ (push) 
+[0mEverything up-to-date
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/root.git (push) 
+[0mEverything up-to-date
+[2011-12-18 03:53:27] Finished.
