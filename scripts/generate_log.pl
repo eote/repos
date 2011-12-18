@@ -9,6 +9,8 @@ my $CWD = getcwd();
 sub generate_log {
 	my $logfile = shift;
 	my $dir = shift;
+	return unless(-d $dir);
+	return unless(-f $dir . '/generate-log.pl');
 	open FO, ">", $logfile;
 	chdir $dir;
 	open FI,"-|","perl","generate-log.pl";

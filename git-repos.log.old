@@ -113,11 +113,11 @@ c3d35fce0cad6401ca7673556f605d8f87478181 initial import
 82484c53e16593921ce6b9d8718e71715c1b14e5 Initial directory structure.
 
 privepo/.git:
+82f6cf55359540846afd8a20f764dbc9335e2637 Update babebase,fp-afun,fp-default. Move scripts.
+0035be38e9a16ee05e803099cde9fba674cd9378 Update babebase, gm-scripts. Add fp-afun, fp-defualt.
 fbdf3454003b37a244a37cae71e22cb65360d918 Add reposotory "linux", add .reposman.
 79b8fc16f1caf32bfc200a08a8687a89a4ca1a8d Add submodules.
 34cd588e5d53767861ac753f74f3dcd4d698097a Update scripts.
-4075079550e4c2d5a86a5036b17400d844157b99 Update commit.sh and genlog.pl.
-abb970c31519318de2ef58fc09323ff3640f282d added script svndump.pl
 
 privepo/avatars/.git:
 d5671bfa7a9d87fb83d14a374422eb03c4f24a44 Update git/config.
@@ -125,11 +125,11 @@ bf496200c91d83ecc91e9ce0a85d2fb32abf8adf Update git/config.
 1ae240164d1d87d5295ba625f16be3f2d9cc676f AVATARS [GIT] commit 2fab0b85: Add avatars for afun, eotect and xrlfun.
 
 privepo/babebase/.git:
+96b0523c9f07334d25e445e462318196d0b75201 BABEBASE [GIT] commit 96a0193e: Add [gods-art.de] rule.
+91166e5509a94d2d3ffd93223716bfbc3f1338c4 Add .reposman.
 daec8b4acbe52e6ad3efd94ffc8c80f776b75414 BABEBASE [GIT] commit 6a22fb19: Update moko.cc.
 b7e2b90cdaf423e62f396037e227dba550fe9880 Update git/config.
 93f47536ec2170d751fa5ac4b885cfaa45b58600 BABEBASE [GIT] commit a6558344: Update HOST.URL.
-6f8d9ba26823e686a22e185e600a3402b6b25967 BABEBASE [SVN] r60: updated database BEAUTY [GIT] commit a6558344: Update HOST.URL.
-571ad243aa942ebeeb8831372dd82d5488e0cdc4 BABEBASE [SVN] r60 [GIT] commit c9776c2e: updated database BEAUTY
 
 privepo/empty.git:
 b8325601d2a766e5620e6763cfc705d52d979675 initial import
@@ -138,6 +138,14 @@ privepo/foxwps/.git:
 56d441ba4cab0236d4573b16c9f58ac05c1ce411 Update git/config.
 062f60a443aef2bc39cc75ebfb53d5efdeebf24d FOXWPS [GIT] commit c2e42758: 数据录入到20110831, 导入逐月数据。
 55f308b387065429de6b5d5f9273891f35d712a0 Initial commit.
+
+privepo/fp-afun/.git:
+5df2b2f75832511d772f7579f53dd76674ed6d7c FP-AFUN [GIT] commit 07e82bc5: Update 20121217.
+1f426b30214925ab4c1cf8faa97922329c271146 FP-AFUN [GIT] commit 07e82bc5: Update 20121217.
+
+privepo/fp-default/.git:
+42ee582c80118248c705b0ae6dc90a81c542f6dd FP-DEFAULT [GIT] commit 36473941: Initial commit.
+ddffdeb6706970aabcb7e58f4893cde9b90d3328 FP-DEFAULT [GIT] commit 36473941: Initial commit.
 
 privepo/gm-scripts/.git:
 c313ba362b090a363bb96b873d9320ed338dee1f GM-SCRIPTS [GIT] commit bbe23fc2: Update imagealbumpanel.
@@ -164,21 +172,21 @@ privepo/privacy/.git:
 b8d299f1e7f51cb7015bd8ff04a1e7c271049bfa Initial commit.
 
 privepo/root.git:
+82f6cf55359540846afd8a20f764dbc9335e2637 Update babebase,fp-afun,fp-default. Move scripts.
+0035be38e9a16ee05e803099cde9fba674cd9378 Update babebase, gm-scripts. Add fp-afun, fp-defualt.
 fbdf3454003b37a244a37cae71e22cb65360d918 Add reposotory "linux", add .reposman.
 79b8fc16f1caf32bfc200a08a8687a89a4ca1a8d Add submodules.
 34cd588e5d53767861ac753f74f3dcd4d698097a Update scripts.
-4075079550e4c2d5a86a5036b17400d844157b99 Update commit.sh and genlog.pl.
-abb970c31519318de2ef58fc09323ff3640f282d added script svndump.pl
 
 profs/config-awesome.git:
 5e3a3885ac671a801b4add53be631492049d01a6 Initial commit.
 
 profs/firefox.git:
+91c890a235b632ac5f7fed41bb3a70165089c64a Update 20111217.
 efb1df4df2cabcb4b3ae65972d416126d5c47691 Update sub-modules: websaver2, gm_scripts and tombloo.
 6ce0b1c12cc06e1273d335368b14da956f490b9d Add .deeplink.pl
 5dbafc38025f329c738b8ab9a4000c2989a5b498 Update extensions.*.
 7c8bd444e71441ba728476366780be3e4087b048 Update extensions 20111215.
-d41469b82c80b58bbf3b5dae2b524ee1ca9566a3 Update searchplugins.
 
 profs/google-chrome/eotect.git:
 0a6d3253e16a6403a525c8ed2fa86882f24cb8cb Update extensions and preferences.
@@ -214,18 +222,18 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+fefee780349ac15f86f34ca927071f0455119a7b Add fp-afun, fp-default. Update reposman, repos, firefox.
+ac665aba8b921ca7c3d588bda7e384e98dfc566e Update gm-scripts, repos.
 1c4fd04c68380ce5548912d485eb69d419975014 Update gm-scripts, reposman, perl and sh.
 417b58083769695f9f81b3b3fe4ffcf657ae09b1 Update gm-scripts, firefox, websaver2 and tombloo-data.
 ffabab764f63af32722a92e63e2c7f0f48a4a616 Update git-repos.log.
-f6cb6a6d8935deda0258e0eba368b674785bf5be Update sync-repos.log.
-4042a8b280c7490ecbd1ac2ebef73a7a1384b65a Move loseplace to losep, Update PROJECTS.
 
 reposman.git:
-995b7c1c283e91bb42b924863db675c0eecb0436 Update install script.
-0e8193ddba3840c24333bea2d34f49a779102955 Remove .PROJECTS, read ~/.reposman/PROJECTS instead.
-25320798f8a1ed2c6bcbdea9375834a3bfc800c1 Fix ~/.reposman/PROJECTS to $ENV{HOME}/...
-4c344300b369962fe0c053373a08263c4ffcbd53 Add action "reset-target"
-4eeead56c979a6d487f196d3468525898f5fe0fd Update reposman.pl, for reading ./.reposman as quering definition.
+c57f4a446027a96077579cdc24dc1456af51417f Update installer script.
+a47e8accf6b4cff4a02ce298c4d82a210887a4ae Add testing files.
+e33dcacd656bfbf3d74a863612222e279aee4c64 Fix action dump.
+f6d5d54bfe299310a991a9460f2aab65a4b0f1df Update MyPlace::IniExt.pm for array and hash supporting.
+dddd8bdc1515d8f5e50a4f1c05ab878297b53370 Update MyPlace::Reposman::Projects: hosts add  default entry for projects.
 
 scriptlib/batch.git:
 cb455189784f20cbd7a35ee819036aed024ce293 initial commit

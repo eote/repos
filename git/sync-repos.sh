@@ -11,4 +11,4 @@ echo " "
 date +"[%Y-%m-%d %H:%M:%S] Finished." | tee -a $logfile
 echo .
 echo " "
-
+git add -- "$logfile"

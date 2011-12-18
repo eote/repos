@@ -382,6 +382,8 @@ assembla = linuxbase
 #GitHostsPublic#
 
 [privepo/root]
+assembla=privepo
+google=privepo
 #GitHostsPublic#
 
 [privepo/linux]
