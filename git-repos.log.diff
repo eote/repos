@@ -1,0 +1,12 @@
+225d224
+< 732c4f182a172ba68768208ee59a70939042e1ea Add script auto_commit.pl, Update sub repos.
+229a229
+> ffabab764f63af32722a92e63e2c7f0f48a4a616 Update git-repos.log.
+232,234d231
+< 9297d1032fcc4fec90e68b53713310b904d7e030 Action "query" now supports quering array and hash (Fixes issue #2).
+< 4171bc6f596b11d7b0dcbebcaaac013c815637ba New issue Summary:Action "query" not working properly Status:	Accepted Labels: Bugs
+< 23a77ab225c2755b8119360fd2520c7b0616872e New issue
+236a234,236
+> e33dcacd656bfbf3d74a863612222e279aee4c64 Fix action dump.
+> f6d5d54bfe299310a991a9460f2aab65a4b0f1df Update MyPlace::IniExt.pm for array and hash supporting.
+> dddd8bdc1515d8f5e50a4f1c05ab878297b53370 Update MyPlace::Reposman::Projects: hosts add  default entry for projects.

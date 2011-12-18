@@ -1697,3 +1697,47 @@ reposman push babebase repos privepo/root
 reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/privepo/root.git (push) 
 [0mEverything up-to-date
 [2011-12-18 16:57:03] Finished.
+========================================================
+[2011-12-18 21:56:17] Started:
+reposman push reposman repos
+reposman> [36mReading "/home/xiaoranzzz/.reposman/PROJECTS" ...
+[0mreposman> [36m64 projects read.
+[0mreposman> [36mSyncing  2 projects to remotes ...
+[0mreposman> [36m[1/2] Syncing project [reposman] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/reposman.git
+[0mreposman> [36m  Dest: git@git.assembla.com:reposman.git (push) 
+[0mEverything up-to-date
+reposman> [36m  Dest: git@github.com:eote/reposman.git (push) 
+[0mTo git@github.com:eote/reposman.git
+   c57f4a4..9297d10  master -> master
+reposman> [36m  Dest: git@gitorious.org:reposman/reposman.git (push) 
+[0m=> Syncing Gitorious... [OK]
+To git@gitorious.org:reposman/reposman.git
+   c57f4a4..9297d10  master -> master
+reposman> [36m  Dest: https://code.google.com/p/reposman/ (push) 
+[0mEverything up-to-date
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/reposman.git (push) 
+[0mTo ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/reposman.git
+   c57f4a4..9297d10  master -> master
+reposman> [36m[2/2] Syncing project [eote/repos] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/repos.git
+[0mreposman> [36m  Dest: git@git.assembla.com:eote-repos.git (push) 
+[0mTo git@git.assembla.com:eote-repos.git
+   fefee78..732c4f1  master -> master
+reposman> [36m  Dest: git@github.com:eote/repos.git (push) 
+[0mTo git@github.com:eote/repos.git
+   fefee78..732c4f1  master -> master
+reposman> [36m  Dest: git@gitorious.org:eote/repos.git (push) 
+[0m=> Syncing Gitorious... [OK]
+To git@gitorious.org:eote/repos.git
+   fefee78..732c4f1  master -> master
+reposman> [36m  Dest: https://code.google.com/p/eote.repos/ (push) 
+[0mremote: Scanning pack: 3% (1/30)[Kremote: Scanning pack: 6% (2/30)[Kremote: Scanning pack: 10% (3/30)[Kremote: Scanning pack: 13% (4/30)[Kremote: Scanning pack: 16% (5/30)[Kremote: Scanning pack: 20% (6/30)[Kremote: Scanning pack: 23% (7/30)[Kremote: Scanning pack: 26% (8/30)[Kremote: Scanning pack: 30% (9/30)[Kremote: Scanning pack: 33% (10/30)[Kremote: Scanning pack: 36% (11/30)[Kremote: Scanning pack: 40% (12/30)[Kremote: Scanning pack: 43% (13/30)[Kremote: Scanning pack: 46% (14/30)[Kremote: Scanning pack: 50% (15/30)[Kremote: Scanning pack: 53% (16/30)[Kremote: Scanning pack: 56% (17/30)[Kremote: Scanning pack: 60% (18/30)[Kremote: Scanning pack: 63% (19/30)[Kremote: Scanning pack: 66% (20/30)[Kremote: Scanning pack: 70% (21/30)[Kremote: Scanning pack: 73% (22/30)[Kremote: Scanning pack: 76% (23/30)[Kremote: Scanning pack: 80% (24/30)[Kremote: Scanning pack: 83% (25/30)[Kremote: Scanning pack: 86% (26/30)[Kremote: Scanning pack: 90% (27/30)[Kremote: Scanning pack: 93% (28/30)[Kremote: Scanning pack: 96% (29/30)[Kremote: Scanning pack: 100% (30/30)[Kremote: Scanning pack: 100% (30/30), done.[K
+remote: Storing objects: 3% (1/30)[Kremote: Storing objects: 6% (2/30)[Kremote: Storing objects: 10% (3/30)[Kremote: Storing objects: 13% (4/30)[Kremote: Storing objects: 16% (5/30)[Kremote: Storing objects: 20% (6/30)[Kremote: Storing objects: 23% (7/30)[Kremote: Storing objects: 26% (8/30)[Kremote: Storing objects: 30% (9/30)[Kremote: Storing objects: 33% (10/30)[Kremote: Storing objects: 36% (11/30)[Kremote: Storing objects: 40% (12/30)[Kremote: Storing objects: 43% (13/30)[Kremote: Storing objects: 46% (14/30)[Kremote: Storing objects: 50% (15/30)[Kremote: Storing objects: 53% (16/30)[Kremote: Storing objects: 56% (17/30)[Kremote: Storing objects: 60% (18/30)[Kremote: Storing objects: 63% (19/30)[Kremote: Storing objects: 66% (20/30)[Kremote: Storing objects: 70% (21/30)[Kremote: Storing objects: 73% (22/30)[Kremote: Storing objects: 76% (23/30)[Kremote: Storing objects: 80% (24/30)[Kremote: Storing objects: 83% (25/30)[Kremote: Storing objects: 86% (26/30)[Kremote: Storing objects: 90% (27/30)[Kremote: Storing objects: 93% (28/30)[Kremote: Storing objects: 96% (29/30)[Kremote: Storing objects: 100% (30/30)[Kremote: Storing objects: 100% (30/30), done.[K
+remote: Processing commits: 100% (1/1)[Kremote: Processing commits: 100% (1/1), done.[K
+To https://code.google.com/p/eote.repos/
+   fefee78..732c4f1  master -> master
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/repos.git (push) 
+[0mTo ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/repos.git
+   fefee78..732c4f1  master -> master
+[2011-12-18 21:58:09] Finished.

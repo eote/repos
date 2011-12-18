@@ -222,18 +222,18 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+732c4f182a172ba68768208ee59a70939042e1ea Add script auto_commit.pl, Update sub repos.
 fefee780349ac15f86f34ca927071f0455119a7b Add fp-afun, fp-default. Update reposman, repos, firefox.
 ac665aba8b921ca7c3d588bda7e384e98dfc566e Update gm-scripts, repos.
 1c4fd04c68380ce5548912d485eb69d419975014 Update gm-scripts, reposman, perl and sh.
 417b58083769695f9f81b3b3fe4ffcf657ae09b1 Update gm-scripts, firefox, websaver2 and tombloo-data.
-ffabab764f63af32722a92e63e2c7f0f48a4a616 Update git-repos.log.
 
 reposman.git:
+9297d1032fcc4fec90e68b53713310b904d7e030 Action "query" now supports quering array and hash (Fixes issue #2).
+4171bc6f596b11d7b0dcbebcaaac013c815637ba New issue Summary:Action "query" not working properly Status:	Accepted Labels: Bugs
+23a77ab225c2755b8119360fd2520c7b0616872e New issue
 c57f4a446027a96077579cdc24dc1456af51417f Update installer script.
 a47e8accf6b4cff4a02ce298c4d82a210887a4ae Add testing files.
-e33dcacd656bfbf3d74a863612222e279aee4c64 Fix action dump.
-f6d5d54bfe299310a991a9460f2aab65a4b0f1df Update MyPlace::IniExt.pm for array and hash supporting.
-dddd8bdc1515d8f5e50a4f1c05ab878297b53370 Update MyPlace::Reposman::Projects: hosts add  default entry for projects.
 
 scriptlib/batch.git:
 cb455189784f20cbd7a35ee819036aed024ce293 initial commit
