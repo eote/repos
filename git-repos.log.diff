@@ -1,12 +1,12 @@
+116d115
+< fd3548a6bdf71c509b1af6609bbeeaabf347da68 Update babebase
+120a120
+> 34cd588e5d53767861ac753f74f3dcd4d698097a Update scripts.
+128d127
+< 0a1fea48dc3e6720e2b87d0800fa76892d12dd77 BABEBASE [GIT] commit 60653a4d: Add sites, common script for <a><img></a>.
+132a132
+> 93f47536ec2170d751fa5ac4b885cfaa45b58600 BABEBASE [GIT] commit a6558344: Update HOST.URL.
 225d224
-< 732c4f182a172ba68768208ee59a70939042e1ea Add script auto_commit.pl, Update sub repos.
+< 2afb338eed6956fa8055e0bfa5f5fe8da61b187a Update repos.git, reposman.git
 229a229
-> ffabab764f63af32722a92e63e2c7f0f48a4a616 Update git-repos.log.
-232,234d231
-< 9297d1032fcc4fec90e68b53713310b904d7e030 Action "query" now supports quering array and hash (Fixes issue #2).
-< 4171bc6f596b11d7b0dcbebcaaac013c815637ba New issue Summary:Action "query" not working properly Status:	Accepted Labels: Bugs
-< 23a77ab225c2755b8119360fd2520c7b0616872e New issue
-236a234,236
-> e33dcacd656bfbf3d74a863612222e279aee4c64 Fix action dump.
-> f6d5d54bfe299310a991a9460f2aab65a4b0f1df Update MyPlace::IniExt.pm for array and hash supporting.
-> dddd8bdc1515d8f5e50a4f1c05ab878297b53370 Update MyPlace::Reposman::Projects: hosts add  default entry for projects.
+> 417b58083769695f9f81b3b3fe4ffcf657ae09b1 Update gm-scripts, firefox, websaver2 and tombloo-data.
