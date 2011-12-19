@@ -1768,3 +1768,230 @@ reposman push babebase repos
 reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/repos.git (push) 
 [0mEverything up-to-date
 [2011-12-19 06:40:48] Finished.
+========================================================
+[2011-12-19 21:27:20] Started:
+reposman push scriptlib/perl babebase repos libmyplace-perl -m Update perl, libmyplace-perl and urlrule.
+REPOSMAN(1)           User Contributed Perl Documentation          REPOSMAN(1)
+
+
+
+NNAAMMEE
+       reposman - svn,git,mercurial repositories manager
+
+SSYYNNOOPPSSIISS
+       reposman [options] command [args...] [query[:target]]...
+
+               reposman sync ffprofile
+               reposman push --remotes 'github' reposman websaver2
+
+   CCOOMMMMAANNDDSS
+               sync, push, pull, list, query, checkout
+               reset, config, reset-config, dump, exec
+
+OOPPTTIIOONNSS
+       --ff,----ffiillee
+           Specify projects data file, default is .PROJECTS
+
+       --tt,----tteesstt
+           Testing mode
+
+       ----nnoo--llooccaall
+           Ignore local repositories
+
+       ----ffeettcchh--aallll
+           Instead of fetching the origin, fetch all repositories
+
+       --bb,----bbrraanncchh
+           Specify which branch
+
+       ----aappppeenndd,--aaaa
+           Append command argments
+
+       ----pprreeppeenndd,--ppaa
+           Prepend command arguments
+
+       --hh,----hheellpp
+           Print a brief help message and exits.
+
+       ----mmaannuuaall,----mmaann
+           View application manual
+
+CCoommmmaannddss
+   cchheecckkoouutt,, ccoo,, cc
+               Checkout repositories, set remotes.
+
+   ssyynncc||ss
+               Sync repositories
+
+   rreesseett||rr
+               Re-configure projects
+
+   cchheecckk
+               Check projects status
+
+   dduummpp
+               Dump raw datas
+
+       _S_Y_N_O_P_S_I_S
+
+               dump [options] [queries]
+
+       _O_P_T_I_O_N_S
+
+       ----dduummpp--ttaarrggeett  Dump data for targets
+
+       ----dduummpp--ccoonnffiigg  Dump CONFIG
+
+       ----dduummpp--ddaattaa    Dump bare DATA
+
+       ----dduummpp--pprroojjeeccttss
+                      Dump all projects data
+
+       ----dduummpp--hhoossttss   Dump all hosts data
+
+       ----dduummpp--aallll     Dump everything
+
+   qquueerryy
+       _S_Y_N_O_P_S_I_S
+
+               query [options] [queries]
+
+       _O_P_T_I_O_N_S
+
+       ----pprrooppeerrttyy
+                   Specify property for quering
+
+   lliisstt
+               List projects
+
+   rreesseett--ccoonnffiigg
+               Reset .git/config and .git/refs/remotes
+
+   ppuullll
+               Pull repository to local repository.
+
+   ppuusshh
+               Push local repository to remotes
+
+       _S_Y_N_O_P_S_I_S
+
+               push [options] [queries]
+
+       _O_P_T_I_O_N_S
+
+       ----rreemmootteess
+                   Specicy remotes for pushing
+
+   ccoonnffiigg
+               Re-configure local repositories
+
+   eexxeecc
+       Execute commands in local reposotiry
+
+       _S_Y_N_O_P_S_I_S
+
+               exec [options] [queries]
+
+       _O_P_T_I_O_N_S
+
+       ----ccoommmmaannddss
+                   Specify commands for executing
+
+FFIILLEESS
+       ..//..PPRROOJJEECCTTSS
+           Default projects definition file
+
+PPRROOJJEECCTTSS FFIILLEE FFOORRMMAATT
+               use MyPlace::IniExt;
+
+DDEESSCCRRIIPPTTIIOONN
+       Repositories manager, supporting git, svn and mercurial
+
+CCHHAANNGGEELLOOGG
+           2010-11-01  xiaoranzzz  <xiaoranzzz@myplace.hell>
+
+               * file created.
+
+               2010-11-25      xiaoranzzz      <xiaoranzzz@myplace.hell>
+
+                       * updated projects definition format
+                       * added two actions: checking and resetting
+                       * version 1.0
+
+               2011-2-13       xiaoranzzz  <xiaoranzzz@myplace.hell>
+
+                       * only checkout the origin repository
+                       * added options 'no-local' and 'fetch-all'
+
+               2011-2-15       xiaoranzzz      <xiaoranzzz@myplace.hell>
+
+                       * add definition localname:map
+                       * add option 'reset-config'
+
+               2011-03-27      xiaoranzzz      <xiaoranzzz@myplace.hell>
+
+                       * add repository url definition macros e.g. g:gh/#localname#
+                       * add action 'to-remote'
+                       * add action 'config-local'
+
+               2011-11-24      xiaoranzzz      <xiaoranzzz@myplace.hell>
+
+                       * re-design data file format.
+                       * update program and module to reflect format changing
+                       * version 2.000
+
+               2011-12-01      xiaoranzzz      <xiaoranzzz@myplace.hell>
+
+                       * add option --branch|-b
+
+               2011-12-05      xiaoranzzz      <xiaoranzzz@myplace.hell>
+
+                       * add options --exec-locak, --append, --prepend
+
+               2011-12-06      xiaoranzzz      <xiaoranzzz@myplace.hell>
+
+                       * move PROJECTS related codes to MyPlace::Reposman::Projects
+                       * version 2.100
+
+               2011-12-06      xiaoranzzz      <xiaoranzzz@myplace.hell>
+
+                       * Treat first program argument as sub command, clean up options.
+                       * Update manual
+                       * Rename actions.
+                       * version 2.200
+
+               2011-12-12      xiaoranzzz      <xiaoranzzz@myplace.hell>
+
+                       * Read query from ".git/config" or ".reposman"
+                       * Add action "reset-target"
+                       * version 2.201
+
+AAUUTTHHOORR
+       xiaoranzzz <xiaoranzzz@myplace.hell>
+
+PPOODD EERRRROORRSS
+       Hey! TThhee aabboovvee ddooccuummeenntt hhaadd ssoommee ccooddiinngg eerrrroorrss,, wwhhiicchh aarree eexxppllaaiinneedd
+       bbeellooww::
+
+       Around line 894:
+           '=item' outside of any '=over'
+
+       Around line 997:
+           '=item' outside of any '=over'
+
+       Around line 1001:
+           You forgot a '=back' before '=head2'
+
+       Around line 1023:
+           '=item' outside of any '=over'
+
+       Around line 1043:
+           '=item' outside of any '=over'
+
+       Around line 1051:
+           '=item' outside of any '=over'
+
+
+
+perl v5.14.2                      2011-12-19                       REPOSMAN(1)
+[2011-12-19 21:27:20] Finished.

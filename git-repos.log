@@ -47,11 +47,11 @@ excs/learningperl.git:
 4f272ffee3008d9f59b42e356788f5fc416fa7f6 Initial commit.
 
 libmyplace-perl.git:
+b2dae46ae6365a31f0c30b96f584a43927355c85 Update Google/Search/HTML.pm, IniExt.pm, Reposman/Projects.pm, Script/Message.pm, URLRule.pm.
 a985e65dd3d4fe3131d2601b157bc544ea6d5cb0 Update Script::Usage.
 915ad8b481cf7e3ee34eb7e407cf806840b97f4a Fix Reposman::Projects::query_repos().
 875c80e2ee278c214a97aab7393df2e7cc85690c Add Reposman::Projects.
 1f1af0bd3d13faa8c69737eb7d0dcedeb4d1b31b Update IniExt.pm, from reposman.
-54874aafe4ecd4958d277ac8c304f7a7cc5f6f38 Update Google::Search::HTML.
 
 losep/core.git:
 c61dfd049b5201d6f19cdb4e7c6ca67310cd235d Update vim scripts to match version 7.3.
@@ -113,11 +113,11 @@ c3d35fce0cad6401ca7673556f605d8f87478181 initial import
 82484c53e16593921ce6b9d8718e71715c1b14e5 Initial directory structure.
 
 privepo/.git:
+513666f2a1b6bf8a68c11d6d12baca3058b11cc5 Update babebase
 fd3548a6bdf71c509b1af6609bbeeaabf347da68 Update babebase
 82f6cf55359540846afd8a20f764dbc9335e2637 Update babebase,fp-afun,fp-default. Move scripts.
 0035be38e9a16ee05e803099cde9fba674cd9378 Update babebase, gm-scripts. Add fp-afun, fp-defualt.
 fbdf3454003b37a244a37cae71e22cb65360d918 Add reposotory "linux", add .reposman.
-79b8fc16f1caf32bfc200a08a8687a89a4ca1a8d Add submodules.
 
 privepo/avatars/.git:
 d5671bfa7a9d87fb83d14a374422eb03c4f24a44 Update git/config.
@@ -125,11 +125,11 @@ bf496200c91d83ecc91e9ce0a85d2fb32abf8adf Update git/config.
 1ae240164d1d87d5295ba625f16be3f2d9cc676f AVATARS [GIT] commit 2fab0b85: Add avatars for afun, eotect and xrlfun.
 
 privepo/babebase/.git:
+ed2cbf0e584b3515a675119a7fc6d238dd04c619 BABEBASE [GIT] commit 8a9c5d13: Update common/href.img.
 0a1fea48dc3e6720e2b87d0800fa76892d12dd77 BABEBASE [GIT] commit 60653a4d: Add sites, common script for <a><img></a>.
 96b0523c9f07334d25e445e462318196d0b75201 BABEBASE [GIT] commit 96a0193e: Add [gods-art.de] rule.
 91166e5509a94d2d3ffd93223716bfbc3f1338c4 Add .reposman.
 daec8b4acbe52e6ad3efd94ffc8c80f776b75414 BABEBASE [GIT] commit 6a22fb19: Update moko.cc.
-b7e2b90cdaf423e62f396037e227dba550fe9880 Update git/config.
 
 privepo/empty.git:
 b8325601d2a766e5620e6763cfc705d52d979675 initial import
@@ -222,11 +222,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+3744119d24341f7dceedb9802178025cf20e0d31 Update babebase repos
 2afb338eed6956fa8055e0bfa5f5fe8da61b187a Update repos.git, reposman.git
 732c4f182a172ba68768208ee59a70939042e1ea Add script auto_commit.pl, Update sub repos.
 fefee780349ac15f86f34ca927071f0455119a7b Add fp-afun, fp-default. Update reposman, repos, firefox.
 ac665aba8b921ca7c3d588bda7e384e98dfc566e Update gm-scripts, repos.
-1c4fd04c68380ce5548912d485eb69d419975014 Update gm-scripts, reposman, perl and sh.
 
 reposman.git:
 9297d1032fcc4fec90e68b53713310b904d7e030 Action "query" now supports quering array and hash (Fixes issue #2).
@@ -246,11 +246,11 @@ scriptlib/lua.git:
 889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
 
 scriptlib/perl.git:
+0fc60bd792eee276ddebd92f268ba05a92086f62 Update reposman.
+cee4242705f7260bf97b77e59f631cf790341b43 Update playvideo, urlrule_task.
+466e4bd31001b89fb80c031fa90f307f2a3302a4 Update renameext, add option "force"
+6ddc6d520bfc73427397553d7a3d4a9c78d81140 Update download.
 e1368c524d92e19e9f9c9a3f8a30140cf1a77cc8 Update r-config, deep_link.pl.
-7be9a53be71adc1a802301d6d0dcb22df999804a Update renameext, reposman.
-689c6d8bedcd7cb785ce939f276abe229c66dfcc Update reposman, v2.200.
-cfd97820a9c7fa101a4f03eb49bb992f613c2d69 Add git-config-binary.pl
-9e5ea60cce2b0ae8f0952dfa001354cbb8750949 Fix bug git-repos-exec.
 
 scriptlib/sh.git:
 a51aa67b44f5c1d78a69ed23f7b95f1e3ad31a1b Add r-at-rtorrent, r-firefox-afun

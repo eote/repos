@@ -113,11 +113,11 @@ c3d35fce0cad6401ca7673556f605d8f87478181 initial import
 82484c53e16593921ce6b9d8718e71715c1b14e5 Initial directory structure.
 
 privepo/.git:
+fd3548a6bdf71c509b1af6609bbeeaabf347da68 Update babebase
 82f6cf55359540846afd8a20f764dbc9335e2637 Update babebase,fp-afun,fp-default. Move scripts.
 0035be38e9a16ee05e803099cde9fba674cd9378 Update babebase, gm-scripts. Add fp-afun, fp-defualt.
 fbdf3454003b37a244a37cae71e22cb65360d918 Add reposotory "linux", add .reposman.
 79b8fc16f1caf32bfc200a08a8687a89a4ca1a8d Add submodules.
-34cd588e5d53767861ac753f74f3dcd4d698097a Update scripts.
 
 privepo/avatars/.git:
 d5671bfa7a9d87fb83d14a374422eb03c4f24a44 Update git/config.
@@ -125,11 +125,11 @@ bf496200c91d83ecc91e9ce0a85d2fb32abf8adf Update git/config.
 1ae240164d1d87d5295ba625f16be3f2d9cc676f AVATARS [GIT] commit 2fab0b85: Add avatars for afun, eotect and xrlfun.
 
 privepo/babebase/.git:
+0a1fea48dc3e6720e2b87d0800fa76892d12dd77 BABEBASE [GIT] commit 60653a4d: Add sites, common script for <a><img></a>.
 96b0523c9f07334d25e445e462318196d0b75201 BABEBASE [GIT] commit 96a0193e: Add [gods-art.de] rule.
 91166e5509a94d2d3ffd93223716bfbc3f1338c4 Add .reposman.
 daec8b4acbe52e6ad3efd94ffc8c80f776b75414 BABEBASE [GIT] commit 6a22fb19: Update moko.cc.
 b7e2b90cdaf423e62f396037e227dba550fe9880 Update git/config.
-93f47536ec2170d751fa5ac4b885cfaa45b58600 BABEBASE [GIT] commit a6558344: Update HOST.URL.
 
 privepo/empty.git:
 b8325601d2a766e5620e6763cfc705d52d979675 initial import
@@ -222,11 +222,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+2afb338eed6956fa8055e0bfa5f5fe8da61b187a Update repos.git, reposman.git
 732c4f182a172ba68768208ee59a70939042e1ea Add script auto_commit.pl, Update sub repos.
 fefee780349ac15f86f34ca927071f0455119a7b Add fp-afun, fp-default. Update reposman, repos, firefox.
 ac665aba8b921ca7c3d588bda7e384e98dfc566e Update gm-scripts, repos.
 1c4fd04c68380ce5548912d485eb69d419975014 Update gm-scripts, reposman, perl and sh.
-417b58083769695f9f81b3b3fe4ffcf657ae09b1 Update gm-scripts, firefox, websaver2 and tombloo-data.
 
 reposman.git:
 9297d1032fcc4fec90e68b53713310b904d7e030 Action "query" now supports quering array and hash (Fixes issue #2).

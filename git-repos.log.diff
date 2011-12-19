@@ -1,12 +1,26 @@
+50d49
+< b2dae46ae6365a31f0c30b96f584a43927355c85 Update Google/Search/HTML.pm, IniExt.pm, Reposman/Projects.pm, Script/Message.pm, URLRule.pm.
+54a54
+> 54874aafe4ecd4958d277ac8c304f7a7cc5f6f38 Update Google::Search::HTML.
 116d115
-< fd3548a6bdf71c509b1af6609bbeeaabf347da68 Update babebase
+< 513666f2a1b6bf8a68c11d6d12baca3058b11cc5 Update babebase
 120a120
-> 34cd588e5d53767861ac753f74f3dcd4d698097a Update scripts.
+> 79b8fc16f1caf32bfc200a08a8687a89a4ca1a8d Add submodules.
 128d127
-< 0a1fea48dc3e6720e2b87d0800fa76892d12dd77 BABEBASE [GIT] commit 60653a4d: Add sites, common script for <a><img></a>.
+< ed2cbf0e584b3515a675119a7fc6d238dd04c619 BABEBASE [GIT] commit 8a9c5d13: Update common/href.img.
 132a132
-> 93f47536ec2170d751fa5ac4b885cfaa45b58600 BABEBASE [GIT] commit a6558344: Update HOST.URL.
+> b7e2b90cdaf423e62f396037e227dba550fe9880 Update git/config.
 225d224
-< 2afb338eed6956fa8055e0bfa5f5fe8da61b187a Update repos.git, reposman.git
+< 3744119d24341f7dceedb9802178025cf20e0d31 Update babebase repos
 229a229
-> 417b58083769695f9f81b3b3fe4ffcf657ae09b1 Update gm-scripts, firefox, websaver2 and tombloo-data.
+> 1c4fd04c68380ce5548912d485eb69d419975014 Update gm-scripts, reposman, perl and sh.
+249,252d248
+< 0fc60bd792eee276ddebd92f268ba05a92086f62 Update reposman.
+< cee4242705f7260bf97b77e59f631cf790341b43 Update playvideo, urlrule_task.
+< 466e4bd31001b89fb80c031fa90f307f2a3302a4 Update renameext, add option "force"
+< 6ddc6d520bfc73427397553d7a3d4a9c78d81140 Update download.
+253a250,253
+> 7be9a53be71adc1a802301d6d0dcb22df999804a Update renameext, reposman.
+> 689c6d8bedcd7cb785ce939f276abe229c66dfcc Update reposman, v2.200.
+> cfd97820a9c7fa101a4f03eb49bb992f613c2d69 Add git-config-binary.pl
+> 9e5ea60cce2b0ae8f0952dfa001354cbb8750949 Fix bug git-repos-exec.
