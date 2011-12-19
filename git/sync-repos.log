@@ -1995,3 +1995,70 @@ PPOODD EERRRROORRSS
 
 perl v5.14.2                      2011-12-19                       REPOSMAN(1)
 [2011-12-19 21:27:20] Finished.
+========================================================
+[2011-12-20 04:55:33] Started:
+reposman push scriptlib/perl babebase repos
+reposman> [36mReading "/home/xiaoranzzz/.reposman/PROJECTS" ...
+[0mreposman> [36m64 projects read.
+[0mreposman> [36mSyncing  3 projects to remotes ...
+[0mreposman> [36m[1/3] Syncing project [scriptlib/perl] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/scriptlib/perl.git
+[0mreposman> [36m  Dest: git@git.assembla.com:scriptlib-perl.git (push) 
+[0mTo git@git.assembla.com:scriptlib-perl.git
+   e1368c5..c4719df  master -> master
+reposman> [36m  Dest: git@github.com:scriptlib/perl.git (push) 
+[0mTo git@github.com:scriptlib/perl.git
+   e1368c5..c4719df  master -> master
+reposman> [36m  Dest: git@gitorious.org:scriptlib/perl.git (push) 
+[0m=> Syncing Gitorious... [OK]
+To git@gitorious.org:scriptlib/perl.git
+   e1368c5..c4719df  master -> master
+reposman> [36m  Dest: https://code.google.com/p/scriptlib.perl/ (push) 
+[0m[2011-12-20 04:56:14] Finished.
+========================================================
+[2011-12-20 04:56:23] Started:
+reposman push scriptlib/perl babebase repos
+reposman> [36mReading "/home/xiaoranzzz/.reposman/PROJECTS" ...
+[0mreposman> [36m64 projects read.
+[0mreposman> [36mSyncing  3 projects to remotes ...
+[0mreposman> [36m[1/3] Syncing project [scriptlib/perl] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/scriptlib/perl.git
+[0mreposman> [36m  Dest: git@git.assembla.com:scriptlib-perl.git (push) 
+[0mEverything up-to-date
+reposman> [36m  Dest: git@github.com:scriptlib/perl.git (push) 
+[0mEverything up-to-date
+reposman> [36m  Dest: git@gitorious.org:scriptlib/perl.git (push) 
+[0mEverything up-to-date
+reposman> [36m  Dest: https://code.google.com/p/scriptlib.perl/ (push) 
+[0mWARNING: gnome-keyring:: couldn't connect to: /tmp/keyring-XXpXL9/pkcs11: No such file or directory
+remote: Scanning pack: 5% (1/19)[Kremote: Scanning pack: 10% (2/19)[Kremote: Scanning pack: 15% (3/19)[Kremote: Scanning pack: 21% (4/19)[Kremote: Scanning pack: 26% (5/19)[Kremote: Scanning pack: 31% (6/19)[Kremote: Scanning pack: 36% (7/19)[Kremote: Scanning pack: 42% (8/19)[Kremote: Scanning pack: 47% (9/19)[Kremote: Scanning pack: 52% (10/19)[Kremote: Scanning pack: 57% (11/19)[Kremote: Scanning pack: 63% (12/19)[Kremote: Scanning pack: 68% (13/19)[Kremote: Scanning pack: 73% (14/19)[Kremote: Scanning pack: 78% (15/19)[Kremote: Scanning pack: 84% (16/19)[Kremote: Scanning pack: 89% (17/19)[Kremote: Scanning pack: 94% (18/19)[Kremote: Scanning pack: 100% (19/19)[Kremote: Scanning pack: 100% (19/19), done.[K
+remote: Storing objects: 5% (1/19)[Kremote: Storing objects: 10% (2/19)[Kremote: Storing objects: 15% (3/19)[Kremote: Storing objects: 21% (4/19)[Kremote: Storing objects: 26% (5/19)[Kremote: Storing objects: 31% (6/19)[Kremote: Storing objects: 36% (7/19)[Kremote: Storing objects: 42% (8/19)[Kremote: Storing objects: 47% (9/19)[Kremote: Storing objects: 52% (10/19)[Kremote: Storing objects: 57% (11/19)[Kremote: Storing objects: 63% (12/19)[Kremote: Storing objects: 68% (13/19)[Kremote: Storing objects: 73% (14/19)[Kremote: Storing objects: 78% (15/19)[Kremote: Storing objects: 84% (16/19)[Kremote: Storing objects: 89% (17/19)[Kremote: Storing objects: 94% (18/19)[Kremote: Storing objects: 100% (19/19)[Kremote: Storing objects: 100% (19/19), done.[K
+remote: Processing commits: 16% (1/6)[Kremote: Processing commits: 33% (2/6)[Kremote: Processing commits: 50% (3/6)[Kremote: Processing commits: 66% (4/6)[Kremote: Processing commits: 83% (5/6)[Kremote: Processing commits: 100% (6/6)[Kremote: Processing commits: 100% (6/6), done.[K
+To https://code.google.com/p/scriptlib.perl/
+   e1368c5..c4719df  master -> master
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scriptlib/perl.git (push) 
+[0mremote: fatal: Not a git repository: '/gitroot/zrepos/scriptlib'[K
+To ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/scriptlib/perl.git
+   e1368c5..c4719df  master -> master
+reposman> [36m[2/3] Syncing project [babebase] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/privepo/babebase/git
+[0mreposman> [36m  Dest: git@git.assembla.com:babebase.git (push) 
+[0mTo git@git.assembla.com:babebase.git
+   60653a4..3d3a2c8  master -> master
+reposman> [36m  Dest: git@repo.unfuddle.com:repo/babebase (push) 
+[0mTo git@repo.unfuddle.com:repo/babebase
+   60653a4..3d3a2c8  master -> master
+reposman> [36m[3/3] Syncing project [eote/repos] to remotes
+[0mreposman> [36mSource: /myplace/repos/git/repos.git
+[0mreposman> [36m  Dest: git@git.assembla.com:eote-repos.git (push) 
+[0mEverything up-to-date
+reposman> [36m  Dest: git@github.com:eote/repos.git (push) 
+[0mEverything up-to-date
+reposman> [36m  Dest: git@gitorious.org:eote/repos.git (push) 
+[0mEverything up-to-date
+reposman> [36m  Dest: https://code.google.com/p/eote.repos/ (push) 
+[0mWARNING: gnome-keyring:: couldn't connect to: /tmp/keyring-XXpXL9/pkcs11: No such file or directory
+Everything up-to-date
+reposman> [36m  Dest: ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/repos.git (push) 
+[0mEverything up-to-date
+[2011-12-20 04:58:04] Finished.
