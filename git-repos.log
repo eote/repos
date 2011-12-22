@@ -222,11 +222,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+344c9348b8c1ab668345a9c8aa3915dda61a14a3 Update babebase, repos, perl.
 750f266d865a8e97c83d5f8be5dd42199ed0d266 Update perl, libmyplace-perl and urlrule.
 3744119d24341f7dceedb9802178025cf20e0d31 Update babebase repos
 2afb338eed6956fa8055e0bfa5f5fe8da61b187a Update repos.git, reposman.git
 732c4f182a172ba68768208ee59a70939042e1ea Add script auto_commit.pl, Update sub repos.
-fefee780349ac15f86f34ca927071f0455119a7b Add fp-afun, fp-default. Update reposman, repos, firefox.
 
 reposman.git:
 9297d1032fcc4fec90e68b53713310b904d7e030 Action "query" now supports quering array and hash (Fixes issue #2).
@@ -246,11 +246,11 @@ scriptlib/lua.git:
 889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
 
 scriptlib/perl.git:
+981dbfb36bee9ba43dcbf69142ca128309c0bd60 Modules moved out.
+fabeaf2690ff1d8f763e562e580546de4baf9202 Urlrule moved out, but linked back.
+e0f932d9d5358064c4be4cd0835ce68682e6b702 Update some scripts.
 c4719df6d44ccb5291b151f03ba5490dcdfc2639 Deletes .PROJECTS, using .reposman instead.
 d710b17e3e54af1ab5f82cfec5f1d2fb4dd16085 Fixes \"download\".
-0fc60bd792eee276ddebd92f268ba05a92086f62 Update reposman.
-cee4242705f7260bf97b77e59f631cf790341b43 Update playvideo, urlrule_task.
-466e4bd31001b89fb80c031fa90f307f2a3302a4 Update renameext, add option "force"
 
 scriptlib/sh.git:
 a51aa67b44f5c1d78a69ed23f7b95f1e3ad31a1b Add r-at-rtorrent, r-firefox-afun
@@ -262,6 +262,13 @@ a42178044a4d67a210658db40ca36163c80a03da added scripts 7z-store, raysource and t
 scriptlib/wscript.git:
 b0bb735d00ec8f9385cf4afc3b4e6b17ce46962b Add script get_rand_mail.
 6602d3253fc27420cad404af63c673bdc0ed232e Initial commit.
+
+urlrule.git:
+89d8b97614cfb933df89c1434ff40d8b798e088a Add testing script.
+d0fbe27a4a0fb14cd5ea035163471c914a810219 Update some scripts.
+d5ef4b6b892c1d2a5583be3134899e8e2c123636 Rewrite urlrule_action and urlrule_task for using MyPlace::URLRule::OO instead.
+a5d1d5b311dd25d92866b543bf69769d49ab9798 Add MyPlace::URLRule::OO.
+27312fd5476db706e93bbfed9c4daca46e456505 Move processing codes from URLRule to URLRule::Processor.
 
 usys/sysbuilder.git:
 cd34e291324ab1ace552d27bda128fbe28ba559d Fix files mode and pathname.
