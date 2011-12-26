@@ -302,6 +302,12 @@ checkout = firefox/tombloo
 assembla = tombloo-data
 #GitHostsPublic#
 
+[tombloo-xpi]
+name = webscrap/tombloo-xpi
+assembla = tombloo-xpi
+checkout = firefox/extensions/tombloo@brasil.to
+#GitHostsPublic#
+
 [htmlscripts]
 name = webscrap/htmlscripts
 checkout = #checkout#/webdev/
@@ -432,5 +438,10 @@ source = privepo.git/
 ;new projects
 [urlrule]
 #GitHostsPublic#
+
+[xiaoranzzz/wiki]
+github = xiaoranzzz/xiaoranzzz.github.com.wiki
+#GitHostsPublic#
+mirror = github.git/xiaoranzzz/xiaoranzzz.github.com
 
 ;	vim:filetype=dosini

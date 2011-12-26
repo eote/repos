@@ -1,0 +1,1 @@
+../scripts/git/s_commit.sh

@@ -124,12 +124,26 @@ d5671bfa7a9d87fb83d14a374422eb03c4f24a44 Update git/config.
 bf496200c91d83ecc91e9ce0a85d2fb32abf8adf Update git/config.
 1ae240164d1d87d5295ba625f16be3f2d9cc676f AVATARS [GIT] commit 2fab0b85: Add avatars for afun, eotect and xrlfun.
 
+privepo/avatars/git:
+2fab0b85115a1d18df3b26c1fcee7f05e920b8c0 Add avatars for afun, eotect and xrlfun.
+cc08080b3dc5fa92eb383f3d40dfa486efc2676d Add xrlfun4.jpg.
+202446c39519f1112412427da255fb7e215c6ee7 Add avatars for xiaoranzzz.
+f152ee9dbd48b399da359c9b7c53c2e38cdc223e Add avatar for xrlfun.
+c1405c8ac631728b93b881452119c63e265463fb Update README again.
+
 privepo/babebase/.git:
 bd9c7895745f0d613f9a702801fed00a1e92d199 BABEBASE [GIT] commit 3d3a2c89: Add rules for freeones.com, pornstarbook.com and gals4free.net.
 ed2cbf0e584b3515a675119a7fc6d238dd04c619 BABEBASE [GIT] commit 8a9c5d13: Update common/href.img.
 0a1fea48dc3e6720e2b87d0800fa76892d12dd77 BABEBASE [GIT] commit 60653a4d: Add sites, common script for <a><img></a>.
 96b0523c9f07334d25e445e462318196d0b75201 BABEBASE [GIT] commit 96a0193e: Add [gods-art.de] rule.
 91166e5509a94d2d3ffd93223716bfbc3f1338c4 Add .reposman.
+
+privepo/babebase/git:
+3d3a2c89b4d90b0c381ef1834a6ffe2af71d91bf Add rules for freeones.com, pornstarbook.com and gals4free.net.
+67884bcee6a92c726e2986c82fbdc9a10a69caa9 Update BABES.URL, HOSTS.URL.
+8a9c5d133e584800831f2bf98f6ed40ad56057db Update common/href.img.
+60653a4dc1dba44f55f791be867602ccef71856b Add sites, common script for <a><img></a>.
+96a0193ec8cfb629af42c2f14f33c7e1a3b80ef2 Add [gods-art.de] rule.
 
 privepo/empty.git:
 b8325601d2a766e5620e6763cfc705d52d979675 initial import
@@ -139,13 +153,27 @@ privepo/foxwps/.git:
 062f60a443aef2bc39cc75ebfb53d5efdeebf24d FOXWPS [GIT] commit c2e42758: 数据录入到20110831, 导入逐月数据。
 55f308b387065429de6b5d5f9273891f35d712a0 Initial commit.
 
+privepo/foxwps/git:
+c2e42758276bf37f29e5fd5dde9123ff38d18143 数据录入到20110831, 导入逐月数据。
+2d4b7f6f8b4e522cce0ad43020ab8cce3191f44e 数据录入至20110817,加入模板替换 脚本.
+22dabec35b6f2986b009903c238fefe5cd0d3a18 录入数据至5月31日。
+d9d1e3c49e9d63adce1889be0be53f5391d68342 录入数据至5月16日。
+ad7db5e3e3d61a3fb2ceef52258ec892c1035226 添加业绩录入模板，更新数据至4月8日。
+
 privepo/fp-afun/.git:
 5df2b2f75832511d772f7579f53dd76674ed6d7c FP-AFUN [GIT] commit 07e82bc5: Update 20121217.
 1f426b30214925ab4c1cf8faa97922329c271146 FP-AFUN [GIT] commit 07e82bc5: Update 20121217.
 
+privepo/fp-afun/git:
+07e82bc55f1d1c29d1ee47777feee44a1d522d1d Update 20121217.
+86b348c369b27d5fd3c157129f7029ea9b964cb9 Initial commit.
+
 privepo/fp-default/.git:
 42ee582c80118248c705b0ae6dc90a81c542f6dd FP-DEFAULT [GIT] commit 36473941: Initial commit.
 ddffdeb6706970aabcb7e58f4893cde9b90d3328 FP-DEFAULT [GIT] commit 36473941: Initial commit.
+
+privepo/fp-default/git:
+36473941f6b6d803f161288f007668b2a802e478 Initial commit.
 
 privepo/gm-scripts/.git:
 c313ba362b090a363bb96b873d9320ed338dee1f GM-SCRIPTS [GIT] commit bbe23fc2: Update imagealbumpanel.
@@ -154,6 +182,13 @@ c313ba362b090a363bb96b873d9320ed338dee1f GM-SCRIPTS [GIT] commit bbe23fc2: Updat
 bfc974c97a575715bc985384defaf51257ac9a90 GM-SCRIPTS [GIT] commit a8f05bb3: Add .reposman.
 8dcc7270e714f149efb659e742095cc45d7270fe Add .reposman.
 
+privepo/gm-scripts/git:
+bbe23fc28d81a280aa98cb2b352dd611970262ff Update imagealbumpanel.
+26decbd9e139248a3f49a44adc2c7712763dbb4a Rename bbspanel to prevnext.
+d56e6100e20c3a8549310a7192394de6a49e3039 Update jquery.
+a3f2212d0561f155e775e9de721e2cf4b59b1df7 Add google_loader.
+58eb83257469dd5760ddce0720abe2a74fee5594 Update imagealbumpanel, parts of code moved to data_miner.js.
+
 privepo/gsbridge/.git:
 08c3d1540fc0d38fd50ac2dbdbdcd81263698e28 GSBRIDGE [GIT] commit b097d64e: added project entries for vcsplace and github-sync
 c4d79a80f6783a63bd6a64ad0a38c20375c7ceb1 GSBRIDGE [GIT] commit ef187690: deleted README
@@ -161,15 +196,35 @@ c4d79a80f6783a63bd6a64ad0a38c20375c7ceb1 GSBRIDGE [GIT] commit ef187690: deleted
 77bd0058995456c448af6a1a40934f5779a35667 GSBRIDGE [SVN] r47 [GIT] commit ef187690: deleted README
 a7b78cff7a5414e479b3550c90be10fcc3b6f724 GSBRIDGE [SVN] r45 [GIT] commit 23156d68: updated projects data
 
+privepo/gsbridge/git:
+b097d64eb74d7e95ec695764f2a48f40b5c8bf24 added project entries for vcsplace and github-sync
+0fbe857b5875e64c28e4d1b0294b717e776d6a70 gsbridge: fixed pulling new projects
+9a39d3b55d2a12f4c375b6f4819ee48f85affd7b gsbridge: downgraded perl version requirement
+f7c53c7485d958425a50d5b0e7ff6513b7e1464a added bootstrap.sh
+3e3a1d12526379f3d5cb829741c07b42cf7cebdf updated .PROJECTS, gsbridge
+
 privepo/linux/.git:
 313f56021e4fe608d394514a247d264344104b51 Add repo.log.
 8af77706da9dcc7269a3d160c21de11222dbf26e LINUX [GIT] commit 4d803191: Update fstab, apt configuration and sudoers.
 b5bfb5a22109c203a9ae5e81abe028369f0cc8c1 Initial commit.
 
+privepo/linux/git:
+4d803191af6280078256cf6a17efdde827ab5351 Update fstab, apt configuration and sudoers.
+d70fc7e636bf7a798e18422234fabf306612af0a Update etc, var.
+02f6bb37d6abb6658178f691d41da58e60e7ab61 update exports
+e3edfb6e275b5dd00dd60767c1fddb9b0988e8a1 initial commit
+
 privepo/privacy/.git:
 869a8f783981fa18c2c1e4944c16fb37b15686a0 Update git/config.
 49f40d10627d917e153aaab24510d4552cc86404 PRIVACY [GIT] commit 0546f601: Add feeds, Update bookmarks.
 b8d299f1e7f51cb7015bd8ff04a1e7c271049bfa Initial commit.
+
+privepo/privacy/git:
+0546f6014b28ede8486bfc6828040e8d362b4a99 Add feeds, Update bookmarks.
+8d9c595f9b7b073f333594854e1e218d36e9a2bb Cleanup bookmarks files, Update bookmarks.
+a54ee89990f1df7606318aea3bba50c42e7bd317 Add bookmarks.
+156a2e6c730cf57bd08625732d68b1fae63df54f Update bookmarks.
+a9c5980d8e09c09cb12d5f2d24fa0c4be998362a Add bm-edit (not-finished).
 
 privepo/root.git:
 82f6cf55359540846afd8a20f764dbc9335e2637 Update babebase,fp-afun,fp-default. Move scripts.
@@ -222,11 +277,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+c19576c2f186c48366a0f95f7a294c2364e9bf1a Update .gitignore.
+3491a19e88817a1fbe67e826ac40a87562b3e7d6 Update urlrule, perl.
 344c9348b8c1ab668345a9c8aa3915dda61a14a3 Update babebase, repos, perl.
 750f266d865a8e97c83d5f8be5dd42199ed0d266 Update perl, libmyplace-perl and urlrule.
 3744119d24341f7dceedb9802178025cf20e0d31 Update babebase repos
-2afb338eed6956fa8055e0bfa5f5fe8da61b187a Update repos.git, reposman.git
-732c4f182a172ba68768208ee59a70939042e1ea Add script auto_commit.pl, Update sub repos.
 
 reposman.git:
 9297d1032fcc4fec90e68b53713310b904d7e030 Action "query" now supports quering array and hash (Fixes issue #2).
@@ -337,16 +392,22 @@ webscrap/templates.git:
 d66e448f79afd9bfa28bf46ec9e2305cd296845c Initial commit.
 
 webscrap/tombloo-data.git:
+e51f9e622cdbc98e41202a9c5e11499c76018a84 Update models for Delicious and Zootool, subclass Twitter and Twitpic.
 6678148863900bc16be1a58ce07914e283c9c519 Add model_misc.
 cb65c2ee1fd59bb17d5cdb8aeb728e470972254b Update models common, 115, baidu, delicious, firefox, ikeepu, youdao, zootool and clipp. Add misc model.
 471ba6f9bc6d52ab754fa8d4d6d96a5110435655 Add video posting support for ikeepu, tumblr and clipp.
 8b7332575c2d991257caafc0f9f2deed23e77742 Remove debug routines.
-ae8d6535add42cd807044ed1481ac5e8b1eb1369 Update model for firefox bookmark.
 
-webscrap/tombloo.git:
-7304c2b6dbf03b34c98b5bd78d51d9272306ad18 Merge remote-tracking branch 'github2/master'
-4f0ceea8ef01cb75b7cfb94bff1fa9d91f2204e8 Delicious、タグ取得とブックマーク済み判定を修正
-970dc87e6659d9e64e3b3791ebd40f36fd3ae93c typo
-98f258bc18069e5003891a02086a4d57f340cea0 Tombloo 0.4.24(新Delicious対応/Pinboard追加/ほかHTML引用などの修正)
-5da8211ac2ee3732e28c25ca871b7e6756c208b9 Delicious、ユーザー名の取得をクッキーの_userを使わないように(ブラウザ再起動で消える)
+webscrap/tombloo-xpi.git:
+39a45c6ddd9a9321989d46ce9bdf06385de4d3d4 Add .reposman.
+4d932f9a57d69e559d22b57ea82c03c7d1c3a002 Initial commit, copy codes from upstream.
+
+xiaoranzzz/wiki.git:
+d289010cf1c649221b5cfec5c405fc0b2e3e90d9 Add Home.wiki.
+d030af3f76e8ce0ed0041bb71faa9916252c691e Merge github wiki.
+ee0562823fb2c6f2f6590c0480139f1d447880a5 Initial Commit
+05fca773f6b0962673363057d5d0e60ecf061697 Update .reposman.
+e3f842221b1bd28bba280b728f61d5330e1fb34f Add reposman control file.
+
+xiaoranzzz/writtings.git:
 

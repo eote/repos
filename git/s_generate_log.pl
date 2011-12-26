@@ -1,0 +1,1 @@
+../scripts/git/s_generate_log.pl
