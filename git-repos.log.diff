@@ -1,4 +1,14 @@
-280d279
-< 685baba839441e01dfc7604ff3a6d34a6a65d22f Update PROJECTS, scripts.
-284a284
-> 3744119d24341f7dceedb9802178025cf20e0d31 Update babebase repos
+304,307d303
+< dd01184d49226efe31085661e773e7ecd23b394b Add name-my-daughter.pl.
+< a0dd99d66a1253f9cc4b2545c60e3bdc3f0e3f76 Add list_download.
+< 58a832b56a097ef9bb20ee01622430999fc5be03 Add is-modified.pl.
+< ef3dfd4c41477c484f7c7d0a7fb96e73c0981497 Update download, script templates...
+308a305,308
+> fabeaf2690ff1d8f763e562e580546de4baf9202 Urlrule moved out, but linked back.
+> e0f932d9d5358064c4be4cd0835ce68682e6b702 Update some scripts.
+> c4719df6d44ccb5291b151f03ba5490dcdfc2639 Deletes .PROJECTS, using .reposman instead.
+> d710b17e3e54af1ab5f82cfec5f1d2fb4dd16085 Fixes \"download\".
+322d321
+< 06a9b4441c9d972fb68d25118288f0369aeef130 Fix lots of bugs, add urlrule_list.
+326a326
+> 27312fd5476db706e93bbfed9c4daca46e456505 Move processing codes from URLRule to URLRule::Processor.
