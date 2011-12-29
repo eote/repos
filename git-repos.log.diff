@@ -1,14 +1,20 @@
-304,307d303
-< dd01184d49226efe31085661e773e7ecd23b394b Add name-my-daughter.pl.
-< a0dd99d66a1253f9cc4b2545c60e3bdc3f0e3f76 Add list_download.
-< 58a832b56a097ef9bb20ee01622430999fc5be03 Add is-modified.pl.
-< ef3dfd4c41477c484f7c7d0a7fb96e73c0981497 Update download, script templates...
-308a305,308
-> fabeaf2690ff1d8f763e562e580546de4baf9202 Urlrule moved out, but linked back.
-> e0f932d9d5358064c4be4cd0835ce68682e6b702 Update some scripts.
-> c4719df6d44ccb5291b151f03ba5490dcdfc2639 Deletes .PROJECTS, using .reposman instead.
-> d710b17e3e54af1ab5f82cfec5f1d2fb4dd16085 Fixes \"download\".
-322d321
-< 06a9b4441c9d972fb68d25118288f0369aeef130 Fix lots of bugs, add urlrule_list.
-326a326
-> 27312fd5476db706e93bbfed9c4daca46e456505 Move processing codes from URLRule to URLRule::Processor.
+179d178
+< 5681f5f89ea013601053aa50ae77906e039104bc GM-SCRIPTS [GIT] commit 3aac91c0: Add user scripts.
+183a183
+> 8dcc7270e714f149efb659e742095cc45d7270fe Add .reposman.
+186d185
+< 3aac91c08d8633090b153559702baa5307dada1f Add user scripts.
+190a190
+> 58eb83257469dd5760ddce0720abe2a74fee5594 Update imagealbumpanel, parts of code moved to data_miner.js.
+240d239
+< 40ecd150b89c04c4ca94388fb24a11e1064f7553 Add searchplugins, update extensions.
+244a244
+> 7c8bd444e71441ba728476366780be3e4087b048 Update extensions 20111215.
+304d303
+< 33d37bc576e60af085378e9aa724e7c34fa26231 Add tombloo-bridge.pl for tombloo.
+308a308
+> 981dbfb36bee9ba43dcbf69142ca128309c0bd60 Modules moved out.
+395d394
+< 648fde402b41eef2eff335522fbd63bb96749bc5 Add model for Websaver and TomblooBridge.
+399a399
+> 8b7332575c2d991257caafc0f9f2deed23e77742 Remove debug routines.

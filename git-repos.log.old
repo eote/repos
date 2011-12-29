@@ -301,11 +301,11 @@ scriptlib/lua.git:
 889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
 
 scriptlib/perl.git:
+dd01184d49226efe31085661e773e7ecd23b394b Add name-my-daughter.pl.
+a0dd99d66a1253f9cc4b2545c60e3bdc3f0e3f76 Add list_download.
+58a832b56a097ef9bb20ee01622430999fc5be03 Add is-modified.pl.
+ef3dfd4c41477c484f7c7d0a7fb96e73c0981497 Update download, script templates...
 981dbfb36bee9ba43dcbf69142ca128309c0bd60 Modules moved out.
-fabeaf2690ff1d8f763e562e580546de4baf9202 Urlrule moved out, but linked back.
-e0f932d9d5358064c4be4cd0835ce68682e6b702 Update some scripts.
-c4719df6d44ccb5291b151f03ba5490dcdfc2639 Deletes .PROJECTS, using .reposman instead.
-d710b17e3e54af1ab5f82cfec5f1d2fb4dd16085 Fixes \"download\".
 
 scriptlib/sh.git:
 a51aa67b44f5c1d78a69ed23f7b95f1e3ad31a1b Add r-at-rtorrent, r-firefox-afun
@@ -319,11 +319,11 @@ b0bb735d00ec8f9385cf4afc3b4e6b17ce46962b Add script get_rand_mail.
 6602d3253fc27420cad404af63c673bdc0ed232e Initial commit.
 
 urlrule.git:
+06a9b4441c9d972fb68d25118288f0369aeef130 Fix lots of bugs, add urlrule_list.
 89d8b97614cfb933df89c1434ff40d8b798e088a Add testing script.
 d0fbe27a4a0fb14cd5ea035163471c914a810219 Update some scripts.
 d5ef4b6b892c1d2a5583be3134899e8e2c123636 Rewrite urlrule_action and urlrule_task for using MyPlace::URLRule::OO instead.
 a5d1d5b311dd25d92866b543bf69769d49ab9798 Add MyPlace::URLRule::OO.
-27312fd5476db706e93bbfed9c4daca46e456505 Move processing codes from URLRule to URLRule::Processor.
 
 usys/sysbuilder.git:
 cd34e291324ab1ace552d27bda128fbe28ba559d Fix files mode and pathname.
