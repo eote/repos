@@ -1,20 +1,30 @@
-179d178
-< 5681f5f89ea013601053aa50ae77906e039104bc GM-SCRIPTS [GIT] commit 3aac91c0: Add user scripts.
-183a183
-> 8dcc7270e714f149efb659e742095cc45d7270fe Add .reposman.
-186d185
-< 3aac91c08d8633090b153559702baa5307dada1f Add user scripts.
-190a190
-> 58eb83257469dd5760ddce0720abe2a74fee5594 Update imagealbumpanel, parts of code moved to data_miner.js.
-240d239
-< 40ecd150b89c04c4ca94388fb24a11e1064f7553 Add searchplugins, update extensions.
-244a244
-> 7c8bd444e71441ba728476366780be3e4087b048 Update extensions 20111215.
-304d303
-< 33d37bc576e60af085378e9aa724e7c34fa26231 Add tombloo-bridge.pl for tombloo.
-308a308
-> 981dbfb36bee9ba43dcbf69142ca128309c0bd60 Modules moved out.
-395d394
-< 648fde402b41eef2eff335522fbd63bb96749bc5 Add model for Websaver and TomblooBridge.
-399a399
-> 8b7332575c2d991257caafc0f9f2deed23e77742 Remove debug routines.
+50,51d49
+< d8d5348dcda800362753e9019286a85e0e8d11a2 Add Bookmarks::Parser, update Reposman::Projects and Google::Search.
+< 95fa473546a27f8110954944412384ed8f9dcd89 Update Script::Message.
+54a53,54
+> 875c80e2ee278c214a97aab7393df2e7cc85690c Add Reposman::Projects.
+> 1f1af0bd3d13faa8c69737eb7d0dcedeb4d1b31b Update IniExt.pm, from reposman.
+280,283d279
+< 67f4be7e821b69c3aa36ce9998669c23055a9c82 Update refs.
+< c0f57944ef72151c42c922ff2257cbb18ee45901 Update firefox,perl,urlrule,tombloo-data.
+< 904a20139885968663f7d8dabb887f647f40f45a Updage scriptlib/perl and urlrule.
+< d1dff6dbe550545cfac11cf2489fe5f577dec40f Update repos.
+284a281,284
+> c19576c2f186c48366a0f95f7a294c2364e9bf1a Update .gitignore.
+> 3491a19e88817a1fbe67e826ac40a87562b3e7d6 Update urlrule, perl.
+> 344c9348b8c1ab668345a9c8aa3915dda61a14a3 Update babebase, repos, perl.
+> 750f266d865a8e97c83d5f8be5dd42199ed0d266 Update perl, libmyplace-perl and urlrule.
+287,288d286
+< 5b96691ddb04634e67b3f07d8d1514067852c455 Update utils.
+< b40eabce8302447fc4df0ea4e770e5bb9714de77 Add utils.
+291a290,291
+> c57f4a446027a96077579cdc24dc1456af51417f Update installer script.
+> a47e8accf6b4cff4a02ce298c4d82a210887a4ae Add testing files.
+311d310
+< a652003dc249bafeb2fd2bd53a69b267f7b53944 Update linepipe and r-mplayer.
+315a315
+> a42178044a4d67a210658db40ca36163c80a03da added scripts 7z-store, raysource and thunder. updated scripts r-edit and shnew
+322d321
+< 80855526c0e70f1cc60e05fecf0e14728157adcc Fix directory creating.
+326a326
+> a5d1d5b311dd25d92866b543bf69769d49ab9798 Add MyPlace::URLRule::OO.

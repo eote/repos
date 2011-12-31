@@ -47,11 +47,11 @@ excs/learningperl.git:
 4f272ffee3008d9f59b42e356788f5fc416fa7f6 Initial commit.
 
 libmyplace-perl.git:
+d8d5348dcda800362753e9019286a85e0e8d11a2 Add Bookmarks::Parser, update Reposman::Projects and Google::Search.
+95fa473546a27f8110954944412384ed8f9dcd89 Update Script::Message.
 b2dae46ae6365a31f0c30b96f584a43927355c85 Update Google/Search/HTML.pm, IniExt.pm, Reposman/Projects.pm, Script/Message.pm, URLRule.pm.
 a985e65dd3d4fe3131d2601b157bc544ea6d5cb0 Update Script::Usage.
 915ad8b481cf7e3ee34eb7e407cf806840b97f4a Fix Reposman::Projects::query_repos().
-875c80e2ee278c214a97aab7393df2e7cc85690c Add Reposman::Projects.
-1f1af0bd3d13faa8c69737eb7d0dcedeb4d1b31b Update IniExt.pm, from reposman.
 
 losep/core.git:
 c61dfd049b5201d6f19cdb4e7c6ca67310cd235d Update vim scripts to match version 7.3.
@@ -277,18 +277,18 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+67f4be7e821b69c3aa36ce9998669c23055a9c82 Update refs.
+c0f57944ef72151c42c922ff2257cbb18ee45901 Update firefox,perl,urlrule,tombloo-data.
+904a20139885968663f7d8dabb887f647f40f45a Updage scriptlib/perl and urlrule.
+d1dff6dbe550545cfac11cf2489fe5f577dec40f Update repos.
 685baba839441e01dfc7604ff3a6d34a6a65d22f Update PROJECTS, scripts.
-c19576c2f186c48366a0f95f7a294c2364e9bf1a Update .gitignore.
-3491a19e88817a1fbe67e826ac40a87562b3e7d6 Update urlrule, perl.
-344c9348b8c1ab668345a9c8aa3915dda61a14a3 Update babebase, repos, perl.
-750f266d865a8e97c83d5f8be5dd42199ed0d266 Update perl, libmyplace-perl and urlrule.
 
 reposman.git:
+5b96691ddb04634e67b3f07d8d1514067852c455 Update utils.
+b40eabce8302447fc4df0ea4e770e5bb9714de77 Add utils.
 9297d1032fcc4fec90e68b53713310b904d7e030 Action "query" now supports quering array and hash (Fixes issue #2).
 4171bc6f596b11d7b0dcbebcaaac013c815637ba New issue Summary:Action "query" not working properly Status:	Accepted Labels: Bugs
 23a77ab225c2755b8119360fd2520c7b0616872e New issue
-c57f4a446027a96077579cdc24dc1456af51417f Update installer script.
-a47e8accf6b4cff4a02ce298c4d82a210887a4ae Add testing files.
 
 scriptlib/batch.git:
 cb455189784f20cbd7a35ee819036aed024ce293 initial commit
@@ -308,22 +308,22 @@ a0dd99d66a1253f9cc4b2545c60e3bdc3f0e3f76 Add list_download.
 ef3dfd4c41477c484f7c7d0a7fb96e73c0981497 Update download, script templates...
 
 scriptlib/sh.git:
+a652003dc249bafeb2fd2bd53a69b267f7b53944 Update linepipe and r-mplayer.
 a51aa67b44f5c1d78a69ed23f7b95f1e3ad31a1b Add r-at-rtorrent, r-firefox-afun
 d5929dc50724361ee1d15b2fe41c052cd5899aa4 Add script chmod_reset.
 dab8b4b5396eb0048dd3f03211c76beaa915f50c updated script "myphone"
 8f034c839689139137791e60a3fd5f97085da741 rename git-svn-clone-googlecode to gsvn-clone-googlecode
-a42178044a4d67a210658db40ca36163c80a03da added scripts 7z-store, raysource and thunder. updated scripts r-edit and shnew
 
 scriptlib/wscript.git:
 b0bb735d00ec8f9385cf4afc3b4e6b17ce46962b Add script get_rand_mail.
 6602d3253fc27420cad404af63c673bdc0ed232e Initial commit.
 
 urlrule.git:
+80855526c0e70f1cc60e05fecf0e14728157adcc Fix directory creating.
 06a9b4441c9d972fb68d25118288f0369aeef130 Fix lots of bugs, add urlrule_list.
 89d8b97614cfb933df89c1434ff40d8b798e088a Add testing script.
 d0fbe27a4a0fb14cd5ea035163471c914a810219 Update some scripts.
 d5ef4b6b892c1d2a5583be3134899e8e2c123636 Rewrite urlrule_action and urlrule_task for using MyPlace::URLRule::OO instead.
-a5d1d5b311dd25d92866b543bf69769d49ab9798 Add MyPlace::URLRule::OO.
 
 usys/sysbuilder.git:
 cd34e291324ab1ace552d27bda128fbe28ba559d Fix files mode and pathname.
