@@ -47,7 +47,7 @@ excs/learningperl.git:
 4f272ffee3008d9f59b42e356788f5fc416fa7f6 Initial commit.
 
 libmyplace-perl.git:
-d8d5348dcda800362753e9019286a85e0e8d11a2 Add Bookmarks::Parser, update Reposman::Projects and Google::Search.
+f3ba9a55075a9c6eda36216d161e10d1061a18e1 Add Bookmarks::Parser, update Reposman::Projects and Google::Search.
 95fa473546a27f8110954944412384ed8f9dcd89 Update Script::Message.
 b2dae46ae6365a31f0c30b96f584a43927355c85 Update Google/Search/HTML.pm, IniExt.pm, Reposman/Projects.pm, Script/Message.pm, URLRule.pm.
 a985e65dd3d4fe3131d2601b157bc544ea6d5cb0 Update Script::Usage.
@@ -176,14 +176,14 @@ privepo/fp-default/git:
 36473941f6b6d803f161288f007668b2a802e478 Initial commit.
 
 privepo/gm-scripts/.git:
-5681f5f89ea013601053aa50ae77906e039104bc GM-SCRIPTS [GIT] commit 3aac91c0: Add user scripts.
+d2d4e97e3a73bd1fb402e85cc5fd3df4f8414498 GM-SCRIPTS [GIT] commit 4a4fee26: Add user scripts.
+b9e5541ba2ca1e574620c4ae300aab43a950ec4d GM-SCRIPTS [GIT] commit 3aac91c0: Add user scripts.
 c313ba362b090a363bb96b873d9320ed338dee1f GM-SCRIPTS [GIT] commit bbe23fc2: Update imagealbumpanel.
 0ddde828a1554530cc92fb1e84fc6a8d559ebf44 GM-SCRIPTS [GIT] commit 58eb8325: Update imagealbumpanel, parts of code moved to data_miner.js.
 6556392e166fac3536d85745afe84ece2a7104b2 GM-SCRIPTS [GIT] commit 45a45788: Eotect Global Panel, Google_Mod, Image Album Panel, and Links Navigator Updated.
-bfc974c97a575715bc985384defaf51257ac9a90 GM-SCRIPTS [GIT] commit a8f05bb3: Add .reposman.
 
 privepo/gm-scripts/git:
-3aac91c08d8633090b153559702baa5307dada1f Add user scripts.
+4a4fee266e8cbbd290b0740e1667c850f1d607df Add user scripts.
 bbe23fc28d81a280aa98cb2b352dd611970262ff Update imagealbumpanel.
 26decbd9e139248a3f49a44adc2c7712763dbb4a Rename bbspanel to prevnext.
 d56e6100e20c3a8549310a7192394de6a49e3039 Update jquery.
@@ -237,7 +237,7 @@ profs/config-awesome.git:
 5e3a3885ac671a801b4add53be631492049d01a6 Initial commit.
 
 profs/firefox.git:
-40ecd150b89c04c4ca94388fb24a11e1064f7553 Add searchplugins, update extensions.
+cc2774be270e8c9266ae482f907738162e61d0a5 Add searchplugins, update extensions.
 91c890a235b632ac5f7fed41bb3a70165089c64a Update 20111217.
 efb1df4df2cabcb4b3ae65972d416126d5c47691 Update sub-modules: websaver2, gm_scripts and tombloo.
 6ce0b1c12cc06e1273d335368b14da956f490b9d Add .deeplink.pl
@@ -277,15 +277,15 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
-67f4be7e821b69c3aa36ce9998669c23055a9c82 Update refs.
-c0f57944ef72151c42c922ff2257cbb18ee45901 Update firefox,perl,urlrule,tombloo-data.
-904a20139885968663f7d8dabb887f647f40f45a Updage scriptlib/perl and urlrule.
-d1dff6dbe550545cfac11cf2489fe5f577dec40f Update repos.
-685baba839441e01dfc7604ff3a6d34a6a65d22f Update PROJECTS, scripts.
+385d9adec1aa1e3a3698a5786a8ebf1f295f9e42 Update libmyplace-perl, repos, reposman, sh and urlrule.
+29b7b63b191f8d684e09b15091288eba36d7dabd Update refs.
+ee91b7ab484e42df7a4d514c3c66069b413cd9df Update firefox,perl,urlrule,tombloo-data.
+71a026e040760b54bec454dec98b0e99144306ec Updage scriptlib/perl and urlrule.
+804f82eaa4295141d8d3ee8efc8b057bbefbe37e Update repos.
 
 reposman.git:
-5b96691ddb04634e67b3f07d8d1514067852c455 Update utils.
-b40eabce8302447fc4df0ea4e770e5bb9714de77 Add utils.
+a6181d4fe7921f86253c3dece838cca5147f4fe2 Update utils.
+d1d9bb3d1b9a3de60ce1bf7314918b0a4bbd10dc Add utils.
 9297d1032fcc4fec90e68b53713310b904d7e030 Action "query" now supports quering array and hash (Fixes issue #2).
 4171bc6f596b11d7b0dcbebcaaac013c815637ba New issue Summary:Action "query" not working properly Status:	Accepted Labels: Bugs
 23a77ab225c2755b8119360fd2520c7b0616872e New issue
@@ -392,7 +392,7 @@ webscrap/templates.git:
 d66e448f79afd9bfa28bf46ec9e2305cd296845c Initial commit.
 
 webscrap/tombloo-data.git:
-648fde402b41eef2eff335522fbd63bb96749bc5 Add model for Websaver and TomblooBridge.
+a9f317c33c346de58912c651afc98072c08928ed Add model for Websaver and TomblooBridge.
 e51f9e622cdbc98e41202a9c5e11499c76018a84 Update models for Delicious and Zootool, subclass Twitter and Twitpic.
 6678148863900bc16be1a58ce07914e283c9c519 Add model_misc.
 cb65c2ee1fd59bb17d5cdb8aeb728e470972254b Update models common, 115, baidu, delicious, firefox, ikeepu, youdao, zootool and clipp. Add misc model.
