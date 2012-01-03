@@ -47,11 +47,11 @@ excs/learningperl.git:
 4f272ffee3008d9f59b42e356788f5fc416fa7f6 Initial commit.
 
 libmyplace-perl.git:
+8449cffe6f26842751633f84f270e415c60a3f0a Add HashArray, for simple configuration.
+34762e2d97e172a237b3f1fcf2772b88ef1c4a42 Add Program::Batchget and Program::Download.
 f3ba9a55075a9c6eda36216d161e10d1061a18e1 Add Bookmarks::Parser, update Reposman::Projects and Google::Search.
 95fa473546a27f8110954944412384ed8f9dcd89 Update Script::Message.
 b2dae46ae6365a31f0c30b96f584a43927355c85 Update Google/Search/HTML.pm, IniExt.pm, Reposman/Projects.pm, Script/Message.pm, URLRule.pm.
-a985e65dd3d4fe3131d2601b157bc544ea6d5cb0 Update Script::Usage.
-915ad8b481cf7e3ee34eb7e407cf806840b97f4a Fix Reposman::Projects::query_repos().
 
 losep/core.git:
 c61dfd049b5201d6f19cdb4e7c6ca67310cd235d Update vim scripts to match version 7.3.
@@ -301,11 +301,11 @@ scriptlib/lua.git:
 889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
 
 scriptlib/perl.git:
-33d37bc576e60af085378e9aa724e7c34fa26231 Add tombloo-bridge.pl for tombloo.
-dd01184d49226efe31085661e773e7ecd23b394b Add name-my-daughter.pl.
-a0dd99d66a1253f9cc4b2545c60e3bdc3f0e3f76 Add list_download.
-58a832b56a097ef9bb20ee01622430999fc5be03 Add is-modified.pl.
-ef3dfd4c41477c484f7c7d0a7fb96e73c0981497 Update download, script templates...
+add2220cd7b20f0a0ad290a3036212afcaa9bd3c Move codes of batch and download to libmyplace-perl.
+7963cec01a28f252cdd985e257cf1698487e2de9 Add script git-change-author.pl.
+231915d3b39909ed29dc95fc66e790525e53e550 Add tombloo-bridge.pl for tombloo.
+2147c2c16b85b11662a88d3ef3d30c06e7d60796 Add name-my-daughter.pl.
+b44caa0af3bacb9489bc5db90ed5a09290d42bcb Add list_download.
 
 scriptlib/sh.git:
 a652003dc249bafeb2fd2bd53a69b267f7b53944 Update linepipe and r-mplayer.
