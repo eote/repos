@@ -132,18 +132,18 @@ f152ee9dbd48b399da359c9b7c53c2e38cdc223e Add avatar for xrlfun.
 c1405c8ac631728b93b881452119c63e265463fb Update README again.
 
 privepo/babebase/.git:
+155b0547536dfe179882ccb37d7df3b380148f16 BABEBASE [GIT] commit 3763ef41: Convert MyPlace::HTTPGet to MyPlace::LWP.
 89614936a237186bcad57c82329bc7c02585a2cd BABEBASE [GIT] commit 42ea63f4: Add rules for poco.cn.
 bd9c7895745f0d613f9a702801fed00a1e92d199 BABEBASE [GIT] commit 3d3a2c89: Add rules for freeones.com, pornstarbook.com and gals4free.net.
 ed2cbf0e584b3515a675119a7fc6d238dd04c619 BABEBASE [GIT] commit 8a9c5d13: Update common/href.img.
 0a1fea48dc3e6720e2b87d0800fa76892d12dd77 BABEBASE [GIT] commit 60653a4d: Add sites, common script for <a><img></a>.
-96b0523c9f07334d25e445e462318196d0b75201 BABEBASE [GIT] commit 96a0193e: Add [gods-art.de] rule.
 
 privepo/babebase/git:
+3763ef41d973de0c5d34cd63b1da159d9c78d978 Convert MyPlace::HTTPGet to MyPlace::LWP.
 42ea63f4a986eb371ef0441d19d9e5f708da9b10 Add rules for poco.cn.
 4a681d6ba5932355c10454c6cafc5f59605dbdf5 Add rules for cgcccp.com.
 7717256ec80148d20f2116993f569da75935def8 Update rules for searching engines.
 11852084fb49dc181a41761960ed2a3090979c58 Add rules for blog.sohu.com.
-6fe5c104ff48c2072f38540d6c1cbebc16f2e466 Add rules for kaixin001.com.
 
 privepo/empty.git:
 b8325601d2a766e5620e6763cfc705d52d979675 initial import
@@ -278,11 +278,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+7585e50c1b38f691ee94a5ce01386c1335678ce8 Add git/.is-modified.
+edb64dc1485b3c673cb28ce39b91f0e1187d91c4 Update some repositories.
 d1496b792aab9433a045fede280ab4bd95ce6637 Delete repository refs.
 8339f65524afb920465928943d977596e9d58d5b Update logs.
 385d9adec1aa1e3a3698a5786a8ebf1f295f9e42 Update libmyplace-perl, repos, reposman, sh and urlrule.
-29b7b63b191f8d684e09b15091288eba36d7dabd Update refs.
-ee91b7ab484e42df7a4d514c3c66069b413cd9df Update firefox,perl,urlrule,tombloo-data.
 
 reposman.git:
 a6181d4fe7921f86253c3dece838cca5147f4fe2 Update utils.
@@ -387,6 +387,7 @@ webscrap/htmlscripts.git:
 0c9778ad58a99bd2725e81dcd539e485d5d69987 Initial commit.
 
 webscrap/http-myplace.git:
+a10af833aa37bb972b85c75b00e30d594bdeb001 Re-orginize directories layouts.
 ed747f127f3a3846da268ce87967dee494c6f422 initial commit
 
 webscrap/templates.git:

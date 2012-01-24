@@ -47,11 +47,11 @@ excs/learningperl.git:
 4f272ffee3008d9f59b42e356788f5fc416fa7f6 Initial commit.
 
 libmyplace-perl.git:
+93944e4980584e3339da3c6def37b2c0f7146730 Update lots of modules.
 8449cffe6f26842751633f84f270e415c60a3f0a Add HashArray, for simple configuration.
 34762e2d97e172a237b3f1fcf2772b88ef1c4a42 Add Program::Batchget and Program::Download.
 f3ba9a55075a9c6eda36216d161e10d1061a18e1 Add Bookmarks::Parser, update Reposman::Projects and Google::Search.
 95fa473546a27f8110954944412384ed8f9dcd89 Update Script::Message.
-b2dae46ae6365a31f0c30b96f584a43927355c85 Update Google/Search/HTML.pm, IniExt.pm, Reposman/Projects.pm, Script/Message.pm, URLRule.pm.
 
 losep/core.git:
 c61dfd049b5201d6f19cdb4e7c6ca67310cd235d Update vim scripts to match version 7.3.
@@ -132,33 +132,34 @@ f152ee9dbd48b399da359c9b7c53c2e38cdc223e Add avatar for xrlfun.
 c1405c8ac631728b93b881452119c63e265463fb Update README again.
 
 privepo/babebase/.git:
+89614936a237186bcad57c82329bc7c02585a2cd BABEBASE [GIT] commit 42ea63f4: Add rules for poco.cn.
 bd9c7895745f0d613f9a702801fed00a1e92d199 BABEBASE [GIT] commit 3d3a2c89: Add rules for freeones.com, pornstarbook.com and gals4free.net.
 ed2cbf0e584b3515a675119a7fc6d238dd04c619 BABEBASE [GIT] commit 8a9c5d13: Update common/href.img.
 0a1fea48dc3e6720e2b87d0800fa76892d12dd77 BABEBASE [GIT] commit 60653a4d: Add sites, common script for <a><img></a>.
 96b0523c9f07334d25e445e462318196d0b75201 BABEBASE [GIT] commit 96a0193e: Add [gods-art.de] rule.
-91166e5509a94d2d3ffd93223716bfbc3f1338c4 Add .reposman.
 
 privepo/babebase/git:
-3d3a2c89b4d90b0c381ef1834a6ffe2af71d91bf Add rules for freeones.com, pornstarbook.com and gals4free.net.
-67884bcee6a92c726e2986c82fbdc9a10a69caa9 Update BABES.URL, HOSTS.URL.
-8a9c5d133e584800831f2bf98f6ed40ad56057db Update common/href.img.
-60653a4dc1dba44f55f791be867602ccef71856b Add sites, common script for <a><img></a>.
-96a0193ec8cfb629af42c2f14f33c7e1a3b80ef2 Add [gods-art.de] rule.
+42ea63f4a986eb371ef0441d19d9e5f708da9b10 Add rules for poco.cn.
+4a681d6ba5932355c10454c6cafc5f59605dbdf5 Add rules for cgcccp.com.
+7717256ec80148d20f2116993f569da75935def8 Update rules for searching engines.
+11852084fb49dc181a41761960ed2a3090979c58 Add rules for blog.sohu.com.
+6fe5c104ff48c2072f38540d6c1cbebc16f2e466 Add rules for kaixin001.com.
 
 privepo/empty.git:
 b8325601d2a766e5620e6763cfc705d52d979675 initial import
 
 privepo/foxwps/.git:
+7f6fbbfe5e2942a5c9730350027bbbd9b03b3a4d FOXWPS [GIT] commit e73bf354: Update 20120112, 使用EXCEL录入。
 56d441ba4cab0236d4573b16c9f58ac05c1ce411 Update git/config.
 062f60a443aef2bc39cc75ebfb53d5efdeebf24d FOXWPS [GIT] commit c2e42758: 数据录入到20110831, 导入逐月数据。
 55f308b387065429de6b5d5f9273891f35d712a0 Initial commit.
 
 privepo/foxwps/git:
+e73bf35432c21bd660d4aeafc6012ed1c8532dfb Update 20120112, 使用EXCEL录入。
 c2e42758276bf37f29e5fd5dde9123ff38d18143 数据录入到20110831, 导入逐月数据。
 2d4b7f6f8b4e522cce0ad43020ab8cce3191f44e 数据录入至20110817,加入模板替换 脚本.
 22dabec35b6f2986b009903c238fefe5cd0d3a18 录入数据至5月31日。
 d9d1e3c49e9d63adce1889be0be53f5391d68342 录入数据至5月16日。
-ad7db5e3e3d61a3fb2ceef52258ec892c1035226 添加业绩录入模板，更新数据至4月8日。
 
 privepo/fp-afun/.git:
 5df2b2f75832511d772f7579f53dd76674ed6d7c FP-AFUN [GIT] commit 07e82bc5: Update 20121217.
@@ -301,11 +302,11 @@ scriptlib/lua.git:
 889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
 
 scriptlib/perl.git:
-add2220cd7b20f0a0ad290a3036212afcaa9bd3c Move codes of batch and download to libmyplace-perl.
-7963cec01a28f252cdd985e257cf1698487e2de9 Add script git-change-author.pl.
-231915d3b39909ed29dc95fc66e790525e53e550 Add tombloo-bridge.pl for tombloo.
-2147c2c16b85b11662a88d3ef3d30c06e7d60796 Add name-my-daughter.pl.
-b44caa0af3bacb9489bc5db90ed5a09290d42bcb Add list_download.
+65d86442c807acc838ff5dd5b0d461bf3e723c2b Add blog.163.com.
+f09d35476719841c903213e54eaaf5b6f0194c5c Update tombloo-bridge.pl for hooking script.
+aac29eb0d452649b3620d2e2c180f5d86d1d0a6c Update renameext.
+a14d5d5922347f5bcee776a42a7f95a8ac9a6eae Update batchget.
+b9c80105d4b6d4f96ed1dc755644d9f41af44a20 Update r-config.
 
 scriptlib/sh.git:
 a652003dc249bafeb2fd2bd53a69b267f7b53944 Update linepipe and r-mplayer.
@@ -319,11 +320,11 @@ b0bb735d00ec8f9385cf4afc3b4e6b17ce46962b Add script get_rand_mail.
 6602d3253fc27420cad404af63c673bdc0ed232e Initial commit.
 
 urlrule.git:
-80855526c0e70f1cc60e05fecf0e14728157adcc Fix directory creating.
-06a9b4441c9d972fb68d25118288f0369aeef130 Fix lots of bugs, add urlrule_list.
+327cba32709c03dbb3b131a8d04e8433ebcc001b Update modules and scripts.
+3432f38dd064b1b4c0843b9b49faa381d1dd4e7d Update MyPlace::URLRule, MyPlace::URLRule:OO and urlrule_task.
+e9704e17c30c98f5ec2413da122d4a48967d5a1a Fix directory creating.
+e3141c8fcfaba7fb6932d9b1d41269730d9467ad Fix lots of bugs, add urlrule_list.
 89d8b97614cfb933df89c1434ff40d8b798e088a Add testing script.
-d0fbe27a4a0fb14cd5ea035163471c914a810219 Update some scripts.
-d5ef4b6b892c1d2a5583be3134899e8e2c123636 Rewrite urlrule_action and urlrule_task for using MyPlace::URLRule::OO instead.
 
 usys/sysbuilder.git:
 cd34e291324ab1ace552d27bda128fbe28ba559d Fix files mode and pathname.
