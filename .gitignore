@@ -28,3 +28,4 @@ git/losep/
 git/losep.git/
 git/urlrule.git/
 */
+!git/.is-modified

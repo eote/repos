@@ -1,16 +1,12 @@
+50d49
+< 0cc6ea91b7163735a2e8172fc57201c4468923c2 Add LWP and 163::Photo, update 163::Blog, Program::Batchget and Program::Download.
+54a54
+> 95fa473546a27f8110954944412384ed8f9dcd89 Update Script::Message.
 135d134
-< 155b0547536dfe179882ccb37d7df3b380148f16 BABEBASE [GIT] commit 3763ef41: Convert MyPlace::HTTPGet to MyPlace::LWP.
+< 7112d1c0be2c2c9ff050dfb60069eb44600fc7a9 BABEBASE [GIT] commit c71ec394: Add supports for blog.163.com and photo.163.com.
 139a139
-> 96b0523c9f07334d25e445e462318196d0b75201 BABEBASE [GIT] commit 96a0193e: Add [gods-art.de] rule.
+> 0a1fea48dc3e6720e2b87d0800fa76892d12dd77 BABEBASE [GIT] commit 60653a4d: Add sites, common script for <a><img></a>.
 142d141
-< 3763ef41d973de0c5d34cd63b1da159d9c78d978 Convert MyPlace::HTTPGet to MyPlace::LWP.
+< c71ec394f79ebe4b2a6b9ce16a07d0485e6a4b2c Add supports for blog.163.com and photo.163.com.
 146a146
-> 6fe5c104ff48c2072f38540d6c1cbebc16f2e466 Add rules for kaixin001.com.
-281,282d280
-< 7585e50c1b38f691ee94a5ce01386c1335678ce8 Add git/.is-modified.
-< edb64dc1485b3c673cb28ce39b91f0e1187d91c4 Update some repositories.
-285a284,285
-> 29b7b63b191f8d684e09b15091288eba36d7dabd Update refs.
-> ee91b7ab484e42df7a4d514c3c66069b413cd9df Update firefox,perl,urlrule,tombloo-data.
-390d389
-< a10af833aa37bb972b85c75b00e30d594bdeb001 Re-orginize directories layouts.
+> 11852084fb49dc181a41761960ed2a3090979c58 Add rules for blog.sohu.com.

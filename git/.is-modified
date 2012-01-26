@@ -28,8 +28,8 @@ badcodes/c.git/HEAD:1306933741
 websaver2.git/refs/heads/master:1323922028
 urlrule.git/refs/heads/master:1326662545
 privepo/linux/.git/HEAD:1322899056
-privepo/babebase/.git/refs/heads/master:1326662910
-repos.git/refs/heads/master:1326663207
+privepo/babebase/.git/refs/heads/master:1327400911
+repos.git/refs/heads/master:1327416202
 usys/xrdos.git/HEAD:1306933745
 scriptlib/sh.git/HEAD:1306933745
 libmyplace-perl.git/HEAD:1325615480
@@ -75,7 +75,7 @@ badcodes/c.git/refs/heads/master:1311867568
 privepo/empty.git/index:1322761936
 vcsplace/ws.git/refs/heads/master:1306933745
 privepo/babebase/git/HEAD:1306933743
-privepo/babebase/.git/index:1326662910
+privepo/babebase/.git/index:1327400910
 badcodes/freebasic.git/HEAD:1306933741
 privepo/linux/git/refs/heads/master:1316962060
 privepo/linux/.git/refs/heads/master:1322899164
@@ -83,7 +83,7 @@ privepo/root.git/HEAD:1322761922
 webscrap/http-myplace.git/refs/heads/master:1327399049
 webscrap/htmlscripts.git/HEAD:1306933745
 privepo/foxwps/.git/HEAD:1322825402
-webscrap/http-myplace.git/HEAD:1306933745
+webscrap/http-myplace.git/HEAD:1327468035
 privepo/gsbridge/.git/refs/heads/master:1322841274
 utils.git/HEAD:1306933745
 webscrap/tombloo-xpi.git/HEAD:1325615493
@@ -113,7 +113,7 @@ scriptlib/wscript.git/HEAD:1306933745
 badcodes/eclipse.git/HEAD:1306933741
 xiaoranzzz/wiki.git/HEAD:1324717926
 usys/sysbuilder.git/HEAD:1306933745
-privepo/babebase/git/refs/heads/master:1326826803
+privepo/babebase/git/refs/heads/master:1327606633
 prints/drawings.git/HEAD:1306933742
 prints/ebooks.git/index:1311867569
 reposman.git/refs/heads/saved:1323076864
@@ -121,7 +121,7 @@ urlrule.git/HEAD:1324372708
 vcsplace/github-sync.git/HEAD:1306933745
 badcodes/vsnet.git/refs/heads/master:1306933742
 reposman.git/refs/heads/master:1325511527
-libmyplace-perl.git/refs/heads/master:1326662482
+libmyplace-perl.git/refs/heads/master:1327606715
 scriptlib/wscript.git/refs/heads/master:1306933745
 privepo/privacy/.git/refs/heads/master:1322842238
 privepo/fp-afun/.git/HEAD:1324150407
