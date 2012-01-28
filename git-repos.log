@@ -278,11 +278,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+9f952a1ad61eb9824c96460c1e20a2fe8c1810ad Update libmyplace-perl and babebase.
 d7b9e70af0a9adf941d2a38516b63f64f030c331 Update babebase, repos, http-myplace and PROJECT.
 7585e50c1b38f691ee94a5ce01386c1335678ce8 Add git/.is-modified.
 edb64dc1485b3c673cb28ce39b91f0e1187d91c4 Update some repositories.
 d1496b792aab9433a045fede280ab4bd95ce6637 Delete repository refs.
-8339f65524afb920465928943d977596e9d58d5b Update logs.
 
 reposman.git:
 a6181d4fe7921f86253c3dece838cca5147f4fe2 Update utils.
@@ -318,6 +318,11 @@ dab8b4b5396eb0048dd3f03211c76beaa915f50c updated script "myphone"
 scriptlib/wscript.git:
 b0bb735d00ec8f9385cf4afc3b4e6b17ce46962b Add script get_rand_mail.
 6602d3253fc27420cad404af63c673bdc0ed232e Initial commit.
+
+sourcebook.git:
+522bfbd742a5597abcc070313e0689af47ba8c71 Add oddmuse CVS clone.
+4d765f201087cd7c03115e0fab012f60a0e87a8a Add oddmuse-1.934.
+c5e9c4f14a2b934770896a52b7aba8a8182f4efb Initial commit.
 
 urlrule.git:
 327cba32709c03dbb3b131a8d04e8433ebcc001b Update modules and scripts.
@@ -387,6 +392,7 @@ webscrap/htmlscripts.git:
 0c9778ad58a99bd2725e81dcd539e485d5d69987 Initial commit.
 
 webscrap/http-myplace.git:
+f71ff4d8612362a3904bf782ee4f673bbe814e83 Update sctipts, MyPlace::OddmuseMod::*.
 a10af833aa37bb972b85c75b00e30d594bdeb001 Re-orginize directories layouts.
 ed747f127f3a3846da268ce87967dee494c6f422 initial commit
 

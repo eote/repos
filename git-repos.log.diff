@@ -1,12 +1,12 @@
-50d49
-< 0cc6ea91b7163735a2e8172fc57201c4468923c2 Add LWP and 163::Photo, update 163::Blog, Program::Batchget and Program::Download.
-54a54
-> 95fa473546a27f8110954944412384ed8f9dcd89 Update Script::Message.
-135d134
-< 7112d1c0be2c2c9ff050dfb60069eb44600fc7a9 BABEBASE [GIT] commit c71ec394: Add supports for blog.163.com and photo.163.com.
-139a139
-> 0a1fea48dc3e6720e2b87d0800fa76892d12dd77 BABEBASE [GIT] commit 60653a4d: Add sites, common script for <a><img></a>.
-142d141
-< c71ec394f79ebe4b2a6b9ce16a07d0485e6a4b2c Add supports for blog.163.com and photo.163.com.
-146a146
-> 11852084fb49dc181a41761960ed2a3090979c58 Add rules for blog.sohu.com.
+281d280
+< 9f952a1ad61eb9824c96460c1e20a2fe8c1810ad Update libmyplace-perl and babebase.
+285a285
+> 8339f65524afb920465928943d977596e9d58d5b Update logs.
+322,326d321
+< sourcebook.git:
+< 522bfbd742a5597abcc070313e0689af47ba8c71 Add oddmuse CVS clone.
+< 4d765f201087cd7c03115e0fab012f60a0e87a8a Add oddmuse-1.934.
+< c5e9c4f14a2b934770896a52b7aba8a8182f4efb Initial commit.
+< 
+395d389
+< f71ff4d8612362a3904bf782ee4f673bbe814e83 Update sctipts, MyPlace::OddmuseMod::*.

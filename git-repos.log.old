@@ -47,11 +47,11 @@ excs/learningperl.git:
 4f272ffee3008d9f59b42e356788f5fc416fa7f6 Initial commit.
 
 libmyplace-perl.git:
+0cc6ea91b7163735a2e8172fc57201c4468923c2 Add LWP and 163::Photo, update 163::Blog, Program::Batchget and Program::Download.
 93944e4980584e3339da3c6def37b2c0f7146730 Update lots of modules.
 8449cffe6f26842751633f84f270e415c60a3f0a Add HashArray, for simple configuration.
 34762e2d97e172a237b3f1fcf2772b88ef1c4a42 Add Program::Batchget and Program::Download.
 f3ba9a55075a9c6eda36216d161e10d1061a18e1 Add Bookmarks::Parser, update Reposman::Projects and Google::Search.
-95fa473546a27f8110954944412384ed8f9dcd89 Update Script::Message.
 
 losep/core.git:
 c61dfd049b5201d6f19cdb4e7c6ca67310cd235d Update vim scripts to match version 7.3.
@@ -132,18 +132,18 @@ f152ee9dbd48b399da359c9b7c53c2e38cdc223e Add avatar for xrlfun.
 c1405c8ac631728b93b881452119c63e265463fb Update README again.
 
 privepo/babebase/.git:
+7112d1c0be2c2c9ff050dfb60069eb44600fc7a9 BABEBASE [GIT] commit c71ec394: Add supports for blog.163.com and photo.163.com.
 155b0547536dfe179882ccb37d7df3b380148f16 BABEBASE [GIT] commit 3763ef41: Convert MyPlace::HTTPGet to MyPlace::LWP.
 89614936a237186bcad57c82329bc7c02585a2cd BABEBASE [GIT] commit 42ea63f4: Add rules for poco.cn.
 bd9c7895745f0d613f9a702801fed00a1e92d199 BABEBASE [GIT] commit 3d3a2c89: Add rules for freeones.com, pornstarbook.com and gals4free.net.
 ed2cbf0e584b3515a675119a7fc6d238dd04c619 BABEBASE [GIT] commit 8a9c5d13: Update common/href.img.
-0a1fea48dc3e6720e2b87d0800fa76892d12dd77 BABEBASE [GIT] commit 60653a4d: Add sites, common script for <a><img></a>.
 
 privepo/babebase/git:
+c71ec394f79ebe4b2a6b9ce16a07d0485e6a4b2c Add supports for blog.163.com and photo.163.com.
 3763ef41d973de0c5d34cd63b1da159d9c78d978 Convert MyPlace::HTTPGet to MyPlace::LWP.
 42ea63f4a986eb371ef0441d19d9e5f708da9b10 Add rules for poco.cn.
 4a681d6ba5932355c10454c6cafc5f59605dbdf5 Add rules for cgcccp.com.
 7717256ec80148d20f2116993f569da75935def8 Update rules for searching engines.
-11852084fb49dc181a41761960ed2a3090979c58 Add rules for blog.sohu.com.
 
 privepo/empty.git:
 b8325601d2a766e5620e6763cfc705d52d979675 initial import

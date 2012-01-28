@@ -445,4 +445,10 @@ github = xiaoranzzz/xiaoranzzz.github.com.wiki
 #GitHostsPublic#
 mirror = github.git/xiaoranzzz/xiaoranzzz.github.com
 
+[sourcebook]
+name = eote/sourcebook
+local = sourcebook
+sf-zrepos = sourcebook
+#GitHostsPublic#
+
 ;	vim:filetype=dosini
