@@ -82,11 +82,11 @@ losep.git:
 0b4e98c37216646b2ebdae3e954154eb16b58420 Add data/console2, update cmd/console2.bat.
 
 nightgun.git:
-7e10000b376b17e70d598fa84c8630e08f5c0350 added .repos, config file for gsvn-init-repo
-7361bff89b5cbab2e22d4be3de096b1b50e7934c update README
-c3c73457965a2fb2b0b379faf9640a66c19a5433 add git related files
-865322e569346db3c38ab8e0f21079d93b38a499 update desktop file
-c21cd6e88e12edb2500a3af67c46015203e2f452 source clean up
+bf4e2b97b25cbb76b4f048b5e278ac7157a30393 Update CGI script.
+8175c956f3d2be9603256d42556638eef9550b31 Update CGI script.
+1779a860f4192745783827b22ff85a44111b18ec Upgrade to version v1.20.
+8b6f0751a89fb1536d270c375c2813917b8b2686 Add CGI config sample.
+924f357e79e9ec0871bef4eeadc064986acb8fd0 Add CGI script nightgun-cgi.pl
 
 plaintexts/notes.git:
 1a2b3fa9bad83e3c984864e9a1e528e88c780577 Initial commit.
@@ -132,18 +132,18 @@ f152ee9dbd48b399da359c9b7c53c2e38cdc223e Add avatar for xrlfun.
 c1405c8ac631728b93b881452119c63e265463fb Update README again.
 
 privepo/babebase/.git:
+6abcba81286a03a42859f276e268c9b29ae49c18 BABEBASE [GIT] commit 42863317: Add/Update '0/dp.pconline.com.cn 1/dp.pconline.com.cn 2/dp.pconline.com.cn 3/dp.pconline.com.cn'
 7112d1c0be2c2c9ff050dfb60069eb44600fc7a9 BABEBASE [GIT] commit c71ec394: Add supports for blog.163.com and photo.163.com.
 155b0547536dfe179882ccb37d7df3b380148f16 BABEBASE [GIT] commit 3763ef41: Convert MyPlace::HTTPGet to MyPlace::LWP.
 89614936a237186bcad57c82329bc7c02585a2cd BABEBASE [GIT] commit 42ea63f4: Add rules for poco.cn.
 bd9c7895745f0d613f9a702801fed00a1e92d199 BABEBASE [GIT] commit 3d3a2c89: Add rules for freeones.com, pornstarbook.com and gals4free.net.
-ed2cbf0e584b3515a675119a7fc6d238dd04c619 BABEBASE [GIT] commit 8a9c5d13: Update common/href.img.
 
 privepo/babebase/git:
+42863317d3a86fa0b1c39cf1a28b0eb1d089a752 Add/Update '0/dp.pconline.com.cn 1/dp.pconline.com.cn 2/dp.pconline.com.cn 3/dp.pconline.com.cn'
 c71ec394f79ebe4b2a6b9ce16a07d0485e6a4b2c Add supports for blog.163.com and photo.163.com.
 3763ef41d973de0c5d34cd63b1da159d9c78d978 Convert MyPlace::HTTPGet to MyPlace::LWP.
 42ea63f4a986eb371ef0441d19d9e5f708da9b10 Add rules for poco.cn.
 4a681d6ba5932355c10454c6cafc5f59605dbdf5 Add rules for cgcccp.com.
-7717256ec80148d20f2116993f569da75935def8 Update rules for searching engines.
 
 privepo/empty.git:
 b8325601d2a766e5620e6763cfc705d52d979675 initial import
@@ -278,11 +278,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+ae7d67bffd362d2ec0e535c70201461b59875c82 Update PROJECTS.
 9f952a1ad61eb9824c96460c1e20a2fe8c1810ad Update libmyplace-perl and babebase.
 d7b9e70af0a9adf941d2a38516b63f64f030c331 Update babebase, repos, http-myplace and PROJECT.
 7585e50c1b38f691ee94a5ce01386c1335678ce8 Add git/.is-modified.
 edb64dc1485b3c673cb28ce39b91f0e1187d91c4 Update some repositories.
-d1496b792aab9433a045fede280ab4bd95ce6637 Delete repository refs.
 
 reposman.git:
 a6181d4fe7921f86253c3dece838cca5147f4fe2 Update utils.
@@ -309,11 +309,11 @@ a14d5d5922347f5bcee776a42a7f95a8ac9a6eae Update batchget.
 b9c80105d4b6d4f96ed1dc755644d9f41af44a20 Update r-config.
 
 scriptlib/sh.git:
-a652003dc249bafeb2fd2bd53a69b267f7b53944 Update linepipe and r-mplayer.
-a51aa67b44f5c1d78a69ed23f7b95f1e3ad31a1b Add r-at-rtorrent, r-firefox-afun
-d5929dc50724361ee1d15b2fe41c052cd5899aa4 Add script chmod_reset.
-dab8b4b5396eb0048dd3f03211c76beaa915f50c updated script "myphone"
-8f034c839689139137791e60a3fd5f97085da741 rename git-svn-clone-googlecode to gsvn-clone-googlecode
+92b95016a33f965cee2d404450f03545b4990c76 Add/Update 'un7zfolder'
+af886e8f7f365e132602b739ac1b5265948fc49a Add/Update 'pl2html'
+19e01268f80d21deaad7e33842274a83c94c3ed9 Add/Update 'omm_dir2page'
+a91f8e61e8b63ba5a4d2a175b8b96ee9810e538a Add/Update 'git-acommit'
+8d2906fcb4bde1222a5674e0529945a2cb325df0 Add/Update 'fehdir fehdir_select'
 
 scriptlib/wscript.git:
 b0bb735d00ec8f9385cf4afc3b4e6b17ce46962b Add script get_rand_mail.
@@ -325,11 +325,11 @@ sourcebook.git:
 c5e9c4f14a2b934770896a52b7aba8a8182f4efb Initial commit.
 
 urlrule.git:
-327cba32709c03dbb3b131a8d04e8433ebcc001b Update modules and scripts.
-3432f38dd064b1b4c0843b9b49faa381d1dd4e7d Update MyPlace::URLRule, MyPlace::URLRule:OO and urlrule_task.
-e9704e17c30c98f5ec2413da122d4a48967d5a1a Fix directory creating.
-e3141c8fcfaba7fb6932d9b1d41269730d9467ad Fix lots of bugs, add urlrule_list.
-89d8b97614cfb933df89c1434ff40d8b798e088a Add testing script.
+462bc33f0d3e842c6b4cd5e01c8dc3b9da00332d Add/Update 'lib/MyPlace/URLRule/OO.pm'
+e649e31eaa3ecc13170866137aeadb7290b9ac72 Add/Update 'lib/MyPlace/URLRule.pm'
+bdc9cf2a17a481e6197c00de6461a4387f09a852 Add/Update 'bin/urlrule_task'
+078990410c36c6141dc36b73147d520ff0142517 Add/Update 'bin/urlrule_new'
+17d933ccd31f19d0a23e9d18d3e68e1710fe9e9f add lib/MyPlace/URLRule/Utils.pm
 
 usys/sysbuilder.git:
 cd34e291324ab1ace552d27bda128fbe28ba559d Fix files mode and pathname.
@@ -392,6 +392,7 @@ webscrap/htmlscripts.git:
 0c9778ad58a99bd2725e81dcd539e485d5d69987 Initial commit.
 
 webscrap/http-myplace.git:
+8f503cec98d4853ff452e5a3842dddaa25ff3a76 Add MyPlace::OddmuseMod::Action
 f71ff4d8612362a3904bf782ee4f673bbe814e83 Update sctipts, MyPlace::OddmuseMod::*.
 a10af833aa37bb972b85c75b00e30d594bdeb001 Re-orginize directories layouts.
 ed747f127f3a3846da268ce87967dee494c6f422 initial commit
