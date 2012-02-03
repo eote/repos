@@ -408,6 +408,9 @@ cb65c2ee1fd59bb17d5cdb8aeb728e470972254b Update models common, 115, baidu, delic
 471ba6f9bc6d52ab754fa8d4d6d96a5110435655 Add video posting support for ikeepu, tumblr and clipp.
 
 webscrap/tombloo-xpi.git:
+52aa896a17fab095af18b3b8822b529dd3b38984 Sync with upstream commit ef984a2f "AppShopper、iOSアプリ名の取得失敗を修正".
+4328d77f5cd82b700f1b0f63ca104cb8cddb14ae Upgrade to v0.4.28 from upstream.
+097876575565f20711d38c8b111796ad1cab494e Add submodule upstream.
 39a45c6ddd9a9321989d46ce9bdf06385de4d3d4 Add .reposman.
 4d932f9a57d69e559d22b57ea82c03c7d1c3a002 Initial commit, copy codes from upstream.
 
