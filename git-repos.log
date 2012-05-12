@@ -47,11 +47,11 @@ excs/learningperl.git:
 4f272ffee3008d9f59b42e356788f5fc416fa7f6 Initial commit.
 
 libmyplace-perl.git:
+e192b4e7f5988083ea4d70b0b8149a458d032bb9 Update Discuz, add Time.
 0cc6ea91b7163735a2e8172fc57201c4468923c2 Add LWP and 163::Photo, update 163::Blog, Program::Batchget and Program::Download.
 93944e4980584e3339da3c6def37b2c0f7146730 Update lots of modules.
 8449cffe6f26842751633f84f270e415c60a3f0a Add HashArray, for simple configuration.
 34762e2d97e172a237b3f1fcf2772b88ef1c4a42 Add Program::Batchget and Program::Download.
-f3ba9a55075a9c6eda36216d161e10d1061a18e1 Add Bookmarks::Parser, update Reposman::Projects and Google::Search.
 
 losep/core.git:
 c61dfd049b5201d6f19cdb4e7c6ca67310cd235d Update vim scripts to match version 7.3.
@@ -177,18 +177,18 @@ privepo/fp-default/git:
 36473941f6b6d803f161288f007668b2a802e478 Initial commit.
 
 privepo/gm-scripts/.git:
+11afaca36fc1a588bd1bdda6fa81a6a4eb50faf9 GM-SCRIPTS [GIT] commit bb6fe7b7: Update imagealbumpanel and pages_lister.
+471d601a372fe5814478d41edbb0e19ae55cbb6b GM-SCRIPTS [GIT] commit 089db828: Update randomformfiller.
 d2d4e97e3a73bd1fb402e85cc5fd3df4f8414498 GM-SCRIPTS [GIT] commit 4a4fee26: Add user scripts.
 b9e5541ba2ca1e574620c4ae300aab43a950ec4d GM-SCRIPTS [GIT] commit 3aac91c0: Add user scripts.
 c313ba362b090a363bb96b873d9320ed338dee1f GM-SCRIPTS [GIT] commit bbe23fc2: Update imagealbumpanel.
-0ddde828a1554530cc92fb1e84fc6a8d559ebf44 GM-SCRIPTS [GIT] commit 58eb8325: Update imagealbumpanel, parts of code moved to data_miner.js.
-6556392e166fac3536d85745afe84ece2a7104b2 GM-SCRIPTS [GIT] commit 45a45788: Eotect Global Panel, Google_Mod, Image Album Panel, and Links Navigator Updated.
 
 privepo/gm-scripts/git:
+bb6fe7b71fcb080a80e4415243cc300cbc4e0a01 Update imagealbumpanel and pages_lister.
+089db828969e67ed44ccb3ef3c94e5c462f3c4f0 Update randomformfiller.
 4a4fee266e8cbbd290b0740e1667c850f1d607df Add user scripts.
 bbe23fc28d81a280aa98cb2b352dd611970262ff Update imagealbumpanel.
 26decbd9e139248a3f49a44adc2c7712763dbb4a Rename bbspanel to prevnext.
-d56e6100e20c3a8549310a7192394de6a49e3039 Update jquery.
-a3f2212d0561f155e775e9de721e2cf4b59b1df7 Add google_loader.
 
 privepo/gsbridge/.git:
 08c3d1540fc0d38fd50ac2dbdbdcd81263698e28 GSBRIDGE [GIT] commit b097d64e: added project entries for vcsplace and github-sync
@@ -205,11 +205,13 @@ f7c53c7485d958425a50d5b0e7ff6513b7e1464a added bootstrap.sh
 3e3a1d12526379f3d5cb829741c07b42cf7cebdf updated .PROJECTS, gsbridge
 
 privepo/linux/.git:
+c90b88156ce7864b209f383c7b47f610c2716fb8 LINUX [GIT] commit 13fe387b: Update at 20120213.
 313f56021e4fe608d394514a247d264344104b51 Add repo.log.
 8af77706da9dcc7269a3d160c21de11222dbf26e LINUX [GIT] commit 4d803191: Update fstab, apt configuration and sudoers.
 b5bfb5a22109c203a9ae5e81abe028369f0cc8c1 Initial commit.
 
 privepo/linux/git:
+13fe387b25a8b531f1d84c787f50ea19ecbc11e9 Update at 20120213.
 4d803191af6280078256cf6a17efdde827ab5351 Update fstab, apt configuration and sudoers.
 d70fc7e636bf7a798e18422234fabf306612af0a Update etc, var.
 02f6bb37d6abb6658178f691d41da58e60e7ab61 update exports
@@ -284,12 +286,15 @@ d7b9e70af0a9adf941d2a38516b63f64f030c331 Update babebase, repos, http-myplace an
 7585e50c1b38f691ee94a5ce01386c1335678ce8 Add git/.is-modified.
 edb64dc1485b3c673cb28ce39b91f0e1187d91c4 Update some repositories.
 
+reposman/utils.git:
+1c94487e627047c01c61a0c6dcb0c140cff17c86 Initial commit.
+
 reposman.git:
+136c3698813d9f10ad337ca6499f5bfb7428bc41 Remove utils which moved to a standalone repository.
+e20c4bdaebf1478415511c4f1a3d93d90a515b74 Update utils.
+7b01c5a8cf367c8cd25a64af053fc60f0ae031b4 Update utils.
 a6181d4fe7921f86253c3dece838cca5147f4fe2 Update utils.
 d1d9bb3d1b9a3de60ce1bf7314918b0a4bbd10dc Add utils.
-9297d1032fcc4fec90e68b53713310b904d7e030 Action "query" now supports quering array and hash (Fixes issue #2).
-4171bc6f596b11d7b0dcbebcaaac013c815637ba New issue Summary:Action "query" not working properly Status:	Accepted Labels: Bugs
-23a77ab225c2755b8119360fd2520c7b0616872e New issue
 
 scriptlib/batch.git:
 cb455189784f20cbd7a35ee819036aed024ce293 initial commit
@@ -302,11 +307,11 @@ scriptlib/lua.git:
 889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
 
 scriptlib/perl.git:
+f7b428d96ae7861cdc092d525968f48383a5b3bb Update discuz_*, MyPlace::Discuz,tagfs ...
 65d86442c807acc838ff5dd5b0d461bf3e723c2b Add blog.163.com.
 f09d35476719841c903213e54eaaf5b6f0194c5c Update tombloo-bridge.pl for hooking script.
 aac29eb0d452649b3620d2e2c180f5d86d1d0a6c Update renameext.
 a14d5d5922347f5bcee776a42a7f95a8ac9a6eae Update batchget.
-b9c80105d4b6d4f96ed1dc755644d9f41af44a20 Update r-config.
 
 scriptlib/sh.git:
 92b95016a33f965cee2d404450f03545b4990c76 Add/Update 'un7zfolder'
@@ -401,18 +406,18 @@ webscrap/templates.git:
 d66e448f79afd9bfa28bf46ec9e2305cd296845c Initial commit.
 
 webscrap/tombloo-data.git:
-a9f317c33c346de58912c651afc98072c08928ed Add model for Websaver and TomblooBridge.
-e51f9e622cdbc98e41202a9c5e11499c76018a84 Update models for Delicious and Zootool, subclass Twitter and Twitpic.
-6678148863900bc16be1a58ce07914e283c9c519 Add model_misc.
-cb65c2ee1fd59bb17d5cdb8aeb728e470972254b Update models common, 115, baidu, delicious, firefox, ikeepu, youdao, zootool and clipp. Add misc model.
-471ba6f9bc6d52ab754fa8d4d6d96a5110435655 Add video posting support for ikeepu, tumblr and clipp.
+0a594d04aa12f4a10800245d07908024abfb6bce Add/Update '21_Model_Tuita.js'
+2d3bb504ce8e9eb32a15143e769b5b59c694d6b6 Add/Update '21_Model_Delicious.js'
+c3edf915ec2351b5212726723f742d7e5f29a548 Add/Update '19_Model_Common.js'
+5346db74e009fe5703c4dfb00de7ca864bb9bbaf Update Model_Tuita.
+c0eac4963a81e3cf62060653c3932c0214c6c570 Fix model for tuita.com.
 
 webscrap/tombloo-xpi.git:
-52aa896a17fab095af18b3b8822b529dd3b38984 Sync with upstream commit ef984a2f "AppShopper、iOSアプリ名の取得失敗を修正".
-4328d77f5cd82b700f1b0f63ca104cb8cddb14ae Upgrade to v0.4.28 from upstream.
-097876575565f20711d38c8b111796ad1cab494e Add submodule upstream.
-39a45c6ddd9a9321989d46ce9bdf06385de4d3d4 Add .reposman.
-4d932f9a57d69e559d22b57ea82c03c7d1c3a002 Initial commit, copy codes from upstream.
+235cc354b52345370920df9363307ae6596e7037 Merge upstream commits, up to commit 97d2ad1ce2b6b1e7d0a283cf8e858730fdfa972e.
+e31dbf41df33cf429b0e30a12727d14a3fc6ca26 Update script sync_upstream.sh
+2b216bd591097a5a69734610d34bbfae6ba3dc95 Sync with upstream commit 6bfcfc3fbee05.
+73463957d985c3d0134e80e55bd94843d2b9db09 Update install.rdf, readd upstream.
+01bad1b72e5327c7b78b0e28101c2069328c53a4 Rename extension, update quickPostForm UI.
 
 xiaoranzzz/wiki.git:
 d289010cf1c649221b5cfec5c405fc0b2e3e90d9 Add Home.wiki.

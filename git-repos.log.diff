@@ -1,4 +1,10 @@
-411,413d410
-< 52aa896a17fab095af18b3b8822b529dd3b38984 Sync with upstream commit ef984a2f "AppShopper、iOSアプリ名の取得失敗を修正".
-< 4328d77f5cd82b700f1b0f63ca104cb8cddb14ae Upgrade to v0.4.28 from upstream.
-< 097876575565f20711d38c8b111796ad1cab494e Add submodule upstream.
+409,412d408
+< 0a594d04aa12f4a10800245d07908024abfb6bce Add/Update '21_Model_Tuita.js'
+< 2d3bb504ce8e9eb32a15143e769b5b59c694d6b6 Add/Update '21_Model_Delicious.js'
+< c3edf915ec2351b5212726723f742d7e5f29a548 Add/Update '19_Model_Common.js'
+< 5346db74e009fe5703c4dfb00de7ca864bb9bbaf Update Model_Tuita.
+413a410,413
+> edef66b5b0f2c2eb39389293a5b54c21ae3679bc Add model for tuita.com.
+> c7264ecaf38e59cfb0b8c1da9a92e4141c14e6c6 Update Models for Delicious and IKeepu.
+> e6caff7075e9ff13e4736fd4bc6d9ed736aace33 Update Delicious, using HTTPS.
+> 3c1c23794dfba10a663569bb11c801cd617b3aa4 Update IKeepu, TomblooBridge and WeHeartIt.

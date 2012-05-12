@@ -7,7 +7,7 @@ profs/config-awesome.git/refs/heads/master:1321453248
 privepo/foxwps/.git/index:1326662909
 scriptlib/lua.git/HEAD:1306933745
 losep.git/refs/heads/master:1323709079
-privepo/gm-scripts/git/refs/heads/master:1325321872
+privepo/gm-scripts/git/refs/heads/master:1336311295
 plaintexts/texts.git/index:1306933745
 privepo/linux/git/HEAD:1312985655
 privepo/babebase/.git/HEAD:1322759844
@@ -15,7 +15,7 @@ losep/losebox.git/HEAD:1306933742
 badluck.git/HEAD:1311867568
 privepo/fp-afun/git/HEAD:1324109711
 badcodes/vsnet.git/HEAD:1306933742
-privepo/linux/.git/index:1324918471
+privepo/linux/.git/index:1330429145
 privepo/fp-default/.git/index:1324918470
 vcsplace/ws.git/HEAD:1306933745
 usys/toolbox.git/HEAD:1306933745
@@ -26,6 +26,7 @@ privepo/fp-default/git/refs/heads/master:1324110007
 privepo/fp-afun/.git/refs/heads/master:1324190739
 badcodes/devcpp.git/HEAD:1306933741
 badcodes/c.git/HEAD:1306933741
+reposman/utils.git/HEAD:1329075193
 websaver2.git/refs/heads/master:1323922028
 urlrule.git/refs/heads/master:1328207727
 privepo/linux/.git/HEAD:1322899056
@@ -38,9 +39,9 @@ websaver2.git/HEAD:1306933746
 usys/utils.git/refs/heads/master:1306933745
 scriptlib/batch.git/HEAD:1306933744
 badcodes/vb6.git/HEAD:1306933742
-webscrap/tombloo-xpi.git/refs/heads/master:1328291525
+webscrap/tombloo-xpi.git/refs/heads/master:1333640151
 webscrap/templates.git/HEAD:1306933745
-webscrap/tombloo-data.git/refs/heads/master:1325511527
+webscrap/tombloo-data.git/refs/heads/master:1336844446
 excs/learningperl.git/refs/heads/master:1321963965
 xiaoranzzz/writtings.git/HEAD:1324717908
 profs/mails.git/HEAD:1298573103
@@ -50,7 +51,7 @@ profs/firefox.git/HEAD:1306933743
 profs/homebase.git/refs/heads/master:1321782200
 privepo/gsbridge/.git/HEAD:1322761968
 losep.git/HEAD:1306933742
-privepo/gm-scripts/.git/refs/heads/master:1325321967
+privepo/gm-scripts/.git/refs/heads/master:1336670986
 plaintexts/texts.git/HEAD:1306933745
 privepo/privacy/git/HEAD:1306933744
 privepo/empty.git/refs/heads/master:1322761936
@@ -65,6 +66,7 @@ repos.git/HEAD:1321974135
 privepo/foxwps/.git/refs/heads/master:1326662909
 sourcebook.git/refs/heads/master:1327754492
 scriptlib/logo.git/HEAD:1306933745
+reposman/utils.git/refs/heads/master:1329076770
 xiaoranzzz/wiki.git/refs/heads/master:1324719712
 excs/learningperl.git/HEAD:1321963323
 plaintexts/notes.git/HEAD:1306933745
@@ -79,8 +81,8 @@ vcsplace/ws.git/refs/heads/master:1306933745
 privepo/babebase/git/HEAD:1306933743
 privepo/babebase/.git/index:1328207883
 badcodes/freebasic.git/HEAD:1306933741
-privepo/linux/git/refs/heads/master:1316962060
-privepo/linux/.git/refs/heads/master:1322899164
+privepo/linux/git/refs/heads/master:1329139508
+privepo/linux/.git/refs/heads/master:1330429145
 privepo/root.git/HEAD:1322761922
 webscrap/http-myplace.git/refs/heads/master:1327843909
 webscrap/htmlscripts.git/HEAD:1306933745
@@ -109,7 +111,7 @@ privepo/gsbridge/git/index:1306933745
 nightgun.git/HEAD:1306933742
 sourcebook.git/HEAD:1327752601
 webscrap/editplaces.git/refs/heads/master:1305294284
-scriptlib/perl.git/refs/heads/master:1326662488
+scriptlib/perl.git/refs/heads/master:1336310892
 privepo/fp-afun/.git/index:1324918469
 losep/core.git/HEAD:1322845555
 scriptlib/wscript.git/HEAD:1306933745
@@ -123,12 +125,12 @@ reposman.git/refs/heads/saved:1323076864
 urlrule.git/HEAD:1324372708
 vcsplace/github-sync.git/HEAD:1306933745
 badcodes/vsnet.git/refs/heads/master:1306933742
-reposman.git/refs/heads/master:1325511527
-libmyplace-perl.git/refs/heads/master:1327606715
+libmyplace-perl.git/refs/heads/master:1336310940
+reposman.git/refs/heads/master:1329077040
 scriptlib/wscript.git/refs/heads/master:1306933745
 privepo/privacy/.git/refs/heads/master:1322842238
 privepo/fp-afun/.git/HEAD:1324150407
-privepo/gm-scripts/.git/index:1325321967
+privepo/gm-scripts/.git/index:1336670986
 privepo/gm-scripts/git/HEAD:1306933743
 privepo/avatars/.git/index:1324918469
 privepo/.git/refs/heads/master:1324328291
