@@ -190,7 +190,7 @@ checkout = perl/modules/MyPlace
 #GitHostsPublic2#
 
 [reposman]
-#GitHostsPublic2#
+#GitHostsPublic#
 
 [losep]
 #GitHostsPublic#
@@ -450,5 +450,10 @@ name = eote/sourcebook
 local = sourcebook
 sf-zrepos = sourcebook
 #GitHostsPublic#
+
+[reposman/utils]
+name = reposman/utils
+#GitHostsPublic#
+
 
 ;	vim:filetype=dosini
