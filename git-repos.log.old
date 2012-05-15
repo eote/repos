@@ -280,11 +280,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+7bb9268b835458f832210667c5a5142361a64c41 Update project
+6c52d8ecaca5c60744a63120fe68376ea8b6c6b5 Update tombloo-data
+caba355f926111cad960fc02153e39cc736b8291 Update tombloo-xpi.
+e044fc82fcbb26dac521b6e0dc823a5dc72b9de3 Update sh and nightgun.
 ae7d67bffd362d2ec0e535c70201461b59875c82 Update PROJECTS.
-9f952a1ad61eb9824c96460c1e20a2fe8c1810ad Update libmyplace-perl and babebase.
-d7b9e70af0a9adf941d2a38516b63f64f030c331 Update babebase, repos, http-myplace and PROJECT.
-7585e50c1b38f691ee94a5ce01386c1335678ce8 Add git/.is-modified.
-edb64dc1485b3c673cb28ce39b91f0e1187d91c4 Update some repositories.
 
 reposman/utils.git:
 1c94487e627047c01c61a0c6dcb0c140cff17c86 Initial commit.
@@ -406,11 +406,11 @@ webscrap/templates.git:
 d66e448f79afd9bfa28bf46ec9e2305cd296845c Initial commit.
 
 webscrap/tombloo-data.git:
-c0eac4963a81e3cf62060653c3932c0214c6c570 Fix model for tuita.com.
-edef66b5b0f2c2eb39389293a5b54c21ae3679bc Add model for tuita.com.
-c7264ecaf38e59cfb0b8c1da9a92e4141c14e6c6 Update Models for Delicious and IKeepu.
-e6caff7075e9ff13e4736fd4bc6d9ed736aace33 Update Delicious, using HTTPS.
-3c1c23794dfba10a663569bb11c801cd617b3aa4 Update IKeepu, TomblooBridge and WeHeartIt.
+6dc4c0943e46eca41e8f3f4c2032da74e560caf6 Add model for diandian.com.
+dcc6606c0a4d0de4d7824e9ee2038bf4e06fa87d Add/Update '21_Model_Delicious.js 21_Model_Tuita.js'
+0a594d04aa12f4a10800245d07908024abfb6bce Add/Update '21_Model_Tuita.js'
+2d3bb504ce8e9eb32a15143e769b5b59c694d6b6 Add/Update '21_Model_Delicious.js'
+c3edf915ec2351b5212726723f742d7e5f29a548 Add/Update '19_Model_Common.js'
 
 webscrap/tombloo-xpi.git:
 235cc354b52345370920df9363307ae6596e7037 Merge upstream commits, up to commit 97d2ad1ce2b6b1e7d0a283cf8e858730fdfa972e.
