@@ -1,10 +1,72 @@
-409d408
-< 56bec1ed60a96b9733091ce3a216235a6b3367a7 Clean ps.item in pre_post
-413a413
-> c3edf915ec2351b5212726723f742d7e5f29a548 Add/Update '19_Model_Common.js'
-416,417d415
-< 59c479a7965ac017271fb3cd99ca00ebac08bea4 Sync with upstream commit 5cdd056 Tombloo 0.4.30.
-< 4351c02cc4c1c48c893b272f3499d09a3ec9aae7 Make cleaner ps.item.
-420a419,420
-> 73463957d985c3d0134e80e55bd94843d2b9db09 Update install.rdf, readd upstream.
-> 01bad1b72e5327c7b78b0e28101c2069328c53a4 Rename extension, update quickPostForm UI.
+135d134
+< 35b5bf7f378b8a0e20bf99438e3241427c39b467 BABEBASE [GIT] commit 54076e70: Update rules, add rules
+139a139
+> bd9c7895745f0d613f9a702801fed00a1e92d199 BABEBASE [GIT] commit 3d3a2c89: Add rules for freeones.com, pornstarbook.com and gals4free.net.
+142,145d141
+< 54076e70f5b39318f25ee6444f5d9032cc928887 Update rules, add rules
+< 98c3b0df3d554a34a0cc900ad2a9f85ea3a26fa3 Update rule: facebook.com
+< c28df2269c308c0243cbe16c0fe26487e93dbb5a Update rules: moko.cc
+< 4b679051764aea4eff1eaf3c3c3218cc1452f95b Update rules: fotop.net, snaapa.com
+146a143,146
+> c71ec394f79ebe4b2a6b9ce16a07d0485e6a4b2c Add supports for blog.163.com and photo.163.com.
+> 3763ef41d973de0c5d34cd63b1da159d9c78d978 Convert MyPlace::HTTPGet to MyPlace::LWP.
+> 42ea63f4a986eb371ef0441d19d9e5f708da9b10 Add rules for poco.cn.
+> 4a681d6ba5932355c10454c6cafc5f59605dbdf5 Add rules for cgcccp.com.
+180d179
+< 9dd18699ad01232832e165c9cbbadc8eef58fbce GM-SCRIPTS [GIT] commit a691d276: Update lots of scripts.
+184a184
+> c313ba362b090a363bb96b873d9320ed338dee1f GM-SCRIPTS [GIT] commit bbe23fc2: Update imagealbumpanel.
+187,189d186
+< a691d276b73142028a420efa547a49454d90c377 Update lots of scripts.
+< 2f7d43003ad1eacb82839cadb4c96fc0bc681e4a Update script: imagealbumpanel.
+< 78ed514b8654b3d722128fd95f9f3edc3f0317b5 Update imagealbumpanel.
+191a189,191
+> 4a4fee266e8cbbd290b0740e1667c850f1d607df Add user scripts.
+> bbe23fc28d81a280aa98cb2b352dd611970262ff Update imagealbumpanel.
+> 26decbd9e139248a3f49a44adc2c7712763dbb4a Rename bbspanel to prevnext.
+311,312d310
+< 9eb23cce9980e9dc214a7a20419ce226fb85cc37 Add/Update 'bookmarks-split.pl'
+< 92d3c06a931650e6ff463afa395820c682e37b78 Add/Update 'ping-facebook.pl'
+315a314,315
+> 1829e1e17e7595d5ce4582331a2f37a60f58ff9c Add opml2html.
+> f7b428d96ae7861cdc092d525968f48383a5b3bb Update discuz_*, MyPlace::Discuz,tagfs ...
+318d317
+< a81b946a8e04864b11cc35f8fa73680d56285ab9 Add/Update 'r-afun r-at-rtorrent'
+322a322
+> a91f8e61e8b63ba5a4d2a175b8b96ee9810e538a Add/Update 'git-acommit'
+397,403d396
+< webscrap/fanqiang.git:
+< cac40e42393dd8334446b61bc6e365a75e329063 Add reposman configuration file.
+< 401c30bed150a3630adbb716a82e9688183a4cf7 Add README.
+< 5aea18a547a86186dab04819af228b7bdbed9de2 Update hosts
+< f1391b00a59b9f10e818a21e9a055cdb557ecc90 initial commit "hosts" based on "smarthosts"
+< bc438d165477aea62d8ba1bb0e82a162339cb272 Update smarthosts 2012-10-9
+< 
+413,419d405
+< webscrap/Scripts-for-Tombloo.git:
+< 4213bff3f248c88f27169ceeac4253f7449bfb23 Add circles supports to model.gplus
+< d716ffde93c5314e00391cf15b64cc6cca98f76e Avoid any patch conflict
+< b2a080ed36121825b30c73cecb8b3f41feed69cc Fixed a bug that couldn't upload with the https only setting on Twitter
+< bb9d96b4db57add0f036da8ddc3063661181024f Revised a way to get initdata
+< 9d28dd0397208ed75fd584df1ebf39d4262eb62b Force upload on regular Photo mode
+< 
+424,428c410,414
+< 2da3c5267b75fa5011d16f6b6c7f9c28c3b8e0be Disble model.pocket.importor.
+< f69ad4142b3f241c8f990dcf1c3598977b5ead36 Update model.jipin.
+< b95b85e88b8ab355a802c139ac5c177e7c3975c5 Bug fixed model.common, for posting link using ps.itemUrl instead of ps.pageUrl.
+< d08cd6537a379d72bd86535f69cb7a2088673ce0 Update model.ikeepu, add thumb support.
+< de84ae44decd12626a9cd82747607c39678dde7f Allow adult/private contents post to weheartit.
+---
+> 8951aac1294d44bf4657b632acfeadb8c869c019 Add support for pinterest.com and qing.weibo.com.
+> 8904a552beb04f9238e178e82834127c33b82692 Add model for huaban.com.
+> 56bec1ed60a96b9733091ce3a216235a6b3367a7 Clean ps.item in pre_post
+> 6dc4c0943e46eca41e8f3f4c2032da74e560caf6 Add model for diandian.com.
+> dcc6606c0a4d0de4d7824e9ee2038bf4e06fa87d Add/Update '21_Model_Delicious.js 21_Model_Tuita.js'
+431,433d416
+< cf88232620270051b0ee1b0cf854f7a2db2a4533 Update quickPostForm.xul.
+< 49e82960982bbeeaed19dc0059d2f64b13103006 Sync with upstream.
+< f227bc4638d65cf8476921d6f36a7c15282ea483 Update upstream.
+435a419,421
+> 235cc354b52345370920df9363307ae6596e7037 Merge upstream commits, up to commit 97d2ad1ce2b6b1e7d0a283cf8e858730fdfa972e.
+> e31dbf41df33cf429b0e30a12727d14a3fc6ca26 Update script sync_upstream.sh
+> 2b216bd591097a5a69734610d34bbfae6ba3dc95 Sync with upstream commit 6bfcfc3fbee05.

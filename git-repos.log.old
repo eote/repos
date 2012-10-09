@@ -47,11 +47,11 @@ excs/learningperl.git:
 4f272ffee3008d9f59b42e356788f5fc416fa7f6 Initial commit.
 
 libmyplace-perl.git:
+e72c99b3ea96940f7184ae4e1b67af2b31f9cac5 Add Bookmarks::HTML.
 e192b4e7f5988083ea4d70b0b8149a458d032bb9 Update Discuz, add Time.
 0cc6ea91b7163735a2e8172fc57201c4468923c2 Add LWP and 163::Photo, update 163::Blog, Program::Batchget and Program::Download.
 93944e4980584e3339da3c6def37b2c0f7146730 Update lots of modules.
 8449cffe6f26842751633f84f270e415c60a3f0a Add HashArray, for simple configuration.
-34762e2d97e172a237b3f1fcf2772b88ef1c4a42 Add Program::Batchget and Program::Download.
 
 losep/core.git:
 c61dfd049b5201d6f19cdb4e7c6ca67310cd235d Update vim scripts to match version 7.3.
@@ -218,16 +218,17 @@ d70fc7e636bf7a798e18422234fabf306612af0a Update etc, var.
 e3edfb6e275b5dd00dd60767c1fddb9b0988e8a1 initial commit
 
 privepo/privacy/.git:
+16092f463e177d38038d42edb48d70b9bf171f0e PRIVACY [GIT] commit 79cce953: Add AFUN and XIAORANZZZ backed up bookmarks file.
 869a8f783981fa18c2c1e4944c16fb37b15686a0 Update git/config.
 49f40d10627d917e153aaab24510d4552cc86404 PRIVACY [GIT] commit 0546f601: Add feeds, Update bookmarks.
 b8d299f1e7f51cb7015bd8ff04a1e7c271049bfa Initial commit.
 
 privepo/privacy/git:
+79cce953847728b2e436ca1be18fb2f7d0265130 Add AFUN and XIAORANZZZ backed up bookmarks file.
+d4bc4560609d1d863bca8c04a1cf8e942b8477b3 Add reposman configuration file.
 0546f6014b28ede8486bfc6828040e8d362b4a99 Add feeds, Update bookmarks.
 8d9c595f9b7b073f333594854e1e218d36e9a2bb Cleanup bookmarks files, Update bookmarks.
 a54ee89990f1df7606318aea3bba50c42e7bd317 Add bookmarks.
-156a2e6c730cf57bd08625732d68b1fae63df54f Update bookmarks.
-a9c5980d8e09c09cb12d5f2d24fa0c4be998362a Add bm-edit (not-finished).
 
 privepo/root.git:
 82f6cf55359540846afd8a20f764dbc9335e2637 Update babebase,fp-afun,fp-default. Move scripts.
@@ -280,11 +281,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+40de3ece29fb2679028b0d943a2d8ff1dc0df622 Update tombloo, tombloo-data.
 7bb9268b835458f832210667c5a5142361a64c41 Update project
 6c52d8ecaca5c60744a63120fe68376ea8b6c6b5 Update tombloo-data
 caba355f926111cad960fc02153e39cc736b8291 Update tombloo-xpi.
 e044fc82fcbb26dac521b6e0dc823a5dc72b9de3 Update sh and nightgun.
-ae7d67bffd362d2ec0e535c70201461b59875c82 Update PROJECTS.
 
 reposman/utils.git:
 1c94487e627047c01c61a0c6dcb0c140cff17c86 Initial commit.
@@ -307,18 +308,18 @@ scriptlib/lua.git:
 889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
 
 scriptlib/perl.git:
+13a95309713163905de355ba30f8ab242bbb7d6c Add/Update 'bookmarks-json2html.pl'
+f0ba4055c85b86f9c1c79ea092b2f3438472cdc0 netcat: bugs fixed.
+a7b4f2e27359a542b79f81070582a4ace02e0cf5 Fix diskimg-offset.
+1829e1e17e7595d5ce4582331a2f37a60f58ff9c Add opml2html.
 f7b428d96ae7861cdc092d525968f48383a5b3bb Update discuz_*, MyPlace::Discuz,tagfs ...
-65d86442c807acc838ff5dd5b0d461bf3e723c2b Add blog.163.com.
-f09d35476719841c903213e54eaaf5b6f0194c5c Update tombloo-bridge.pl for hooking script.
-aac29eb0d452649b3620d2e2c180f5d86d1d0a6c Update renameext.
-a14d5d5922347f5bcee776a42a7f95a8ac9a6eae Update batchget.
 
 scriptlib/sh.git:
+1ce885a449fff32b2ec1a95eafa49dfe0548e8bd Add git-import.
 92b95016a33f965cee2d404450f03545b4990c76 Add/Update 'un7zfolder'
 af886e8f7f365e132602b739ac1b5265948fc49a Add/Update 'pl2html'
 19e01268f80d21deaad7e33842274a83c94c3ed9 Add/Update 'omm_dir2page'
 a91f8e61e8b63ba5a4d2a175b8b96ee9810e538a Add/Update 'git-acommit'
-8d2906fcb4bde1222a5674e0529945a2cb325df0 Add/Update 'fehdir fehdir_select'
 
 scriptlib/wscript.git:
 b0bb735d00ec8f9385cf4afc3b4e6b17ce46962b Add script get_rand_mail.
@@ -406,18 +407,18 @@ webscrap/templates.git:
 d66e448f79afd9bfa28bf46ec9e2305cd296845c Initial commit.
 
 webscrap/tombloo-data.git:
+8951aac1294d44bf4657b632acfeadb8c869c019 Add support for pinterest.com and qing.weibo.com.
+8904a552beb04f9238e178e82834127c33b82692 Add model for huaban.com.
+56bec1ed60a96b9733091ce3a216235a6b3367a7 Clean ps.item in pre_post
 6dc4c0943e46eca41e8f3f4c2032da74e560caf6 Add model for diandian.com.
 dcc6606c0a4d0de4d7824e9ee2038bf4e06fa87d Add/Update '21_Model_Delicious.js 21_Model_Tuita.js'
-0a594d04aa12f4a10800245d07908024abfb6bce Add/Update '21_Model_Tuita.js'
-2d3bb504ce8e9eb32a15143e769b5b59c694d6b6 Add/Update '21_Model_Delicious.js'
-c3edf915ec2351b5212726723f742d7e5f29a548 Add/Update '19_Model_Common.js'
 
 webscrap/tombloo-xpi.git:
+59c479a7965ac017271fb3cd99ca00ebac08bea4 Sync with upstream commit 5cdd056 Tombloo 0.4.30.
+4351c02cc4c1c48c893b272f3499d09a3ec9aae7 Make cleaner ps.item.
 235cc354b52345370920df9363307ae6596e7037 Merge upstream commits, up to commit 97d2ad1ce2b6b1e7d0a283cf8e858730fdfa972e.
 e31dbf41df33cf429b0e30a12727d14a3fc6ca26 Update script sync_upstream.sh
 2b216bd591097a5a69734610d34bbfae6ba3dc95 Sync with upstream commit 6bfcfc3fbee05.
-73463957d985c3d0134e80e55bd94843d2b9db09 Update install.rdf, readd upstream.
-01bad1b72e5327c7b78b0e28101c2069328c53a4 Rename extension, update quickPostForm UI.
 
 xiaoranzzz/wiki.git:
 d289010cf1c649221b5cfec5c405fc0b2e3e90d9 Add Home.wiki.
