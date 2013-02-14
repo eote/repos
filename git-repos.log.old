@@ -132,18 +132,18 @@ f152ee9dbd48b399da359c9b7c53c2e38cdc223e Add avatar for xrlfun.
 c1405c8ac631728b93b881452119c63e265463fb Update README again.
 
 privepo/babebase/.git:
+a0f4b88514a4240d47443cd37831589c33570589 BABEBASE [GIT] commit 8e8084f9: Update rules: colorbird.com.
+35b5bf7f378b8a0e20bf99438e3241427c39b467 BABEBASE [GIT] commit 54076e70: Update rules, add rules
 6abcba81286a03a42859f276e268c9b29ae49c18 BABEBASE [GIT] commit 42863317: Add/Update '0/dp.pconline.com.cn 1/dp.pconline.com.cn 2/dp.pconline.com.cn 3/dp.pconline.com.cn'
 7112d1c0be2c2c9ff050dfb60069eb44600fc7a9 BABEBASE [GIT] commit c71ec394: Add supports for blog.163.com and photo.163.com.
 155b0547536dfe179882ccb37d7df3b380148f16 BABEBASE [GIT] commit 3763ef41: Convert MyPlace::HTTPGet to MyPlace::LWP.
-89614936a237186bcad57c82329bc7c02585a2cd BABEBASE [GIT] commit 42ea63f4: Add rules for poco.cn.
-bd9c7895745f0d613f9a702801fed00a1e92d199 BABEBASE [GIT] commit 3d3a2c89: Add rules for freeones.com, pornstarbook.com and gals4free.net.
 
 privepo/babebase/git:
-42863317d3a86fa0b1c39cf1a28b0eb1d089a752 Add/Update '0/dp.pconline.com.cn 1/dp.pconline.com.cn 2/dp.pconline.com.cn 3/dp.pconline.com.cn'
-c71ec394f79ebe4b2a6b9ce16a07d0485e6a4b2c Add supports for blog.163.com and photo.163.com.
-3763ef41d973de0c5d34cd63b1da159d9c78d978 Convert MyPlace::HTTPGet to MyPlace::LWP.
-42ea63f4a986eb371ef0441d19d9e5f708da9b10 Add rules for poco.cn.
-4a681d6ba5932355c10454c6cafc5f59605dbdf5 Add rules for cgcccp.com.
+8e8084f9654503647815adc4e21a5273d9f844b1 Update rules: colorbird.com.
+54076e70f5b39318f25ee6444f5d9032cc928887 Update rules, add rules
+98c3b0df3d554a34a0cc900ad2a9f85ea3a26fa3 Update rule: facebook.com
+c28df2269c308c0243cbe16c0fe26487e93dbb5a Update rules: moko.cc
+4b679051764aea4eff1eaf3c3c3218cc1452f95b Update rules: fotop.net, snaapa.com
 
 privepo/empty.git:
 b8325601d2a766e5620e6763cfc705d52d979675 initial import
@@ -177,18 +177,18 @@ privepo/fp-default/git:
 36473941f6b6d803f161288f007668b2a802e478 Initial commit.
 
 privepo/gm-scripts/.git:
+9dd18699ad01232832e165c9cbbadc8eef58fbce GM-SCRIPTS [GIT] commit a691d276: Update lots of scripts.
 11afaca36fc1a588bd1bdda6fa81a6a4eb50faf9 GM-SCRIPTS [GIT] commit bb6fe7b7: Update imagealbumpanel and pages_lister.
 471d601a372fe5814478d41edbb0e19ae55cbb6b GM-SCRIPTS [GIT] commit 089db828: Update randomformfiller.
 d2d4e97e3a73bd1fb402e85cc5fd3df4f8414498 GM-SCRIPTS [GIT] commit 4a4fee26: Add user scripts.
 b9e5541ba2ca1e574620c4ae300aab43a950ec4d GM-SCRIPTS [GIT] commit 3aac91c0: Add user scripts.
-c313ba362b090a363bb96b873d9320ed338dee1f GM-SCRIPTS [GIT] commit bbe23fc2: Update imagealbumpanel.
 
 privepo/gm-scripts/git:
+a691d276b73142028a420efa547a49454d90c377 Update lots of scripts.
+2f7d43003ad1eacb82839cadb4c96fc0bc681e4a Update script: imagealbumpanel.
+78ed514b8654b3d722128fd95f9f3edc3f0317b5 Update imagealbumpanel.
 bb6fe7b71fcb080a80e4415243cc300cbc4e0a01 Update imagealbumpanel and pages_lister.
 089db828969e67ed44ccb3ef3c94e5c462f3c4f0 Update randomformfiller.
-4a4fee266e8cbbd290b0740e1667c850f1d607df Add user scripts.
-bbe23fc28d81a280aa98cb2b352dd611970262ff Update imagealbumpanel.
-26decbd9e139248a3f49a44adc2c7712763dbb4a Rename bbspanel to prevnext.
 
 privepo/gsbridge/.git:
 08c3d1540fc0d38fd50ac2dbdbdcd81263698e28 GSBRIDGE [GIT] commit b097d64e: added project entries for vcsplace and github-sync
@@ -281,11 +281,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+eb1e084334db0f0a77ec527e03cf5422efbf43a9 Updates
 40de3ece29fb2679028b0d943a2d8ff1dc0df622 Update tombloo, tombloo-data.
 7bb9268b835458f832210667c5a5142361a64c41 Update project
 6c52d8ecaca5c60744a63120fe68376ea8b6c6b5 Update tombloo-data
 caba355f926111cad960fc02153e39cc736b8291 Update tombloo-xpi.
-e044fc82fcbb26dac521b6e0dc823a5dc72b9de3 Update sh and nightgun.
 
 reposman/utils.git:
 1c94487e627047c01c61a0c6dcb0c140cff17c86 Initial commit.
@@ -308,18 +308,18 @@ scriptlib/lua.git:
 889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
 
 scriptlib/perl.git:
+9eb23cce9980e9dc214a7a20419ce226fb85cc37 Add/Update 'bookmarks-split.pl'
+92d3c06a931650e6ff463afa395820c682e37b78 Add/Update 'ping-facebook.pl'
 13a95309713163905de355ba30f8ab242bbb7d6c Add/Update 'bookmarks-json2html.pl'
 f0ba4055c85b86f9c1c79ea092b2f3438472cdc0 netcat: bugs fixed.
 a7b4f2e27359a542b79f81070582a4ace02e0cf5 Fix diskimg-offset.
-1829e1e17e7595d5ce4582331a2f37a60f58ff9c Add opml2html.
-f7b428d96ae7861cdc092d525968f48383a5b3bb Update discuz_*, MyPlace::Discuz,tagfs ...
 
 scriptlib/sh.git:
+a81b946a8e04864b11cc35f8fa73680d56285ab9 Add/Update 'r-afun r-at-rtorrent'
 1ce885a449fff32b2ec1a95eafa49dfe0548e8bd Add git-import.
 92b95016a33f965cee2d404450f03545b4990c76 Add/Update 'un7zfolder'
 af886e8f7f365e132602b739ac1b5265948fc49a Add/Update 'pl2html'
 19e01268f80d21deaad7e33842274a83c94c3ed9 Add/Update 'omm_dir2page'
-a91f8e61e8b63ba5a4d2a175b8b96ee9810e538a Add/Update 'git-acommit'
 
 scriptlib/wscript.git:
 b0bb735d00ec8f9385cf4afc3b4e6b17ce46962b Add script get_rand_mail.
@@ -331,11 +331,11 @@ sourcebook.git:
 c5e9c4f14a2b934770896a52b7aba8a8182f4efb Initial commit.
 
 urlrule.git:
+96ae333a59cd6ae879383b67b2e7aadcc7b70957 Update URLRule::OO.
+74ab505731f74a095ae5688c23cd0f3369ebbd8f urlrule_database: no "newly" any more.
+16904403dcf8dfab84e9e40ea10e8b1be7f7b33d Fixed MyPlace::URLRule for using m//g in scalar context.
 462bc33f0d3e842c6b4cd5e01c8dc3b9da00332d Add/Update 'lib/MyPlace/URLRule/OO.pm'
 e649e31eaa3ecc13170866137aeadb7290b9ac72 Add/Update 'lib/MyPlace/URLRule.pm'
-bdc9cf2a17a481e6197c00de6461a4387f09a852 Add/Update 'bin/urlrule_task'
-078990410c36c6141dc36b73147d520ff0142517 Add/Update 'bin/urlrule_new'
-17d933ccd31f19d0a23e9d18d3e68e1710fe9e9f add lib/MyPlace/URLRule/Utils.pm
 
 usys/sysbuilder.git:
 cd34e291324ab1ace552d27bda128fbe28ba559d Fix files mode and pathname.
@@ -394,6 +394,13 @@ e260db4afccafa999ed607a1800a7bd983c21369 Fix stylesheet naming.
 5a705c83f82b53a2a8580217d8af146537fbc07c Replace "checkplaces" as "editplaces".
 354d6b97b9c6fbd4fec63e1761ed4d20b7d1247d Initial commit.
 
+webscrap/fanqiang.git:
+fa1e546d7e5481d1c88a505acd5dfec9d2765edc Update hosts 20121027.
+df2bba60531e6eb6f39004588a19bb2e1f84db40 Update ajax.googleapis.com related ip.
+95267e7dc8bf4197aa2789a9e12eda687ffed820 Add supporting scritps.
+f3e435269eb2ed702edf3dc0e66818932d7efd55 Add scripts for selecting fastest ip.
+cac40e42393dd8334446b61bc6e365a75e329063 Add reposman configuration file.
+
 webscrap/htmlscripts.git:
 0c9778ad58a99bd2725e81dcd539e485d5d69987 Initial commit.
 
@@ -403,22 +410,29 @@ f71ff4d8612362a3904bf782ee4f673bbe814e83 Update sctipts, MyPlace::OddmuseMod::*.
 a10af833aa37bb972b85c75b00e30d594bdeb001 Re-orginize directories layouts.
 ed747f127f3a3846da268ce87967dee494c6f422 initial commit
 
+webscrap/Scripts-for-Tombloo.git:
+4213bff3f248c88f27169ceeac4253f7449bfb23 Add circles supports to model.gplus
+d716ffde93c5314e00391cf15b64cc6cca98f76e Avoid any patch conflict
+b2a080ed36121825b30c73cecb8b3f41feed69cc Fixed a bug that couldn't upload with the https only setting on Twitter
+bb9d96b4db57add0f036da8ddc3063661181024f Revised a way to get initdata
+9d28dd0397208ed75fd584df1ebf39d4262eb62b Force upload on regular Photo mode
+
 webscrap/templates.git:
 d66e448f79afd9bfa28bf46ec9e2305cd296845c Initial commit.
 
 webscrap/tombloo-data.git:
-8951aac1294d44bf4657b632acfeadb8c869c019 Add support for pinterest.com and qing.weibo.com.
-8904a552beb04f9238e178e82834127c33b82692 Add model for huaban.com.
-56bec1ed60a96b9733091ce3a216235a6b3367a7 Clean ps.item in pre_post
-6dc4c0943e46eca41e8f3f4c2032da74e560caf6 Add model for diandian.com.
-dcc6606c0a4d0de4d7824e9ee2038bf4e06fa87d Add/Update '21_Model_Delicious.js 21_Model_Tuita.js'
+c27def2178c4ed690236d58cda94fd6ce72e2f47 Update tombloo.services: queue posts.
+3a6a19f3429771796937f4dc897e157548166860 Update tombloo.services: some enchancements.
+cbbbff59e62f27e062b875d36e5b4916fd52e0dc Update models.FirefoxBookmark: post twice for photo posts.
+a85f48c48735d5c851429461f5995952c19ea1a2 Update model.juxtapost: changed HTTP requests method to POST.
+9c44f70fc4482d48d7c145ea2445f1f1067076f3 Updte model.jipin.
 
 webscrap/tombloo-xpi.git:
+cf88232620270051b0ee1b0cf854f7a2db2a4533 Update quickPostForm.xul.
+49e82960982bbeeaed19dc0059d2f64b13103006 Sync with upstream.
+f227bc4638d65cf8476921d6f36a7c15282ea483 Update upstream.
 59c479a7965ac017271fb3cd99ca00ebac08bea4 Sync with upstream commit 5cdd056 Tombloo 0.4.30.
 4351c02cc4c1c48c893b272f3499d09a3ec9aae7 Make cleaner ps.item.
-235cc354b52345370920df9363307ae6596e7037 Merge upstream commits, up to commit 97d2ad1ce2b6b1e7d0a283cf8e858730fdfa972e.
-e31dbf41df33cf429b0e30a12727d14a3fc6ca26 Update script sync_upstream.sh
-2b216bd591097a5a69734610d34bbfae6ba3dc95 Sync with upstream commit 6bfcfc3fbee05.
 
 xiaoranzzz/wiki.git:
 d289010cf1c649221b5cfec5c405fc0b2e3e90d9 Add Home.wiki.
