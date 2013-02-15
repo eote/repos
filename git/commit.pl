@@ -1,1 +1,0 @@
-../scripts/git/commit.pl
