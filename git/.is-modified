@@ -31,7 +31,7 @@ websaver2.git/refs/heads/master:1323922028
 urlrule.git/refs/heads/master:1350235158
 privepo/linux/.git/HEAD:1322899056
 privepo/babebase/.git/refs/heads/master:1351277286
-repos.git/refs/heads/master:1360863648
+repos.git/refs/heads/master:1360944181
 usys/xrdos.git/HEAD:1306933745
 scriptlib/sh.git/HEAD:1306933745
 libmyplace-perl.git/HEAD:1325615480
@@ -41,7 +41,7 @@ scriptlib/batch.git/HEAD:1306933744
 badcodes/vb6.git/HEAD:1306933742
 webscrap/tombloo-xpi.git/refs/heads/master:1360819406
 webscrap/templates.git/HEAD:1306933745
-webscrap/tombloo-data.git/refs/heads/master:1360808942
+webscrap/tombloo-data.git/refs/heads/master:1365768626
 excs/learningperl.git/refs/heads/master:1321963965
 xiaoranzzz/writtings.git/HEAD:1324717908
 profs/mails.git/HEAD:1298573103
@@ -66,7 +66,7 @@ repos.git/HEAD:1321974135
 privepo/foxwps/.git/refs/heads/master:1326662909
 sourcebook.git/refs/heads/master:1327754492
 scriptlib/logo.git/HEAD:1306933745
-reposman/utils.git/refs/heads/master:1329076770
+reposman/utils.git/refs/heads/master:1360997721
 xiaoranzzz/wiki.git/refs/heads/master:1324719712
 excs/learningperl.git/HEAD:1321963323
 plaintexts/notes.git/HEAD:1306933745
