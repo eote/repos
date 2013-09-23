@@ -331,6 +331,10 @@ name = webscrap/templates
 checkout = #checkout#/webdev/
 #GitHostsPublic#
 
+[userscripts]
+name = webscrap/userscripts
+#GitHostsPublic#
+
 ;xxxxxxxxxxxxxxxxxxx
 ;prints
 [drawings]

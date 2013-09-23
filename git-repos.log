@@ -281,18 +281,18 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+ec03979170c62d8bcebd80a1cf94bf978575a443 Update git/tombloo-data
 b9fb212d8080592e70e418d24362bd07d78b5b12 Update scripts, add git/hooks.pl, clean other scripts in git/.
 745d6dcc3bd8de9573dd5d095a9710610d69bea9 Update 20140215
 eb1e084334db0f0a77ec527e03cf5422efbf43a9 Updates
 40de3ece29fb2679028b0d943a2d8ff1dc0df622 Update tombloo, tombloo-data.
-7bb9268b835458f832210667c5a5142361a64c41 Update project
 
 reposman/utils.git:
+511ea1fe5ebc921c54f44fd400f6b5bb52982e6d Update s_commit.
 430a3e74b8c71224dc30fc572ee1437726bd470b Add/Update 'generate_log.pl git/generate_log.pl'
 cfbfd71f7a03e22d05c9c9bd9770943823e3b1bb Add/Update 'git/update_modified.pl'
 6857f8ed37fdbdcfae726496c49d43b077441273 Add/Update 'auto_commit.pl git/update_modified.pl'
 c6f40f9dda3ae5af20f7dadb8387584dda65d96e Add .reposman.
-1c94487e627047c01c61a0c6dcb0c140cff17c86 Initial commit.
 
 reposman.git:
 34c93dd1c894e454cc7dd301778e17ee51d13afb Re-organize codes, some commands module include "help" "dump" "push" and "checkout" re-written
@@ -425,11 +425,11 @@ webscrap/templates.git:
 d66e448f79afd9bfa28bf46ec9e2305cd296845c Initial commit.
 
 webscrap/tombloo-data.git:
+cae89cd6560757039cce36f748277285c652e6dd Add extractor for 56.com videos.
+b3753c729d22d8368d3de3681980d129043cdc6d Add model FirefoxMedia.
+f45284e21026f352612508f5372109072693afc8 Add extension content.
+a925bbd99476672ecbcade7ae047a02afe0819b4 Patch HatenaBookmark
 2cb6af7c8475cc3919b5f241615919a3552ad951 Update 22.model.googleplus.js
-558dfcb12dc99ff77c4dfd9c9142cd607d189692 Update utility.js.
-85ad7d46c668f08f694be86f90f0d4eee7989be4 Add windows script for tombloo-bridge.
-ee2a81e955ff22a1448e483316fa97b15823aaa5 Update model tombloo-bridge.
-44cc32521b33e04d0a33f02ab106db5a4efee914 Update model.pinterest.
 
 webscrap/tombloo-xpi.git:
 0c1a2799a0de89d6f3c997b9364d3e5025e3b9d4 Version 0.4.34
