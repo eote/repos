@@ -184,11 +184,11 @@ d2d4e97e3a73bd1fb402e85cc5fd3df4f8414498 GM-SCRIPTS [GIT] commit 4a4fee26: Add u
 b9e5541ba2ca1e574620c4ae300aab43a950ec4d GM-SCRIPTS [GIT] commit 3aac91c0: Add user scripts.
 
 privepo/gm-scripts/git:
+e7b4c6fe28c8b8486b436ca55da4dfbfdf9c10df Restructure files.
+6ce3c1a8b2442f58d6efd4bba320a00cf16a28a2 Add scripts for yun.baidu.com
+fd8bc86699b0f5e230a5cec0e06a2a805b1a7512 Clean up scripts.
 a691d276b73142028a420efa547a49454d90c377 Update lots of scripts.
 2f7d43003ad1eacb82839cadb4c96fc0bc681e4a Update script: imagealbumpanel.
-78ed514b8654b3d722128fd95f9f3edc3f0317b5 Update imagealbumpanel.
-bb6fe7b71fcb080a80e4415243cc300cbc4e0a01 Update imagealbumpanel and pages_lister.
-089db828969e67ed44ccb3ef3c94e5c462f3c4f0 Update randomformfiller.
 
 privepo/gsbridge/.git:
 08c3d1540fc0d38fd50ac2dbdbdcd81263698e28 GSBRIDGE [GIT] commit b097d64e: added project entries for vcsplace and github-sync
@@ -241,11 +241,11 @@ profs/config-awesome.git:
 5e3a3885ac671a801b4add53be631492049d01a6 Initial commit.
 
 profs/firefox.git:
+d94530cfd587752e3d670c765921578d38a62944 Add extension /SQLiteManager
+d2c9e7b16f64042b19163da66ffa0063ca87d66d Update extensions, add log file.
+9e161b5038d10eb5181748757cc42f9b7ae6b8cd Update searchplugins.
 cc2774be270e8c9266ae482f907738162e61d0a5 Add searchplugins, update extensions.
 91c890a235b632ac5f7fed41bb3a70165089c64a Update 20111217.
-efb1df4df2cabcb4b3ae65972d416126d5c47691 Update sub-modules: websaver2, gm_scripts and tombloo.
-6ce0b1c12cc06e1273d335368b14da956f490b9d Add .deeplink.pl
-5dbafc38025f329c738b8ab9a4000c2989a5b498 Update extensions.*.
 
 profs/google-chrome/eotect.git:
 0a6d3253e16a6403a525c8ed2fa86882f24cb8cb Update extensions and preferences.
@@ -281,11 +281,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+317e853222dbe4e731563810088619f7efa118b4 Add project webscrap/userscripts.
 ec03979170c62d8bcebd80a1cf94bf978575a443 Update git/tombloo-data
 b9fb212d8080592e70e418d24362bd07d78b5b12 Update scripts, add git/hooks.pl, clean other scripts in git/.
 745d6dcc3bd8de9573dd5d095a9710610d69bea9 Update 20140215
 eb1e084334db0f0a77ec527e03cf5422efbf43a9 Updates
-40de3ece29fb2679028b0d943a2d8ff1dc0df622 Update tombloo, tombloo-data.
 
 reposman/utils.git:
 511ea1fe5ebc921c54f44fd400f6b5bb52982e6d Update s_commit.
@@ -312,18 +312,18 @@ scriptlib/lua.git:
 889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
 
 scriptlib/perl.git:
-9eb23cce9980e9dc214a7a20419ce226fb85cc37 Add/Update 'bookmarks-split.pl'
-92d3c06a931650e6ff463afa395820c682e37b78 Add/Update 'ping-facebook.pl'
-13a95309713163905de355ba30f8ab242bbb7d6c Add/Update 'bookmarks-json2html.pl'
-f0ba4055c85b86f9c1c79ea092b2f3438472cdc0 netcat: bugs fixed.
-a7b4f2e27359a542b79f81070582a4ace02e0cf5 Fix diskimg-offset.
+56dbeb965cf59df9609305e2e7aaeef500052563 Function extended with name style support.
+db5ba973d9abff02bc92817c4991238d70907934 Convert git-acommit.pl from shellscript.
+6f797a1edc9dbfbbb71c1cc66ac026f80731fdb4 Update renameext.
+40eaafdef8ab9d87d045c1d7fe1bc7df834939bf Add/Update 'opml2txt.pl'
+1b6ee5379c0efb382c75e12d3e78b44e9a0d7d8f Add/Update 'classify.pl classifiles.pl'
 
 scriptlib/sh.git:
+d5fde9b58c1c5625225e2e97abb20540c2f5a131 Convert git-acommit to perl script. 	Delete file: <git-acommit>
 a81b946a8e04864b11cc35f8fa73680d56285ab9 Add/Update 'r-afun r-at-rtorrent'
 1ce885a449fff32b2ec1a95eafa49dfe0548e8bd Add git-import.
 92b95016a33f965cee2d404450f03545b4990c76 Add/Update 'un7zfolder'
 af886e8f7f365e132602b739ac1b5265948fc49a Add/Update 'pl2html'
-19e01268f80d21deaad7e33842274a83c94c3ed9 Add/Update 'omm_dir2page'
 
 scriptlib/wscript.git:
 b0bb735d00ec8f9385cf4afc3b4e6b17ce46962b Add script get_rand_mail.
@@ -414,6 +414,10 @@ f71ff4d8612362a3904bf782ee4f673bbe814e83 Update sctipts, MyPlace::OddmuseMod::*.
 a10af833aa37bb972b85c75b00e30d594bdeb001 Re-orginize directories layouts.
 ed747f127f3a3846da268ce87967dee494c6f422 initial commit
 
+webscrap/listqsed.git:
+e4c952465d8e0b15f290c4502010c234c58e1630 Lister template updated.
+95d1b14eb9015b7868ff507bf5fba000e03b6747 First commit, Version 1.0
+
 webscrap/Scripts-for-Tombloo.git:
 4213bff3f248c88f27169ceeac4253f7449bfb23 Add circles supports to model.gplus
 d716ffde93c5314e00391cf15b64cc6cca98f76e Avoid any patch conflict
@@ -425,11 +429,11 @@ webscrap/templates.git:
 d66e448f79afd9bfa28bf46ec9e2305cd296845c Initial commit.
 
 webscrap/tombloo-data.git:
+7e5d6a08fb1c52904f908f6a524a41d5ad2b9de8 Clean up some files.
+120c9c02b543a15eac7d633fbe7e2d51b1cda97a Update model.pinterest
 cae89cd6560757039cce36f748277285c652e6dd Add extractor for 56.com videos.
 b3753c729d22d8368d3de3681980d129043cdc6d Add model FirefoxMedia.
 f45284e21026f352612508f5372109072693afc8 Add extension content.
-a925bbd99476672ecbcade7ae047a02afe0819b4 Patch HatenaBookmark
-2cb6af7c8475cc3919b5f241615919a3552ad951 Update 22.model.googleplus.js
 
 webscrap/tombloo-xpi.git:
 0c1a2799a0de89d6f3c997b9364d3e5025e3b9d4 Version 0.4.34
@@ -437,6 +441,13 @@ a25bd8bd1b46b9bae8520a21acea2cb49996a2cd Pull from upstream
 cf88232620270051b0ee1b0cf854f7a2db2a4533 Update quickPostForm.xul.
 49e82960982bbeeaed19dc0059d2f64b13103006 Sync with upstream.
 f227bc4638d65cf8476921d6f36a7c15282ea483 Update upstream.
+
+webscrap/userscripts.git:
+56c7cae083ae4cdc7f16b42786a86fc8bd848782 Fix issues of @grant none.
+4d05bc55daf4990aec576c96fb5fbeb7d8d026fb Add support for magnet links for myplace.baidu.yun
+912433205c4bbdd8004fac5d88c65b2c7c9f7c54 Update: myplace.imagealbum.user.js
+05c12c7ba4a118dd0a87a3f5e2df56f181f660f4 addButton fixed for myplace.panel
+5d0c020b2c568ef26b6df3b77cfe934a2a8339fc Fix conflicted of jQuery and @grant none.
 
 xiaoranzzz/wiki.git:
 d289010cf1c649221b5cfec5c405fc0b2e3e90d9 Add Home.wiki.

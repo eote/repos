@@ -1,18 +1,55 @@
+187,189d186
+< e7b4c6fe28c8b8486b436ca55da4dfbfdf9c10df Restructure files.
+< 6ce3c1a8b2442f58d6efd4bba320a00cf16a28a2 Add scripts for yun.baidu.com
+< fd8bc86699b0f5e230a5cec0e06a2a805b1a7512 Clean up scripts.
+191a189,191
+> 78ed514b8654b3d722128fd95f9f3edc3f0317b5 Update imagealbumpanel.
+> bb6fe7b71fcb080a80e4415243cc300cbc4e0a01 Update imagealbumpanel and pages_lister.
+> 089db828969e67ed44ccb3ef3c94e5c462f3c4f0 Update randomformfiller.
+244,246d243
+< d94530cfd587752e3d670c765921578d38a62944 Add extension /SQLiteManager
+< d2c9e7b16f64042b19163da66ffa0063ca87d66d Update extensions, add log file.
+< 9e161b5038d10eb5181748757cc42f9b7ae6b8cd Update searchplugins.
+248a246,248
+> efb1df4df2cabcb4b3ae65972d416126d5c47691 Update sub-modules: websaver2, gm_scripts and tombloo.
+> 6ce0b1c12cc06e1273d335368b14da956f490b9d Add .deeplink.pl
+> 5dbafc38025f329c738b8ab9a4000c2989a5b498 Update extensions.*.
 284d283
-< ec03979170c62d8bcebd80a1cf94bf978575a443 Update git/tombloo-data
+< 317e853222dbe4e731563810088619f7efa118b4 Add project webscrap/userscripts.
 288a288
-> 7bb9268b835458f832210667c5a5142361a64c41 Update project
-291d290
-< 511ea1fe5ebc921c54f44fd400f6b5bb52982e6d Update s_commit.
-295a295
-> 1c94487e627047c01c61a0c6dcb0c140cff17c86 Initial commit.
-428,431d427
-< cae89cd6560757039cce36f748277285c652e6dd Add extractor for 56.com videos.
-< b3753c729d22d8368d3de3681980d129043cdc6d Add model FirefoxMedia.
-< f45284e21026f352612508f5372109072693afc8 Add extension content.
-< a925bbd99476672ecbcade7ae047a02afe0819b4 Patch HatenaBookmark
-432a429,432
-> 558dfcb12dc99ff77c4dfd9c9142cd607d189692 Update utility.js.
-> 85ad7d46c668f08f694be86f90f0d4eee7989be4 Add windows script for tombloo-bridge.
-> ee2a81e955ff22a1448e483316fa97b15823aaa5 Update model tombloo-bridge.
-> 44cc32521b33e04d0a33f02ab106db5a4efee914 Update model.pinterest.
+> 40de3ece29fb2679028b0d943a2d8ff1dc0df622 Update tombloo, tombloo-data.
+315,319c315,319
+< 56dbeb965cf59df9609305e2e7aaeef500052563 Function extended with name style support.
+< db5ba973d9abff02bc92817c4991238d70907934 Convert git-acommit.pl from shellscript.
+< 6f797a1edc9dbfbbb71c1cc66ac026f80731fdb4 Update renameext.
+< 40eaafdef8ab9d87d045c1d7fe1bc7df834939bf Add/Update 'opml2txt.pl'
+< 1b6ee5379c0efb382c75e12d3e78b44e9a0d7d8f Add/Update 'classify.pl classifiles.pl'
+---
+> 9eb23cce9980e9dc214a7a20419ce226fb85cc37 Add/Update 'bookmarks-split.pl'
+> 92d3c06a931650e6ff463afa395820c682e37b78 Add/Update 'ping-facebook.pl'
+> 13a95309713163905de355ba30f8ab242bbb7d6c Add/Update 'bookmarks-json2html.pl'
+> f0ba4055c85b86f9c1c79ea092b2f3438472cdc0 netcat: bugs fixed.
+> a7b4f2e27359a542b79f81070582a4ace02e0cf5 Fix diskimg-offset.
+322d321
+< d5fde9b58c1c5625225e2e97abb20540c2f5a131 Convert git-acommit to perl script. 	Delete file: <git-acommit>
+326a326
+> 19e01268f80d21deaad7e33842274a83c94c3ed9 Add/Update 'omm_dir2page'
+417,420d416
+< webscrap/listqsed.git:
+< e4c952465d8e0b15f290c4502010c234c58e1630 Lister template updated.
+< 95d1b14eb9015b7868ff507bf5fba000e03b6747 First commit, Version 1.0
+< 
+432,433d427
+< 7e5d6a08fb1c52904f908f6a524a41d5ad2b9de8 Clean up some files.
+< 120c9c02b543a15eac7d633fbe7e2d51b1cda97a Update model.pinterest
+436a431,432
+> a925bbd99476672ecbcade7ae047a02afe0819b4 Patch HatenaBookmark
+> 2cb6af7c8475cc3919b5f241615919a3552ad951 Update 22.model.googleplus.js
+444,450d439
+< 
+< webscrap/userscripts.git:
+< 56c7cae083ae4cdc7f16b42786a86fc8bd848782 Fix issues of @grant none.
+< 4d05bc55daf4990aec576c96fb5fbeb7d8d026fb Add support for magnet links for myplace.baidu.yun
+< 912433205c4bbdd8004fac5d88c65b2c7c9f7c54 Update: myplace.imagealbum.user.js
+< 05c12c7ba4a118dd0a87a3f5e2df56f181f660f4 addButton fixed for myplace.panel
+< 5d0c020b2c568ef26b6df3b77cfe934a2a8339fc Fix conflicted of jQuery and @grant none.

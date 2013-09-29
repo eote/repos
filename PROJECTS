@@ -206,7 +206,7 @@ checkout = perl/modules/MyPlace
 ;profiles
 [firefox]
 name = profs/firefox
-assembla = fs-shared
+assembla = fp-shared
 checkout = #checkout#firefox
 #GitHostsPublic#
 
@@ -333,6 +333,11 @@ checkout = #checkout#/webdev/
 
 [userscripts]
 name = webscrap/userscripts
+#GitHostsPublic#
+
+[listqsed]
+name = webscrap/listqsed
+assembla=listqsed
 #GitHostsPublic#
 
 ;xxxxxxxxxxxxxxxxxxx
