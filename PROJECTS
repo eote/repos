@@ -20,8 +20,7 @@ GitHostsPublic = (
 	mirrors[1] = github.git/
 	mirrors[2] = gitorious.git/
 	mirrors[3] = google.git/
-	mirrors[4] = sf-zrepos.git/
-#	mirrors[5] = sf.git/
+	mirrors[4] = sf.git/
 )
 
 GitHostsPublic2 = (
@@ -30,8 +29,7 @@ GitHostsPublic2 = (
 	mirrors[1] = github.eote/
 	mirrors[2] = gitorious.git/
 	mirrors[3] = google.git/
-	mirrors[4] = sf-zrepos.git/
-#	mirrors[5] = sf.git/
+	mirrors[4] = sf.git/
 )
 
 GitHostsPrivate = (
@@ -68,8 +66,8 @@ eote.type = git
 [host.assembla]
 svn.read = http://subversion.assembla.com/svn/#1
 svn.write = https://subversion.assembla.com/svn/#1
-git.read = git@git.assembla.com:#1-#2.git
-git.write = git@git.assembla.com:#1-#2.git
+git.read = git@git.assembla.com:#1.#2.git
+git.write = git@git.assembla.com:#1.#2.git
 git.default = assembla
 
 [host.sourceforge]
@@ -81,8 +79,12 @@ git.read = http://#1.git.sourceforge.net:8000/gitroot/#1
 git.write = ssh://#1.git.sourceforge.net/gitroot/#1
 
 [host.sf]
-git.read = git://git.code.sf.net/p/#1/#2/git
-git.write = ssh://#user#@git.code.sf.net/p/#1/#2/git
+git.read = git://git.code.sf.net/p/#1/#2
+git.write = ssh://#user#@git.code.sf.net/p/#1/#2
+
+[host.sf-code]
+git.read = git://git.code.sf.net/p/#1/code
+git.write = ssh://#user#@git.code.sf.net/p/#1/code
 
 [host.sf1]
 hg.read = http://#1.hg.sourceforge.net:8000/hgroot/#1/#1
@@ -193,8 +195,9 @@ checkout = firefox/extensions/websaver2@myplace.hell
 #GitHostsPublic2#
 
 [libmyplace-perl]
+name = libmyplace/perl
 checkout = perl/modules/MyPlace
-#GitHostsPublic2#
+#GitHostsPublic#
 
 [reposman]
 #GitHostsPublic#
@@ -483,5 +486,9 @@ checkout = fanqiang
 assembla = fanqiang
 #GitHostsPublic#
 
+[pods2epub]
+github = eote/pods2epub
+sf = pods2epub/code
+#GitHostsPublic#
 
 ;	vim:filetype=dosini
