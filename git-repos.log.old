@@ -139,11 +139,11 @@ a0f4b88514a4240d47443cd37831589c33570589 BABEBASE [GIT] commit 8e8084f9: Update 
 155b0547536dfe179882ccb37d7df3b380148f16 BABEBASE [GIT] commit 3763ef41: Convert MyPlace::HTTPGet to MyPlace::LWP.
 
 privepo/babebase/git:
-8e8084f9654503647815adc4e21a5273d9f844b1 Update rules: colorbird.com.
-54076e70f5b39318f25ee6444f5d9032cc928887 Update rules, add rules
-98c3b0df3d554a34a0cc900ad2a9f85ea3a26fa3 Update rule: facebook.com
-c28df2269c308c0243cbe16c0fe26487e93dbb5a Update rules: moko.cc
-4b679051764aea4eff1eaf3c3c3218cc1452f95b Update rules: fotop.net, snaapa.com
+4d765cb1b2e636bee98808ad5fd5dee60c1748d4 Add common rules adult.qvod for bibi138.com, se1199.com ...
+66c4ab4eae21ce0dc9d43f69a9060b76d91aca62 Add rules for av3030.com
+7a7e710e41853881e4c074da0664856e6865299f Update rules for 350hh.com
+a69721b9ace831efebb8b233a8a81eb5c01ab6eb Update database
+3e27090ea2a843b00051446cc88f02da43421672 Add rules for 99pupu.com(350hh.com).
 
 privepo/empty.git:
 b8325601d2a766e5620e6763cfc705d52d979675 initial import
@@ -281,11 +281,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+9520ccae018573115016725d74ffdaed26d32039 Add projects: listqsed, userscripts, lister.
 317e853222dbe4e731563810088619f7efa118b4 Add project webscrap/userscripts.
 ec03979170c62d8bcebd80a1cf94bf978575a443 Update git/tombloo-data
 b9fb212d8080592e70e418d24362bd07d78b5b12 Update scripts, add git/hooks.pl, clean other scripts in git/.
 745d6dcc3bd8de9573dd5d095a9710610d69bea9 Update 20140215
-eb1e084334db0f0a77ec527e03cf5422efbf43a9 Updates
 
 reposman/utils.git:
 511ea1fe5ebc921c54f44fd400f6b5bb52982e6d Update s_commit.
@@ -312,11 +312,11 @@ scriptlib/lua.git:
 889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
 
 scriptlib/perl.git:
+0a04810f644d92e908110fd9f0dda566e204cfc4 Adjust program output.
+db8c926eb7cbb98ccd79222004dd45c5a1bf7e4d Invent saveurl.pl for urlrule_action.
 56dbeb965cf59df9609305e2e7aaeef500052563 Function extended with name style support.
 db5ba973d9abff02bc92817c4991238d70907934 Convert git-acommit.pl from shellscript.
 6f797a1edc9dbfbbb71c1cc66ac026f80731fdb4 Update renameext.
-40eaafdef8ab9d87d045c1d7fe1bc7df834939bf Add/Update 'opml2txt.pl'
-1b6ee5379c0efb382c75e12d3e78b44e9a0d7d8f Add/Update 'classify.pl classifiles.pl'
 
 scriptlib/sh.git:
 d5fde9b58c1c5625225e2e97abb20540c2f5a131 Convert git-acommit to perl script. 	Delete file: <git-acommit>
@@ -443,11 +443,11 @@ cf88232620270051b0ee1b0cf854f7a2db2a4533 Update quickPostForm.xul.
 f227bc4638d65cf8476921d6f36a7c15282ea483 Update upstream.
 
 webscrap/userscripts.git:
-56c7cae083ae4cdc7f16b42786a86fc8bd848782 Fix issues of @grant none.
-4d05bc55daf4990aec576c96fb5fbeb7d8d026fb Add support for magnet links for myplace.baidu.yun
-912433205c4bbdd8004fac5d88c65b2c7c9f7c54 Update: myplace.imagealbum.user.js
-05c12c7ba4a118dd0a87a3f5e2df56f181f660f4 addButton fixed for myplace.panel
-5d0c020b2c568ef26b6df3b77cfe934a2a8339fc Fix conflicted of jQuery and @grant none.
+009f292a9b1b5592a0e2853e5e9527950b872016 	Update file: myplace.baidu.yun.albums.user.js 	Update file: myplace.baidu.yun.share.user.js
+efacd7376861067a51400b010c4e760fc61eaa6e Restruture myplace.baidu.yun.share.
+6eb396e0aa1b1b62ebce375ff83ad8a7601e83c2 Quick links for baidu.yun
+4d93462006ef1ff6e967b2467f7755e52d0fa2a5 Adjust pages size.
+399779280c2c97b6a2bb53c685163b04cf6419af Codes cleanup.
 
 xiaoranzzz/wiki.git:
 d289010cf1c649221b5cfec5c405fc0b2e3e90d9 Add Home.wiki.

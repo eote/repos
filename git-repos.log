@@ -46,12 +46,12 @@ d9f1b02493daa03125aa8a2496f329d8746152d0 initial import
 excs/learningperl.git:
 4f272ffee3008d9f59b42e356788f5fc416fa7f6 Initial commit.
 
-libmyplace-perl.git:
-e72c99b3ea96940f7184ae4e1b67af2b31f9cac5 Add Bookmarks::HTML.
-e192b4e7f5988083ea4d70b0b8149a458d032bb9 Update Discuz, add Time.
-0cc6ea91b7163735a2e8172fc57201c4468923c2 Add LWP and 163::Photo, update 163::Blog, Program::Batchget and Program::Download.
-93944e4980584e3339da3c6def37b2c0f7146730 Update lots of modules.
-8449cffe6f26842751633f84f270e415c60a3f0a Add HashArray, for simple configuration.
+libmyplace/perl.git:
+5eeb4beeb863c4e5aca37916775121206b47c760 	Update file: Data/BlockedSites.pm
+753f7dc11bf193c7b0acfaa10520be48ced04b32 	Update file: Config.pm 	Update file: Curl.pm 	Update file: UniqueList.pm
+1cab37a4a93a261887f7dff1ca6cdd766be6f00e Add reposman configuration.
+8f1e6d62af68385fa9ecc114a749f04c0dd0e7bd Update programs.
+e18c0f3d7acd797764f3ad0d277f18f841cc2145 Delete Download.pl
 
 losep/core.git:
 c61dfd049b5201d6f19cdb4e7c6ca67310cd235d Update vim scripts to match version 7.3.
@@ -102,6 +102,13 @@ plaintexts/webpages.git:
 06c27bb1c793a2fe4420c61913062a6f6ac631f6 created index page
 fc88a9eff41b51606dc026f0ee35455888968ee3 initial directory structure
 
+pods2epub.git:
+1b594ca7e183088e11dfb794322be023a8765cff Update source to strawberry-perl v5.18.1
+e7406857501ff616061de858e77d4970bee401a3 Update source to strawberry-perl v5.16.3
+bac41701c0d312075ad55422993827343e67f939 Update source to strawberry-perl v5.14.4
+4746bb8d10826f3f3c0aab6bc68fd0a3e8240b0b Update source to strawberry-perl v5.12.3
+0c0a3eaed0c2a366bb20095a74041f093b224630 Update source to strawberry-perl v5.10.1
+
 prints/drawings.git:
 63ff6562d6256c12c16865357f2dbfc1962d1820 initial commit
 
@@ -125,11 +132,11 @@ bf496200c91d83ecc91e9ce0a85d2fb32abf8adf Update git/config.
 1ae240164d1d87d5295ba625f16be3f2d9cc676f AVATARS [GIT] commit 2fab0b85: Add avatars for afun, eotect and xrlfun.
 
 privepo/avatars/git:
+093714897010cdaa13a6402faa688f4cc7027b4a Add avatars for BITSDIST, BITSPOOL.
 2fab0b85115a1d18df3b26c1fcee7f05e920b8c0 Add avatars for afun, eotect and xrlfun.
 cc08080b3dc5fa92eb383f3d40dfa486efc2676d Add xrlfun4.jpg.
 202446c39519f1112412427da255fb7e215c6ee7 Add avatars for xiaoranzzz.
 f152ee9dbd48b399da359c9b7c53c2e38cdc223e Add avatar for xrlfun.
-c1405c8ac631728b93b881452119c63e265463fb Update README again.
 
 privepo/babebase/.git:
 a0f4b88514a4240d47443cd37831589c33570589 BABEBASE [GIT] commit 8e8084f9: Update rules: colorbird.com.
@@ -139,11 +146,11 @@ a0f4b88514a4240d47443cd37831589c33570589 BABEBASE [GIT] commit 8e8084f9: Update 
 155b0547536dfe179882ccb37d7df3b380148f16 BABEBASE [GIT] commit 3763ef41: Convert MyPlace::HTTPGet to MyPlace::LWP.
 
 privepo/babebase/git:
-4d765cb1b2e636bee98808ad5fd5dee60c1748d4 Add common rules adult.qvod for bibi138.com, se1199.com ...
-66c4ab4eae21ce0dc9d43f69a9060b76d91aca62 Add rules for av3030.com
-7a7e710e41853881e4c074da0664856e6865299f Update rules for 350hh.com
-a69721b9ace831efebb8b233a8a81eb5c01ab6eb Update database
-3e27090ea2a843b00051446cc88f02da43421672 Add rules for 99pupu.com(350hh.com).
+b4c60823b0827d7dd778da817d566cc14d8edb74 Add tasks for WEIPAI, VLOOK.
+64e4fd748a1c4043cb6507ea478173b27276d13e Add rules for VLOOK.
+8ecdb22af49f8ce5a67e732e4be93ebaa0cfdfd4 Update rules for WEIPAI.
+397e9a82a2c0c7bc54d9092eb7363235eb96514f Add rules for photo.xgo.com.cn
+18bc80661a4201148423c867a5ff01a3b246e130 Update rules for weibo.com
 
 privepo/empty.git:
 b8325601d2a766e5620e6763cfc705d52d979675 initial import
@@ -184,11 +191,11 @@ d2d4e97e3a73bd1fb402e85cc5fd3df4f8414498 GM-SCRIPTS [GIT] commit 4a4fee26: Add u
 b9e5541ba2ca1e574620c4ae300aab43a950ec4d GM-SCRIPTS [GIT] commit 3aac91c0: Add user scripts.
 
 privepo/gm-scripts/git:
+0756ff2bb30de31c19a0b9e855a71f3100d07773 Update scripts: baiduyun.*, imagealbum, navigator, relink.
+a213348cc23367c795d964db71fd203150243ea8 Update myplace.imagealbum, myplace.baidu.yun.*
+2b374cef6bdfb95db69c198b5f6851e6baffff85 Update a lots.
 e7b4c6fe28c8b8486b436ca55da4dfbfdf9c10df Restructure files.
 6ce3c1a8b2442f58d6efd4bba320a00cf16a28a2 Add scripts for yun.baidu.com
-fd8bc86699b0f5e230a5cec0e06a2a805b1a7512 Clean up scripts.
-a691d276b73142028a420efa547a49454d90c377 Update lots of scripts.
-2f7d43003ad1eacb82839cadb4c96fc0bc681e4a Update script: imagealbumpanel.
 
 privepo/gsbridge/.git:
 08c3d1540fc0d38fd50ac2dbdbdcd81263698e28 GSBRIDGE [GIT] commit b097d64e: added project entries for vcsplace and github-sync
@@ -281,11 +288,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+c4bc1dbef6f7ed464ec19ddfaa20e6101f794163 Update PROJECTS to reflect changes of sf.net.
 9520ccae018573115016725d74ffdaed26d32039 Add projects: listqsed, userscripts, lister.
 317e853222dbe4e731563810088619f7efa118b4 Add project webscrap/userscripts.
 ec03979170c62d8bcebd80a1cf94bf978575a443 Update git/tombloo-data
 b9fb212d8080592e70e418d24362bd07d78b5b12 Update scripts, add git/hooks.pl, clean other scripts in git/.
-745d6dcc3bd8de9573dd5d095a9710610d69bea9 Update 20140215
 
 reposman/utils.git:
 511ea1fe5ebc921c54f44fd400f6b5bb52982e6d Update s_commit.
@@ -312,18 +319,18 @@ scriptlib/lua.git:
 889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
 
 scriptlib/perl.git:
-0a04810f644d92e908110fd9f0dda566e204cfc4 Adjust program output.
-db8c926eb7cbb98ccd79222004dd45c5a1bf7e4d Invent saveurl.pl for urlrule_action.
-56dbeb965cf59df9609305e2e7aaeef500052563 Function extended with name style support.
-db5ba973d9abff02bc92817c4991238d70907934 Convert git-acommit.pl from shellscript.
-6f797a1edc9dbfbbb71c1cc66ac026f80731fdb4 Update renameext.
+7b983e6c672aadad61faf8697654f5a3899e38b8 	Update file: classify.pl 	Update file: find_baddir.pl 	Update file: tombloo-bridge.pl
+f3740147b246fef4015290aa1f24cdf4102c215a [saveurl] Rewrite saveurl using module MyPlace::Program::Saveurl.
+84d44b7f95e864d01ffc21865935cd607d2b707f 	Add file: modules/MyPlace.pm
+a81dba09de34c5cb644bb97442b2f36dc450f369 [classify] Add test for images directories.
+13f97219c3888680d7e8213b575be8d3b20811eb [renameext] Add support for internal rules.
 
 scriptlib/sh.git:
+0945c706668dbe4f99db58b32e02a91a349fc775 	Update file: myiconv
+4f5cef93d7d3186684530fb3c3c3c9ae128a2ccc 	Add file: delete_parent_folder 	Add file: find_filetype
 d5fde9b58c1c5625225e2e97abb20540c2f5a131 Convert git-acommit to perl script. 	Delete file: <git-acommit>
 a81b946a8e04864b11cc35f8fa73680d56285ab9 Add/Update 'r-afun r-at-rtorrent'
 1ce885a449fff32b2ec1a95eafa49dfe0548e8bd Add git-import.
-92b95016a33f965cee2d404450f03545b4990c76 Add/Update 'un7zfolder'
-af886e8f7f365e132602b739ac1b5265948fc49a Add/Update 'pl2html'
 
 scriptlib/wscript.git:
 b0bb735d00ec8f9385cf4afc3b4e6b17ce46962b Add script get_rand_mail.
@@ -335,11 +342,11 @@ sourcebook.git:
 c5e9c4f14a2b934770896a52b7aba8a8182f4efb Initial commit.
 
 urlrule.git:
-96ae333a59cd6ae879383b67b2e7aadcc7b70957 Update URLRule::OO.
-74ab505731f74a095ae5688c23cd0f3369ebbd8f urlrule_database: no "newly" any more.
-16904403dcf8dfab84e9e40ea10e8b1be7f7b33d Fixed MyPlace::URLRule for using m//g in scalar context.
-462bc33f0d3e842c6b4cd5e01c8dc3b9da00332d Add/Update 'lib/MyPlace/URLRule/OO.pm'
-e649e31eaa3ecc13170866137aeadb7290b9ac72 Add/Update 'lib/MyPlace/URLRule.pm'
+48d65cd04d014653640b9fc7e3e57bdf0149adcb Update modules.
+15ba2a40cfecb9c262b9c1326213af29c3f98c94 Implement action "SAVE" in [urlrule_task]
+327d369e023f43fa3a46e4ae4862b5a4a95a8390 	Add file: bin/urlrule_save
+e69c55ad4c718c0383021b0d88547320559f2b71 Add action "SAVE"
+3f7d4bbd30f9bda43dbfbfe4054c301523870a20 	Update file: lib/MyPlace/URLRule/QvodExtractor.pm
 
 usys/sysbuilder.git:
 cd34e291324ab1ace552d27bda128fbe28ba559d Fix files mode and pathname.
@@ -429,11 +436,11 @@ webscrap/templates.git:
 d66e448f79afd9bfa28bf46ec9e2305cd296845c Initial commit.
 
 webscrap/tombloo-data.git:
-7e5d6a08fb1c52904f908f6a524a41d5ad2b9de8 Clean up some files.
-120c9c02b543a15eac7d633fbe7e2d51b1cda97a Update model.pinterest
-cae89cd6560757039cce36f748277285c652e6dd Add extractor for 56.com videos.
-b3753c729d22d8368d3de3681980d129043cdc6d Add model FirefoxMedia.
-f45284e21026f352612508f5372109072693afc8 Add extension content.
+3798d16ef9537211c02a282ad68862f6011c1ff9 	Update file: bridge/apply.sh
+21c197046ede6fb17649eeb3d20ffe2d6f0c2b93 	Update file: 32.tombloo.services.js
+5e045ad079a7271678b86b5b934885126e01e729 	Update file: 22.model.diandian.js 	Update file: 22.model.ikeepu.js 	Update file: 22.model.youdao.js
+e5661508c75f0ba524a74d8ff2f0cf13c974e641 	Add file: 22.model.baidu-pan.js
+15161593ad4aad7ae4172c10f9cdde8d7478e386 Rename "model.baidu" to "model.baidu-cang"
 
 webscrap/tombloo-xpi.git:
 0c1a2799a0de89d6f3c997b9364d3e5025e3b9d4 Version 0.4.34
@@ -443,11 +450,11 @@ cf88232620270051b0ee1b0cf854f7a2db2a4533 Update quickPostForm.xul.
 f227bc4638d65cf8476921d6f36a7c15282ea483 Update upstream.
 
 webscrap/userscripts.git:
-009f292a9b1b5592a0e2853e5e9527950b872016 	Update file: myplace.baidu.yun.albums.user.js 	Update file: myplace.baidu.yun.share.user.js
-efacd7376861067a51400b010c4e760fc61eaa6e Restruture myplace.baidu.yun.share.
-6eb396e0aa1b1b62ebce375ff83ad8a7601e83c2 Quick links for baidu.yun
-4d93462006ef1ff6e967b2467f7755e52d0fa2a5 Adjust pages size.
-399779280c2c97b6a2bb53c685163b04cf6419af Codes cleanup.
+1329542f0b1f913b957f5dc7d83f27af2caae4fb Pull updates from upstream, 20140425.
+0606810503b98141054e1796fb64afebafdb6008 Update links again.
+4c29ee8448a45c1dd8e097e448b3a87bdf380587 Update links.
+6d97d577c9bae4445d59048c1098461bbccd3e87 Fix version numbers.
+969a3c4125e63d6b60037d7ab86f1c07776bbbf9 Update myplace.baidu.yun.*
 
 xiaoranzzz/wiki.git:
 d289010cf1c649221b5cfec5c405fc0b2e3e90d9 Add Home.wiki.
@@ -457,4 +464,7 @@ ee0562823fb2c6f2f6590c0480139f1d447880a5 Initial Commit
 e3f842221b1bd28bba280b728f61d5330e1fb34f Add reposman control file.
 
 xiaoranzzz/writtings.git:
+
+zhreader.git:
+7955b824af61b4eab12174c6657f87d3afd8f3c9 Initial commit.
 

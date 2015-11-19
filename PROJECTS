@@ -18,24 +18,41 @@ GitHostsPublic = (
 	source = local.git/
 	mirrors[0] = assembla.git/
 	mirrors[1] = github.git/
-	mirrors[2] = gitorious.git/
-	mirrors[3] = google.git/
-	mirrors[4] = sf.git/
+	mirrors[2] = gitlab.git/
+	mirrors[3] = eote-coding-net.git/
+	mirrors[4] = eote-oschina.git/
+#	mirrors[3] = google.git/
+#	mirrors[4] = sf-zrepos.git/
 )
 
 GitHostsPublic2 = (
 	source = local.git/
 	mirrors[0] = assembla.git/
 	mirrors[1] = github.eote/
-	mirrors[2] = gitorious.git/
-	mirrors[3] = google.git/
-	mirrors[4] = sf.git/
+	mirrors[2] = gitlab.git/
+	mirrors[3] = coding-net.git/
+	mirrors[4] = oschina.git/
+#	mirrors[3] = google.git/
+#	mirrors[4] = sf-zrepos.git/
 )
+
+GitHostsPublic3 = (
+	source = local.git/
+	mirrors[0] = assembla.git/
+	mirrors[1] = github.git/
+	mirrors[2] = gitlab.git/
+#	mirrors[3] = google.git/
+#	mirrors[4] = sf.git/
+)
+
 
 GitHostsPrivate = (
 	source = local.privepo-git/
 	mirrors[0] = assembla.git/
-	mirrors[1] = unfuddle.repo/
+	mirrors[1] = gitlab-private.git/
+	mirrors[3] = codeing-net.git/
+#	mirrors[1] = unfuddle.repo/
+#	mirrors[2] = privepo.sf-git/
 )
 
 [host.local]
@@ -78,6 +95,15 @@ hg.write = ssh://eotect@#1.hg.sourceforge.net/hgroot/#1
 git.read = http://#1.git.sourceforge.net:8000/gitroot/#1
 git.write = ssh://#1.git.sourceforge.net/gitroot/#1
 
+[host.bitbucket]
+git.read = git@bitbucket.org:#1/#2.git
+git.write = git@bitbucket.org:#1/#2.git
+
+[host.bb-eote]
+git.read = git@bitbucket.org:eote/#shortname#.git
+git.write = git@bitbucket.org:eote/#shortname#.git
+
+
 [host.sf]
 git.read = git://git.code.sf.net/p/#1/#2
 git.write = ssh://#user#@git.code.sf.net/p/#1/#2
@@ -96,14 +122,14 @@ git.write = ssh://#1.git.sourceforge.net/gitroot/#1/#1
 map = localname
 hg.read = http://zrepos.hg.sourceforge.net:8000/hgroot/zrepos/#1
 hg.write = ssh://zrepos.hg.sourceforge.net/hgroot/zrepos/#1
-git.read = http://zrepos.git.sourceforge.net:8000/gitroot/zrepos/#1.git
-git.write = ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/#1.git
+git.read = http://git.code.sf.net/p/zrepos/#1
+git.write = ssh://eotect@git.code.sf.net/p/zrepos/#1
 
 [host.privepo]
 git.read = #localroot#git/#1/.git
 git.write = #localroot#git/#1/.git
-sf-git.read = http://zrepos.git.sourceforge.net:8000/gitroot/zrepos/#1.git
-sf-git.write = ssh://eotect@zrepos.git.sourceforge.net/gitroot/zrepos/#1.git
+sf-git.read = http://git.code.sf.net/p/zrepos/privepo.git/#1
+sf-git.write = ssh://eotect@git.code.sf.net/p/zrepos/privepo.git/#1
 sf-git.type = git
 
 [host.projectlocker]
@@ -127,12 +153,33 @@ eote.read = http://github.com/eote/#1.git
 eote.write = git@github.com:eote/#1.git
 eote.type = git
 
-[host.gitorious]
-git.read = http://gitorious.org/#1/#2!.git
-git.write = git@gitorious.org:#1/#2!.git
-eote.read = http://gitorious.org/eote/#1.git
-eote.write = git@gitorious.org:eote/#1.git
+[host.gitlab]
+git.read = http://gitlab.com/#1/#2!.git
+git.write = git@gitlab.com:#1/#2!.git
+eote.read = http://gitlab.com/eote/#1.git
+eote.write = git@gitlab.com:eote/#1.git
 eote.type = git
+
+[host.gitlab-private]
+git.read = http://gitlab.com/boqi/#1.git
+git.write = git@gitlab.com:boqi/#1.git
+
+[host.coding-net]
+git.read = https://git.coding.net/#1/#2.git
+git.write = git@git.coding.net:#1/#2.git
+
+
+[host.eote-coding-net]
+git.read = https://git.coding.net/eote/#1-#2.git
+git.write = git@git.coding.net:eote/#1-#2.git
+
+[host.oschina]
+git.read = https://git.oschina.net/#1/#2.git
+git.write = git@git.oschina.net:#1/#2.git
+
+[host.eote-oschina]
+git.read = https://git.oschina.net/eote/#1-#2.git
+git.write = git@git.oschina.net:eote/#1-#2.git
 
 [type.git]
 checkout.write = #checkout##1
@@ -156,11 +203,13 @@ zrepos = repos
 [perl]
 name = scriptlib/perl
 #GitHostsPublic#
+assembla = scriptlib-perl
 
 [sh]
 name = scriptlib/sh
 sf	= scriptlib/shellscript
 #GitHostsPublic#
+assembla = scriptlib-sh
 
 [batch]
 name = scriptlib/batch
@@ -229,6 +278,9 @@ name = plaintexts/texts
 
 [notes]
 name = plaintexts/notes
+assembla = myplace/notes
+eote-coding-net = myplace/notes
+eote-oschina = myplace/notes
 #GitHostsPublic#
 
 [webpages]
@@ -270,28 +322,34 @@ checkout = .
 ;badcodes
 [vb6]
 name = badcodes/vb6
+google = idlecodes/vb6
 #GitHostsPublic#
 
 [vc6]
 name = badcodes/vc6
+google = idlecodes/vc6
 #GitHostsPublic#
 
 [freebasic]
 name = badcodes/freebasic
+google = idlecodes/freebasic
 #GitHostsPublic#
 
 [c]
 name = badcodes/c
+google = idlecodes/c
 checkout = #checkout#/codebase/
 #GitHostsPublic#
 
 [cpp]
 name = badcodes/cpp
+google = idlecodes/cpp
 checkout = #checkout#/codebase/
 #GitHostsPublic#
 
 [vsnet]
 name = badcodes/vsnet
+google = idlecodes/vsnet
 #GitHostsPublic#
 
 ;xxxxxxxxxxxxxxxxxxx
@@ -336,7 +394,9 @@ checkout = #checkout#/webdev/
 
 [userscripts]
 name = webscrap/userscripts
+#assembla = myplace/userscripts
 #GitHostsPublic#
+mirrors[5] = bb-eote.git/
 
 [listqsed]
 name = webscrap/listqsed
@@ -375,11 +435,16 @@ sf-zrepos = repos
 [gm-scripts]
 checkout = firefox/gm_scripts
 #GitHostsPrivate#
+mirrors[9] = bb-eote.git/
 
 [babebase]
 name = babebase
 checkout = #checkout#/perl/urlrule
 #GitHostsPrivate#
+
+[urlrule/rules]
+checkout = #checkout#/perl/urlrule
+#GitHostsPublic3#
 
 [foxwps]
 #GitHostsPrivate#
@@ -457,7 +522,10 @@ source = privepo.git/
 ;xxxxxxxxxxxxxxxxxxx
 ;new projects
 [urlrule]
-#GitHostsPublic#
+name = urlrule/urlrule
+google = urlrule
+assembla = urlrule
+#GitHostsPublic3#
 
 [xiaoranzzz/wiki]
 github = xiaoranzzz/xiaoranzzz.github.com.wiki
@@ -490,5 +558,12 @@ assembla = fanqiang
 github = eote/pods2epub
 sf = pods2epub/code
 #GitHostsPublic#
+
+[uris]
+name = myplace/uris
+mirrors[0] = gitlab.git/
+mirrors[1] = assembla.git/
+mirrors[2] = local.git/
+
 
 ;	vim:filetype=dosini

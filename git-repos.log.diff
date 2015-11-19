@@ -1,34 +1,108 @@
-142,146c142,146
-< 4d765cb1b2e636bee98808ad5fd5dee60c1748d4 Add common rules adult.qvod for bibi138.com, se1199.com ...
-< 66c4ab4eae21ce0dc9d43f69a9060b76d91aca62 Add rules for av3030.com
-< 7a7e710e41853881e4c074da0664856e6865299f Update rules for 350hh.com
-< a69721b9ace831efebb8b233a8a81eb5c01ab6eb Update database
-< 3e27090ea2a843b00051446cc88f02da43421672 Add rules for 99pupu.com(350hh.com).
+49,54c49,54
+< libmyplace/perl.git:
+< 5eeb4beeb863c4e5aca37916775121206b47c760 	Update file: Data/BlockedSites.pm
+< 753f7dc11bf193c7b0acfaa10520be48ced04b32 	Update file: Config.pm 	Update file: Curl.pm 	Update file: UniqueList.pm
+< 1cab37a4a93a261887f7dff1ca6cdd766be6f00e Add reposman configuration.
+< 8f1e6d62af68385fa9ecc114a749f04c0dd0e7bd Update programs.
+< e18c0f3d7acd797764f3ad0d277f18f841cc2145 Delete Download.pl
 ---
-> 8e8084f9654503647815adc4e21a5273d9f844b1 Update rules: colorbird.com.
-> 54076e70f5b39318f25ee6444f5d9032cc928887 Update rules, add rules
-> 98c3b0df3d554a34a0cc900ad2a9f85ea3a26fa3 Update rule: facebook.com
-> c28df2269c308c0243cbe16c0fe26487e93dbb5a Update rules: moko.cc
-> 4b679051764aea4eff1eaf3c3c3218cc1452f95b Update rules: fotop.net, snaapa.com
-284d283
-< 9520ccae018573115016725d74ffdaed26d32039 Add projects: listqsed, userscripts, lister.
-288a288
-> eb1e084334db0f0a77ec527e03cf5422efbf43a9 Updates
-315,316d314
-< 0a04810f644d92e908110fd9f0dda566e204cfc4 Adjust program output.
-< db8c926eb7cbb98ccd79222004dd45c5a1bf7e4d Invent saveurl.pl for urlrule_action.
-319a318,319
-> 40eaafdef8ab9d87d045c1d7fe1bc7df834939bf Add/Update 'opml2txt.pl'
-> 1b6ee5379c0efb382c75e12d3e78b44e9a0d7d8f Add/Update 'classify.pl classifiles.pl'
-446,450c446,450
-< 009f292a9b1b5592a0e2853e5e9527950b872016 	Update file: myplace.baidu.yun.albums.user.js 	Update file: myplace.baidu.yun.share.user.js
-< efacd7376861067a51400b010c4e760fc61eaa6e Restruture myplace.baidu.yun.share.
-< 6eb396e0aa1b1b62ebce375ff83ad8a7601e83c2 Quick links for baidu.yun
-< 4d93462006ef1ff6e967b2467f7755e52d0fa2a5 Adjust pages size.
-< 399779280c2c97b6a2bb53c685163b04cf6419af Codes cleanup.
+> libmyplace-perl.git:
+> e72c99b3ea96940f7184ae4e1b67af2b31f9cac5 Add Bookmarks::HTML.
+> e192b4e7f5988083ea4d70b0b8149a458d032bb9 Update Discuz, add Time.
+> 0cc6ea91b7163735a2e8172fc57201c4468923c2 Add LWP and 163::Photo, update 163::Blog, Program::Batchget and Program::Download.
+> 93944e4980584e3339da3c6def37b2c0f7146730 Update lots of modules.
+> 8449cffe6f26842751633f84f270e415c60a3f0a Add HashArray, for simple configuration.
+105,111d104
+< pods2epub.git:
+< 1b594ca7e183088e11dfb794322be023a8765cff Update source to strawberry-perl v5.18.1
+< e7406857501ff616061de858e77d4970bee401a3 Update source to strawberry-perl v5.16.3
+< bac41701c0d312075ad55422993827343e67f939 Update source to strawberry-perl v5.14.4
+< 4746bb8d10826f3f3c0aab6bc68fd0a3e8240b0b Update source to strawberry-perl v5.12.3
+< 0c0a3eaed0c2a366bb20095a74041f093b224630 Update source to strawberry-perl v5.10.1
+< 
+135d127
+< 093714897010cdaa13a6402faa688f4cc7027b4a Add avatars for BITSDIST, BITSPOOL.
+139a132
+> c1405c8ac631728b93b881452119c63e265463fb Update README again.
+149,153c142,146
+< b4c60823b0827d7dd778da817d566cc14d8edb74 Add tasks for WEIPAI, VLOOK.
+< 64e4fd748a1c4043cb6507ea478173b27276d13e Add rules for VLOOK.
+< 8ecdb22af49f8ce5a67e732e4be93ebaa0cfdfd4 Update rules for WEIPAI.
+< 397e9a82a2c0c7bc54d9092eb7363235eb96514f Add rules for photo.xgo.com.cn
+< 18bc80661a4201148423c867a5ff01a3b246e130 Update rules for weibo.com
 ---
-> 56c7cae083ae4cdc7f16b42786a86fc8bd848782 Fix issues of @grant none.
-> 4d05bc55daf4990aec576c96fb5fbeb7d8d026fb Add support for magnet links for myplace.baidu.yun
-> 912433205c4bbdd8004fac5d88c65b2c7c9f7c54 Update: myplace.imagealbum.user.js
-> 05c12c7ba4a118dd0a87a3f5e2df56f181f660f4 addButton fixed for myplace.panel
-> 5d0c020b2c568ef26b6df3b77cfe934a2a8339fc Fix conflicted of jQuery and @grant none.
+> 4d765cb1b2e636bee98808ad5fd5dee60c1748d4 Add common rules adult.qvod for bibi138.com, se1199.com ...
+> 66c4ab4eae21ce0dc9d43f69a9060b76d91aca62 Add rules for av3030.com
+> 7a7e710e41853881e4c074da0664856e6865299f Update rules for 350hh.com
+> a69721b9ace831efebb8b233a8a81eb5c01ab6eb Update database
+> 3e27090ea2a843b00051446cc88f02da43421672 Add rules for 99pupu.com(350hh.com).
+194,196d186
+< 0756ff2bb30de31c19a0b9e855a71f3100d07773 Update scripts: baiduyun.*, imagealbum, navigator, relink.
+< a213348cc23367c795d964db71fd203150243ea8 Update myplace.imagealbum, myplace.baidu.yun.*
+< 2b374cef6bdfb95db69c198b5f6851e6baffff85 Update a lots.
+198a189,191
+> fd8bc86699b0f5e230a5cec0e06a2a805b1a7512 Clean up scripts.
+> a691d276b73142028a420efa547a49454d90c377 Update lots of scripts.
+> 2f7d43003ad1eacb82839cadb4c96fc0bc681e4a Update script: imagealbumpanel.
+291d283
+< c4bc1dbef6f7ed464ec19ddfaa20e6101f794163 Update PROJECTS to reflect changes of sf.net.
+295a288
+> 745d6dcc3bd8de9573dd5d095a9710610d69bea9 Update 20140215
+322,326c315,319
+< 7b983e6c672aadad61faf8697654f5a3899e38b8 	Update file: classify.pl 	Update file: find_baddir.pl 	Update file: tombloo-bridge.pl
+< f3740147b246fef4015290aa1f24cdf4102c215a [saveurl] Rewrite saveurl using module MyPlace::Program::Saveurl.
+< 84d44b7f95e864d01ffc21865935cd607d2b707f 	Add file: modules/MyPlace.pm
+< a81dba09de34c5cb644bb97442b2f36dc450f369 [classify] Add test for images directories.
+< 13f97219c3888680d7e8213b575be8d3b20811eb [renameext] Add support for internal rules.
+---
+> 0a04810f644d92e908110fd9f0dda566e204cfc4 Adjust program output.
+> db8c926eb7cbb98ccd79222004dd45c5a1bf7e4d Invent saveurl.pl for urlrule_action.
+> 56dbeb965cf59df9609305e2e7aaeef500052563 Function extended with name style support.
+> db5ba973d9abff02bc92817c4991238d70907934 Convert git-acommit.pl from shellscript.
+> 6f797a1edc9dbfbbb71c1cc66ac026f80731fdb4 Update renameext.
+329,330d321
+< 0945c706668dbe4f99db58b32e02a91a349fc775 	Update file: myiconv
+< 4f5cef93d7d3186684530fb3c3c3c9ae128a2ccc 	Add file: delete_parent_folder 	Add file: find_filetype
+333a325,326
+> 92b95016a33f965cee2d404450f03545b4990c76 Add/Update 'un7zfolder'
+> af886e8f7f365e132602b739ac1b5265948fc49a Add/Update 'pl2html'
+345,349c338,342
+< 48d65cd04d014653640b9fc7e3e57bdf0149adcb Update modules.
+< 15ba2a40cfecb9c262b9c1326213af29c3f98c94 Implement action "SAVE" in [urlrule_task]
+< 327d369e023f43fa3a46e4ae4862b5a4a95a8390 	Add file: bin/urlrule_save
+< e69c55ad4c718c0383021b0d88547320559f2b71 Add action "SAVE"
+< 3f7d4bbd30f9bda43dbfbfe4054c301523870a20 	Update file: lib/MyPlace/URLRule/QvodExtractor.pm
+---
+> 96ae333a59cd6ae879383b67b2e7aadcc7b70957 Update URLRule::OO.
+> 74ab505731f74a095ae5688c23cd0f3369ebbd8f urlrule_database: no "newly" any more.
+> 16904403dcf8dfab84e9e40ea10e8b1be7f7b33d Fixed MyPlace::URLRule for using m//g in scalar context.
+> 462bc33f0d3e842c6b4cd5e01c8dc3b9da00332d Add/Update 'lib/MyPlace/URLRule/OO.pm'
+> e649e31eaa3ecc13170866137aeadb7290b9ac72 Add/Update 'lib/MyPlace/URLRule.pm'
+439,443c432,436
+< 3798d16ef9537211c02a282ad68862f6011c1ff9 	Update file: bridge/apply.sh
+< 21c197046ede6fb17649eeb3d20ffe2d6f0c2b93 	Update file: 32.tombloo.services.js
+< 5e045ad079a7271678b86b5b934885126e01e729 	Update file: 22.model.diandian.js 	Update file: 22.model.ikeepu.js 	Update file: 22.model.youdao.js
+< e5661508c75f0ba524a74d8ff2f0cf13c974e641 	Add file: 22.model.baidu-pan.js
+< 15161593ad4aad7ae4172c10f9cdde8d7478e386 Rename "model.baidu" to "model.baidu-cang"
+---
+> 7e5d6a08fb1c52904f908f6a524a41d5ad2b9de8 Clean up some files.
+> 120c9c02b543a15eac7d633fbe7e2d51b1cda97a Update model.pinterest
+> cae89cd6560757039cce36f748277285c652e6dd Add extractor for 56.com videos.
+> b3753c729d22d8368d3de3681980d129043cdc6d Add model FirefoxMedia.
+> f45284e21026f352612508f5372109072693afc8 Add extension content.
+453,457c446,450
+< 1329542f0b1f913b957f5dc7d83f27af2caae4fb Pull updates from upstream, 20140425.
+< 0606810503b98141054e1796fb64afebafdb6008 Update links again.
+< 4c29ee8448a45c1dd8e097e448b3a87bdf380587 Update links.
+< 6d97d577c9bae4445d59048c1098461bbccd3e87 Fix version numbers.
+< 969a3c4125e63d6b60037d7ab86f1c07776bbbf9 Update myplace.baidu.yun.*
+---
+> 009f292a9b1b5592a0e2853e5e9527950b872016 	Update file: myplace.baidu.yun.albums.user.js 	Update file: myplace.baidu.yun.share.user.js
+> efacd7376861067a51400b010c4e760fc61eaa6e Restruture myplace.baidu.yun.share.
+> 6eb396e0aa1b1b62ebce375ff83ad8a7601e83c2 Quick links for baidu.yun
+> 4d93462006ef1ff6e967b2467f7755e52d0fa2a5 Adjust pages size.
+> 399779280c2c97b6a2bb53c685163b04cf6419af Codes cleanup.
+467,469d459
+< 
+< zhreader.git:
+< 7955b824af61b4eab12174c6657f87d3afd8f3c9 Initial commit.
