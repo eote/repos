@@ -61,8 +61,8 @@ svn.read = #localroot#svn/#1/#2
 svn.write = #localroot#svn/#1/#2
 hg.read = #localroot#hg/#1
 hg.write = #localroot#hg/#1
-git.read = #localroot#git/#1.git
-git.write = #localroot#git/#1.git
+git.read = #localroot#git/#1/#2.git
+git.write = #localroot#git/#1/#2.git
 privepo-git.read = #localroot#git/privepo/#1/git
 privepo-git.write = #localroot#git/privepo/#1/git
 privepo-git.type = git
@@ -200,33 +200,70 @@ zrepos = repos
 
 ;xxxxxxxxxxxxxxxxxxx
 ;scriptlib
-[perl]
-name = scriptlib/perl
+[scriptlib/perl]
+name = perl
+group = scriptlib
 #GitHostsPublic#
 #assembla = scriptlib-perl
 
-[sh]
-name = scriptlib/sh
+[scriptlib/sh]
+name = sh
+group = scriptlib
 sf	= scriptlib/shellscript
 #GitHostsPublic#
 #assembla = scriptlib-sh
 
-[batch]
-name = scriptlib/batch
+[scriptlib/batch]
+name = batch
+group = scriptlib
 #GitHostsPublic#
 
-[lua]
-name = scriptlib/lua
+[scriptlib/lua]
+name = lua
+group = scriptlib
 #GitHostsPublic#
 
-[wscript]
-name = scriptlib/wscript
+[scriptlib/wscript]
+name = wscript
+group = scriptlib
 #GitHostsPublic#
 
-[logo]
-name = scriptlib/logo
+[scriptlib/logo]
+name = logo
+group = scriptlib
 #GitHostsPublic#
 
+
+;xxxxxxxxxxxxxxxxxxx
+;tombloo
+[tombloo/tombloo]
+name = tombloo
+group = tombloo
+assembla = tombloo
+checkout = firefox/extensions/tombloo
+#GitHostsPublic#
+mirrors[5] = github.git/to/tombloo
+
+
+[tombloo/tombloo-data]
+name = tombloo-data
+group = tombloo
+checkout = firefox/tombloo
+#assembla = tombloo-data
+#GitHostsPublic#
+
+[tombloo/tombloo-xpi]
+name = tombloo-xpi
+group = tombloo
+assembla = tombloo-xpi
+checkout = firefox/extensions/tombloo@brasil.to
+#GitHostsPublic#
+
+[tombloo/Scripts-for-Tombloo]
+name = Scripts-for-Tombloo
+group = tombloo
+checkout = firefox/tombloo/scripts/Scripts-for-Tombloo
+#GitHostsPublic#
 
 ;xxxxxxxxxxxxxxxxxxx
 ;standalone projects
@@ -273,20 +310,20 @@ group = mpdata
 #GitHostsPublic#
 
 ;xxxxxxxxxxxxxxxxxxx
-;plaintexts
+;mptext
 [texts]
-name = plaintexts/texts
+name = texts
+group = mptext
 #GitHostsPublic#
 
 [notes]
-name = plaintexts/notes
-assembla = myplace/notes
-eote-coding-net = myplace/notes
-eote-oschina = myplace/notes
+name = notes
+group = mptext
 #GitHostsPublic#
 
 [webpages]
-name = plaintexts/webpages
+name = webpages
+group = mptext
 #GitHostsPublic#
 
 ;xxxxxxxxxxxxxxxxxxx
@@ -360,25 +397,6 @@ google = idlecodes/vsnet
 assembla=http-myplace
 #GitHostsPublic#
 
-[tombloo]
-name = webscrap/tombloo
-assembla = tombloo
-checkout = firefox/extensions/tombloo
-#GitHostsPublic#
-mirrors[5] = github.git/to/tombloo
-
-[tombloo-data]
-name = webscrap/tombloo-data
-checkout = firefox/tombloo
-assembla = tombloo-data
-#GitHostsPublic#
-
-[tombloo-xpi]
-name = webscrap/tombloo-xpi
-assembla = tombloo-xpi
-checkout = firefox/extensions/tombloo@brasil.to
-#GitHostsPublic#
-
 [htmlscripts]
 name = webscrap/htmlscripts
 checkout = #checkout#/webdev/
@@ -422,8 +440,9 @@ local = utils
 sf-zrepos = utils
 #GitHostsPublic#
 
-[repos]
-name = eote/repos
+[reposman/repos]
+name = repos
+group = reposman
 local = repos
 sf-zrepos = repos
 #GitHostsPublic#
@@ -440,6 +459,7 @@ checkout = firefox/gm_scripts
 
 [babebase]
 name = babebase
+group = boqi
 checkout = #checkout#/perl/urlrule
 #GitHostsPrivate#
 
@@ -518,9 +538,14 @@ source = privepo.git/
 
 ;xxxxxxxxxxxxxxxxxxx
 ;new projects
-[urlrule]
+[urlrule/urlrule]
 group = urlrule
 name = urlrule
+#GitHostsPublic#
+
+[urlrule/rules]
+name = rules
+group = urlrule
 #GitHostsPublic#
 
 [xiaoranzzz/wiki]
@@ -538,11 +563,6 @@ sf-zrepos = sourcebook
 name = reposman/utils
 #GitHostsPublic#
 
-
-[Scripts-for-Tombloo]
-name = webscrap/Scripts-for-Tombloo
-checkout = firefox/tombloo/scripts/Scripts-for-Tombloo
-#GitHostsPublic#
 
 [fanqiang]
 name = webscrap/fanqiang
