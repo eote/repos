@@ -16,24 +16,24 @@ checkout = /myplace/workspace/
 localroot = /myplace/repos/
 GitHostsPublic = (
 	source = local.git/
-	mirrors[0] = assembla.git/
-	mirrors[1] = github.git/
+#	mirrors[0] = assembla.git/
+#	mirrors[1] = github.git/
 	mirrors[2] = gitlab.git/
-	mirrors[3] = eote-coding-net.git/
-	mirrors[4] = eote-oschina.git/
+#	mirrors[3] = eote-coding-net.git/
+#	mirrors[4] = eote-oschina.git/
+#	mirrors[5] = bitbucket.git/
 #	mirrors[3] = google.git/
 #	mirrors[4] = sf-zrepos.git/
 )
 
 GitHostsPublic2 = (
 	source = local.git/
-	mirrors[0] = assembla.git/
-	mirrors[1] = github.eote/
+#	mirrors[0] = assembla.git/
+#	mirrors[1] = github.eote/
 	mirrors[2] = gitlab.git/
-	mirrors[3] = coding-net.git/
-	mirrors[4] = oschina.git/
-#	mirrors[3] = google.git/
-#	mirrors[4] = sf-zrepos.git/
+#	mirrors[3] = coding-net.git/
+#	mirrors[4] = oschina.git/
+#	mirrors[5] = bitbucket.git/
 )
 
 GitHostsPublic3 = (
@@ -48,11 +48,11 @@ GitHostsPublic3 = (
 
 GitHostsPrivate = (
 	source = local.privepo-git/
-	mirrors[0] = assembla.git/
-	mirrors[1] = gitlab-private.git/
-	mirrors[3] = codeing-net.git/
-#	mirrors[1] = unfuddle.repo/
-#	mirrors[2] = privepo.sf-git/
+#	mirrors[0] = assembla.git/
+	mirrors[1] = gitlab.git/
+#	mirrors[2] = eote-coding-net.git/
+#	mirrors[3] = eote-oschina.git/
+#	mirrors[4] = bitbucket.git/
 )
 
 [host.local]
@@ -203,13 +203,13 @@ zrepos = repos
 [perl]
 name = scriptlib/perl
 #GitHostsPublic#
-assembla = scriptlib-perl
+#assembla = scriptlib-perl
 
 [sh]
 name = scriptlib/sh
 sf	= scriptlib/shellscript
 #GitHostsPublic#
-assembla = scriptlib-sh
+#assembla = scriptlib-sh
 
 [batch]
 name = scriptlib/batch
@@ -256,18 +256,20 @@ checkout = perl/modules/MyPlace
 
 ;xxxxxxxxxxxxxxxxxxx
 ;profiles
-[firefox]
-name = profs/firefox
-assembla = fp-shared
+[mpdata/firefox]
+name = firefox
+group = mpdata
 checkout = #checkout#firefox
 #GitHostsPublic#
 
-[homebase]
-name = profs/homebase
+[mpdata/homebase]
+name = homebase
+group = mpdata
 #GitHostsPublic# 
 
-[config-awesome]
-name = profs/config-awesome
+[mpdata/config-awesome]
+name = config-awesome
+group = mpdata
 #GitHostsPublic#
 
 ;xxxxxxxxxxxxxxxxxxx
@@ -392,11 +394,10 @@ name = webscrap/templates
 checkout = #checkout#/webdev/
 #GitHostsPublic#
 
-[userscripts]
-name = webscrap/userscripts
-#assembla = myplace/userscripts
+[scriptlib/userscripts]
+name = userscripts
+group = scriptlib
 #GitHostsPublic#
-mirrors[5] = bb-eote.git/
 
 [listqsed]
 name = webscrap/listqsed
@@ -433,18 +434,14 @@ sf-zrepos = repos
 #GitHostsPrivate#
 
 [gm-scripts]
+group = mpdata
 checkout = firefox/gm_scripts
 #GitHostsPrivate#
-mirrors[9] = bb-eote.git/
 
 [babebase]
 name = babebase
 checkout = #checkout#/perl/urlrule
 #GitHostsPrivate#
-
-[urlrule/rules]
-checkout = #checkout#/perl/urlrule
-#GitHostsPublic3#
 
 [foxwps]
 #GitHostsPrivate#
@@ -522,10 +519,9 @@ source = privepo.git/
 ;xxxxxxxxxxxxxxxxxxx
 ;new projects
 [urlrule]
-name = urlrule/urlrule
-google = urlrule
-assembla = urlrule
-#GitHostsPublic3#
+group = urlrule
+name = urlrule
+#GitHostsPublic#
 
 [xiaoranzzz/wiki]
 github = xiaoranzzz/xiaoranzzz.github.com.wiki
