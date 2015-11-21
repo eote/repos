@@ -443,7 +443,7 @@ sf-zrepos = utils
 [reposman/repos]
 name = repos
 group = reposman
-local = repos
+checkout = #localroot#.
 sf-zrepos = repos
 #GitHostsPublic#
 
