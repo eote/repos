@@ -467,11 +467,10 @@ group = eote
 sf-zrepos = utils
 #GitHostsPublic#
 
-[reposman/repos]
+[eote/repos]
 name = repos
-group = reposman
+group = eote
 checkout = #localroot#.
-sf-zrepos = repos
 #GitHostsPublic#
 
 ;xxxxxxxxxxxxxxxxxxx
