@@ -17,11 +17,11 @@ localroot = /myplace/repos/
 GitHostsPublic = (
 	source = local.git/
 #	mirrors[0] = assembla.git/
-#	mirrors[1] = github.git/
+	mirrors[1] = github.git/
 	mirrors[2] = gitlab.git/
 #	mirrors[3] = eote-coding-net.git/
 #	mirrors[4] = eote-oschina.git/
-#	mirrors[5] = bitbucket.git/
+	mirrors[5] = bitbucket.git/
 #	mirrors[3] = google.git/
 #	mirrors[4] = sf-zrepos.git/
 )
@@ -29,11 +29,11 @@ GitHostsPublic = (
 GitHostsPublic2 = (
 	source = local.git/
 #	mirrors[0] = assembla.git/
-#	mirrors[1] = github.eote/
+	mirrors[1] = github.eote/
 	mirrors[2] = gitlab.git/
 #	mirrors[3] = coding-net.git/
 #	mirrors[4] = oschina.git/
-#	mirrors[5] = bitbucket.git/
+	mirrors[5] = bitbucket.git/
 )
 
 GitHostsPublic3 = (
@@ -52,7 +52,16 @@ GitHostsPrivate = (
 	mirrors[1] = gitlab.git/
 #	mirrors[2] = eote-coding-net.git/
 #	mirrors[3] = eote-oschina.git/
-#	mirrors[4] = bitbucket.git/
+	mirrors[4] = bitbucket.git/
+)
+
+GitHostsPrivate2 = (
+	source = local.git/
+#	mirrors[0] = assembla.git/
+	mirrors[1] = gitlab.git/
+#	mirrors[2] = eote-coding-net.git/
+#	mirrors[3] = eote-oschina.git/
+	mirrors[4] = bitbucket.git/
 )
 
 [host.local]
@@ -268,8 +277,13 @@ checkout = firefox/tombloo/scripts/Scripts-for-Tombloo
 ;xxxxxxxxxxxxxxxxxxx
 ;standalone projects
 [websaver2]
+group = websaver
 checkout = firefox/extensions/websaver2@myplace.hell
-#GitHostsPublic2#
+#GitHostsPublic#
+
+[websaver]
+group = websaver
+#GitHostsPublic#
 
 [usys]
 #GitHostsPublic#
@@ -289,6 +303,7 @@ checkout = perl/modules/MyPlace
 #GitHostsPublic#
 
 [losep]
+bitbucket=losep/losep
 #GitHostsPublic#
 
 ;xxxxxxxxxxxxxxxxxxx
@@ -296,8 +311,10 @@ checkout = perl/modules/MyPlace
 [mpdata/firefox]
 name = firefox
 group = mpdata
-checkout = #checkout#firefox
-#GitHostsPublic#
+checkout = /myplace/appdata/firefox
+#GitHostsPrivate2#
+mirrors[8] = /myplace/files/appdata/firefox/git
+
 
 [mpdata/homebase]
 name = homebase
@@ -306,6 +323,11 @@ group = mpdata
 
 [mpdata/config-awesome]
 name = config-awesome
+group = mpdata
+#GitHostsPublic#
+
+[mpdata/vim]
+name = vim
 group = mpdata
 #GitHostsPublic#
 
@@ -395,21 +417,25 @@ google = idlecodes/vsnet
 ;webscrap
 [webscrap/http-myplace]
 assembla=http-myplace
+bitbucket=websaver/http-myplace
 #GitHostsPublic#
 
 [htmlscripts]
 name = webscrap/htmlscripts
 checkout = #checkout#/webdev/
+bitbucket=websaver/htmlscripts
 #GitHostsPublic#
 
 [css]
 name = webscrap/css
 checkout = #checkout#/webdev/
+bitbucket=websaver/css
 #GitHostsPublic#
 
 [templates]
 name = webscrap/templates
 checkout = #checkout#/webdev/
+bitbucket=websaver/templates
 #GitHostsPublic#
 
 [scriptlib/userscripts]
@@ -420,6 +446,7 @@ group = scriptlib
 [listqsed]
 name = webscrap/listqsed
 assembla=listqsed
+bitbucket=websaver/listqsed
 #GitHostsPublic#
 
 ;xxxxxxxxxxxxxxxxxxx
@@ -435,8 +462,8 @@ name = prints/ebooks
 ;xxxxxxxxxxxxxxxxxxx
 ;small personal projects
 [utils]
-name = eote/utils
-local = utils
+name = utils
+group = eote
 sf-zrepos = utils
 #GitHostsPublic#
 
@@ -462,6 +489,12 @@ name = babebase
 group = boqi
 checkout = #checkout#/perl/urlrule
 #GitHostsPrivate#
+
+[boqi/liverecorder]
+name = liverecorder
+group = boqi
+checkout = #checkout#/.x/capture/
+#GitHostsPublic#
 
 [foxwps]
 #GitHostsPrivate#
@@ -538,13 +571,19 @@ source = privepo.git/
 
 ;xxxxxxxxxxxxxxxxxxx
 ;new projects
-[urlrule/urlrule]
+[urlrule]
 group = urlrule
 name = urlrule
+local = urlrule
 #GitHostsPublic#
 
 [urlrule/rules]
 name = rules
+group = urlrule
+#GitHostsPublic#
+
+[urlrule/search]
+name = search
 group = urlrule
 #GitHostsPublic#
 
@@ -554,13 +593,14 @@ github = xiaoranzzz/xiaoranzzz.github.com.wiki
 mirror = github.git/xiaoranzzz/xiaoranzzz.github.com
 
 [sourcebook]
-name = eote/sourcebook
-local = sourcebook
+name = sourcebook
+group = eote
 sf-zrepos = sourcebook
 #GitHostsPublic#
 
 [reposman/utils]
-name = reposman/utils
+name = utils
+group = reposman
 #GitHostsPublic#
 
 
@@ -568,10 +608,11 @@ name = reposman/utils
 name = webscrap/fanqiang
 checkout = fanqiang
 assembla = fanqiang
+bitbucket=websaver/fanqiang
 #GitHostsPublic#
 
 [pods2epub]
-github = eote/pods2epub
+group = eote
 sf = pods2epub/code
 #GitHostsPublic#
 
@@ -581,5 +622,27 @@ mirrors[0] = gitlab.git/
 mirrors[1] = assembla.git/
 mirrors[2] = local.git/
 
+
+[vbpicshow]
+name = vbpicshow
+group = eote
+#GitHostsPublic#
+
+[capture]
+name = urlrule/capture
+#GitHostsPublic#
+
+[xyj45]
+name = losep/xyj45
+#GitHostsPublic#
+
+[mud]
+name = eote/mud
+#GitHostsPublic#
+
+[nt6m]
+name = losep/nt6m
+mirrors[0] = gitlab.git/
+mirrors[1] = bitbucket.git/
 
 ;	vim:filetype=dosini

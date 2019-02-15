@@ -1,3 +1,10 @@
+babes.git:
+53438909ee2945390cf7ee3e36ad67b21824fa1f Delete some files
+7afd46b3c584eff112ca5c984c869c9966073c0b Update 18 files:
+ff8e1cdf0eb1637668f0ce49a79c35e84b9a87d2 Update DATABASE.ud
+91cf81fbd46e4897d573817b9931689d33449856 Import database
+e52323cf662dd54470007923501a4c66d61a9929 Initial import
+
 badcodes/c.git:
 2e7afa5f0c110bffa254b2e24a5d7077bd44214b Add project MPSHELL.
 05f56324d1c969bc7f450dce964fd5e38b31c118 Add project HDSTART.
@@ -47,11 +54,11 @@ excs/learningperl.git:
 4f272ffee3008d9f59b42e356788f5fc416fa7f6 Initial commit.
 
 libmyplace/perl.git:
-5eeb4beeb863c4e5aca37916775121206b47c760 	Update file: Data/BlockedSites.pm
-753f7dc11bf193c7b0acfaa10520be48ced04b32 	Update file: Config.pm 	Update file: Curl.pm 	Update file: UniqueList.pm
-1cab37a4a93a261887f7dff1ca6cdd766be6f00e Add reposman configuration.
-8f1e6d62af68385fa9ecc114a749f04c0dd0e7bd Update programs.
-e18c0f3d7acd797764f3ad0d277f18f841cc2145 Delete Download.pl
+fd0b3337fafd88e1d4d7d25da634e703ffa256b1 Update 14 files:
+68614a657b600d6b2fca3ede2c0c4253c2c2f981 Add files:Data/Dumper.pm,Escape.pm
+3afc6a5887df482be34384f0e3a7a2f2c9bc71c1 Update file: Program/DownloadTorrent.pm
+4f66b959e9ae9b91509bdb209c28f5e872d93097 Add 7 files:
+ce06e2a103eab134ffa109f5cbd71a8a2a0f6bc0 Update modules
 
 losep/core.git:
 c61dfd049b5201d6f19cdb4e7c6ca67310cd235d Update vim scripts to match version 7.3.
@@ -81,26 +88,44 @@ losep.git:
 8ef5db5a5d90ab68cbdefcd03a46cee7900b4b32 Update core/data/linux
 8e5e552489e4b73cc1bc2369030bb15ebb12a0dd sub-module data/linux/public_profile updated.
 
-nightgun.git:
-bf4e2b97b25cbb76b4f048b5e278ac7157a30393 Update CGI script.
-8175c956f3d2be9603256d42556638eef9550b31 Update CGI script.
-1779a860f4192745783827b22ff85a44111b18ec Upgrade to version v1.20.
-8b6f0751a89fb1536d270c375c2813917b8b2686 Add CGI config sample.
-924f357e79e9ec0871bef4eeadc064986acb8fd0 Add CGI script nightgun-cgi.pl
+mpdata/gm-scripts.git:
+bdd5a70c041979cb8b4c6141d0b371f8dc38cc4c Update 4 files:
+045c9034dabd3c5b8cd4e3c76d060fafea2e5971 Update 7 files:
+149d71f5420abb1741ec4396af0b14c2a42cf7a0 Update 5 files:
+f99b4e655c7a9df4a36f77dc15bea0f801074996 Update 6 files:
+63630bdce252b1edb470200be874ad55e4ea8618 Add 4 files:
 
-plaintexts/notes.git:
-1a2b3fa9bad83e3c984864e9a1e528e88c780577 Initial commit.
+mptext/notes.git:
+06e23b48afb1abcef91bb44aea255c4ad69bd7f7 Update file: programming/microsoft/visualstudio.txt
+7d20767d4c15727922a3d19b1a760dab41e601bf Update file: README.md
+4e2d43cbc4e6287b3982f2e9f872494e0564985a Add file: programming/
+e39ecc98b9cc745b06bdb0ea9a428976c265b9b4 Update file: README.md
+ff98728d48941386d17d87a3df5abd1463477343 Add file: README.md
 
-plaintexts/texts.git:
+mptext/texts.git:
 3079105c63ac41eede85985ad1ac67970fe8fcbb added .repos, config file for gsvn-init-repo
 4d5dc4c97e52f025c81765d0c7791ed8f1ddb57a update README
 a8fd3a72fcb049fbb179c810dbb46e9107ff55a2 add README, update .gitconfig
 f32ac11bd8910a4ebeda1675e3706be68c828432 add README
 c98c79ac9ee70bda4ff67f24d6493fbf50f01b14 add articles for git-svn
 
-plaintexts/webpages.git:
+mptext/webpages.git:
 06c27bb1c793a2fe4420c61913062a6f6ac631f6 created index page
 fc88a9eff41b51606dc026f0ee35455888968ee3 initial directory structure
+
+myplace/tasks.git:
+3700a0e92001618e2f90ab929493cdc982da4609 Tasks: 0 Done, 4 Doing nothing
+d136c92ea006fd07413ff2c8d20be7047d043762 Tasks: 0 Done, 1 Doing nothing
+740c6ccdfcbb849a9cfb6bfb2520e7e283f8db60 Tasks: 0 Done, 1 Doing nothing
+9559cfcc35cad6bfb210c78703408f8cddf7dfa6 Tasks: 0 Done, 1 Doing nothing
+1d6fe29bb5c6ee149e42fe6bee22614bba9bbf47 Tasks: 0 Done, 1 Doing nothing
+
+nightgun.git:
+bf4e2b97b25cbb76b4f048b5e278ac7157a30393 Update CGI script.
+8175c956f3d2be9603256d42556638eef9550b31 Update CGI script.
+1779a860f4192745783827b22ff85a44111b18ec Upgrade to version v1.20.
+8b6f0751a89fb1536d270c375c2813917b8b2686 Add CGI config sample.
+924f357e79e9ec0871bef4eeadc064986acb8fd0 Add CGI script nightgun-cgi.pl
 
 pods2epub.git:
 1b594ca7e183088e11dfb794322be023a8765cff Update source to strawberry-perl v5.18.1
@@ -146,11 +171,11 @@ a0f4b88514a4240d47443cd37831589c33570589 BABEBASE [GIT] commit 8e8084f9: Update 
 155b0547536dfe179882ccb37d7df3b380148f16 BABEBASE [GIT] commit 3763ef41: Convert MyPlace::HTTPGet to MyPlace::LWP.
 
 privepo/babebase/git:
-b4c60823b0827d7dd778da817d566cc14d8edb74 Add tasks for WEIPAI, VLOOK.
-64e4fd748a1c4043cb6507ea478173b27276d13e Add rules for VLOOK.
-8ecdb22af49f8ce5a67e732e4be93ebaa0cfdfd4 Update rules for WEIPAI.
-397e9a82a2c0c7bc54d9092eb7363235eb96514f Add rules for photo.xgo.com.cn
-18bc80661a4201148423c867a5ff01a3b246e130 Update rules for weibo.com
+f11218ac1b96807bf2ac29a4bea1790c572eb58a Update 3 files:
+5cb84eda3ab66c08816e42aec8798dc428c92e62 Add 5 files:
+cde021f8a82d60f0d2f3325ee91bc234dfbebb9a Update 7 files:
+ab811f6b844aaf18fd5b8870fd73c836bdfda316 Add 4 files:
+c842ae965b28c652f09a977066d7faf9023cf24e Update files:config.pm,sites/weipai.cn/database.sq
 
 privepo/empty.git:
 b8325601d2a766e5620e6763cfc705d52d979675 initial import
@@ -184,18 +209,18 @@ privepo/fp-default/git:
 36473941f6b6d803f161288f007668b2a802e478 Initial commit.
 
 privepo/gm-scripts/.git:
+17dd102a6628bbee2b88ffe2fc2e32206f3c76f0 GM-SCRIPTS [GIT] commit 7452f17c: Update source.
 9dd18699ad01232832e165c9cbbadc8eef58fbce GM-SCRIPTS [GIT] commit a691d276: Update lots of scripts.
 11afaca36fc1a588bd1bdda6fa81a6a4eb50faf9 GM-SCRIPTS [GIT] commit bb6fe7b7: Update imagealbumpanel and pages_lister.
 471d601a372fe5814478d41edbb0e19ae55cbb6b GM-SCRIPTS [GIT] commit 089db828: Update randomformfiller.
 d2d4e97e3a73bd1fb402e85cc5fd3df4f8414498 GM-SCRIPTS [GIT] commit 4a4fee26: Add user scripts.
-b9e5541ba2ca1e574620c4ae300aab43a950ec4d GM-SCRIPTS [GIT] commit 3aac91c0: Add user scripts.
 
 privepo/gm-scripts/git:
-0756ff2bb30de31c19a0b9e855a71f3100d07773 Update scripts: baiduyun.*, imagealbum, navigator, relink.
-a213348cc23367c795d964db71fd203150243ea8 Update myplace.imagealbum, myplace.baidu.yun.*
-2b374cef6bdfb95db69c198b5f6851e6baffff85 Update a lots.
-e7b4c6fe28c8b8486b436ca55da4dfbfdf9c10df Restructure files.
-6ce3c1a8b2442f58d6efd4bba320a00cf16a28a2 Add scripts for yun.baidu.com
+bdd5a70c041979cb8b4c6141d0b371f8dc38cc4c Update 4 files:
+045c9034dabd3c5b8cd4e3c76d060fafea2e5971 Update 7 files:
+149d71f5420abb1741ec4396af0b14c2a42cf7a0 Update 5 files:
+f99b4e655c7a9df4a36f77dc15bea0f801074996 Update 6 files:
+63630bdce252b1edb470200be874ad55e4ea8618 Add 4 files:
 
 privepo/gsbridge/.git:
 08c3d1540fc0d38fd50ac2dbdbdcd81263698e28 GSBRIDGE [GIT] commit b097d64e: added project entries for vcsplace and github-sync
@@ -288,11 +313,18 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 repos.git:
+d097e2d13338fe1f3d42061ff1e494241294f747 Update PROJECTS
+cff535a66d938c836627c07ce568db641391adb1 update PROJECTS
 c4bc1dbef6f7ed464ec19ddfaa20e6101f794163 Update PROJECTS to reflect changes of sf.net.
 9520ccae018573115016725d74ffdaed26d32039 Add projects: listqsed, userscripts, lister.
 317e853222dbe4e731563810088619f7efa118b4 Add project webscrap/userscripts.
-ec03979170c62d8bcebd80a1cf94bf978575a443 Update git/tombloo-data
-b9fb212d8080592e70e418d24362bd07d78b5b12 Update scripts, add git/hooks.pl, clean other scripts in git/.
+
+reposman/reposman.git:
+34c93dd1c894e454cc7dd301778e17ee51d13afb Re-organize codes, some commands module include "help" "dump" "push" and "checkout" re-written
+136c3698813d9f10ad337ca6499f5bfb7428bc41 Remove utils which moved to a standalone repository.
+e20c4bdaebf1478415511c4f1a3d93d90a515b74 Update utils.
+7b01c5a8cf367c8cd25a64af053fc60f0ae031b4 Update utils.
+a6181d4fe7921f86253c3dece838cca5147f4fe2 Update utils.
 
 reposman/utils.git:
 511ea1fe5ebc921c54f44fd400f6b5bb52982e6d Update s_commit.
@@ -300,13 +332,6 @@ reposman/utils.git:
 cfbfd71f7a03e22d05c9c9bd9770943823e3b1bb Add/Update 'git/update_modified.pl'
 6857f8ed37fdbdcfae726496c49d43b077441273 Add/Update 'auto_commit.pl git/update_modified.pl'
 c6f40f9dda3ae5af20f7dadb8387584dda65d96e Add .reposman.
-
-reposman.git:
-34c93dd1c894e454cc7dd301778e17ee51d13afb Re-organize codes, some commands module include "help" "dump" "push" and "checkout" re-written
-136c3698813d9f10ad337ca6499f5bfb7428bc41 Remove utils which moved to a standalone repository.
-e20c4bdaebf1478415511c4f1a3d93d90a515b74 Update utils.
-7b01c5a8cf367c8cd25a64af053fc60f0ae031b4 Update utils.
-a6181d4fe7921f86253c3dece838cca5147f4fe2 Update utils.
 
 scriptlib/batch.git:
 cb455189784f20cbd7a35ee819036aed024ce293 initial commit
@@ -319,18 +344,18 @@ scriptlib/lua.git:
 889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
 
 scriptlib/perl.git:
-7b983e6c672aadad61faf8697654f5a3899e38b8 	Update file: classify.pl 	Update file: find_baddir.pl 	Update file: tombloo-bridge.pl
-f3740147b246fef4015290aa1f24cdf4102c215a [saveurl] Rewrite saveurl using module MyPlace::Program::Saveurl.
-84d44b7f95e864d01ffc21865935cd607d2b707f 	Add file: modules/MyPlace.pm
-a81dba09de34c5cb644bb97442b2f36dc450f369 [classify] Add test for images directories.
-13f97219c3888680d7e8213b575be8d3b20811eb [renameext] Add support for internal rules.
+c8f5b5d44ea2dd72db5e062f167e70506013a2e2 Update urlrule here
+68f9159a066b6e6f2ce416c866c98201fe9a0f05 Update scripts [ntfs-link, search_torrents, tagfs]
+b083520768ee8afd5343f3979bbec04b445f1131 Update files:convert_torrent,search_torrents
+6839b35daed701e4b8f34e8b1584c06517bc727b Update files:babes,search_torrents
+a3eb98ac96fda5927965cae1c3041b6d28df97ad Update file: search_torrents
 
 scriptlib/sh.git:
+89d679b78c965f4b20429da75aa34c99122b3d64 Add 8 files:
+bd86de8e0817d0a0a2af1f168a427de15c9922ad Delete files:google,script_template
+b368466b78d359993ca6191409d3de8844ff3598 Update 5 files:
 0945c706668dbe4f99db58b32e02a91a349fc775 	Update file: myiconv
 4f5cef93d7d3186684530fb3c3c3c9ae128a2ccc 	Add file: delete_parent_folder 	Add file: find_filetype
-d5fde9b58c1c5625225e2e97abb20540c2f5a131 Convert git-acommit to perl script. 	Delete file: <git-acommit>
-a81b946a8e04864b11cc35f8fa73680d56285ab9 Add/Update 'r-afun r-at-rtorrent'
-1ce885a449fff32b2ec1a95eafa49dfe0548e8bd Add git-import.
 
 scriptlib/wscript.git:
 b0bb735d00ec8f9385cf4afc3b4e6b17ce46962b Add script get_rand_mail.
@@ -341,12 +366,47 @@ sourcebook.git:
 4d765f201087cd7c03115e0fab012f60a0e87a8a Add oddmuse-1.934.
 c5e9c4f14a2b934770896a52b7aba8a8182f4efb Initial commit.
 
-urlrule.git:
-48d65cd04d014653640b9fc7e3e57bdf0149adcb Update modules.
-15ba2a40cfecb9c262b9c1326213af29c3f98c94 Implement action "SAVE" in [urlrule_task]
-327d369e023f43fa3a46e4ae4862b5a4a95a8390 	Add file: bin/urlrule_save
-e69c55ad4c718c0383021b0d88547320559f2b71 Add action "SAVE"
-3f7d4bbd30f9bda43dbfbfe4054c301523870a20 	Update file: lib/MyPlace/URLRule/QvodExtractor.pm
+tombloo/Scripts-for-Tombloo.git:
+4213bff3f248c88f27169ceeac4253f7449bfb23 Add circles supports to model.gplus
+d716ffde93c5314e00391cf15b64cc6cca98f76e Avoid any patch conflict
+b2a080ed36121825b30c73cecb8b3f41feed69cc Fixed a bug that couldn't upload with the https only setting on Twitter
+bb9d96b4db57add0f036da8ddc3063661181024f Revised a way to get initdata
+9d28dd0397208ed75fd584df1ebf39d4262eb62b Force upload on regular Photo mode
+
+tombloo/tombloo-data.git:
+e36d1cda86aa9214107d44ebc9abb869b5bd1e7b Add 6 files:
+c8af1b9df1ccf10f203e35e1d6424293e5e000db Delete file: test.vbs
+2d5c041effe55366a5c343b5ffbd23e22fd1efe3 Update 5 files:
+0401d117fa5b1db3510eac7a1fa5ed450a8787a9 Update models.Pinterest, Re-enable it.
+d844b428a123413ff849e7d8124f907abd734c4d Update file: data/201505.js
+
+tombloo/tombloo-xpi.git:
+caa125d2d7bacf53b3b6921ec838775f56334b35 Update file: install.rdf
+b5da9a93b814c736cad847e859925f640b80c49f Update file: chrome/content/library/20_Tumblr.js
+86a4b01e01e37b3f825985b2aa17f1c8774b1d5c Update file: chrome/content/library/01_utility.js
+7902853b3cfce8bd6c80ed3973c933357245cd7c Updated by firefox, version 0.4.37.
+ddde91d5b41c7b2eedccab7c4974ca49ef069218 upstream updated.
+
+tombloo/tombloo.git:
+1731dc6137e6045a1bb2da95cd0335f19801cedc Tombloo 0.4.37(移行告知)
+aa433d3585d24bc235d9e07be1c98924910ed8b6 未使用サービス削除(faves)
+11c77f7a2b97e2835b32694142fa1a2fddf10fa5 設定画面でアイコンが大きくなるのを修正
+bb07ac0a8cf35a4ac59673da508c89128951b3a5 開発者追加
+379af6e3295b16828fbda09b3612c86ed16602f9 アイコンの透明抜きを正確に
+
+urlrule/rules.git:
+f11218ac1b96807bf2ac29a4bea1790c572eb58a Update 3 files:
+5cb84eda3ab66c08816e42aec8798dc428c92e62 Add 5 files:
+cde021f8a82d60f0d2f3325ee91bc234dfbebb9a Update 7 files:
+ab811f6b844aaf18fd5b8870fd73c836bdfda316 Add 4 files:
+c842ae965b28c652f09a977066d7faf9023cf24e Update files:config.pm,sites/weipai.cn/database.sq
+
+urlrule/urlrule.git:
+270b9c30790968e71667464f0b5d1864b821837d Update from scriptlib/perl
+bf9b046757ee4cd795336cf13c7f9171330e1b8c Update 6 files:
+7a9852b44153c4d8900b35b49cb88c40f4a5e54c Update 6 files:
+c77ed89b141f0c777d0da5e56d43ac57d4953bc3 Rewrite "urlrule_new"
+cf3602049d44c06d88499be92a0403ce3bb210fc Add rountine "expand_url" and "create_title"
 
 usys/sysbuilder.git:
 cd34e291324ab1ace552d27bda128fbe28ba559d Fix files mode and pathname.
@@ -406,11 +466,11 @@ e260db4afccafa999ed607a1800a7bd983c21369 Fix stylesheet naming.
 354d6b97b9c6fbd4fec63e1761ed4d20b7d1247d Initial commit.
 
 webscrap/fanqiang.git:
+6ab601ad6fd4df5c83c5bb45ea514a20cacaad64 Update hosts
+9ec282744efb001fe04d7e7de2860bd77fec7074 New hosts
+8a6d1ca878ac7b178eb54344f81571e7f9dd9e68 Move everything into outdated/
 a9de219ba389cb740fd823d6992b2df7a247a05a Update (re-update) hosts 20130212
 02b2f18c51c9030974178bae512279e12e016721 Update hosts 2012-02-12
-60289c078ce8511a8049511b94f67d96cf3fdb8f Update hosts 20121118.
-dcd7d27c20cbb8625a62ae5dcb4c00fdd1dc77f3 Comment out all google ip.
-1db1117ce58c99c01a04ae21e8eb2cf8e7f04290 Clean up.
 
 webscrap/htmlscripts.git:
 0c9778ad58a99bd2725e81dcd539e485d5d69987 Initial commit.
@@ -425,36 +485,15 @@ webscrap/listqsed.git:
 e4c952465d8e0b15f290c4502010c234c58e1630 Lister template updated.
 95d1b14eb9015b7868ff507bf5fba000e03b6747 First commit, Version 1.0
 
-webscrap/Scripts-for-Tombloo.git:
-4213bff3f248c88f27169ceeac4253f7449bfb23 Add circles supports to model.gplus
-d716ffde93c5314e00391cf15b64cc6cca98f76e Avoid any patch conflict
-b2a080ed36121825b30c73cecb8b3f41feed69cc Fixed a bug that couldn't upload with the https only setting on Twitter
-bb9d96b4db57add0f036da8ddc3063661181024f Revised a way to get initdata
-9d28dd0397208ed75fd584df1ebf39d4262eb62b Force upload on regular Photo mode
-
 webscrap/templates.git:
 d66e448f79afd9bfa28bf46ec9e2305cd296845c Initial commit.
 
-webscrap/tombloo-data.git:
-3798d16ef9537211c02a282ad68862f6011c1ff9 	Update file: bridge/apply.sh
-21c197046ede6fb17649eeb3d20ffe2d6f0c2b93 	Update file: 32.tombloo.services.js
-5e045ad079a7271678b86b5b934885126e01e729 	Update file: 22.model.diandian.js 	Update file: 22.model.ikeepu.js 	Update file: 22.model.youdao.js
-e5661508c75f0ba524a74d8ff2f0cf13c974e641 	Add file: 22.model.baidu-pan.js
-15161593ad4aad7ae4172c10f9cdde8d7478e386 Rename "model.baidu" to "model.baidu-cang"
-
-webscrap/tombloo-xpi.git:
-0c1a2799a0de89d6f3c997b9364d3e5025e3b9d4 Version 0.4.34
-a25bd8bd1b46b9bae8520a21acea2cb49996a2cd Pull from upstream
-cf88232620270051b0ee1b0cf854f7a2db2a4533 Update quickPostForm.xul.
-49e82960982bbeeaed19dc0059d2f64b13103006 Sync with upstream.
-f227bc4638d65cf8476921d6f36a7c15282ea483 Update upstream.
-
 webscrap/userscripts.git:
-1329542f0b1f913b957f5dc7d83f27af2caae4fb Pull updates from upstream, 20140425.
-0606810503b98141054e1796fb64afebafdb6008 Update links again.
-4c29ee8448a45c1dd8e097e448b3a87bdf380587 Update links.
-6d97d577c9bae4445d59048c1098461bbccd3e87 Fix version numbers.
-969a3c4125e63d6b60037d7ab86f1c07776bbbf9 Update myplace.baidu.yun.*
+60fbd39f39c65422087aa351d5c2b0da414b5177 Update 9 files:
+b4281d2a01620658fcb6b7a1e3a7444fb872f83e Update 3 files:
+7cd016886fe078181ec116677a7f4f4e1a79ecd5 Update file: links.html
+898be23e4c9aa73add65b7bb5e6f499ef15cb3e7 Add 3 files:
+1223cf037aee60b7bdce2af1f00e64e141fa9ef1 Update file: myplace.baidu.yun.share.home.user.js
 
 xiaoranzzz/wiki.git:
 d289010cf1c649221b5cfec5c405fc0b2e3e90d9 Add Home.wiki.
