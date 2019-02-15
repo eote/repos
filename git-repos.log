@@ -363,11 +363,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 reposman/repos.git:
+472cb25965756b3730b94a60c86abfb606f0e599 Updates a lot
 82fa6985de600db7fa42b501c4343f59fa049245 Update files:.reposman,PROJECTS
 3c5accec3763bcddaa44da17d8b9951fe445c57d Delete files:git/repos.git/HEAD,git/repos.git/refs/heads/master
 19481e14f6884ec8f76a52e8b0083aba74f2bab4 Delete 22 files:
 92d1bb4d1ca7818ee334ca1d83f0882af1933b5e Update 7 files:
-d097e2d13338fe1f3d42061ff1e494241294f747 Update PROJECTS
 
 reposman/utils.git:
 511ea1fe5ebc921c54f44fd400f6b5bb52982e6d Update s_commit.
@@ -461,6 +461,8 @@ f55c17f8295e1735f5790d24aec066ef89d1961a Add 4 files:
 9612083104dfbac54f5bc42a21b6903c01011c63 Update 5 files:
 
 urlrule/search.git:
+724b5412eb7984cb9a2d69e5fffd75f3a3ee0555 Update download script
+a3156821961c227250df413d9bd0ec0d186bfe16 Initial commit
 
 urlrule.git:
 270b9c30790968e71667464f0b5d1864b821837d Update from scriptlib/perl
