@@ -16,7 +16,7 @@ checkout = /myplace/workspace/
 localroot = /myplace/repos/
 GitHostsPublic = (
 	source = local.git/
-#	mirrors[0] = assembla.git/
+	mirrors[0] = assembla.git/
 	mirrors[1] = github.git/
 	mirrors[2] = gitlab.git/
 #	mirrors[3] = eote-coding-net.git/
@@ -48,7 +48,7 @@ GitHostsPublic3 = (
 
 GitHostsPrivate = (
 	source = local.privepo-git/
-#	mirrors[0] = assembla.git/
+	mirrors[0] = assembla.git/
 	mirrors[1] = gitlab.git/
 #	mirrors[2] = eote-coding-net.git/
 #	mirrors[3] = eote-oschina.git/
@@ -57,7 +57,7 @@ GitHostsPrivate = (
 
 GitHostsPrivate2 = (
 	source = local.git/
-#	mirrors[0] = assembla.git/
+	mirrors[0] = assembla.git/
 	mirrors[1] = gitlab.git/
 #	mirrors[2] = eote-coding-net.git/
 #	mirrors[3] = eote-oschina.git/
