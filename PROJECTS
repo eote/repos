@@ -467,11 +467,6 @@ group = eote
 sf-zrepos = utils
 #GitHostsPublic#
 
-[reposman/repos]
-name = repos
-group = reposman
-checkout = #localroot#.
-#GitHostsPublic#
 
 ;xxxxxxxxxxxxxxxxxxx
 ;private repositories
@@ -643,5 +638,11 @@ name = eote/mud
 name = losep/nt6m
 mirrors[0] = gitlab.git/
 mirrors[1] = bitbucket.git/
+
+[repos]
+name = repos
+group = eote
+checkout = #localroot#.
+#GitHostsPublic#
 
 ;	vim:filetype=dosini
