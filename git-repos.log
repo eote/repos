@@ -392,11 +392,11 @@ profs/users/xiaoranzzz.git:
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
 reposman/utils.git:
+5ce3736e5518c55196913f24e5bb16edea14b8da [GIT-ACOMMIT] Update file: git/update_modified.pl
 3a0bd4216b514f650c34c822b275d8ce13a01a50 Add script git/is-modified.pl
 511ea1fe5ebc921c54f44fd400f6b5bb52982e6d Update s_commit.
 430a3e74b8c71224dc30fc572ee1437726bd470b Add/Update 'generate_log.pl git/generate_log.pl'
 cfbfd71f7a03e22d05c9c9bd9770943823e3b1bb Add/Update 'git/update_modified.pl'
-6857f8ed37fdbdcfae726496c49d43b077441273 Add/Update 'auto_commit.pl git/update_modified.pl'
 
 reposman.git:
 34c93dd1c894e454cc7dd301778e17ee51d13afb Re-organize codes, some commands module include "help" "dump" "push" and "checkout" re-written
