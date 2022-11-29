@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+[remote "assembla"]
+	url = git@git.assembla.com:classify.git
+	fetch = +refs/heads/*:refs/remotes/assembla/*
+[remote "github"]
+	url = git@github.com:classify/classify.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[remote "gitlab"]
+	url = git@gitlab.com:classify/classify.git
+	fetch = +refs/heads/*:refs/remotes/gitlab/*
+[remote "bitbucket"]
+	url = git@bitbucket.org:classify/classify.git
+	fetch = +refs/heads/*:refs/remotes/bitbucket/*

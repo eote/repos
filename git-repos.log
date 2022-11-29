@@ -61,12 +61,26 @@ boqi/liverecorder.git:
 6b029f27fcf04f241f830ebaf2b5661df1113785 Add reposman configuration
 ffb3f73b2b0ce2f926ec7da50b4c1a6296e2db27 Initial commit
 
+boqi/taskspool.git:
+e866bddbef3ebe5202d5ed51e36ee283b77f2068 [GIT-ACOMMIT] Update 12 files:
+733d00099b91bb67a7c46d0697cdca8f1defaf08 [GIT-ACOMMIT] Add file: .mtd/HISTORY.md
+6c84ab9fb13a54baf2e38bb709d60a1c36a80286 [GIT-ACOMMIT] Add 30 files:
+68e5b198ed21744430de3eca17c84ee7362cf9f4 [GIT-ACOMMIT] Delete 164 files:
+6bd9427ea35375a565e6e81f755fde5ca435fe72 Add files:.mtd/worker/,.mtd/workers
+
+classify.git:
+632c0e6f389794610ea1706a525032fc706c4872 [GIT-ACOMMIT] Add files:fictions.lst,fictions.pl
+206929c89d41ed2514f30ba291d092d75a82058c [GIT-ACOMMIT] Update files:avstars.rule,babes.rule
+fc38342e4b29a42cf8c775c85bacc3394f1543d7 [GIT-ACOMMIT] Update file: babes.rule
+d9f75b1735cbe62ebb1beae86d058ee462c54a54 [GIT-ACOMMIT] Update file: babes.rule
+fdc12f5bca430b1e0b1d9dfaf60a609a126087d3 [GIT-ACOMMIT] Add file: .gitconfig
+
 eote/mud.git:
-7f989a87d4750ef0cf17cf5108f5020065478cf1 Update 282 files:
-1d5d9ff70f2a5e4006fa80d6237a88d3d56d0a7d Solid updates
-5d6e46c6944c74680a6e4218cc30ebfea6de7716 update files:
-276407490a56991dbfb747b9cc49bc0ff8af284f Updates a lot
-2b8c412d28e8b1c9c10735f8cc9bef66fb6884cf update 20170208
+731564b40d9a2fb9738d866d72a98ce717e8068d [GIT-ACOMMIT] Update 84 files:
+1ad3f0df0e3c40e26aabffb9c1314ad8995709d9 [GIT-ACOMMIT] Update 37 files:
+1822debcf336b926eae3f0e7d42ee4a98d832d80 [GIT-ACOMMIT] Update 49 files:
+d0b5b9fb716b1c5a7ed03ae10257922bbabe936f [GIT-ACOMMIT] Update 35 files:
+7cab561ed76478916d2d567377f3a1091101028a [GIT-ACOMMIT] Update 36 files:
 
 eote/pods2epub.git:
 1b594ca7e183088e11dfb794322be023a8765cff Update source to strawberry-perl v5.18.1
@@ -74,6 +88,13 @@ e7406857501ff616061de858e77d4970bee401a3 Update source to strawberry-perl v5.16.
 bac41701c0d312075ad55422993827343e67f939 Update source to strawberry-perl v5.14.4
 4746bb8d10826f3f3c0aab6bc68fd0a3e8240b0b Update source to strawberry-perl v5.12.3
 0c0a3eaed0c2a366bb20095a74041f093b224630 Update source to strawberry-perl v5.10.1
+
+eote/repos.git:
+b770aa81e4206fad81e303e8406fba978527787e Update PROJECTS
+46d504ff61c03e0269f8b861be70e8f21530fcb2 Move reposman/repos.git to eote/repos.git
+a00ab227e634ca3059bd4db824105cbd4d9810fb Update heads
+ef39eda912391692b69472364243ff973d7b8baa Update files:PROJECTS,git/reposman/repos.git/refs/heads/master
+06a106d3f647aad375984b35ddb04654ba81ff03 Update files:PROJECTS,git/reposman/repos.git/refs/heads/master
 
 eote/sourcebook.git:
 522bfbd742a5597abcc070313e0689af47ba8c71 Add oddmuse CVS clone.
@@ -92,11 +113,11 @@ excs/learningperl.git:
 4f272ffee3008d9f59b42e356788f5fc416fa7f6 Initial commit.
 
 libmyplace/perl.git:
-84dc41bd11f5d3182225b0f897997dacf4c7659b Update some modules
-106321403e3487a410d9024d160a4b24298d8da1 Update file: MyPlace/Downloader.pm
-a165484b52e2f62fc191ec105ddcbc390b8d4326 Update 12 files:
-6efed427b9fcf64007ef22fc022ccd14f0b81f16 Update 20 files:
-e169a3b3ab2bd9890fea7f7002ca2bc4f7247db8 Add Vlook.pm
+db14c1fb2bcb05a7a8837673f0b9f048ab65b4a3 [GIT-ACOMMIT] Update 22 files:
+8d93af307cf0486b9edab9443a95d029807d49d5 [GIT-ACOMMIT] Update 13 files:
+c0ba2d0db22ab39d13e4a9fc1651f4582914723e [GIT-ACOMMIT] Update 17 files:
+395ebdc7a3dd25dce493c30e27c94cc8a376ae64 [GIT-ACOMMIT] Update 12 files:
+b35d6c83dd0d926acae6bf32d0d4ee4a69e7000e [GIT-ACOMMIT] Update file: MyPlace/Douyin.pm
 
 losep/core.git:
 c61dfd049b5201d6f19cdb4e7c6ca67310cd235d Update vim scripts to match version 7.3.
@@ -117,11 +138,11 @@ c228da7d7b819df94156693b7b06a119c3f6c42a Remove and ReAdd firefox profiles submo
 88c22a6c41a0c4494df1be278e3c1a7c89f51292 Update submodules.
 
 losep/nt6m.git:
-bc9d9ed9ebb5c73d84e2c5065809f8c2e4dd1f2a 加入.gitignore
-47fc591d844f584234b41e7ebf5eb647dee43e71 更新config.nt6
-34196d735cade01df76e1cda98ef12890451a41a 保存数据 data/。
-fc2292a1d7b935614e5117227422ef7549cb5266 修复adm/daemons/combatd,原因skill_power溢出。加入cmds/power命令。
-27d3f9743fdd8f3a2dd326c9220c0d1161301aa7 修改 adm/daemons/race/beast, 因为新手村的野兔 clone/quarry/tu 太厉害了。
+36b67d2e0dfb9e73e810346ce59517df60626ae9 [GIT-ACOMMIT] Update 58 files:
+cea9d6f31995e1750d61dd5b07898a2ac8490666 [GIT-ACOMMIT] Update 4 files:
+9fbf1a9817d0e106c1b9d466d827a84a90d3fc2c [GIT-ACOMMIT] Update 10 files:
+d83a8cc54b635f95edc459a2bfa48c65966fbf92 [GIT-ACOMMIT] Update 14 files:
+1500159a2e18e1953be6c56ac7c07c6db877496a [GIT-ACOMMIT] Update 156 files:
 
 losep/thinapp.git:
 e61ea1b39752be46c18e474e75185f470dce1836 Initial commit.
@@ -151,11 +172,19 @@ f40c5af2029431e2beb7bd9da9c57b70a7102eb9 Update extensions
 286457f80d4cfaeacbbf28fc53bdc62d2b6fedf9 Update gm_scripts
 
 mpdata/gm-scripts.git:
-9fa6f1a62c27b5a73d608a6a2fd0550f6154f196 Update 53 files:
-4a45e811efc31074efd335fed7f9c616db777675 Update scripts
-991fa44aa952cf7e5eac9b5933f793eb65ecc2bc Add file: source/weibo_utils.user.js
-dcc0f92db39b472c74a5ae6a29d58d6aa4f8b4f4 Add scripts
-fae9f02407cf0ed225b103bda42e103fd42df172 Updates
+ec8296046b4f166a617221994d5750ca1a493f50 [GIT-ACOMMIT] Update 13 files:
+e0ac318972c28019cf52ab0d6dd2b944a61994f3 For firefox new version
+62bbb44cab35ae573ce4990598e13f1e47ca0f54 [GIT-ACOMMIT] Update files:myplace.imagesalbum/myplace.imagesalbum.user.js,source/myplace.imagesalbum.user.js
+c950902f6c5fdce61f36c3d6b03b975719d2e8ca [GIT-ACOMMIT] Add file: Greasemonkey_backup_20200920_034115.zip
+c447eeb872978f602561447a4ff903cfbd6bc914 [GIT-ACOMMIT] Update 7 files:
+
+mpdata/guigubahuang.git:
+63b6d39473694356ef224eccf085b1838b1cc192 [GIT-ACOMMIT] Update file: 20210224 Game v0.8.1027.69
+
+mpdata/tq.git:
+ada12844fbad38cfc502927f8c4a585c86f8d87d [GIT-ACOMMIT] Update 3 files:
+ed076d4c9504b24b13d2e6870f981d661c6ccab4 Add SaveData/Main/PlayMenu.mnu
+74e0168bf010f0c39d074766b313fe1a4e190545 Initial import
 
 mpdata/vim.git:
 60291f2bbb0d1cd07ba01584f14f57db76bb5ab9 Update plugin [perl-support]
@@ -276,11 +305,11 @@ privepo/gm-scripts/.git:
 d2d4e97e3a73bd1fb402e85cc5fd3df4f8414498 GM-SCRIPTS [GIT] commit 4a4fee26: Add user scripts.
 
 privepo/gm-scripts/git:
-9fa6f1a62c27b5a73d608a6a2fd0550f6154f196 Update 53 files:
-4a45e811efc31074efd335fed7f9c616db777675 Update scripts
-991fa44aa952cf7e5eac9b5933f793eb65ecc2bc Add file: source/weibo_utils.user.js
-dcc0f92db39b472c74a5ae6a29d58d6aa4f8b4f4 Add scripts
-fae9f02407cf0ed225b103bda42e103fd42df172 Updates
+ec8296046b4f166a617221994d5750ca1a493f50 [GIT-ACOMMIT] Update 13 files:
+e0ac318972c28019cf52ab0d6dd2b944a61994f3 For firefox new version
+62bbb44cab35ae573ce4990598e13f1e47ca0f54 [GIT-ACOMMIT] Update files:myplace.imagesalbum/myplace.imagesalbum.user.js,source/myplace.imagesalbum.user.js
+c950902f6c5fdce61f36c3d6b03b975719d2e8ca [GIT-ACOMMIT] Add file: Greasemonkey_backup_20200920_034115.zip
+c447eeb872978f602561447a4ff903cfbd6bc914 [GIT-ACOMMIT] Update 7 files:
 
 privepo/gsbridge/.git:
 08c3d1540fc0d38fd50ac2dbdbdcd81263698e28 GSBRIDGE [GIT] commit b097d64e: added project entries for vcsplace and github-sync
@@ -362,19 +391,12 @@ profs/users/xiaoranzzz.git:
 4df9907771f843bb069efd53dc8b619e9158d8b1 Remove .pulse.
 5e19adf13f4535fc5a4d3d95198f0141147c35b7 Initial commit.
 
-reposman/repos.git:
-472cb25965756b3730b94a60c86abfb606f0e599 Updates a lot
-82fa6985de600db7fa42b501c4343f59fa049245 Update files:.reposman,PROJECTS
-3c5accec3763bcddaa44da17d8b9951fe445c57d Delete files:git/repos.git/HEAD,git/repos.git/refs/heads/master
-19481e14f6884ec8f76a52e8b0083aba74f2bab4 Delete 22 files:
-92d1bb4d1ca7818ee334ca1d83f0882af1933b5e Update 7 files:
-
 reposman/utils.git:
+3a0bd4216b514f650c34c822b275d8ce13a01a50 Add script git/is-modified.pl
 511ea1fe5ebc921c54f44fd400f6b5bb52982e6d Update s_commit.
 430a3e74b8c71224dc30fc572ee1437726bd470b Add/Update 'generate_log.pl git/generate_log.pl'
 cfbfd71f7a03e22d05c9c9bd9770943823e3b1bb Add/Update 'git/update_modified.pl'
 6857f8ed37fdbdcfae726496c49d43b077441273 Add/Update 'auto_commit.pl git/update_modified.pl'
-c6f40f9dda3ae5af20f7dadb8387584dda65d96e Add .reposman.
 
 reposman.git:
 34c93dd1c894e454cc7dd301778e17ee51d13afb Re-organize codes, some commands module include "help" "dump" "push" and "checkout" re-written
@@ -394,11 +416,11 @@ scriptlib/lua.git:
 889c53e2205e49338574b09b4cebad2dbbbbb513 Initial commit.
 
 scriptlib/perl.git:
-8ff2a1e676e37a2c3792d211a585dee28da0f7bb Add file: grep_edit.pl
-aa470c8d4cd4a392d9615dd868c618e0efe3f8f8 Update 8 files:
-b0341a1d2275fb8f1b170237275ffc045421c83e Update file: modules/MyPlace/Downloader.pm
-458b58fd5ebcd2fc8d68b63014d764e33f5e0310 Add 5 files:
-a37c1757f329bf59c2cf8928cb1dc1605c5e8a17 Update 16 files:
+488222a27d661bebf5c69fee0c9fb3d587414a56 [GIT-ACOMMIT] Update 21 files:
+fe17b7ddf8ac231768f01ba498930b05c76c3a7e [GIT-ACOMMIT] Update 9 files:
+6405c958341778012bf80942cde40f9847bb05c2 [GIT-ACOMMIT] Update 16 files:
+749578000fe721e0c3ffb7b2ac5114751a330a49 [GIT-ACOMMIT] Update 5 files:
+f7f51c82cbd3ec4beeaf95a58a0983b54f09b6d1 [GIT-ACOMMIT] Update 6 files:
 
 scriptlib/sh.git:
 2c70f210bad7716b6b736ac77a640facc9eb0bf5 Add 16 files:
@@ -408,11 +430,11 @@ ba67cdf9c59992df4c12895f513e9b33d89e04aa Add files:findapp.sh,firefox.sh
 733ca2aa98938f75d4a9489465e264c7a9f17cb6 Update files:mywget,totalcmd
 
 scriptlib/userscripts.git:
-cf87b4f142f35e21eae86c84c0985ff72da16b73 Add file: weibo_utils.user.js
-3a93efdd933c991a7a408eea2ff754002d2e6ba4 Update 15 files:
-e2f51868fb564cfd7f8378cca58cf2478173fc2b Clean
-e3332bb563c64f9f885d0fb270d20284e42519ce Update 4 files:
-c2148e608629f8e4f75967f56d767fec7ee72621 Update file: links.html
+c81db7b59e5151bd3679f0568c15c11fc6f9971a [GIT-ACOMMIT] Update 3 files:
+fc3c91faf458d807055dd803a2f3cc6727408903 Clean up
+544c8b5079ffd20207dafdf812949a6f86b78c0b [GIT-ACOMMIT] Update file: links.html
+caff92e999396176d6efba17b40e01065e16f0a0 [GIT-ACOMMIT] Add file: violentmonkey/backups/violentmonkey_2022-11-01_08.51.22.zip
+25bc7f2c5c2907716a2caca1e3d095f90f814275 [GIT-ACOMMIT] Update 3 files:
 
 scriptlib/wscript.git:
 b0bb735d00ec8f9385cf4afc3b4e6b17ce46962b Add script get_rand_mail.
@@ -454,15 +476,18 @@ urlrule/capture.git:
 dcb03cb4b71df55850eaf06436a619f041b016a7 Initial commit, currently support sites: yiqi1717.com, panda.tv
 
 urlrule/rules.git:
-de9567f213a164dee57682015e8f9f2616cb609e Add files:1/celebscentral.net,2/yase520.com
-806362878ab0f9611fa2e043941d4a34ccc77b6e Delete file: 2/9.yase520.com
-4672f3268215d1e1fc4007a4e061d93a1d06f411 Update 11 files:
-f55c17f8295e1735f5790d24aec066ef89d1961a Add 4 files:
-9612083104dfbac54f5bc42a21b6903c01011c63 Update 5 files:
+1b04a2c94f45d7e4db4dcc8f10efcacb3da27f25 clean up
+78a3fd89d5c9438c8650779bdd5b02ffd771ab4d some p sites and huya
+0d6dbe6d78b3644d43ebe6eff748c7b7aa3d8a1a [GIT-ACOMMIT] Update 58 files:
+dd1374436bfe21b915a5c5eb5887a451841e5c96 [GIT-ACOMMIT] Update 34 files:
+765a7fe4ed3d35ea103d3607dd7a262712429522 [GIT-ACOMMIT] Update 27 files:
 
 urlrule/search.git:
-724b5412eb7984cb9a2d69e5fffd75f3a3ee0555 Update download script
-a3156821961c227250df413d9bd0ec0d186bfe16 Initial commit
+f09038db3a34d0287e60d665fb99ed5a2a7341d9 completed to completed, bad to trash
+488e74bb5225364256463e4b7278d202a2dfdea3 Add files:.mtd/keeps/SUMMARY_20190218052731.md,.mtd/keeps/SUMMARY_20190218092428.md
+50961a14bd3dfe282f66ba4a6de7d5a5bf2dc7cc Update 8 files:
+c0617c42b124943e9c613bfb0898f4550297b4b5 Update 3 files:
+cb22015d9f9c2f9aedc1e899cb36670657e2eb81 Update 26 files:
 
 urlrule.git:
 270b9c30790968e71667464f0b5d1864b821837d Update from scriptlib/perl
